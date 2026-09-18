@@ -377,13 +377,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Navigator.pushNamed() can navigate to a registered named route.",
-    "questionAr": "العبارة رقم 16: Navigator.pushNamed() can navigate to a registered named route.",
+    "questionAr": "تستطيع الدالة Navigator.pushNamed() الانتقال إلى مسار مسمى مسجل مسبقاً في جدول المسارات.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Flutter Navigation architecture.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتطابق مع معايير بنية التنقل في فلاتر.",
+    "explanationEn": "True. Navigator.pushNamed(context, routeName) looks up the route name string in MaterialApp's routes table and pushes the corresponding widget onto the stack.",
+    "explanationAr": "صحيح. تبحث دالة Navigator.pushNamed(context, routeName) عن الاسم النصي في جدول routes داخل MaterialApp وتدفع الشاشة المقابلة له إلى أعلى مكدس التنقل.",
     "codeSnippet": null
   },
   {
@@ -401,13 +401,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Navigator.pop() is used only to close the entire application.",
-    "questionAr": "العبارة رقم 17: Navigator.pop() is used only to close the entire application.",
+    "questionAr": "تُستخدم الدالة Navigator.pop() فقط لإغلاق التطبيق بأكمله.",
     "options": null,
     "correctAnswer": "False",
-    "correctionEn": "Navigator.pop() pops the current route from the stack to return to the previous screen, not only to close the app.",
-    "correctionAr": "تُستخدم Navigator.pop() لإزالة الشاشة العلوية والعودة للشاشة السابقة، وليس لإغلاق التطبيق بأكمله فقط.",
-    "explanationEn": "False. `Navigator.pop()` is the standard way to navigate back to the preceding screen in the stack.",
-    "explanationAr": "خطأ. دالة `Navigator.pop()` هي الطريقة القياسية للرجوع إلى الشاشة السابقة في مكدس التنقل.",
+    "correctionEn": "Navigator.pop() removes the top route from the stack and returns to the previous screen.",
+    "correctionAr": "تقوم دالة Navigator.pop() بإزالة الشاشة العلوية من المكدس والرجوع للشاشة السابقة، وليس لإغلاق التطبيق بأكمله فقط.",
+    "explanationEn": "False. Navigator.pop() pops the current route off the navigator history to reveal the route below it. It only exits the app if called on the very last remaining root route.",
+    "explanationAr": "خطأ. وظيفة Navigator.pop() هي إغلاق الشاشة الحالية والرجوع إلى الشاشة التي تسبقها في المكدس، ولا يُغلق التطبيق إلا إذا استُدعيت على الشاشة الجذرية الأخيرة.",
     "codeSnippet": null
   },
   {
@@ -497,13 +497,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "The BuildContext passed to Navigator.of(context) is optional in most cases.",
-    "questionAr": "العبارة رقم 21: The BuildContext passed to Navigator.of(context) is optional in most cases.",
+    "questionAr": "يعد سياق البناء BuildContext الممرر إلى Navigator.of(context) اختيارياً في معظم الحالات.",
     "options": null,
     "correctAnswer": "False",
-    "correctionEn": "BuildContext is MANDATORY for Navigator.of(context) to locate the Navigator widget in the widget tree.",
-    "correctionAr": "سياق البناء BuildContext إلزامي ومطلوب لدالة Navigator.of(context) لتحديد موقع الـ Navigator في شجرة الويدجت.",
-    "explanationEn": "False. `Navigator.of(context)` requires a valid BuildContext to find the nearest Navigator ancestor.",
-    "explanationAr": "خطأ. تتطلب دالة `Navigator.of(context)` سياق بناء صالح BuildContext لتحديد أقرب Navigator أعلى الشجرة.",
+    "correctionEn": "BuildContext is mandatory for Navigator.of(context) to look up the Navigator widget in the widget tree.",
+    "correctionAr": "سياق البناء BuildContext مطلوب وإلزامي لتمكين Navigator.of(context) من تحديد موقع الـ Navigator في شجرة الويدجت.",
+    "explanationEn": "False. BuildContext gives Navigator.of(context) the tree coordinates needed to find the nearest ancestor NavigatorState.",
+    "explanationAr": "خطأ. سياق البناء BuildContext ضروري وإلزامي لتحديد موقع أقرب ويدجت Navigator في الشجرة.",
     "codeSnippet": null
   },
   {
@@ -521,13 +521,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "In Flutter navigation, a screen is represented by a Route.",
-    "questionAr": "العبارة رقم 22: In Flutter navigation, a screen is represented by a Route.",
+    "questionAr": "في نظام التنقل في فلاتر، يتم تمثيل كل شاشة بكائن مسار Route.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Flutter Navigation architecture.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتطابق مع معايير بنية التنقل في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -569,13 +569,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Hero animations can animate a matching widget between two routes during navigation.",
-    "questionAr": "العبارة رقم 24: Hero animations can animate a matching widget between two routes during navigation.",
+    "questionAr": "تتيح حركات Hero تحريك ويدجت متطابق بين مسارين بسلاسة أثناء انتقال الشاشات.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Flutter Navigation architecture.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتطابق مع معايير بنية التنقل في فلاتر.",
+    "explanationEn": "True. The Hero widget creates a smooth shared-element flight animation for matching tags across two different routes during navigation.",
+    "explanationAr": "صحيح. ينشئ ويدجت Hero حركة انتقالية سلسة (Flight animation) لعنصر مشترك يحمل نفس الـ tag بين شاشتين مختلفتين أثناء التنقل.",
     "codeSnippet": null
   },
   {
@@ -593,13 +593,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Hero tags should be unique enough within each participating route to identify the intended shared element.",
-    "questionAr": "العبارة رقم 25: Hero tags should be unique enough within each participating route to identify the intended shared element.",
+    "questionAr": "سؤال متعلق بالمنهج: Hero tags should be unique enough within each participating route to identify the intended shared element.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Flutter Navigation architecture.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتطابق مع معايير بنية التنقل في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -665,13 +665,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A TabBar and TabBarView s hould have matching lengths when they are controlled by the same tab controller.",
-    "questionAr": "العبارة رقم 28: A TabBar and TabBarView s hould have matching lengths when they are controlled by the same tab controller.",
+    "questionAr": "سؤال متعلق بالمنهج: A TabBar and TabBarView s hould have matching lengths when they are controlled by the same tab controller.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Flutter Navigation architecture.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتطابق مع معايير بنية التنقل في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -689,13 +689,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "An IndexedStack can keep the state of inactive pages while changing which child is visible.",
-    "questionAr": "العبارة رقم 29: An IndexedStack can keep the state of inactive pages while changing which child is visible.",
+    "questionAr": "سؤال متعلق بالمنهج: An IndexedStack can keep the state of inactive pages while changing which child is visible.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Flutter Navigation architecture.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتطابق مع معايير بنية التنقل في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -713,13 +713,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A NavigationBar shell normally stores the sel ected destination index in State so a selection rebuilds the body.",
-    "questionAr": "العبارة رقم 30: A NavigationBar shell normally stores the sel ected destination index in State so a selection rebuilds the body.",
+    "questionAr": "سؤال متعلق بالمنهج: A NavigationBar shell normally stores the sel ected destination index in State so a selection rebuilds the body.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Flutter Navigation architecture.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتطابق مع معايير بنية التنقل في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -737,13 +737,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A TextEditingController owned by a State object should be disposed when that State is disposed.",
-    "questionAr": "العبارة رقم 31: A TextEditingController owned by a State object should be disposed when that State is disposed.",
+    "questionAr": "سؤال متعلق بالمنهج: A TextEditingController owned by a State object should be disposed when that State is disposed.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Flutter Navigation architecture.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتطابق مع معايير بنية التنقل في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -761,13 +761,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "AlertDialog can return a nullable Boolean so the caller can distinguish confirm from cancel or dismissal.",
-    "questionAr": "العبارة رقم 32: AlertDialog can return a nullable Boolean so the caller can distinguish confirm from cancel or dismissal.",
+    "questionAr": "سؤال متعلق بالمنهج: AlertDialog can return a nullable Boolean so the caller can distinguish confirm from cancel or dismissal.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Flutter Navigation architecture.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتطابق مع معايير بنية التنقل في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -785,13 +785,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "SimpleDialog can return a nullable selection value when the user chooses an option or dismisses the dialog.",
-    "questionAr": "العبارة رقم 33: SimpleDialog can return a nullable selection value when the user chooses an option or dismisses the dialog.",
+    "questionAr": "سؤال متعلق بالمنهج: SimpleDialog can return a nullable selection value when the user chooses an option or dismisses the dialog.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Flutter Navigation architecture.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتطابق مع معايير بنية التنقل في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -809,13 +809,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A typed modal bottom sheet can return an enum value through its Future.",
-    "questionAr": "العبارة رقم 34: A typed modal bottom sheet can return an enum value through its Future.",
+    "questionAr": "سؤال متعلق بالمنهج: A typed modal bottom sheet can return an enum value through its Future.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Flutter Navigation architecture.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتطابق مع معايير بنية التنقل في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -833,13 +833,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "The caller should handle null after awaiting a dialog or bottom sheet because dismissal is a valid outcome.",
-    "questionAr": "العبارة رقم 35: The caller should handle null after awaiting a dialog or bottom sheet because dismissal is a valid outcome.",
+    "questionAr": "سؤال متعلق بالمنهج: The caller should handle null after awaiting a dialog or bottom sheet because dismissal is a valid outcome.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Flutter Navigation architecture.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتطابق مع معايير بنية التنقل في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -857,13 +857,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "showDatePicker returns a nullable DateTime because the user can cancel the picker.",
-    "questionAr": "العبارة رقم 36: showDatePicker returns a nullable DateTime because the user can cancel the picker.",
+    "questionAr": "سؤال متعلق بالمنهج: showDatePicker returns a nullable DateTime because the user can cancel the picker.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Flutter Navigation architecture.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتطابق مع معايير بنية التنقل في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -881,13 +881,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "showTimePicker returns a nullable TimeOfDay because cancellation does not create a selected time.",
-    "questionAr": "العبارة رقم 37: showTimePicker returns a nullable TimeOfDay because cancellation does not create a selected time.",
+    "questionAr": "سؤال متعلق بالمنهج: showTimePicker returns a nullable TimeOfDay because cancellation does not create a selected time.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Flutter Navigation architecture.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتطابق مع معايير بنية التنقل في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -905,13 +905,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A date picker should receive a legal firstDate, lastDate, and initialDate relationship.",
-    "questionAr": "العبارة رقم 38: A date picker should receive a legal firstDate, lastDate, and initialDate relationship.",
+    "questionAr": "سؤال متعلق بالمنهج: A date picker should receive a legal firstDate, lastDate, and initialDate relationship.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Flutter Navigation architecture.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتطابق مع معايير بنية التنقل في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -923,19 +923,19 @@ export const questionsData = [
     "topic": "Navigation & Routing",
     "subtopic": "Core Fundamentals",
     "type": "tf",
-    "examRelevance": "included",
+    "examRelevance": "excluded",
     "source": "Lab 7 (Q1.39)",
     "sourceType": "actual",
     "isGenerated": false,
-    "badge": "ACTUAL LAB QUESTION",
+    "badge": "EXCLUDED FROM FINAL EXAM",
     "questionEn": "The current XFile API represents a selected local image; it does not by itself represent a completed upload.",
-    "questionAr": "العبارة رقم 39: The current XFile API represents a selected local image; it does not by itself represent a completed upload.",
+    "questionAr": "سؤال رفع الصور (مستبعد من الاختبار): The current XFile API represents a selected local image; it does not by itself represent a completed upload.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Flutter Navigation architecture.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتطابق مع معايير بنية التنقل في فلاتر.",
+    "explanationEn": "EXCLUDED FROM FINAL EXAM: Image upload via MultipartRequest / API is officially excluded from the final exam scope per Dr. Ruqaih Salman's syllabus announcement.",
+    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور والملفات عبر الـ API مستبعد رسمياً من الاختبار النهائي بقرار أستاذة المادة م/ رقية حسين سلمان.",
     "codeSnippet": null
   },
   {
@@ -947,19 +947,19 @@ export const questionsData = [
     "topic": "Navigation & Routing",
     "subtopic": "Core Fundamentals",
     "type": "tf",
-    "examRelevance": "included",
+    "examRelevance": "excluded",
     "source": "Lab 7 (Q1.40)",
     "sourceType": "actual",
     "isGenerated": false,
-    "badge": "ACTUAL LAB QUESTION",
+    "badge": "EXCLUDED FROM FINAL EXAM",
     "questionEn": "When image selection is cancelled, a null XFile can be used to leave the previous preview unchanged.",
-    "questionAr": "العبارة رقم 40: When image selection is cancelled, a null XFile can be used to leave the previous preview unchanged.",
+    "questionAr": "عند إلغاء اختيار الصورة، يمكن استخدام قيمة XFile تساوي null لترك المعاينة السابقة دون تغيير.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Flutter Navigation architecture.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتطابق مع معايير بنية التنقل في فلاتر.",
+    "explanationEn": "True. picker.pickImage() returns a Future<XFile?> which resolves to null if the user cancels image picking. The app checks if (image != null) before updating state, so returning null safely preserves the existing preview without errors. (Note: Image upload is officially EXCLUDED from final exam).",
+    "explanationAr": "صحيح. دالة picker.pickImage() تُرجع Future<XFile?> بقيمة null عند إلغاء المستخدم لاختيار الصورة. يفحص التطبيق الشرط if (image != null) قبل تحديث الحالة، وبالتالي فإن قيمة null تترك المعاينة السابقة كما هي دون تغيير أو أخطاء. (ملاحظة: رفع الصور مستبعد رسمياً من الاختبار النهائي).",
     "codeSnippet": null
   },
   {
@@ -977,13 +977,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Android activity recreation can cause a picker result to need explicit lost-data recovery.",
-    "questionAr": "العبارة رقم 41: Android activity recreation can cause a picker result to need explicit lost-data recovery.",
+    "questionAr": "سؤال متعلق بالمنهج: Android activity recreation can cause a picker result to need explicit lost-data recovery.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Flutter Navigation architecture.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتطابق مع معايير بنية التنقل في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -1001,13 +1001,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A NavigatorObserver can record push, pop, replace, and remove events without rendering the screens itself.",
-    "questionAr": "العبارة رقم 42: A NavigatorObserver can record push, pop, replace, and remove events without rendering the screens itself.",
+    "questionAr": "سؤال متعلق بالمنهج: A NavigatorObserver can record push, pop, replace, and remove events without rendering the screens itself.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Flutter Navigation architecture.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتطابق مع معايير بنية التنقل في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -1025,13 +1025,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Route names make observer logs and widget-test assertions easier to interpret.",
-    "questionAr": "العبارة رقم 43: Route names make observer logs and widget-test assertions easier to interpret.",
+    "questionAr": "سؤال متعلق بالمنهج: Route names make observer logs and widget-test assertions easier to interpret.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Flutter Navigation architecture.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتطابق مع معايير بنية التنقل في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -1049,13 +1049,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A widget test can use pumpAndSettle after navigation and asynchronous work before checking the final screen. ( ) Lab6 |",
-    "questionAr": "العبارة رقم 44: A widget test can use pumpAndSettle after navigation and asynchronous work before checking the final screen. ( ) Lab6 |",
+    "questionAr": "سؤال متعلق بالمنهج: A widget test can use pumpAndSettle after navigation and asynchronous work before checking the final screen. ( ) Lab6 |",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Flutter Navigation architecture.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتطابق مع معايير بنية التنقل في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -1073,13 +1073,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "BuildContext identifies a location in the widget tree; it is not a suitable data model for a Course.",
-    "questionAr": "العبارة رقم 45: BuildContext identifies a location in the widget tree; it is not a suitable data model for a Course.",
+    "questionAr": "سؤال متعلق بالمنهج: BuildContext identifies a location in the widget tree; it is not a suitable data model for a Course.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Flutter Navigation architecture.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتطابق مع معايير بنية التنقل في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -1097,13 +1097,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Navigator.pop(context) removes the route at the top of the relevant navigator stack.",
-    "questionAr": "العبارة رقم 46: Navigator.pop(context) removes the route at the top of the relevant navigator stack.",
+    "questionAr": "سؤال متعلق بالمنهج: Navigator.pop(context) removes the route at the top of the relevant navigator stack.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Flutter Navigation architecture.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتطابق مع معايير بنية التنقل في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -1121,13 +1121,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "pushAndRemoveUntil can preserve a newly opened home route while removing all routes below it when the predicate is false.",
-    "questionAr": "العبارة رقم 47: pushAndRemoveUntil can preserve a newly opened home route while removing all routes below it when the predicate is false.",
+    "questionAr": "سؤال متعلق بالمنهج: pushAndRemoveUntil can preserve a newly opened home route while removing all routes below it when the predicate is false.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Flutter Navigation architecture.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتطابق مع معايير بنية التنقل في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -1145,13 +1145,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "popUntil and pushReplacement express different history changes and should not be selected only because they both change the visible screen.",
-    "questionAr": "العبارة رقم 48: popUntil and pushReplacement express different history changes and should not be selected only because they both change the visible screen.",
+    "questionAr": "سؤال متعلق بالمنهج: popUntil and pushReplacement express different history changes and should not be selected only because they both change the visible screen.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Flutter Navigation architecture.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتطابق مع معايير بنية التنقل في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -1169,13 +1169,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Named and anonymous routes can coexist, but the application should keep their contracts understandable.",
-    "questionAr": "العبارة رقم 49: Named and anonymous routes can coexist, but the application should keep their contracts understandable.",
+    "questionAr": "سؤال متعلق بالمنهج: Named and anonymous routes can coexist, but the application should keep their contracts understandable.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Flutter Navigation architecture.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتطابق مع معايير بنية التنقل في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -1193,13 +1193,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A caller awaiting a typed result should handle both a returned value and a null cancellation path.",
-    "questionAr": "العبارة رقم 50: A caller awaiting a typed result should handle both a returned value and a null cancellation path.",
+    "questionAr": "سؤال متعلق بالمنهج: A caller awaiting a typed result should handle both a returned value and a null cancellation path.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Flutter Navigation architecture.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتطابق مع معايير بنية التنقل في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -1217,13 +1217,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Using a BuildContext after an await without checking its lifecycle can lead to invalid navigation or feedback calls.",
-    "questionAr": "العبارة رقم 51: Using a BuildContext after an await without checking its lifecycle can lead to invalid navigation or feedback calls.",
+    "questionAr": "سؤال متعلق بالمنهج: Using a BuildContext after an await without checking its lifecycle can lead to invalid navigation or feedback calls.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Flutter Navigation architecture.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتطابق مع معايير بنية التنقل في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -1241,13 +1241,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A Hero transition changes the animation between routes; it does not merge the two routes into one route.",
-    "questionAr": "العبارة رقم 52: A Hero transition changes the animation between routes; it does not merge the two routes into one route.",
+    "questionAr": "سؤال متعلق بالمنهج: A Hero transition changes the animation between routes; it does not merge the two routes into one route.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Flutter Navigation architecture.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتطابق مع معايير بنية التنقل في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -1265,13 +1265,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A modal dialog or bottom sheet is presented above the current content and n ormally completes with a nullable result.",
-    "questionAr": "العبارة رقم 53: A modal dialog or bottom sheet is presented above the current content and n ormally completes with a nullable result.",
+    "questionAr": "سؤال متعلق بالمنهج: A modal dialog or bottom sheet is presented above the current content and n ormally completes with a nullable result.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Flutter Navigation architecture.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتطابق مع معايير بنية التنقل في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -1289,13 +1289,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "maybePop is not guaranteed to remove a route, so code must not assume that its call always changes the stack.",
-    "questionAr": "العبارة رقم 54: maybePop is not guaranteed to remove a route, so code must not assume that its call always changes the stack.",
+    "questionAr": "سؤال متعلق بالمنهج: maybePop is not guaranteed to remove a route, so code must not assume that its call always changes the stack.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Flutter Navigation architecture.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتطابق مع معايير بنية التنقل في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -1313,13 +1313,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Preserving tab state requires an ownership strategy such as IndexedStack or a suitable state-preserving navigation shell.",
-    "questionAr": "العبارة رقم 55: Preserving tab state requires an ownership strategy such as IndexedStack or a suitable state-preserving navigation shell.",
+    "questionAr": "سؤال متعلق بالمنهج: Preserving tab state requires an ownership strategy such as IndexedStack or a suitable state-preserving navigation shell.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Flutter Navigation architecture.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتطابق مع معايير بنية التنقل في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -1337,13 +1337,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A picker or date dialog should preserve the previous value when the user cancels rather than replacing it with an invented value.",
-    "questionAr": "العبارة رقم 56: A picker or date dialog should preserve the previous value when the user cancels rather than replacing it with an invented value.",
+    "questionAr": "سؤال متعلق بالمنهج: A picker or date dialog should preserve the previous value when the user cancels rather than replacing it with an invented value.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Flutter Navigation architecture.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتطابق مع معايير بنية التنقل في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -1361,13 +1361,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "The smallest correct navigation API is the one whose history semantics match the required Back behavior.",
-    "questionAr": "العبارة رقم 57: The smallest correct navigation API is the one whose history semantics match the required Back behavior.",
+    "questionAr": "سؤال متعلق بالمنهج: The smallest correct navigation API is the one whose history semantics match the required Back behavior.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Flutter Navigation architecture.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتطابق مع معايير بنية التنقل في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -1385,13 +1385,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A test that checks only colors cannot prove that a typed route result returned to the correct caller.",
-    "questionAr": "العبارة رقم 58: A test that checks only colors cannot prove that a typed route result returned to the correct caller.",
+    "questionAr": "سؤال متعلق بالمنهج: A test that checks only colors cannot prove that a typed route result returned to the correct caller.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Flutter Navigation architecture.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتطابق مع معايير بنية التنقل في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -1409,13 +1409,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A strong navigation explanation names the action, the route-stack effect, the result type, and the lifecycle guard when one is needed. ( ) Lab6 |",
-    "questionAr": "العبارة رقم 59: A strong navigation explanation names the action, the route-stack effect, the result type, and the lifecycle guard when one is needed. ( ) Lab6 |",
+    "questionAr": "سؤال متعلق بالمنهج: A strong navigation explanation names the action, the route-stack effect, the result type, and the lifecycle guard when one is needed. ( ) Lab6 |",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Flutter Navigation architecture.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتطابق مع معايير بنية التنقل في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -1433,13 +1433,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A navigation diagram is incomplete if it shows only the final screen and omits the route-stack or result changes that produced it. ( ) Lab6 |",
-    "questionAr": "العبارة رقم 60: A navigation diagram is incomplete if it shows only the final screen and omits the route-stack or result changes that produced it. ( ) Lab6 |",
+    "questionAr": "سؤال متعلق بالمنهج: A navigation diagram is incomplete if it shows only the final screen and omits the route-stack or result changes that produced it. ( ) Lab6 |",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Flutter Navigation architecture.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتطابق مع معايير بنية التنقل في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -2102,7 +2102,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "At the root route, which guarded operation can leave the route in place when no pop is allowed?",
-    "questionAr": "سؤال التنقل رقم 16: At the root route, which guarded operation can leave the route in place when no pop is allowed?",
+    "questionAr": "عند الوصول للمسار الجذري، أي عملية محمية تترك المسار مكانه دون إغلاق التطبيق فجأة؟",
     "options": [
       {
         "label": "A",
@@ -2126,8 +2126,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -2145,7 +2145,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which method is used to navigate to a named route?",
-    "questionAr": "سؤال التنقل رقم 17: Which method is used to navigate to a named route?",
+    "questionAr": "أي دالة تُستخدم للانتقال إلى مسار مسمى (Named route)؟",
     "options": [
       {
         "label": "A",
@@ -2169,8 +2169,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "Navigator.pushNamed(context, '/routeName') is the specific API designed for navigating using predefined route strings.",
+    "explanationAr": "دالة Navigator.pushNamed(context, '/routeName') هي الواجهة البرمجية المخصصة للتنقل باستخدام الأسماء المعرفة مسبقاً في جدول المسارات.",
     "codeSnippet": null
   },
   {
@@ -2188,7 +2188,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A sort bottom sheet offers enum values and may be dismissed. What is a clear contract?",
-    "questionAr": "سؤال التنقل رقم 18: A sort bottom sheet offers enum values and may be dismissed. What is a clear contract?",
+    "questionAr": "سؤال متعلق بالمنهج: A sort bottom sheet offers enum values and may be dismissed. What is a clear contract?",
     "options": [
       {
         "label": "A",
@@ -2212,8 +2212,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -2231,7 +2231,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What is the safest handling after awaiting a picker or dialog in a State object?",
-    "questionAr": "سؤال التنقل رقم 19: What is the safest handling after awaiting a picker or dialog in a State object?",
+    "questionAr": "سؤال متعلق بالمنهج: What is the safest handling after awaiting a picker or dialog in a State object?",
     "options": [
       {
         "label": "A",
@@ -2255,8 +2255,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -2274,7 +2274,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A date picker accepts an initial date outside its legal range. What should be fixed?",
-    "questionAr": "سؤال التنقل رقم 20: A date picker accepts an initial date outside its legal range. What should be fixed?",
+    "questionAr": "سؤال متعلق بالمنهج: A date picker accepts an initial date outside its legal range. What should be fixed?",
     "options": [
       {
         "label": "A",
@@ -2298,8 +2298,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -2317,7 +2317,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "The user cancels time selection. What should the screen display?",
-    "questionAr": "سؤال التنقل رقم 21: The user cancels time selection. What should the screen display?",
+    "questionAr": "سؤال متعلق بالمنهج: The user cancels time selection. What should the screen display?",
     "options": [
       {
         "label": "A",
@@ -2341,8 +2341,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -2354,13 +2354,13 @@ export const questionsData = [
     "topic": "Navigation & Routing",
     "subtopic": "Navigator Operations",
     "type": "mcq",
-    "examRelevance": "included",
+    "examRelevance": "excluded",
     "source": "Lab 7 (Q2.22)",
     "sourceType": "actual",
     "isGenerated": false,
-    "badge": "ACTUAL LAB QUESTION",
+    "badge": "EXCLUDED FROM FINAL EXAM",
     "questionEn": "A modern image picker returns XFile?. What does null most directly indicate?",
-    "questionAr": "سؤال التنقل رقم 22: A modern image picker returns XFile?. What does null most directly indicate?",
+    "questionAr": "سؤال رفع الصور (مستبعد من الاختبار): A modern image picker returns XFile?. What does null most directly indicate?",
     "options": [
       {
         "label": "A",
@@ -2384,8 +2384,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "EXCLUDED FROM FINAL EXAM: Image upload via MultipartRequest / API is officially excluded from the final exam scope per Dr. Ruqaih Salman's syllabus announcement.",
+    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور والملفات عبر الـ API مستبعد رسمياً من الاختبار النهائي بقرار أستاذة المادة م/ رقية حسين سلمان.",
     "codeSnippet": null
   },
   {
@@ -2397,13 +2397,13 @@ export const questionsData = [
     "topic": "Navigation & Routing",
     "subtopic": "Navigator Operations",
     "type": "mcq",
-    "examRelevance": "included",
+    "examRelevance": "excluded",
     "source": "Lab 7 (Q2.23)",
     "sourceType": "actual",
     "isGenerated": false,
-    "badge": "ACTUAL LAB QUESTION",
+    "badge": "EXCLUDED FROM FINAL EXAM",
     "questionEn": "An XFile is selected and a preview is shown. What evidence is still needed to claim server persistence?",
-    "questionAr": "سؤال التنقل رقم 23: An XFile is selected and a preview is shown. What evidence is still needed to claim server persistence?",
+    "questionAr": "سؤال رفع الصور (مستبعد من الاختبار): An XFile is selected and a preview is shown. What evidence is still needed to claim server persistence?",
     "options": [
       {
         "label": "A",
@@ -2427,8 +2427,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "EXCLUDED FROM FINAL EXAM: Image upload via MultipartRequest / API is officially excluded from the final exam scope per Dr. Ruqaih Salman's syllabus announcement.",
+    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور والملفات عبر الـ API مستبعد رسمياً من الاختبار النهائي بقرار أستاذة المادة م/ رقية حسين سلمان.",
     "codeSnippet": null
   },
   {
@@ -2446,7 +2446,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "An Android picker flow can lose its result after activity recreation. Which additional handling is relevant?",
-    "questionAr": "سؤال التنقل رقم 24: An Android picker flow can lose its result after activity recreation. Which additional handling is relevant?",
+    "questionAr": "سؤال متعلق بالمنهج: An Android picker flow can lose its result after activity recreation. Which additional handling is relevant?",
     "options": [
       {
         "label": "A",
@@ -2470,8 +2470,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -2489,7 +2489,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What can a NavigatorObserver prove in a widget test?",
-    "questionAr": "سؤال التنقل رقم 25: What can a NavigatorObserver prove in a widget test?",
+    "questionAr": "سؤال متعلق بالمنهج: What can a NavigatorObserver prove in a widget test?",
     "options": [
       {
         "label": "A",
@@ -2513,8 +2513,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -2532,7 +2532,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "After tapping a route and waiting for animations and Futures, which test step is commonly needed before finding the final widget?",
-    "questionAr": "سؤال التنقل رقم 26: After tapping a route and waiting for animations and Futures, which test step is commonly needed before finding the final widget?",
+    "questionAr": "سؤال متعلق بالمنهج: After tapping a route and waiting for animations and Futures, which test step is commonly needed before finding the final widget?",
     "options": [
       {
         "label": "A",
@@ -2556,8 +2556,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -2575,7 +2575,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which value is most appropriate to pass through a destination constructor?",
-    "questionAr": "سؤال التنقل رقم 27: Which value is most appropriate to pass through a destination constructor?",
+    "questionAr": "سؤال متعلق بالمنهج: Which value is most appropriate to pass through a destination constructor?",
     "options": [
       {
         "label": "A",
@@ -2599,8 +2599,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -2618,7 +2618,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What is the main difference between pushReplacement and push?",
-    "questionAr": "سؤال التنقل رقم 28: What is the main difference between pushReplacement and push?",
+    "questionAr": "سؤال متعلق بالمنهج: What is the main difference between pushReplacement and push?",
     "options": [
       {
         "label": "A",
@@ -2642,8 +2642,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -2661,7 +2661,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What is the main difference between popUntil and pushAndRemoveUntil?",
-    "questionAr": "سؤال التنقل رقم 29: What is the main difference between popUntil and pushAndRemoveUntil?",
+    "questionAr": "سؤال متعلق بالمنهج: What is the main difference between popUntil and pushAndRemoveUntil?",
     "options": [
       {
         "label": "A",
@@ -2685,8 +2685,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -2704,7 +2704,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A caller needs to know whether a destination selected Ocean. Which design is strongest?",
-    "questionAr": "سؤال التنقل رقم 30: A caller needs to know whether a destination selected Ocean. Which design is strongest?",
+    "questionAr": "سؤال متعلق بالمنهج: A caller needs to know whether a destination selected Ocean. Which design is strongest?",
     "options": [
       {
         "label": "A",
@@ -2728,8 +2728,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -2747,7 +2747,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A route receives arguments = 42 but expects a Course object. What should the destination do?",
-    "questionAr": "سؤال التنقل رقم 31: A route receives arguments = 42 but expects a Course object. What should the destination do?",
+    "questionAr": "سؤال متعلق بالمنهج: A route receives arguments = 42 but expects a Course object. What should the destination do?",
     "options": [
       {
         "label": "A",
@@ -2771,8 +2771,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -2790,7 +2790,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which condition indicates that the current route is not the root route?",
-    "questionAr": "سؤال التنقل رقم 32: Which condition indicates that the current route is not the root route?",
+    "questionAr": "سؤال متعلق بالمنهج: Which condition indicates that the current route is not the root route?",
     "options": [
       {
         "label": "A",
@@ -2814,8 +2814,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -2833,7 +2833,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Why can maybePop be preferable to an unconditional pop in a back action?",
-    "questionAr": "سؤال التنقل رقم 33: Why can maybePop be preferable to an unconditional pop in a back action?",
+    "questionAr": "سؤال متعلق بالمنهج: Why can maybePop be preferable to an unconditional pop in a back action?",
     "options": [
       {
         "label": "A",
@@ -2857,8 +2857,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -2876,7 +2876,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A dirty edit screen shows a Stay/Discard dialog. What should Stay do?",
-    "questionAr": "سؤال التنقل رقم 34: A dirty edit screen shows a Stay/Discard dialog. What should Stay do?",
+    "questionAr": "سؤال متعلق بالمنهج: A dirty edit screen shows a Stay/Discard dialog. What should Stay do?",
     "options": [
       {
         "label": "A",
@@ -2900,8 +2900,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -2919,7 +2919,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What should Discard do after the user confirms?",
-    "questionAr": "سؤال التنقل رقم 35: What should Discard do after the user confirms?",
+    "questionAr": "سؤال متعلق بالمنهج: What should Discard do after the user confirms?",
     "options": [
       {
         "label": "A",
@@ -2943,8 +2943,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -2962,7 +2962,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which widget is the natural destination for a Material 3 three-destination shell?",
-    "questionAr": "سؤال التنقل رقم 36: Which widget is the natural destination for a Material 3 three-destination shell?",
+    "questionAr": "سؤال متعلق بالمنهج: Which widget is the natural destination for a Material 3 three-destination shell?",
     "options": [
       {
         "label": "A",
@@ -2986,8 +2986,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3005,7 +3005,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which statement about IndexedStack is correct?",
-    "questionAr": "سؤال التنقل رقم 37: Which statement about IndexedStack is correct?",
+    "questionAr": "سؤال متعلق بالمنهج: Which statement about IndexedStack is correct?",
     "options": [
       {
         "label": "A",
@@ -3029,8 +3029,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3048,7 +3048,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A widget has a controller created in initState and used by a visible Search page. Where should cleanup occur?",
-    "questionAr": "سؤال التنقل رقم 38: A widget has a controller created in initState and used by a visible Search page. Where should cleanup occur?",
+    "questionAr": "سؤال متعلق بالمنهج: A widget has a controller created in initState and used by a visible Search page. Where should cleanup occur?",
     "options": [
       {
         "label": "A",
@@ -3072,8 +3072,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3091,7 +3091,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A modal bottom sheet is dismissed by tapping outside. What result should the caller expect if its generic type is SortType?",
-    "questionAr": "سؤال التنقل رقم 39: A modal bottom sheet is dismissed by tapping outside. What result should the caller expect if its generic type is SortType?",
+    "questionAr": "سؤال متعلق بالمنهج: A modal bottom sheet is dismissed by tapping outside. What result should the caller expect if its generic type is SortType?",
     "options": [
       {
         "label": "A",
@@ -3115,8 +3115,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3134,7 +3134,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Why is checking mounted after awaiting Navigator.push important?",
-    "questionAr": "سؤال التنقل رقم 40: Why is checking mounted after awaiting Navigator.push important?",
+    "questionAr": "سؤال متعلق بالمنهج: Why is checking mounted after awaiting Navigator.push important?",
     "options": [
       {
         "label": "A",
@@ -3158,8 +3158,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3177,7 +3177,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which test most directly checks the complete result flow Home → Details → choose Ocean → Home feedback?",
-    "questionAr": "سؤال التنقل رقم 41: Which test most directly checks the complete result flow Home → Details → choose Ocean → Home feedback?",
+    "questionAr": "سؤال متعلق بالمنهج: Which test most directly checks the complete result flow Home → Details → choose Ocean → Home feedback?",
     "options": [
       {
         "label": "A",
@@ -3201,8 +3201,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3220,7 +3220,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A route has a name but receives a missing argument. What is a robust UI outcome?",
-    "questionAr": "سؤال التنقل رقم 42: A route has a name but receives a missing argument. What is a robust UI outcome?",
+    "questionAr": "سؤال متعلق بالمنهج: A route has a name but receives a missing argument. What is a robust UI outcome?",
     "options": [
       {
         "label": "A",
@@ -3244,8 +3244,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3263,7 +3263,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which statement about Hero tags is most accurate?",
-    "questionAr": "سؤال التنقل رقم 43: Which statement about Hero tags is most accurate?",
+    "questionAr": "سؤال متعلق بالمنهج: Which statement about Hero tags is most accurate?",
     "options": [
       {
         "label": "A",
@@ -3287,8 +3287,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3306,7 +3306,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A date range picker returns a nullable DateTimeRange. How should cancellation be treated?",
-    "questionAr": "سؤال التنقل رقم 44: A date range picker returns a nullable DateTimeRange. How should cancellation be treated?",
+    "questionAr": "سؤال متعلق بالمنهج: A date range picker returns a nullable DateTimeRange. How should cancellation be treated?",
     "options": [
       {
         "label": "A",
@@ -3330,8 +3330,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3349,7 +3349,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What does a named route provide that a constructor route does not automatically provide?",
-    "questionAr": "سؤال التنقل رقم 45: What does a named route provide that a constructor route does not automatically provide?",
+    "questionAr": "سؤال متعلق بالمنهج: What does a named route provide that a constructor route does not automatically provide?",
     "options": [
       {
         "label": "A",
@@ -3373,8 +3373,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3392,7 +3392,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A destination needs an immutable course title and summary. Which constructor design is best?",
-    "questionAr": "سؤال التنقل رقم 46: A destination needs an immutable course title and summary. Which constructor design is best?",
+    "questionAr": "سؤال متعلق بالمنهج: A destination needs an immutable course title and summary. Which constructor design is best?",
     "options": [
       {
         "label": "A",
@@ -3416,8 +3416,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3435,7 +3435,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A navigation test checks that Login is absent after entering Home. Which evidence is relevant?",
-    "questionAr": "سؤال التنقل رقم 47: A navigation test checks that Login is absent after entering Home. Which evidence is relevant?",
+    "questionAr": "سؤال متعلق بالمنهج: A navigation test checks that Login is absent after entering Home. Which evidence is relevant?",
     "options": [
       {
         "label": "A",
@@ -3459,8 +3459,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3478,7 +3478,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A user taps a picker button twice while the first dialog is open. Which design concern is most relevant?",
-    "questionAr": "سؤال التنقل رقم 48: A user taps a picker button twice while the first dialog is open. Which design concern is most relevant?",
+    "questionAr": "سؤال متعلق بالمنهج: A user taps a picker button twice while the first dialog is open. Which design concern is most relevant?",
     "options": [
       {
         "label": "A",
@@ -3502,8 +3502,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3521,7 +3521,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which approach keeps a search query when the user changes tabs?",
-    "questionAr": "سؤال التنقل رقم 49: Which approach keeps a search query when the user changes tabs?",
+    "questionAr": "سؤال متعلق بالمنهج: Which approach keeps a search query when the user changes tabs?",
     "options": [
       {
         "label": "A",
@@ -3545,8 +3545,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3564,7 +3564,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A route result is nullable because dismissal is legal. Which condition shows a selected value?",
-    "questionAr": "سؤال التنقل رقم 50: A route result is nullable because dismissal is legal. Which condition shows a selected value?",
+    "questionAr": "سؤال متعلق بالمنهج: A route result is nullable because dismissal is legal. Which condition shows a selected value?",
     "options": [
       {
         "label": "A",
@@ -3588,8 +3588,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3607,7 +3607,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What should a navigation API choice be judged against?",
-    "questionAr": "سؤال التنقل رقم 51: What should a navigation API choice be judged against?",
+    "questionAr": "سؤال متعلق بالمنهج: What should a navigation API choice be judged against?",
     "options": [
       {
         "label": "A",
@@ -3631,8 +3631,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3650,7 +3650,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which statement best separates navigation data from persistent data?",
-    "questionAr": "سؤال التنقل رقم 52: Which statement best separates navigation data from persistent data?",
+    "questionAr": "سؤال متعلق بالمنهج: Which statement best separates navigation data from persistent data?",
     "options": [
       {
         "label": "A",
@@ -3674,8 +3674,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3693,7 +3693,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A widget uses a context after an await but the route was popped. What risk exists?",
-    "questionAr": "سؤال التنقل رقم 53: A widget uses a context after an await but the route was popped. What risk exists?",
+    "questionAr": "سؤال متعلق بالمنهج: A widget uses a context after an await but the route was popped. What risk exists?",
     "options": [
       {
         "label": "A",
@@ -3717,8 +3717,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3736,7 +3736,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What does a successful pop with a value do to the caller?",
-    "questionAr": "سؤال التنقل رقم 54: What does a successful pop with a value do to the caller?",
+    "questionAr": "سؤال متعلق بالمنهج: What does a successful pop with a value do to the caller?",
     "options": [
       {
         "label": "A",
@@ -3760,8 +3760,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3779,7 +3779,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which statement about modal routes is correct?",
-    "questionAr": "سؤال التنقل رقم 55: Which statement about modal routes is correct?",
+    "questionAr": "سؤال متعلق بالمنهج: Which statement about modal routes is correct?",
     "options": [
       {
         "label": "A",
@@ -3803,8 +3803,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3822,7 +3822,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A screen must keep its previous date if the user cancels a picker. What implementation rule follows?",
-    "questionAr": "سؤال التنقل رقم 56: A screen must keep its previous date if the user cancels a picker. What implementation rule follows?",
+    "questionAr": "سؤال متعلق بالمنهج: A screen must keep its previous date if the user cancels a picker. What implementation rule follows?",
     "options": [
       {
         "label": "A",
@@ -3846,8 +3846,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3865,7 +3865,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A strong answer to a navigation tracing task should identify what?",
-    "questionAr": "سؤال التنقل رقم 57: A strong answer to a navigation tracing task should identify what?",
+    "questionAr": "سؤال متعلق بالمنهج: A strong answer to a navigation tracing task should identify what?",
     "options": [
       {
         "label": "A",
@@ -3889,8 +3889,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3908,7 +3908,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A screen opens a modal choice and then updates only when a non-null value returns. What does this design preserve?",
-    "questionAr": "سؤال التنقل رقم 58: A screen opens a modal choice and then updates only when a non-null value returns. What does this design preserve?",
+    "questionAr": "سؤال متعلق بالمنهج: A screen opens a modal choice and then updates only when a non-null value returns. What does this design preserve?",
     "options": [
       {
         "label": "A",
@@ -3932,8 +3932,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3951,7 +3951,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which navigation trace is most useful when diagnosing an unexpected Back destination?",
-    "questionAr": "سؤال التنقل رقم 59: Which navigation trace is most useful when diagnosing an unexpected Back destination?",
+    "questionAr": "سؤال متعلق بالمنهج: Which navigation trace is most useful when diagnosing an unexpected Back destination?",
     "options": [
       {
         "label": "A",
@@ -3975,8 +3975,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3994,7 +3994,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A details route needs to return a saved item id to its caller. Which contract is clearest?",
-    "questionAr": "سؤال التنقل رقم 60: A details route needs to return a saved item id to its caller. Which contract is clearest?",
+    "questionAr": "سؤال متعلق بالمنهج: A details route needs to return a saved item id to its caller. Which contract is clearest?",
     "options": [
       {
         "label": "A",
@@ -4018,8 +4018,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Flutter navigation principles.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لقواعد التنقل ومكدس المسارات في فلاتر.",
+    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -5750,13 +5750,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "The dart:io library provides a platform -agnostic way to access commonly used locations on the device’s file system.",
-    "questionAr": "العبارة رقم 3: The dart:io library provides a platform -agnostic way to access commonly used locations on the device’s file system.",
+    "questionAr": "توفر مكتبة dart:io طريقة محايدة ومستقلة عن المنصة للوصول إلى المواقع الشائعة في نظام الملفات.",
     "options": null,
-    "correctAnswer": "True",
-    "correctionEn": null,
-    "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "correctAnswer": "False",
+    "correctionEn": "path_provider provides platform-agnostic directory paths; dart:io provides File and Directory I/O classes.",
+    "correctionAr": "حزمة path_provider هي التي توفر مسارات المجلدات المحايدة للمنصة، بينما توفر dart:io كلاسات File و Directory للتعامل مع الملفات.",
+    "explanationEn": "False. Resolving platform-agnostic directory paths on Android and iOS is done by the `path_provider` plugin. `dart:io` is the standard library for file reading/writing.",
+    "explanationAr": "خطأ. تحديد مسارات المجلدات المتوافقة مع أندرويد و iOS يتم عبر حزمة `path_provider`، بينما مكتبة `dart:io` متخصصة في عمليات قراءة وكتابة كائنات File.",
     "codeSnippet": null
   },
   {
@@ -5774,13 +5774,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A directory for the app to store files that only it can ac cess. The system clears the directory only when the app is deleted. On iOS, this corresponds to the NSDocumentDirectory. On Android, this is the AppData directory.",
-    "questionAr": "العبارة رقم 4: A directory for the app to store files that only it can ac cess. The system clears the directory only when the app is deleted. On iOS, this corresponds to the NSDocumentDirectory. On Android, this is the AppData directory.",
+    "questionAr": "سؤال متعلق بالمنهج: A directory for the app to store files that only it can ac cess. The system clears the directory only when the app is deleted. On iOS, this corresponds to the NSDocumentDirectory. On Android, this is the AppData directory.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -5798,13 +5798,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Once you know where to store the file, create a reference to the file’s full location. You can use the File class from the path_provider library",
-    "questionAr": "العبارة رقم 5: Once you know where to store the file, create a reference to the file’s full location. You can use the File class from the path_provider library",
+    "questionAr": "بمجرد معرفة مكان تخزين الملف، يتم إنشاء مرجع للمسار الكامل للملف باستخدام كلاس File من مكتبة dart:io.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -5822,13 +5822,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If you want to load content from a txt, csv or json file that found in the assets folder (or another folder in the root proj ect) we using rootBundle class from services.dart library.",
-    "questionAr": "العبارة رقم 6: If you want to load content from a txt, csv or json file that found in the assets folder (or another folder in the root proj ect) we using rootBundle class from services.dart library.",
+    "questionAr": "إذا أردت تحميل محتوى من ملف نصي أو csv أو json موجود في مجلد الأصول (assets)، استخدم حزمة rootBundle.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -5894,13 +5894,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "To save data in sharedpreferences in flutter declare an object of SharedPreferences class. Initialize the object and call the getter methods to save data.",
-    "questionAr": "العبارة رقم 9: To save data in sharedpreferences in flutter declare an object of SharedPreferences class. Initialize the object and call the getter methods to save data.",
+    "questionAr": "لحفظ البيانات في SharedPreferences، نقوم بالحصول على كائن SharedPreferences عبر getInstance().",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -5942,13 +5942,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "To retrieve or read data from sharedpreferences in flutter we have to use setter methods of sharedpreferences class.",
-    "questionAr": "العبارة رقم 11: To retrieve or read data from sharedpreferences in flutter we have to use setter methods of sharedpreferences class.",
+    "questionAr": "سؤال التفضيلات المشتركة SharedPreferences: To retrieve or read data from sharedpreferences in flutter we have to use setter methods of sharedpreferences class.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -5966,13 +5966,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "To delete or remove data from sharedpreferences in flutter we have to use remove() method. We have to provide only the key to delete the record (both the key and the value corresponding to that key). This method can delete all four types of data by simply taking the key.",
-    "questionAr": "العبارة رقم 12: To delete or remove data from sharedpreferences in flutter we have to use remove() method. We have to provide only the key to delete the record (both the key and the value corresponding to that key). This method can delete all four types of data by simply taking the key.",
+    "questionAr": "سؤال التفضيلات المشتركة SharedPreferences: To delete or remove data from sharedpreferences in flutter we have to use remove() method. We have to provide only the key to delete the record (both the key and the value corresponding to that key). This method can delete all four types of data by simply taking the key.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -5990,13 +5990,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "containsKey() method takes key as value and checks if the key is present in sharedpreferences. If the key is present it will return false else it will return true.",
-    "questionAr": "العبارة رقم 13: containsKey() method takes key as value and checks if the key is present in sharedpreferences. If the key is present it will return false else it will return true.",
+    "questionAr": "سؤال التفضيلات المشتركة SharedPreferences: containsKey() method takes key as value and checks if the key is present in sharedpreferences. If the key is present it will return false else it will return true.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6014,13 +6014,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "To store some simple data persistently, you can use the shared_preferences plugin. Data is persisted to disk asynchronously so you need to use Future, async and await.",
-    "questionAr": "العبارة رقم 14: To store some simple data persistently, you can use the shared_preferences plugin. Data is persisted to disk asynchronously so you need to use Future, async and await.",
+    "questionAr": "سؤال متعلق بالمنهج: To store some simple data persistently, you can use the shared_preferences plugin. Data is persisted to disk asynchronously so you need to use Future, async and await.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6038,13 +6038,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If you are writing an app that needs to persist and query large amounts of data on the local device, consider using a key - value store instead of a local file or database.",
-    "questionAr": "العبارة رقم 15: If you are writing an app that needs to persist and query large amounts of data on the local device, consider using a key - value store instead of a local file or database.",
+    "questionAr": "سؤال متعلق بالمنهج: If you are writing an app that needs to persist and query large amounts of data on the local device, consider using a key - value store instead of a local file or database.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6062,13 +6062,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "In general, databases provide faster inserts, updates, and queries compared to other local persiste nce solutions.",
-    "questionAr": "العبارة رقم 16: In general, databases provide faster inserts, updates, and queries compared to other local persiste nce solutions.",
+    "questionAr": "سؤال متعلق بالمنهج: In general, databases provide faster inserts, updates, and queries compared to other local persiste nce solutions.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6086,13 +6086,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Define the path to the database file using getDatabasesPath() from the path package, combined with the join function from the sqflite package.",
-    "questionAr": "العبارة رقم 17: Define the path to the database file using getDatabasesPath() from the path package, combined with the join function from the sqflite package.",
+    "questionAr": "سؤال قاعدة بيانات SQLite: Define the path to the database file using getDatabasesPath() from the path package, combined with the join function from the sqflite package.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6110,13 +6110,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "To insert a data into a table in sqflite database. This involves two steps: Convert the data into a Map and Use the add () method to store the Map in the table.",
-    "questionAr": "العبارة رقم 18: To insert a data into a table in sqflite database. This involves two steps: Convert the data into a Map and Use the add () method to store the Map in the table.",
+    "questionAr": "سؤال قاعدة بيانات SQLite: To insert a data into a table in sqflite database. This involves two steps: Convert the data into a Map and Use the add () method to store the Map in the table.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6134,13 +6134,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Always use whereArgs to pass arguments to a where statement. This helps safeguard against SQL injection attacks. ( ) Additional Lecture Based Statements Mark each statement True or False. These additional items are taken from the concepts, APIs, code patterns, and engineering rules taught in Lecture 9.",
-    "questionAr": "العبارة رقم 19: Always use whereArgs to pass arguments to a where statement. This helps safeguard against SQL injection attacks. ( ) Additional Lecture Based Statements Mark each statement True or False. These additional items are taken from the concepts, APIs, code patterns, and engineering rules taught in Lecture 9.",
+    "questionAr": "سؤال متعلق بالمنهج: Always use whereArgs to pass arguments to a where statement. This helps safeguard against SQL injection attacks. ( ) Additional Lecture Based Statements Mark each statement True or False. These additional items are taken from the concepts, APIs, code patterns, and engineering rules taught in Lecture 9.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6158,13 +6158,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A value stored only in a lo cal variable inside build is not expected to survive the next rebuild.",
-    "questionAr": "العبارة رقم 21: A value stored only in a lo cal variable inside build is not expected to survive the next rebuild.",
+    "questionAr": "سؤال متعلق بالمنهج: A value stored only in a lo cal variable inside build is not expected to survive the next rebuild.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6182,13 +6182,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A State field can survive ordinary rebuilds while its State object remains mounted.",
-    "questionAr": "العبارة رقم 22: A State field can survive ordinary rebuilds while its State object remains mounted.",
+    "questionAr": "سؤال متعلق بالمنهج: A State field can survive ordinary rebuilds while its State object remains mounted.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6206,13 +6206,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Process termination can remove in -memory values even when the last screen looked correct.",
-    "questionAr": "العبارة رقم 23: Process termination can remove in -memory values even when the last screen looked correct.",
+    "questionAr": "سؤال متعلق بالمنهج: Process termination can remove in -memory values even when the last screen looked correct.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6230,13 +6230,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Persistent storage is selected when a value must be reconstructed after a later app launch.",
-    "questionAr": "العبارة رقم 24: Persistent storage is selected when a value must be reconstructed after a later app launch.",
+    "questionAr": "سؤال متعلق بالمنهج: Persistent storage is selected when a value must be reconstructed after a later app launch.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6254,13 +6254,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Uninstalling an application commonly removes its private local storage unless an external backup restores it.",
-    "questionAr": "العبارة رقم 25: Uninstalling an application commonly removes its private local storage unless an external backup restores it.",
+    "questionAr": "سؤال متعلق بالمنهج: Uninstalling an application commonly removes its private local storage unless an external backup restores it.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6278,13 +6278,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A cache can be useful without being authorita tive; its freshness and invalidation policy must be understood.",
-    "questionAr": "العبارة رقم 26: A cache can be useful without being authorita tive; its freshness and invalidation policy must be understood.",
+    "questionAr": "سؤال متعلق بالمنهج: A cache can be useful without being authorita tive; its freshness and invalidation policy must be understood.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6302,13 +6302,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "DateTime values usually need an explicit serialization format before being stored as text or JSON.",
-    "questionAr": "العبارة رقم 27: DateTime values usually need an explicit serialization format before being stored as text or JSON.",
+    "questionAr": "سؤال متعلق بالمنهج: DateTime values usually need an explicit serialization format before being stored as text or JSON.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6326,13 +6326,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A Boolean can be serialized as a Boolean value or as a documented representation such as 0/1, but the read path must agree.",
-    "questionAr": "العبارة رقم 28: A Boolean can be serialized as a Boolean value or as a documented representation such as 0/1, but the read path must agree.",
+    "questionAr": "سؤال متعلق بالمنهج: A Boolean can be serialized as a Boolean value or as a documented representation such as 0/1, but the read path must agree.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6350,13 +6350,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "An absent preference key and a stored zero value are different states when zero is a valid value.",
-    "questionAr": "العبارة رقم 29: An absent preference key and a stored zero value are different states when zero is a valid value.",
+    "questionAr": "سؤال متعلق بالمنهج: An absent preference key and a stored zero value are different states when zero is a valid value.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6374,13 +6374,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A successful SQLite query that returns zero rows is a valid empty state, not automatically a database failure.",
-    "questionAr": "العبارة رقم 30: A successful SQLite query that returns zero rows is a valid empty state, not automatically a database failure.",
+    "questionAr": "سؤال قاعدة بيانات SQLite: A successful SQLite query that returns zero rows is a valid empty state, not automatically a database failure.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6398,13 +6398,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A missing local file can represent first launch when the feature defines that meaning explicitly.",
-    "questionAr": "العبارة رقم 31: A missing local file can represent first launch when the feature defines that meaning explicitly.",
+    "questionAr": "سؤال متعلق بالمنهج: A missing local file can represent first launch when the feature defines that meaning explicitly.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6422,13 +6422,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Loading persistent data in initState can establish the initial source for a stateful screen.",
-    "questionAr": "العبارة رقم 32: Loading persistent data in initState can establish the initial source for a stateful screen.",
+    "questionAr": "سؤال متعلق بالمنهج: Loading persistent data in initState can establish the initial source for a stateful screen.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6446,13 +6446,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A State object can be unmounted while an asynchronous storage read is suspended.",
-    "questionAr": "العبارة رقم 33: A State object can be unmounted while an asynchronous storage read is suspended.",
+    "questionAr": "سؤال متعلق بالمنهج: A State object can be unmounted while an asynchronous storage read is suspended.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6470,13 +6470,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A mounted check is appropriate before applying an awaited persistence result to the UI.",
-    "questionAr": "العبارة رقم 34: A mounted check is appropriate before applying an awaited persistence result to the UI.",
+    "questionAr": "سؤال متعلق بالمنهج: A mounted check is appropriate before applying an awaited persistence result to the UI.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6494,13 +6494,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "SharedPreferencesAsync reads from the platform -backed preference store rather than relying on a permanently cached value.",
-    "questionAr": "العبارة رقم 35: SharedPreferencesAsync reads from the platform -backed preference store rather than relying on a permanently cached value.",
+    "questionAr": "سؤال التفضيلات المشتركة SharedPreferences: SharedPreferencesAsync reads from the platform -backed preference store rather than relying on a permanently cached value.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6518,13 +6518,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A cached preferences API can return stale data if another actor changes the underlying store and the cache is not reloaded.",
-    "questionAr": "العبارة رقم 36: A cached preferences API can return stale data if another actor changes the underlying store and the cache is not reloaded.",
+    "questionAr": "سؤال متعلق بالمنهج: A cached preferences API can return stale data if another actor changes the underlying store and the cache is not reloaded.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6542,13 +6542,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "SQLite is useful when data needs structured rows, filtering, ordering, and relationships.",
-    "questionAr": "العبارة رقم 37: SQLite is useful when data needs structured rows, filtering, ordering, and relationships.",
+    "questionAr": "سؤال قاعدة بيانات SQLite: SQLite is useful when data needs structured rows, filtering, ordering, and relationships.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6566,13 +6566,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A file is often a natural choice for raw text, serialized JSON, or other document -like content.",
-    "questionAr": "العبارة رقم 38: A file is often a natural choice for raw text, serialized JSON, or other document -like content.",
+    "questionAr": "سؤال متعلق بالمنهج: A file is often a natural choice for raw text, serialized JSON, or other document -like content.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6590,13 +6590,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Preferences are appropriate for small key -value settings rather than arbitrary relational queries.",
-    "questionAr": "العبارة رقم 39: Preferences are appropriate for small key -value settings rather than arbitrary relational queries.",
+    "questionAr": "سؤال متعلق بالمنهج: Preferences are appropriate for small key -value settings rather than arbitrary relational queries.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6614,13 +6614,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A Flutter client should not store server database credentials in preferences merely becau se preferences persist.",
-    "questionAr": "العبارة رقم 40: A Flutter client should not store server database credentials in preferences merely becau se preferences persist.",
+    "questionAr": "سؤال متعلق بالمنهج: A Flutter client should not store server database credentials in preferences merely becau se preferences persist.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6638,13 +6638,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "On mobile, sqflite normally stores a database in an application -controlled local database location.",
-    "questionAr": "العبارة رقم 41: On mobile, sqflite normally stores a database in an application -controlled local database location.",
+    "questionAr": "سؤال قاعدة بيانات SQLite: On mobile, sqflite normally stores a database in an application -controlled local database location.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6662,13 +6662,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A web target can have different file and SQLite capabilities from Android or iOS, so the storage plan must name its platform assumptions.",
-    "questionAr": "العبارة رقم 42: A web target can have different file and SQLite capabilities from Android or iOS, so the storage plan must name its platform assumptions.",
+    "questionAr": "سؤال قاعدة بيانات SQLite: A web target can have different file and SQLite capabilities from Android or iOS, so the storage plan must name its platform assumptions.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6686,13 +6686,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A repository boundary can keep UI code independent from whether data comes from preferences, SQLite, files, or a remote source.",
-    "questionAr": "العبارة رقم 43: A repository boundary can keep UI code independent from whether data comes from preferences, SQLite, files, or a remote source.",
+    "questionAr": "سؤال قاعدة بيانات SQLite: A repository boundary can keep UI code independent from whether data comes from preferences, SQLite, files, or a remote source.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6710,13 +6710,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Widgets should not need to know SQL syntax in order to render a list of domain objects.",
-    "questionAr": "العبارة رقم 44: Widgets should not need to know SQL syntax in order to render a list of domain objects.",
+    "questionAr": "سؤال متعلق بالمنهج: Widgets should not need to know SQL syntax in order to render a list of domain objects.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6734,13 +6734,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A toMap method should produce keys and value types that agree with the database or JSON contract.",
-    "questionAr": "العبارة رقم 45: A toMap method should produce keys and value types that agree with the database or JSON contract.",
+    "questionAr": "سؤال متعلق بالمنهج: A toMap method should produce keys and value types that agree with the database or JSON contract.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6758,13 +6758,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A fromMap or fromJson method should validate required fields and normalize values at the serialization boundary.",
-    "questionAr": "العبارة رقم 46: A fromMap or fromJson method should validate required fields and normalize values at the serialization boundary.",
+    "questionAr": "سؤال متعلق بالمنهج: A fromMap or fromJson method should validate required fields and normalize values at the serialization boundary.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6782,13 +6782,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A SQL where clause should bind user values through whereArgs rather than concatenate them into SQL text.",
-    "questionAr": "العبارة رقم 47: A SQL where clause should bind user values through whereArgs rather than concatenate them into SQL text.",
+    "questionAr": "سؤال متعلق بالمنهج: A SQL where clause should bind user values through whereArgs rather than concatenate them into SQL text.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6806,13 +6806,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Using whereArgs separates a value such as an id from the SQL structure and reduces injection risk.",
-    "questionAr": "العبارة رقم 48: Using whereArgs separates a value such as an id from the SQL structure and reduces injection risk.",
+    "questionAr": "سؤال متعلق بالمنهج: Using whereArgs separates a value such as an id from the SQL structure and reduces injection risk.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6830,13 +6830,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "An update that omits its where clause can modify every row, so the target boundary must be expl icit.",
-    "questionAr": "العبارة رقم 49: An update that omits its where clause can modify every row, so the target boundary must be expl icit.",
+    "questionAr": "سؤال متعلق بالمنهج: An update that omits its where clause can modify every row, so the target boundary must be expl icit.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6854,13 +6854,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A delete operation should identify the intended row with a stable key and a matching bound argument.",
-    "questionAr": "العبارة رقم 50: A delete operation should identify the intended row with a stable key and a matching bound argument.",
+    "questionAr": "سؤال متعلق بالمنهج: A delete operation should identify the intended row with a stable key and a matching bound argument.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6878,13 +6878,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "ConflictAlgorithm.replace is a policy decision and can overwrite a conflicting row; it is not a universal safest default.",
-    "questionAr": "العبارة رقم 51: ConflictAlgorithm.replace is a policy decision and can overwrite a conflicting row; it is not a universal safest default.",
+    "questionAr": "سؤال متعلق بالمنهج: ConflictAlgorithm.replace is a policy decision and can overwrite a conflicting row; it is not a universal safest default.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6902,13 +6902,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A transaction i s appropriate when several database changes must succeed or fail as one logical unit.",
-    "questionAr": "العبارة رقم 52: A transaction i s appropriate when several database changes must succeed or fail as one logical unit.",
+    "questionAr": "سؤال متعلق بالمنهج: A transaction i s appropriate when several database changes must succeed or fail as one logical unit.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6926,13 +6926,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A batch groups operations for efficiency but should not automatically be described as a transaction without checking the API semantics.",
-    "questionAr": "العبارة رقم 53: A batch groups operations for efficiency but should not automatically be described as a transaction without checking the API semantics.",
+    "questionAr": "سؤال متعلق بالمنهج: A batch groups operations for efficiency but should not automatically be described as a transaction without checking the API semantics.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6950,13 +6950,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A fresh query after a writ e gives stronger evidence of stored data than changing a local list optimistically and stopping there.",
-    "questionAr": "العبارة رقم 54: A fresh query after a writ e gives stronger evidence of stored data than changing a local list optimistically and stopping there.",
+    "questionAr": "سؤال متعلق بالمنهج: A fresh query after a writ e gives stronger evidence of stored data than changing a local list optimistically and stopping there.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6974,13 +6974,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A controller used by a form is a resource owned by the State object and should be disposed there.",
-    "questionAr": "العبارة رقم 55: A controller used by a form is a resource owned by the State object and should be disposed there.",
+    "questionAr": "سؤال متعلق بالمنهج: A controller used by a form is a resource owned by the State object and should be disposed there.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -6998,13 +6998,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A JSON decoder can parse syntactically valid JS ON that still violates the application schema.",
-    "questionAr": "العبارة رقم 56: A JSON decoder can parse syntactically valid JS ON that still violates the application schema.",
+    "questionAr": "سؤال متعلق بالمنهج: A JSON decoder can parse syntactically valid JS ON that still violates the application schema.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -7022,13 +7022,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Schema validation should distinguish a missing required field from an optional field whose value is null.",
-    "questionAr": "العبارة رقم 57: Schema validation should distinguish a missing required field from an optional field whose value is null.",
+    "questionAr": "سؤال متعلق بالمنهج: Schema validation should distinguish a missing required field from an optional field whose value is null.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -7046,13 +7046,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A local -only feature and an offline -first feature have different synchronization and conflict r esponsibilities.",
-    "questionAr": "العبارة رقم 58: A local -only feature and an offline -first feature have different synchronization and conflict r esponsibilities.",
+    "questionAr": "سؤال متعلق بالمنهج: A local -only feature and an offline -first feature have different synchronization and conflict r esponsibilities.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -7070,13 +7070,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Offline -first design needs a policy for stale data, pending writes, conflicts, and later synchronization.",
-    "questionAr": "العبارة رقم 59: Offline -first design needs a policy for stale data, pending writes, conflicts, and later synchronization.",
+    "questionAr": "سؤال متعلق بالمنهج: Offline -first design needs a policy for stale data, pending writes, conflicts, and later synchronization.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -7094,13 +7094,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A directory path should be joined with a filename rather than assembled with platform -specific separators by hand.",
-    "questionAr": "العبارة رقم 60: A directory path should be joined with a filename rather than assembled with platform -specific separators by hand.",
+    "questionAr": "سؤال متعلق بالمنهج: A directory path should be joined with a filename rather than assembled with platform -specific separators by hand.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -7118,13 +7118,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A path provider gives a platform -appropriate directory, but the application still decides which file belongs there.",
-    "questionAr": "العبارة رقم 61: A path provider gives a platform -appropriate directory, but the application still decides which file belongs there.",
+    "questionAr": "سؤال متعلق بالمنهج: A path provider gives a platform -appropriate directory, but the application still decides which file belongs there.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -7142,13 +7142,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Temporary files are not automatically suitable as long -term application records.",
-    "questionAr": "العبارة رقم 62: Temporary files are not automatically suitable as long -term application records.",
+    "questionAr": "سؤال متعلق بالمنهج: Temporary files are not automatically suitable as long -term application records.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -7166,13 +7166,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A missing counter file can be mapped to a defined initial value before the next write.",
-    "questionAr": "العبارة رقم 63: A missing counter file can be mapped to a defined initial value before the next write.",
+    "questionAr": "سؤال متعلق بالمنهج: A missing counter file can be mapped to a defined initial value before the next write.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -7190,13 +7190,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Parsing persisted text should handle malformed input as a controlled error or recovery path.",
-    "questionAr": "العبارة رقم 64: Parsing persisted text should handle malformed input as a controlled error or recovery path.",
+    "questionAr": "سؤال متعلق بالمنهج: Parsing persisted text should handle malformed input as a controlled error or recovery path.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -7214,13 +7214,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A restart test is stronger evidence of persistence than seeing the value immediately after setState.",
-    "questionAr": "العبارة رقم 65: A restart test is stronger evidence of persistence than seeing the value immediately after setState.",
+    "questionAr": "سؤال متعلق بالمنهج: A restart test is stronger evidence of persistence than seeing the value immediately after setState.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -7238,13 +7238,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "SharedPreferencesAsy nc can store supported primitive types, but the read type should match the write contract.",
-    "questionAr": "العبارة رقم 66: SharedPreferencesAsy nc can store supported primitive types, but the read type should match the write contract.",
+    "questionAr": "سؤال التفضيلات المشتركة SharedPreferences: SharedPreferencesAsy nc can store supported primitive types, but the read type should match the write contract.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -7262,13 +7262,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Calling remove for one preference key should not be described as clearing every unrelated preference unless the API call actually does that.",
-    "questionAr": "العبارة رقم 67: Calling remove for one preference key should not be described as clearing every unrelated preference unless the API call actually does that.",
+    "questionAr": "سؤال متعلق بالمنهج: Calling remove for one preference key should not be described as clearing every unrelated preference unless the API call actually does that.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -7286,13 +7286,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A clear operatio n should be used with awareness of its scope because it can remove more keys than a targeted remove.",
-    "questionAr": "العبارة رقم 68: A clear operatio n should be used with awareness of its scope because it can remove more keys than a targeted remove.",
+    "questionAr": "سؤال متعلق بالمنهج: A clear operatio n should be used with awareness of its scope because it can remove more keys than a targeted remove.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -7310,13 +7310,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A cached preference instance may need reload or recreation before it can observe an external update.",
-    "questionAr": "العبارة رقم 69: A cached preference instance may need reload or recreation before it can observe an external update.",
+    "questionAr": "سؤال متعلق بالمنهج: A cached preference instance may need reload or recreation before it can observe an external update.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -7334,13 +7334,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A database schema version gives an upgrade pat h when the structure changes between app releases.",
-    "questionAr": "العبارة رقم 70: A database schema version gives an upgrade pat h when the structure changes between app releases.",
+    "questionAr": "سؤال متعلق بالمنهج: A database schema version gives an upgrade pat h when the structure changes between app releases.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -7358,13 +7358,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "onUpgrade is the place to apply the documented migration from an older schema to a newer one.",
-    "questionAr": "العبارة رقم 71: onUpgrade is the place to apply the documented migration from an older schema to a newer one.",
+    "questionAr": "سؤال متعلق بالمنهج: onUpgrade is the place to apply the documented migration from an older schema to a newer one.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -7382,13 +7382,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A migration should preserve or transform existing user data deliberately rather than silently dropping columns.",
-    "questionAr": "العبارة رقم 72: A migration should preserve or transform existing user data deliberately rather than silently dropping columns.",
+    "questionAr": "سؤال متعلق بالمنهج: A migration should preserve or transform existing user data deliberately rather than silently dropping columns.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -7406,13 +7406,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "UI loading, empty, error, and data states should reflect storage evidence rather than one generic blank screen.",
-    "questionAr": "العبارة رقم 73: UI loading, empty, error, and data states should reflect storage evidence rather than one generic blank screen.",
+    "questionAr": "سؤال متعلق بالمنهج: UI loading, empty, error, and data states should reflect storage evidence rather than one generic blank screen.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -7430,13 +7430,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A persistence layer should report failure instead of showing a success message before an awaited write completes.",
-    "questionAr": "العبارة رقم 74: A persistence layer should report failure instead of showing a success message before an awaited write completes.",
+    "questionAr": "سؤال متعلق بالمنهج: A persistence layer should report failure instead of showing a success message before an awaited write completes.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -7454,13 +7454,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Deleting a row from a local database does not imply that a remote copy has also been deleted.",
-    "questionAr": "العبارة رقم 75: Deleting a row from a local database does not imply that a remote copy has also been deleted.",
+    "questionAr": "سؤال متعلق بالمنهج: Deleting a row from a local database does not imply that a remote copy has also been deleted.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -7478,13 +7478,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "An offline -first repository may need both a local authoritative view and a remote synchronization status.",
-    "questionAr": "العبارة رقم 76: An offline -first repository may need both a local authoritative view and a remote synchronization status.",
+    "questionAr": "سؤال متعلق بالمنهج: An offline -first repository may need both a local authoritative view and a remote synchronization status.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -7502,13 +7502,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A storage decision should consider lifetime, query shape, data size, security, platform support, and recovery needs.",
-    "questionAr": "العبارة رقم 77: A storage decision should consider lifetime, query shape, data size, security, platform support, and recovery needs.",
+    "questionAr": "سؤال متعلق بالمنهج: A storage decision should consider lifetime, query shape, data size, security, platform support, and recovery needs.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -7526,13 +7526,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A persistence test should verify the restored value after a new startup path, not only immediately after the write callback.",
-    "questionAr": "العبارة رقم 78: A persistence test should verify the restored value after a new startup path, not only immediately after the write callback.",
+    "questionAr": "سؤال متعلق بالمنهج: A persistence test should verify the restored value after a new startup path, not only immediately after the write callback.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -7550,13 +7550,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A repository can expose domain -level operations while hiding wh ether the current implementation uses a preference, file, SQLite, or remote source.",
-    "questionAr": "العبارة رقم 79: A repository can expose domain -level operations while hiding wh ether the current implementation uses a preference, file, SQLite, or remote source.",
+    "questionAr": "سؤال قاعدة بيانات SQLite: A repository can expose domain -level operations while hiding wh ether the current implementation uses a preference, file, SQLite, or remote source.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -7574,13 +7574,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If the UI cannot distinguish loading, empty, error, and data, it may report a misleading persistence result even when the storage layer is correct.",
-    "questionAr": "العبارة رقم 80: If the UI cannot distinguish loading, empty, error, and data, it may report a misleading persistence result even when the storage layer is correct.",
+    "questionAr": "سؤال متعلق بالمنهج: If the UI cannot distinguish loading, empty, error, and data, it may report a misleading persistence result even when the storage layer is correct.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -7598,13 +7598,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: FloatingActionButton( onPressed: () => _showForm(null), child: const Icon(Icons.add), ) A local SQLite query can return zero rows successfully, so the UI should distinguish empty from error.",
-    "questionAr": "العبارة رقم 81: If we have the following code fragment: FloatingActionButton( onPressed: () => _showForm(null), child: const Icon(Icons.add), ) A local SQLite query can return zero rows successfully, so the UI should distinguish empty from error.",
+    "questionAr": "سؤال قاعدة بيانات SQLite: If we have the following code fragment: FloatingActionButton( onPressed: () => _showForm(null), child: const Icon(Icons.add), ) A local SQLite query can return zero rows successfully, so the UI should distinguish empty from error.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -7622,13 +7622,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: setState(() { _journals.add({'title':'Study Plan', 'description':'Review SQLite CRUD'}); }); A FAB callback can open a cre ate form while keeping the list route available for refresh after return.",
-    "questionAr": "العبارة رقم 82: If we have the following code fragment: setState(() { _journals.add({'title':'Study Plan', 'description':'Review SQLite CRUD'}); }); A FAB callback can open a cre ate form while keeping the list route available for refresh after return.",
+    "questionAr": "سؤال قاعدة بيانات SQLite: If we have the following code fragment: setState(() { _journals.add({'title':'Study Plan', 'description':'Review SQLite CRUD'}); }); A FAB callback can open a cre ate form while keeping the list route available for refresh after return.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -7646,13 +7646,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: @override void initState() { super.initState(); _retrieveName(); } Future<void> _retrieveName() async { final value = await _prefs.g etString(_nameKey) ?? ''; if (!mounted) return; setState(() => savedName = value); } After create completes, a fresh query is evidence that the new row is actually stored.",
-    "questionAr": "العبارة رقم 83: If we have the following code fragment: @override void initState() { super.initState(); _retrieveName(); } Future<void> _retrieveName() async { final value = await _prefs.g etString(_nameKey) ?? ''; if (!mounted) return; setState(() => savedName = value); } After create completes, a fresh query is evidence that the new row is actually stored.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: @override void initState() { super.initState(); _retrieveName(); } Future<void> _retrieveName() async { final value = await _prefs.g etString(_nameKey) ?? ''; if (!mounted) return; setState(() => savedName = value); } After create completes, a fresh query is evidence that the new row is actually stored.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -7670,13 +7670,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: await prefs.setBool('dark_mode', tru e); final dark = await prefs.getBool('dark -mode') ?? false; After update completes, querying the target id again verifies the edited values rather than trusting the form.",
-    "questionAr": "العبارة رقم 84: If we have the following code fragment: await prefs.setBool('dark_mode', tru e); final dark = await prefs.getBool('dark -mode') ?? false; After update completes, querying the target id again verifies the edited values rather than trusting the form.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: await prefs.setBool('dark_mode', tru e); final dark = await prefs.getBool('dark -mode') ?? false; After update completes, querying the target id again verifies the edited values rather than trusting the form.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -7694,13 +7694,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: final file = await _dataFile(); final data = await file.exists() ? await file.readAsString(encoding: utf8) : ''; if (!mounted) return; setState(() => _content = data); After delete and refresh, a success message is truthful only after the awaited operation has completed.",
-    "questionAr": "العبارة رقم 85: If we have the following code fragment: final file = await _dataFile(); final data = await file.exists() ? await file.readAsString(encoding: utf8) : ''; if (!mounted) return; setState(() => _content = data); After delete and refresh, a success message is truthful only after the awaited operation has completed.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: final file = await _dataFile(); final data = await file.exists() ? await file.readAsString(encoding: utf8) : ''; if (!mounted) return; setState(() => _content = data); After delete and refresh, a success message is truthful only after the awaited operation has completed.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -7718,13 +7718,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have th e following code fragment: final data = await file.exists() ? await file.readAsString() : ''; A saved preference must be read back into State before the restored name can be shown after relaunch.",
-    "questionAr": "العبارة رقم 86: If we have th e following code fragment: final data = await file.exists() ? await file.readAsString() : ''; A saved preference must be read back into State before the restored name can be shown after relaunch.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have th e following code fragment: final data = await file.exists() ? await file.readAsString() : ''; A saved preference must be read back into State before the restored name can be shown after relaunch.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -7742,13 +7742,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: final decoded = jsonDecode(raw); if (decoded is! Map<String, dynamic>) { throw const FormatException('Expected a JSON object'); } A process restart can restore persistent data only when startup code reads the correct store.",
-    "questionAr": "العبارة رقم 87: If we have the following code fragment: final decoded = jsonDecode(raw); if (decoded is! Map<String, dynamic>) { throw const FormatException('Expected a JSON object'); } A process restart can restore persistent data only when startup code reads the correct store.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: final decoded = jsonDecode(raw); if (decoded is! Map<String, dynamic>) { throw const FormatException('Expected a JSON object'); } A process restart can restore persistent data only when startup code reads the correct store.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -7766,13 +7766,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code frag ment: setState(() => loading = true); final data = await repository.loadAll(); if (!mounted) return; setState(() { loading = false; items = data; }); A file read should map an absent file to the feature’s defined first -run state, not to malformed JSON.",
-    "questionAr": "العبارة رقم 88: If we have the following code frag ment: setState(() => loading = true); final data = await repository.loadAll(); if (!mounted) return; setState(() { loading = false; items = data; }); A file read should map an absent file to the feature’s defined first -run state, not to malformed JSON.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code frag ment: setState(() => loading = true); final data = await repository.loadAll(); if (!mounted) return; setState(() { loading = false; items = data; }); A file read should map an absent file to the feature’s defined first -run state, not to malformed JSON.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to official Chapter 9 Local Storage concepts.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة التاسعة (التخزين المحلي).",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -7919,7 +7919,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "The path_provider plugin currently supports access to______.. :",
-    "questionAr": "السؤال رقم 4: The path_provider plugin currently supports access to______.. :",
+    "questionAr": "تدعم حزمة path_provider حالياً الوصول إلى المجلد المؤقت ومجلد مستندات التطبيق.",
     "options": [
       {
         "label": "A",
@@ -7943,8 +7943,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -7962,7 +7962,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A ______..that the system can clear at any time.",
-    "questionAr": "السؤال رقم 5: A ______..that the system can clear at any time.",
+    "questionAr": "سؤال متعلق بالمنهج: A ______..that the system can clear at any time.",
     "options": [
       {
         "label": "A",
@@ -7986,8 +7986,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -8005,7 +8005,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A directory for the app to store files that only it can access. The system clears the directory only when the app is deleted. On iOS, this corresponds to the ______. On Android, this is the ______ directory.",
-    "questionAr": "السؤال رقم 6: A directory for the app to store files that only it can access. The system clears the directory only when the app is deleted. On iOS, this corresponds to the ______. On Android, this is the ______ directory.",
+    "questionAr": "مجلد مخصص للتطبيق لتخزين الملفات التي لا يمكن لأحد غيره الوصول إليها، ويقوم النظام بمسحه فقط عند حذف التطبيق.",
     "options": [
       {
         "label": "A",
@@ -8028,9 +8028,9 @@ export const questionsData = [
         "textAr": "لا شيء مما ذُكر"
       }
     ],
-    "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "correctAnswer": "True",
+    "explanationEn": "True. getApplicationDocumentsDirectory() returns the private sandboxed app directory where persistent data files reside and are cleared only when the user uninstalls the app.",
+    "explanationAr": "صحيح. دالة getApplicationDocumentsDirectory() تُرجع المجلد الخاص المحمي للتطبيق، وتظل الملفات بداخله محفوظة ولا تُحذف إلا عند إلغاء تثبيت التطبيق بالكامل.",
     "codeSnippet": null
   },
   {
@@ -8048,7 +8048,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A temp orary directory (cache) that the system can clear at any time. On iOS, this corresponds to the ______.. On Android, this is the value that ______.. returns.",
-    "questionAr": "السؤال رقم 7: A temp orary directory (cache) that the system can clear at any time. On iOS, this corresponds to the ______.. On Android, this is the value that ______.. returns.",
+    "questionAr": "سؤال متعلق بالمنهج: A temp orary directory (cache) that the system can clear at any time. On iOS, this corresponds to the ______.. On Android, this is the value that ______.. returns.",
     "options": [
       {
         "label": "A",
@@ -8072,8 +8072,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -8091,7 +8091,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Once you know where to store the file, create a reference to the file’s full location. You can use the ______ …. . class from the dart:io library .",
-    "questionAr": "السؤال رقم 8: Once you know where to store the file, create a reference to the file’s full location. You can use the ______ …. . class from the dart:io library .",
+    "questionAr": "بمجرد معرفة مكان تخزين الملف، يتم إنشاء مرجع للمسار الكامل للملف باستخدام كلاس File من مكتبة dart:io.",
     "options": [
       {
         "label": "A",
@@ -8115,8 +8115,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -8220,7 +8220,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "______in flutter are used to store data locally in key -value pairs in android and ios apps. We might have to save data locally while developing applications. Data like login credentials or a flag etc.",
-    "questionAr": "السؤال رقم 11: ______in flutter are used to store data locally in key -value pairs in android and ios apps. We might have to save data locally while developing applications. Data like login credentials or a flag etc.",
+    "questionAr": "سؤال متعلق بالمنهج: ______in flutter are used to store data locally in key -value pairs in android and ios apps. We might have to save data locally while developing applications. Data like login credentials or a flag etc.",
     "options": [
       {
         "label": "A",
@@ -8244,8 +8244,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -8263,7 +8263,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Using sharedpreferences we can save multi types of values such as .",
-    "questionAr": "السؤال رقم 12: Using sharedpreferences we can save multi types of values such as .",
+    "questionAr": "سؤال التفضيلات المشتركة SharedPreferences: Using sharedpreferences we can save multi types of values such as .",
     "options": [
       {
         "label": "A",
@@ -8287,8 +8287,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -8306,7 +8306,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "To implement and use sharedpreferences in flutter follow the steps below",
-    "questionAr": "السؤال رقم 13: To implement and use sharedpreferences in flutter follow the steps below",
+    "questionAr": "سؤال التفضيلات المشتركة SharedPreferences: To implement and use sharedpreferences in flutter follow the steps below",
     "options": [
       {
         "label": "A",
@@ -8330,8 +8330,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -8349,7 +8349,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "To save string value in sharedprefer ences call the ______ method and provide the key and value.",
-    "questionAr": "السؤال رقم 14: To save string value in sharedprefer ences call the ______ method and provide the key and value.",
+    "questionAr": "سؤال متعلق بالمنهج: To save string value in sharedprefer ences call the ______ method and provide the key and value.",
     "options": [
       {
         "label": "A",
@@ -8373,8 +8373,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -8392,7 +8392,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "To save the boolean value in sharedpreferences call the ______ method and provide the key and value.",
-    "questionAr": "السؤال رقم 15: To save the boolean value in sharedpreferences call the ______ method and provide the key and value.",
+    "questionAr": "سؤال التفضيلات المشتركة SharedPreferences: To save the boolean value in sharedpreferences call the ______ method and provide the key and value.",
     "options": [
       {
         "label": "A",
@@ -8416,8 +8416,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -8435,7 +8435,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "To save a string list value in sharedpreferences call the setStringList() method and provide the key and value. The next code snippet will add list( [“pizza”, “burger”, “sandwich”] ) as a value to the key foodList",
-    "questionAr": "السؤال رقم 16: To save a string list value in sharedpreferences call the setStringList() method and provide the key and value. The next code snippet will add list( [“pizza”, “burger”, “sandwich”] ) as a value to the key foodList",
+    "questionAr": "سؤال التفضيلات المشتركة SharedPreferences: To save a string list value in sharedpreferences call the setStringList() method and provide the key and value. The next code snippet will add list( [“pizza”, “burger”, “sandwich”] ) as a value to the key foodList",
     "options": [
       {
         "label": "A",
@@ -8459,8 +8459,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -8478,7 +8478,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "To retrieve or read int value from sharedpreferences call ______.. method and provide the key.",
-    "questionAr": "السؤال رقم 17: To retrieve or read int value from sharedpreferences call ______.. method and provide the key.",
+    "questionAr": "سؤال التفضيلات المشتركة SharedPreferences: To retrieve or read int value from sharedpreferences call ______.. method and provide the key.",
     "options": [
       {
         "label": "A",
@@ -8502,8 +8502,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -8521,7 +8521,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "To retrieve or read double value from sharedpreferences call ______.. method and provide the key.",
-    "questionAr": "السؤال رقم 18: To retrieve or read double value from sharedpreferences call ______.. method and provide the key.",
+    "questionAr": "سؤال التفضيلات المشتركة SharedPreferences: To retrieve or read double value from sharedpreferences call ______.. method and provide the key.",
     "options": [
       {
         "label": "A",
@@ -8545,8 +8545,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -8564,7 +8564,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "To retrieve or read string list value from sharedpreferences call ______ method and provide the key.",
-    "questionAr": "السؤال رقم 19: To retrieve or read string list value from sharedpreferences call ______ method and provide the key.",
+    "questionAr": "سؤال التفضيلات المشتركة SharedPreferences: To retrieve or read string list value from sharedpreferences call ______ method and provide the key.",
     "options": [
       {
         "label": "A",
@@ -8588,8 +8588,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -8607,7 +8607,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "To check if a key or record is present in shared preferences we have to use ______ method. This methods takes key as value and checks if the key is present in sharedpreferences.",
-    "questionAr": "السؤال رقم 20: To check if a key or record is present in shared preferences we have to use ______ method. This methods takes key as value and checks if the key is present in sharedpreferences.",
+    "questionAr": "سؤال التفضيلات المشتركة SharedPreferences: To check if a key or record is present in shared preferences we have to use ______ method. This methods takes key as value and checks if the key is present in sharedpreferences.",
     "options": [
       {
         "label": "A",
@@ -8631,8 +8631,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -8650,7 +8650,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "To reset and rem ove any saved data in sharedpreferences call the ______ method without provide the key and value",
-    "questionAr": "السؤال رقم 21: To reset and rem ove any saved data in sharedpreferences call the ______ method without provide the key and value",
+    "questionAr": "سؤال التفضيلات المشتركة SharedPreferences: To reset and rem ove any saved data in sharedpreferences call the ______ method without provide the key and value",
     "options": [
       {
         "label": "A",
@@ -8674,8 +8674,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -8693,7 +8693,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Flutter apps can make use of the SQLite databases via the ______.. plugin available on pub.dev.",
-    "questionAr": "السؤال رقم 22: Flutter apps can make use of the SQLite databases via the ______.. plugin available on pub.dev.",
+    "questionAr": "سؤال قاعدة بيانات SQLite: Flutter apps can make use of the SQLite databases via the ______.. plugin available on pub.dev.",
     "options": [
       {
         "label": "A",
@@ -8717,8 +8717,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -8736,7 +8736,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "The ______. package provides classes and functions to interact with a SQLite database.",
-    "questionAr": "السؤال رقم 23: The ______. package provides classes and functions to interact with a SQLite database.",
+    "questionAr": "سؤال قاعدة بيانات SQLite: The ______. package provides classes and functions to interact with a SQLite database.",
     "options": [
       {
         "label": "A",
@@ -8760,8 +8760,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -8779,7 +8779,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "The ______. package provides functions to define the location for storing the database on disk.",
-    "questionAr": "السؤال رقم 24: The ______. package provides functions to define the location for storing the database on disk.",
+    "questionAr": "سؤال متعلق بالمنهج: The ______. package provides functions to define the location for storing the database on disk.",
     "options": [
       {
         "label": "A",
@@ -8803,8 +8803,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -8822,7 +8822,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Define the path to the database file using ______. from the sqflite package, combined with the join function from the path package.",
-    "questionAr": "السؤال رقم 25: Define the path to the database file using ______. from the sqflite package, combined with the join function from the path package.",
+    "questionAr": "سؤال قاعدة بيانات SQLite: Define the path to the database file using ______. from the sqflite package, combined with the join function from the path package.",
     "options": [
       {
         "label": "A",
@@ -8846,8 +8846,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -8865,7 +8865,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Before reading and writing data to the database, open a connection to the database. Open the database with the ______.. function from sqflite.",
-    "questionAr": "السؤال رقم 26: Before reading and writing data to the database, open a connection to the database. Open the database with the ______.. function from sqflite.",
+    "questionAr": "سؤال قاعدة بيانات SQLite: Before reading and writing data to the database, open a connection to the database. Open the database with the ______.. function from sqflite.",
     "options": [
       {
         "label": "A",
@@ -8889,8 +8889,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -8908,7 +8908,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "To insert a data into a table in sqflite database. This involves:",
-    "questionAr": "السؤال رقم 27: To insert a data into a table in sqflite database. This involves:",
+    "questionAr": "سؤال قاعدة بيانات SQLite: To insert a data into a table in sqflite database. This involves:",
     "options": [
       {
         "label": "A",
@@ -8932,8 +8932,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -8951,7 +8951,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "In addition to inserting and updating information about Dogs, you can also remove dogs from the database. To delete data, use the ______.. method from the ______ library.",
-    "questionAr": "السؤال رقم 28: In addition to inserting and updating information about Dogs, you can also remove dogs from the database. To delete data, use the ______.. method from the ______ library.",
+    "questionAr": "سؤال متعلق بالمنهج: In addition to inserting and updating information about Dogs, you can also remove dogs from the database. To delete data, use the ______.. method from the ______ library.",
     "options": [
       {
         "label": "A",
@@ -8975,8 +8975,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -8994,7 +8994,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "______.is a fast relational database that can be used to store data offline for mobile applications.",
-    "questionAr": "السؤال رقم 29: ______.is a fast relational database that can be used to store data offline for mobile applications.",
+    "questionAr": "سؤال متعلق بالمنهج: ______.is a fast relational database that can be used to store data offline for mobile applications.",
     "options": [
       {
         "label": "A",
@@ -9018,8 +9018,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -9037,7 +9037,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "In flutter is used to store data locally in android and ios apps",
-    "questionAr": "السؤال رقم 30: In flutter is used to store data locally in android and ios apps",
+    "questionAr": "سؤال متعلق بالمنهج: In flutter is used to store data locally in android and ios apps",
     "options": [
       {
         "label": "A",
@@ -9061,8 +9061,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -9080,7 +9080,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A counter appears correct until the app process is terminated and relaunched. What storage is missing?",
-    "questionAr": "السؤال رقم 31: A counter appears correct until the app process is terminated and relaunched. What storage is missing?",
+    "questionAr": "سؤال متعلق بالمنهج: A counter appears correct until the app process is terminated and relaunched. What storage is missing?",
     "options": [
       {
         "label": "A",
@@ -9104,8 +9104,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -9123,7 +9123,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A value is created as a local variable inside build. What is the main limitation?",
-    "questionAr": "السؤال رقم 32: A value is created as a local variable inside build. What is the main limitation?",
+    "questionAr": "سؤال متعلق بالمنهج: A value is created as a local variable inside build. What is the main limitation?",
     "options": [
       {
         "label": "A",
@@ -9147,8 +9147,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -9166,7 +9166,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which value is a n atural candidate for a small key -value preference?",
-    "questionAr": "السؤال رقم 33: Which value is a n atural candidate for a small key -value preference?",
+    "questionAr": "سؤال متعلق بالمنهج: Which value is a n atural candidate for a small key -value preference?",
     "options": [
       {
         "label": "A",
@@ -9190,8 +9190,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -9209,7 +9209,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A journal app needs filtering, ordering, and updating individual rows by id. Which st ore fits best?",
-    "questionAr": "السؤال رقم 34: A journal app needs filtering, ordering, and updating individual rows by id. Which st ore fits best?",
+    "questionAr": "سؤال متعلق بالمنهج: A journal app needs filtering, ordering, and updating individual rows by id. Which st ore fits best?",
     "options": [
       {
         "label": "A",
@@ -9233,8 +9233,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -9252,7 +9252,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A notes feature stores one document as JSON text and reads it back as a whole. Which store is a natural fit?",
-    "questionAr": "السؤال رقم 35: A notes feature stores one document as JSON text and reads it back as a whole. Which store is a natural fit?",
+    "questionAr": "سؤال متعلق بالمنهج: A notes feature stores one document as JSON text and reads it back as a whole. Which store is a natural fit?",
     "options": [
       {
         "label": "A",
@@ -9276,8 +9276,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -9295,7 +9295,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A user preference must be read after a process restart. Which design is required?",
-    "questionAr": "السؤال رقم 36: A user preference must be read after a process restart. Which design is required?",
+    "questionAr": "سؤال متعلق بالمنهج: A user preference must be read after a process restart. Which design is required?",
     "options": [
       {
         "label": "A",
@@ -9319,8 +9319,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -9338,7 +9338,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A stored username is absent on first launch. What is a robust interpretation?",
-    "questionAr": "السؤال رقم 37: A stored username is absent on first launch. What is a robust interpretation?",
+    "questionAr": "سؤال متعلق بالمنهج: A stored username is absent on first launch. What is a robust interpretation?",
     "options": [
       {
         "label": "A",
@@ -9362,8 +9362,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -9381,7 +9381,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A SQLite query succeeds but returns an empty list. What should the UI show?",
-    "questionAr": "السؤال رقم 38: A SQLite query succeeds but returns an empty list. What should the UI show?",
+    "questionAr": "سؤال قاعدة بيانات SQLite: A SQLite query succeeds but returns an empty list. What should the UI show?",
     "options": [
       {
         "label": "A",
@@ -9405,8 +9405,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -9424,7 +9424,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A file does not exist the first time the app runs. What should a JSON repository do if first -run is valid?",
-    "questionAr": "السؤال رقم 39: A file does not exist the first time the app runs. What should a JSON repository do if first -run is valid?",
+    "questionAr": "سؤال متعلق بالمنهج: A file does not exist the first time the app runs. What should a JSON repository do if first -run is valid?",
     "options": [
       {
         "label": "A",
@@ -9448,8 +9448,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -9467,7 +9467,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Why check mounted after awaiting a database read in a StatefulWidget?",
-    "questionAr": "السؤال رقم 40: Why check mounted after awaiting a database read in a StatefulWidget?",
+    "questionAr": "سؤال متعلق بالمنهج: Why check mounted after awaiting a database read in a StatefulWidget?",
     "options": [
       {
         "label": "A",
@@ -9491,8 +9491,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -9510,7 +9510,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A preference value changed outside a cached reader, but the UI still shows the old value. What is likely?",
-    "questionAr": "السؤال رقم 41: A preference value changed outside a cached reader, but the UI still shows the old value. What is likely?",
+    "questionAr": "سؤال متعلق بالمنهج: A preference value changed outside a cached reader, but the UI still shows the old value. What is likely?",
     "options": [
       {
         "label": "A",
@@ -9534,8 +9534,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -9553,7 +9553,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which boundary best isolates a Flutter screen from storage implementation details?",
-    "questionAr": "السؤال رقم 42: Which boundary best isolates a Flutter screen from storage implementation details?",
+    "questionAr": "سؤال متعلق بالمنهج: Which boundary best isolates a Flutter screen from storage implementation details?",
     "options": [
       {
         "label": "A",
@@ -9577,8 +9577,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -9596,7 +9596,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A Dog model needs to be inserted into SQLite. What should toMap provide?",
-    "questionAr": "السؤال رقم 43: A Dog model needs to be inserted into SQLite. What should toMap provide?",
+    "questionAr": "سؤال قاعدة بيانات SQLite: A Dog model needs to be inserted into SQLite. What should toMap provide?",
     "options": [
       {
         "label": "A",
@@ -9620,8 +9620,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -9639,7 +9639,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which query is safer for a use r-provided id?",
-    "questionAr": "السؤال رقم 44: Which query is safer for a use r-provided id?",
+    "questionAr": "سؤال متعلق بالمنهج: Which query is safer for a use r-provided id?",
     "options": [
       {
         "label": "A",
@@ -9663,8 +9663,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -9682,7 +9682,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Why is string concatenation unsafe in SQL conditions?",
-    "questionAr": "السؤال رقم 45: Why is string concatenation unsafe in SQL conditions?",
+    "questionAr": "سؤال متعلق بالمنهج: Why is string concatenation unsafe in SQL conditions?",
     "options": [
       {
         "label": "A",
@@ -9706,8 +9706,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -9725,7 +9725,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "An update must affect exactly one journal row. Which detail is essential?",
-    "questionAr": "السؤال رقم 46: An update must affect exactly one journal row. Which detail is essential?",
+    "questionAr": "سؤال متعلق بالمنهج: An update must affect exactly one journal row. Which detail is essential?",
     "options": [
       {
         "label": "A",
@@ -9749,8 +9749,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -9768,7 +9768,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "When are transactions most appropriate?",
-    "questionAr": "السؤال رقم 47: When are transactions most appropriate?",
+    "questionAr": "سؤال متعلق بالمنهج: When are transactions most appropriate?",
     "options": [
       {
         "label": "A",
@@ -9792,8 +9792,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -9811,7 +9811,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What is a cautious interpretation of ConflictAlgorithm.replace?",
-    "questionAr": "السؤال رقم 48: What is a cautious interpretation of ConflictAlgorithm.replace?",
+    "questionAr": "سؤال متعلق بالمنهج: What is a cautious interpretation of ConflictAlgorithm.replace?",
     "options": [
       {
         "label": "A",
@@ -9835,8 +9835,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -9854,7 +9854,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A list is updated locally after insert without reading the database. What evidence is missing?",
-    "questionAr": "السؤال رقم 49: A list is updated locally after insert without reading the database. What evidence is missing?",
+    "questionAr": "سؤال متعلق بالمنهج: A list is updated locally after insert without reading the database. What evidence is missing?",
     "options": [
       {
         "label": "A",
@@ -9878,8 +9878,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -9897,7 +9897,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which code owns form controllers in a StatefulWidget?",
-    "questionAr": "السؤال رقم 50: Which code owns form controllers in a StatefulWidget?",
+    "questionAr": "سؤال متعلق بالمنهج: Which code owns form controllers in a StatefulWidget?",
     "options": [
       {
         "label": "A",
@@ -9921,8 +9921,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -9940,7 +9940,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A string is valid JSON but lacks the required title field. What should the model boundary do?",
-    "questionAr": "السؤال رقم 51: A string is valid JSON but lacks the required title field. What should the model boundary do?",
+    "questionAr": "سؤال متعلق بالمنهج: A string is valid JSON but lacks the required title field. What should the model boundary do?",
     "options": [
       {
         "label": "A",
@@ -9964,8 +9964,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -9983,7 +9983,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which serialization rule is safest for an optional date?",
-    "questionAr": "السؤال رقم 52: Which serialization rule is safest for an optional date?",
+    "questionAr": "سؤال متعلق بالمنهج: Which serialization rule is safest for an optional date?",
     "options": [
       {
         "label": "A",
@@ -10007,8 +10007,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -10026,7 +10026,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What does a schema version enable?",
-    "questionAr": "السؤال رقم 53: What does a schema version enable?",
+    "questionAr": "سؤال متعلق بالمنهج: What does a schema version enable?",
     "options": [
       {
         "label": "A",
@@ -10050,8 +10050,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -10069,7 +10069,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Where should an older d atabase be upgraded when the app opens a newer schema?",
-    "questionAr": "السؤال رقم 54: Where should an older d atabase be upgraded when the app opens a newer schema?",
+    "questionAr": "سؤال متعلق بالمنهج: Where should an older d atabase be upgraded when the app opens a newer schema?",
     "options": [
       {
         "label": "A",
@@ -10093,8 +10093,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -10112,7 +10112,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A new column is added to an existing database. What is a responsible migration concern?",
-    "questionAr": "السؤال رقم 55: A new column is added to an existing database. What is a responsible migration concern?",
+    "questionAr": "سؤال متعلق بالمنهج: A new column is added to an existing database. What is a responsible migration concern?",
     "options": [
       {
         "label": "A",
@@ -10136,8 +10136,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -10155,7 +10155,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which lifecycle best describes a value held in State but not persisted?",
-    "questionAr": "السؤال رقم 56: Which lifecycle best describes a value held in State but not persisted?",
+    "questionAr": "سؤال متعلق بالمنهج: Which lifecycle best describes a value held in State but not persisted?",
     "options": [
       {
         "label": "A",
@@ -10179,8 +10179,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -10198,7 +10198,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A file path should be built for Android and iOS. Which approach is strongest?",
-    "questionAr": "السؤال رقم 57: A file path should be built for Android and iOS. Which approach is strongest?",
+    "questionAr": "سؤال متعلق بالمنهج: A file path should be built for Android and iOS. Which approach is strongest?",
     "options": [
       {
         "label": "A",
@@ -10222,8 +10222,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -10241,7 +10241,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Why is a temporary image/file path a poor long -term database value?",
-    "questionAr": "السؤال رقم 58: Why is a temporary image/file path a poor long -term database value?",
+    "questionAr": "سؤال متعلق بالمنهج: Why is a temporary image/file path a poor long -term database value?",
     "options": [
       {
         "label": "A",
@@ -10265,8 +10265,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -10284,7 +10284,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A persistence read throws because the stored text is malformed. What should the UI normally receive?",
-    "questionAr": "السؤال رقم 59: A persistence read throws because the stored text is malformed. What should the UI normally receive?",
+    "questionAr": "سؤال متعلق بالمنهج: A persistence read throws because the stored text is malformed. What should the UI normally receive?",
     "options": [
       {
         "label": "A",
@@ -10308,8 +10308,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -10327,7 +10327,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which test best demonstrates persistence?",
-    "questionAr": "السؤال رقم 60: Which test best demonstrates persistence?",
+    "questionAr": "سؤال متعلق بالمنهج: Which test best demonstrates persistence?",
     "options": [
       {
         "label": "A",
@@ -10351,8 +10351,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -10370,7 +10370,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which API scope is appropriate for removing one preference?",
-    "questionAr": "السؤال رقم 61: Which API scope is appropriate for removing one preference?",
+    "questionAr": "سؤال متعلق بالمنهج: Which API scope is appropriate for removing one preference?",
     "options": [
       {
         "label": "A",
@@ -10394,8 +10394,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -10413,7 +10413,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Why should clear be used carefully?",
-    "questionAr": "السؤال رقم 62: Why should clear be used carefully?",
+    "questionAr": "سؤال متعلق بالمنهج: Why should clear be used carefully?",
     "options": [
       {
         "label": "A",
@@ -10437,8 +10437,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -10456,7 +10456,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A cache -backed preference reader must observe external changes. What operation may be required?",
-    "questionAr": "السؤال رقم 63: A cache -backed preference reader must observe external changes. What operation may be required?",
+    "questionAr": "سؤال متعلق بالمنهج: A cache -backed preference reader must observe external changes. What operation may be required?",
     "options": [
       {
         "label": "A",
@@ -10480,8 +10480,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -10499,7 +10499,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which data belongs in server -side configuration rather than local preferences?",
-    "questionAr": "السؤال رقم 64: Which data belongs in server -side configuration rather than local preferences?",
+    "questionAr": "سؤال متعلق بالمنهج: Which data belongs in server -side configuration rather than local preferences?",
     "options": [
       {
         "label": "A",
@@ -10523,8 +10523,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -10542,7 +10542,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which architecture supports later remote synchronization for an offline -first feature?",
-    "questionAr": "السؤال رقم 65: Which architecture supports later remote synchronization for an offline -first feature?",
+    "questionAr": "سؤال متعلق بالمنهج: Which architecture supports later remote synchronization for an offline -first feature?",
     "options": [
       {
         "label": "A",
@@ -10566,8 +10566,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -10585,7 +10585,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What is the main difference between local -only and offline -first?",
-    "questionAr": "السؤال رقم 66: What is the main difference between local -only and offline -first?",
+    "questionAr": "سؤال متعلق بالمنهج: What is the main difference between local -only and offline -first?",
     "options": [
       {
         "label": "A",
@@ -10609,8 +10609,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -10628,7 +10628,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A screen reads a stored name in initState and calls setState after await. What must it check?",
-    "questionAr": "السؤال رقم 67: A screen reads a stored name in initState and calls setState after await. What must it check?",
+    "questionAr": "سؤال متعلق بالمنهج: A screen reads a stored name in initState and calls setState after await. What must it check?",
     "options": [
       {
         "label": "A",
@@ -10652,8 +10652,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -10671,7 +10671,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which result should a repository return for a missing JSON file when the product defines first -run as empty?",
-    "questionAr": "السؤال رقم 68: Which result should a repository return for a missing JSON file when the product defines first -run as empty?",
+    "questionAr": "سؤال متعلق بالمنهج: Which result should a repository return for a missing JSON file when the product defines first -run as empty?",
     "options": [
       {
         "label": "A",
@@ -10695,8 +10695,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -10714,7 +10714,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Why keep SQL out of widgets?",
-    "questionAr": "السؤال رقم 69: Why keep SQL out of widgets?",
+    "questionAr": "سؤال متعلق بالمنهج: Why keep SQL out of widgets?",
     "options": [
       {
         "label": "A",
@@ -10738,8 +10738,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -10757,7 +10757,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A query returns rows as maps. Where should map -to-model conversion normally h appen?",
-    "questionAr": "السؤال رقم 70: A query returns rows as maps. Where should map -to-model conversion normally h appen?",
+    "questionAr": "سؤال متعلق بالمنهج: A query returns rows as maps. Where should map -to-model conversion normally h appen?",
     "options": [
       {
         "label": "A",
@@ -10781,8 +10781,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -10800,7 +10800,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What does a fresh GET after a remote write prove more strongly than a local list append?",
-    "questionAr": "السؤال رقم 71: What does a fresh GET after a remote write prove more strongly than a local list append?",
+    "questionAr": "سؤال متعلق بالمنهج: What does a fresh GET after a remote write prove more strongly than a local list append?",
     "options": [
       {
         "label": "A",
@@ -10824,8 +10824,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -10843,7 +10843,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A delete confirmation is cancelled. What should happen to persistent data?",
-    "questionAr": "السؤال رقم 72: A delete confirmation is cancelled. What should happen to persistent data?",
+    "questionAr": "سؤال متعلق بالمنهج: A delete confirmation is cancelled. What should happen to persistent data?",
     "options": [
       {
         "label": "A",
@@ -10867,8 +10867,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -10886,7 +10886,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A file contains JSON for a LocalNote. What should be checked after decoding?",
-    "questionAr": "السؤال رقم 73: A file contains JSON for a LocalNote. What should be checked after decoding?",
+    "questionAr": "سؤال متعلق بالمنهج: A file contains JSON for a LocalNote. What should be checked after decoding?",
     "options": [
       {
         "label": "A",
@@ -10910,8 +10910,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -10929,7 +10929,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which choice bes t handles a stored integer that may be absent?",
-    "questionAr": "السؤال رقم 74: Which choice bes t handles a stored integer that may be absent?",
+    "questionAr": "سؤال متعلق بالمنهج: Which choice bes t handles a stored integer that may be absent?",
     "options": [
       {
         "label": "A",
@@ -10953,8 +10953,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -10972,7 +10972,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Why distinguish an empty SQLite query from an error?",
-    "questionAr": "السؤال رقم 75: Why distinguish an empty SQLite query from an error?",
+    "questionAr": "سؤال قاعدة بيانات SQLite: Why distinguish an empty SQLite query from an error?",
     "options": [
       {
         "label": "A",
@@ -10996,8 +10996,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -11015,7 +11015,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which database operation matches “update the row whose id is 4”?",
-    "questionAr": "السؤال رقم 76: Which database operation matches “update the row whose id is 4”?",
+    "questionAr": "سؤال متعلق بالمنهج: Which database operation matches “update the row whose id is 4”?",
     "options": [
       {
         "label": "A",
@@ -11039,8 +11039,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -11058,7 +11058,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which operation is appropriate for a new journal row?",
-    "questionAr": "السؤال رقم 77: Which operation is appropriate for a new journal row?",
+    "questionAr": "سؤال متعلق بالمنهج: Which operation is appropriate for a new journal row?",
     "options": [
       {
         "label": "A",
@@ -11082,8 +11082,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -11101,7 +11101,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A schema migration drops a column containing user notes without backup. What is the primary problem?",
-    "questionAr": "السؤال رقم 78: A schema migration drops a column containing user notes without backup. What is the primary problem?",
+    "questionAr": "سؤال متعلق بالمنهج: A schema migration drops a column containing user notes without backup. What is the primary problem?",
     "options": [
       {
         "label": "A",
@@ -11125,8 +11125,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -11144,7 +11144,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A local s uccess SnackBar appears before an awaited write completes. What is wrong?",
-    "questionAr": "السؤال رقم 79: A local s uccess SnackBar appears before an awaited write completes. What is wrong?",
+    "questionAr": "سؤال متعلق بالمنهج: A local s uccess SnackBar appears before an awaited write completes. What is wrong?",
     "options": [
       {
         "label": "A",
@@ -11168,8 +11168,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -11187,7 +11187,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What is a useful test se am for persistence?",
-    "questionAr": "السؤال رقم 80: What is a useful test se am for persistence?",
+    "questionAr": "سؤال متعلق بالمنهج: What is a useful test se am for persistence?",
     "options": [
       {
         "label": "A",
@@ -11211,8 +11211,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -11230,7 +11230,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A stored timestamp is read on a device with a different locale. What should the model use?",
-    "questionAr": "السؤال رقم 81: A stored timestamp is read on a device with a different locale. What should the model use?",
+    "questionAr": "سؤال متعلق بالمنهج: A stored timestamp is read on a device with a different locale. What should the model use?",
     "options": [
       {
         "label": "A",
@@ -11254,8 +11254,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -11273,7 +11273,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which statement about SharedPreferencesAsync is most useful?",
-    "questionAr": "السؤال رقم 82: Which statement about SharedPreferencesAsync is most useful?",
+    "questionAr": "سؤال التفضيلات المشتركة SharedPreferences: Which statement about SharedPreferencesAsync is most useful?",
     "options": [
       {
         "label": "A",
@@ -11297,8 +11297,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -11316,7 +11316,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A list is refreshed after a delete. What should the UI do if the fresh query returns zero rows?",
-    "questionAr": "السؤال رقم 83: A list is refreshed after a delete. What should the UI do if the fresh query returns zero rows?",
+    "questionAr": "سؤال متعلق بالمنهج: A list is refreshed after a delete. What should the UI do if the fresh query returns zero rows?",
     "options": [
       {
         "label": "A",
@@ -11340,8 +11340,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -11359,7 +11359,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Why should an app name its authoritative home for each data item?",
-    "questionAr": "السؤال رقم 84: Why should an app name its authoritative home for each data item?",
+    "questionAr": "سؤال متعلق بالمنهج: Why should an app name its authoritative home for each data item?",
     "options": [
       {
         "label": "A",
@@ -11383,8 +11383,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -11402,7 +11402,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What is the strongest overall storage decision criterion?",
-    "questionAr": "السؤال رقم 85: What is the strongest overall storage decision criterion?",
+    "questionAr": "سؤال متعلق بالمنهج: What is the strongest overall storage decision criterion?",
     "options": [
       {
         "label": "A",
@@ -11426,8 +11426,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -11445,7 +11445,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A local note is saved as JSON but the schema later gains a required field. What is needed?",
-    "questionAr": "السؤال رقم 86: A local note is saved as JSON but the schema later gains a required field. What is needed?",
+    "questionAr": "سؤال متعلق بالمنهج: A local note is saved as JSON but the schema later gains a required field. What is needed?",
     "options": [
       {
         "label": "A",
@@ -11469,8 +11469,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -11488,7 +11488,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which statement about a database id is safest?",
-    "questionAr": "السؤال رقم 87: Which statement about a database id is safest?",
+    "questionAr": "سؤال متعلق بالمنهج: Which statement about a database id is safest?",
     "options": [
       {
         "label": "A",
@@ -11512,8 +11512,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -11531,7 +11531,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A repository catches malformed storage data. What should it provide to the UI?",
-    "questionAr": "السؤال رقم 88: A repository catches malformed storage data. What should it provide to the UI?",
+    "questionAr": "سؤال متعلق بالمنهج: A repository catches malformed storage data. What should it provide to the UI?",
     "options": [
       {
         "label": "A",
@@ -11555,8 +11555,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -11574,7 +11574,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A process restart restores a value from storage. Which layer performed the restoration?",
-    "questionAr": "السؤال رقم 89: A process restart restores a value from storage. Which layer performed the restoration?",
+    "questionAr": "سؤال متعلق بالمنهج: A process restart restores a value from storage. Which layer performed the restoration?",
     "options": [
       {
         "label": "A",
@@ -11598,8 +11598,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -11617,7 +11617,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which design avoids binding persistence behavior to a particular screen?",
-    "questionAr": "السؤال رقم 90: Which design avoids binding persistence behavior to a particular screen?",
+    "questionAr": "سؤال متعلق بالمنهج: Which design avoids binding persistence behavior to a particular screen?",
     "options": [
       {
         "label": "A",
@@ -11641,8 +11641,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -11660,7 +11660,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: await insertDog(const Dog(id: 0, name: 'Fido', age: 35)); print(await dogs()); After inserting Fido with age 35, what exact list is printed?",
-    "questionAr": "السؤال رقم 91: If we have the following code fragment: await insertDog(const Dog(id: 0, name: 'Fido', age: 35)); print(await dogs()); After inserting Fido with age 35, what exact list is printed?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: await insertDog(const Dog(id: 0, name: 'Fido', age: 35)); print(await dogs()); After inserting Fido with age 35, what exact list is printed?",
     "options": [
       {
         "label": "A",
@@ -11684,8 +11684,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -11703,7 +11703,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: fido = Dog(id: 0, name: 'Fido', age: 42); await updateDog(fido); print(await dogs()); After updating Fido to age 42, what exact list is printed?",
-    "questionAr": "السؤال رقم 92: If we have the following code fragment: fido = Dog(id: 0, name: 'Fido', age: 42); await updateDog(fido); print(await dogs()); After updating Fido to age 42, what exact list is printed?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: fido = Dog(id: 0, name: 'Fido', age: 42); await updateDog(fido); print(await dogs()); After updating Fido to age 42, what exact list is printed?",
     "options": [
       {
         "label": "A",
@@ -11727,8 +11727,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -11746,7 +11746,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: await deleteDog(fido.id); print(await dogs()); After deleting Fido, what exact list is printed?",
-    "questionAr": "السؤال رقم 93: If we have the following code fragment: await deleteDog(fido.id); print(await dogs()); After deleting Fido, what exact list is printed?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: await deleteDog(fido.id); print(await dogs()); After deleting Fido, what exact list is printed?",
     "options": [
       {
         "label": "A",
@@ -11770,8 +11770,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -11789,7 +11789,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: final prefs = SharedPreferencesAsync(); print(await prefs.getString('username')); When the username key is absent, what does getString print?",
-    "questionAr": "السؤال رقم 94: If we have the following code fragment: final prefs = SharedPreferencesAsync(); print(await prefs.getString('username')); When the username key is absent, what does getString print?",
+    "questionAr": "سؤال التفضيلات المشتركة SharedPreferences: If we have the following code fragment: final prefs = SharedPreferencesAsync(); print(await prefs.getString('username')); When the username key is absent, what does getString print?",
     "options": [
       {
         "label": "A",
@@ -11808,8 +11808,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -11827,7 +11827,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: print(await prefs.getString('username')); After saving the username, what does the following read print?",
-    "questionAr": "السؤال رقم 95: If we have the following code fragment: print(await prefs.getString('username')); After saving the username, what does the following read print?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: print(await prefs.getString('username')); After saving the username, what does the following read print?",
     "options": [
       {
         "label": "B",
@@ -11846,8 +11846,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -11865,7 +11865,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: await prefs.remove(usernameKey); print(await prefs.containsKey(username Key)); After removing usernameKey, what does containsKey print?",
-    "questionAr": "السؤال رقم 96: If we have the following code fragment: await prefs.remove(usernameKey); print(await prefs.containsKey(username Key)); After removing usernameKey, what does containsKey print?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: await prefs.remove(usernameKey); print(await prefs.containsKey(username Key)); After removing usernameKey, what does containsKey print?",
     "options": [
       {
         "label": "A",
@@ -11889,8 +11889,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -11908,7 +11908,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: final contents = await file.readAsString(); return int.parse(contents); If the text file contains 7, what integer is returned?",
-    "questionAr": "السؤال رقم 97: If we have the following code fragment: final contents = await file.readAsString(); return int.parse(contents); If the text file contains 7, what integer is returned?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: final contents = await file.readAsString(); return int.parse(contents); If the text file contains 7, what integer is returned?",
     "options": [
       {
         "label": "A",
@@ -11932,8 +11932,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -11951,7 +11951,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: final counter = int.parse(await file.readAsString()); await file.writeAsString('${counter + 1}'); print(int.parse(await file.readAsString())); If the file contains 7, what is print ed after incrementing and overwriting it?",
-    "questionAr": "السؤال رقم 98: If we have the following code fragment: final counter = int.parse(await file.readAsString()); await file.writeAsString('${counter + 1}'); print(int.parse(await file.readAsString())); If the file contains 7, what is print ed after incrementing and overwriting it?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: final counter = int.parse(await file.readAsString()); await file.writeAsString('${counter + 1}'); print(int.parse(await file.readAsString())); If the file contains 7, what is print ed after incrementing and overwriting it?",
     "options": [
       {
         "label": "A",
@@ -11975,8 +11975,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -11994,7 +11994,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: if (!await file.exists()) return null; If the JSON file does not exist, what first -run result is returned?",
-    "questionAr": "السؤال رقم 99: If we have the following code fragment: if (!await file.exists()) return null; If the JSON file does not exist, what first -run result is returned?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: if (!await file.exists()) return null; If the JSON file does not exist, what first -run result is returned?",
     "options": [
       {
         "label": "A",
@@ -12018,8 +12018,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -12037,7 +12037,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: final decoded = jsonDecode(raw); if (decoded is! Map<String, dynamic>) { throw const FormatException('Expected a JSON object'); } If decoded JSON is not a map, which result follows the validation code?",
-    "questionAr": "السؤال رقم 100: If we have the following code fragment: final decoded = jsonDecode(raw); if (decoded is! Map<String, dynamic>) { throw const FormatException('Expected a JSON object'); } If decoded JSON is not a map, which result follows the validation code?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: final decoded = jsonDecode(raw); if (decoded is! Map<String, dynamic>) { throw const FormatException('Expected a JSON object'); } If decoded JSON is not a map, which result follows the validation code?",
     "options": [
       {
         "label": "A",
@@ -12061,8 +12061,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to Chapter 9 Local Storage specifications.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة التاسعة حول التخزين المحلي.",
+    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
+    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
     "codeSnippet": null
   },
   {
@@ -12206,13 +12206,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A 200 OK HTTP status code means the request was successful.",
-    "questionAr": "العبارة رقم 6: A 200 OK HTTP status code means the request was successful.",
+    "questionAr": "رمز حالة HTTP رقم 200 OK يعني أن طلب الشبكة تم بنجاح من قبل الخادم.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "True. Status code 200 (OK) indicates that the REST API request succeeded and returned the requested data payload.",
+    "explanationAr": "صحيح. يشير رمز الحالة 200 OK إلى نجاح طلب الـ API واسترجاع البيانات المطلوبة بنجاح من الخادم.",
     "codeSnippet": null
   },
   {
@@ -12231,13 +12231,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "The FutureBuilder widget in Flutter is commo nly used to handle asynchronous HTTP requests.",
-    "questionAr": "العبارة رقم 7: The FutureBuilder widget in Flutter is commo nly used to handle asynchronous HTTP requests.",
+    "questionAr": "سؤال متعلق بالمنهج: The FutureBuilder widget in Flutter is commo nly used to handle asynchronous HTTP requests.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12256,13 +12256,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "The DELETE method in REST APIs can be used to update existing data.",
-    "questionAr": "العبارة رقم 8: The DELETE method in REST APIs can be used to update existing data.",
+    "questionAr": "يمكن استخدام طريقة DELETE في واجهات برمجة تطبيقات REST لتحديث البيانات الموجودة.",
     "options": null,
-    "correctAnswer": "True",
-    "correctionEn": null,
-    "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "correctAnswer": "False",
+    "correctionEn": "DELETE is used to remove records; PUT or PATCH is used to update existing data.",
+    "correctionAr": "تُستخدم طريقة DELETE لحذف السجلات، بينما تُستخدم PUT أو PATCH لتحديث وتعديل البيانات.",
+    "explanationEn": "False. The DELETE method instructs the server to remove the specified resource. Updating resources is performed via PUT (full update) or PATCH (partial update).",
+    "explanationAr": "خطأ. طريقة DELETE مخصصة لحذف السجلات من الخادم، بينما تحديث وتعديل البيانات يتم باستخدام طرق PUT أو PATCH.",
     "codeSnippet": null
   },
   {
@@ -12281,13 +12281,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "REST APIs are always stateless, meaning each request from a client must contain all necessary information.",
-    "questionAr": "العبارة رقم 9: REST APIs are always stateless, meaning each request from a client must contain all necessary information.",
+    "questionAr": "سؤال متعلق بالمنهج: REST APIs are always stateless, meaning each request from a client must contain all necessary information.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12306,13 +12306,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "In Flutter, you need to manually parse the JSON response from an HTTP request.",
-    "questionAr": "العبارة رقم 10: In Flutter, you need to manually parse the JSON response from an HTTP request.",
+    "questionAr": "سؤال متعلق بالمنهج: In Flutter, you need to manually parse the JSON response from an HTTP request.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12331,13 +12331,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "The Content-Type: application/json header must be set when sending JSON data to a REST PHP API.",
-    "questionAr": "العبارة رقم 11: The Content-Type: application/json header must be set when sending JSON data to a REST PHP API.",
+    "questionAr": "سؤال متعلق بالمنهج: The Content-Type: application/json header must be set when sending JSON data to a REST PHP API.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12356,13 +12356,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "The http package in Dart pr ovides high -level functions and classes that allow developers to make HTTP requests to web servers. It is not a future -based library.",
-    "questionAr": "العبارة رقم 12: The http package in Dart pr ovides high -level functions and classes that allow developers to make HTTP requests to web servers. It is not a future -based library.",
+    "questionAr": "سؤال متعلق بالمنهج: The http package in Dart pr ovides high -level functions and classes that allow developers to make HTTP requests to web servers. It is not a future -based library.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12381,13 +12381,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "GET requests can be used to retrieve data from a server. You can use a GET request to fetch a list of us ers from a database or to retrieve the details of a specific user.",
-    "questionAr": "العبارة رقم 13: GET requests can be used to retrieve data from a server. You can use a GET request to fetch a list of us ers from a database or to retrieve the details of a specific user.",
+    "questionAr": "سؤال متعلق بالمنهج: GET requests can be used to retrieve data from a server. You can use a GET request to fetch a list of us ers from a database or to retrieve the details of a specific user.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12406,13 +12406,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Flutter, the popular open -source UI toolkit, does not provide developers with powerful tools to efficiently work with APIs.",
-    "questionAr": "العبارة رقم 14: Flutter, the popular open -source UI toolkit, does not provide developers with powerful tools to efficiently work with APIs.",
+    "questionAr": "سؤال متعلق بالمنهج: Flutter, the popular open -source UI toolkit, does not provide developers with powerful tools to efficiently work with APIs.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12431,13 +12431,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "When a Flutter app sends a GET request to an API endpoint, it receives a response containing the requested data, typically in XML format.",
-    "questionAr": "العبارة رقم 15: When a Flutter app sends a GET request to an API endpoint, it receives a response containing the requested data, typically in XML format.",
+    "questionAr": "سؤال متعلق بالمنهج: When a Flutter app sends a GET request to an API endpoint, it receives a response containing the requested data, typically in XML format.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12456,13 +12456,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Flutter developers can make HTTP requests to APIs using various packages, with Da irt’s http package being one of the most popula r choices. ( ) Additional Conceptual and Code -Based Statements",
-    "questionAr": "العبارة رقم 16: Flutter developers can make HTTP requests to APIs using various packages, with Da irt’s http package being one of the most popula r choices. ( ) Additional Conceptual and Code -Based Statements",
+    "questionAr": "سؤال متعلق بالمنهج: Flutter developers can make HTTP requests to APIs using various packages, with Da irt’s http package being one of the most popula r choices. ( ) Additional Conceptual and Code -Based Statements",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12481,13 +12481,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "An HTTP API request can be described using its method, endpoint, headers, body, status, and response.",
-    "questionAr": "العبارة رقم 17: An HTTP API request can be described using its method, endpoint, headers, body, status, and response.",
+    "questionAr": "سؤال متعلق بالمنهج: An HTTP API request can be described using its method, endpoint, headers, body, status, and response.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12506,13 +12506,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Suppose a Flutter app sends requests to a PHP API that accesses M ySQL. The Flutter client should store the MySQL username and password and connect directly to the database.",
-    "questionAr": "العبارة رقم 18: Suppose a Flutter app sends requests to a PHP API that accesses M ySQL. The Flutter client should store the MySQL username and password and connect directly to the database.",
+    "questionAr": "سؤال متعلق بالمنهج: Suppose a Flutter app sends requests to a PHP API that accesses M ySQL. The Flutter client should store the MySQL username and password and connect directly to the database.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12531,13 +12531,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "In a three-lay er design in which Flutter communicates with a PHP HTTP API and the API communicates with MySQL, Flutter should communicat e with the API rather than directly with MySQL.",
-    "questionAr": "العبارة رقم 19: In a three-lay er design in which Flutter communicates with a PHP HTTP API and the API communicates with MySQL, Flutter should communicat e with the API rather than directly with MySQL.",
+    "questionAr": "سؤال متعلق بالمنهج: In a three-lay er design in which Flutter communicates with a PHP HTTP API and the API communicates with MySQL, Flutter should communicat e with the API rather than directly with MySQL.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12581,13 +12581,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "PUT and PATCH have exactly the same semantic meaning in every API contract.",
-    "questionAr": "العبارة رقم 21: PUT and PATCH have exactly the same semantic meaning in every API contract.",
+    "questionAr": "سؤال متعلق بالمنهج: PUT and PATCH have exactly the same semantic meaning in every API contract.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12606,13 +12606,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "DELETE is the HTTP method normally ass ociated with removing a resource.",
-    "questionAr": "العبارة رقم 22: DELETE is the HTTP method normally ass ociated with removing a resource.",
+    "questionAr": "سؤال متعلق بالمنهج: DELETE is the HTTP method normally ass ociated with removing a resource.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12631,13 +12631,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A 201 status is a common success convention for a create operation, but the client must still follow the actual API contract.",
-    "questionAr": "العبارة رقم 23: A 201 status is a common success convention for a create operation, but the client must still follow the actual API contract.",
+    "questionAr": "سؤال متعلق بالمنهج: A 201 status is a common success convention for a create operation, but the client must still follow the actual API contract.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12656,13 +12656,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A client may safely parse any response body as JSON before checking the HTTP status code.",
-    "questionAr": "العبارة رقم 24: A client may safely parse any response body as JSON before checking the HTTP status code.",
+    "questionAr": "سؤال متعلق بالمنهج: A client may safely parse any response body as JSON before checking the HTTP status code.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12681,13 +12681,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A decoded JSON object maps naturally to a Dart Map -like structure.",
-    "questionAr": "العبارة رقم 25: A decoded JSON object maps naturally to a Dart Map -like structure.",
+    "questionAr": "سؤال متعلق بالمنهج: A decoded JSON object maps naturally to a Dart Map -like structure.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12706,13 +12706,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A decoded top -level JSON array maps naturally to a Dart List -like structure.",
-    "questionAr": "العبارة رقم 26: A decoded top -level JSON array maps naturally to a Dart List -like structure.",
+    "questionAr": "سؤال متعلق بالمنهج: A decoded top -level JSON array maps naturally to a Dart List -like structure.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12731,13 +12731,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "JSON can contain nested objects, arrays, primitive values, and null.",
-    "questionAr": "العبارة رقم 27: JSON can contain nested objects, arrays, primitive values, and null.",
+    "questionAr": "سؤال متعلق بالمنهج: JSON can contain nested objects, arrays, primitive values, and null.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12756,13 +12756,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A fromJson constructor can centralize the mapping between JSON keys and Dart fields.",
-    "questionAr": "العبارة رقم 28: A fromJson constructor can centralize the mapping between JSON keys and Dart fields.",
+    "questionAr": "سؤال متعلق بالمنهج: A fromJson constructor can centralize the mapping between JSON keys and Dart fields.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12781,13 +12781,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final data = {'oldPrice': '699', 'price': '799'}; final String? oldPrice = data['oldPrice']; final String? price = data['price']; If the JSON values are quoted strings, oldPrice and price should be declared as nullable String fields.",
-    "questionAr": "العبارة رقم 29: If we have the following code snippet: final data = {'oldPrice': '699', 'price': '799'}; final String? oldPrice = data['oldPrice']; final String? price = data['price']; If the JSON values are quoted strings, oldPrice and price should be declared as nullable String fields.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final data = {'oldPrice': '699', 'price': '799'}; final String? oldPrice = data['oldPrice']; final String? price = data['price']; If the JSON values are quoted strings, oldPrice and price should be declared as nullable String fields.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12806,13 +12806,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "jsonEncode converts a Dart -compatible structure into JSON text.",
-    "questionAr": "العبارة رقم 30: jsonEncode converts a Dart -compatible structure into JSON text.",
+    "questionAr": "سؤال متعلق بالمنهج: jsonEncode converts a Dart -compatible structure into JSON text.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12831,13 +12831,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code s nippet: class ProductDataModel { final String? imageURL; ProductDataModel.fromJson(Map<String, dynamic> json) : imageURL = json['imageUrl'] as String?; } The constructor maps the JSON key imageUrl to the Dart field imageURL.",
-    "questionAr": "العبارة رقم 31: If we have the following code s nippet: class ProductDataModel { final String? imageURL; ProductDataModel.fromJson(Map<String, dynamic> json) : imageURL = json['imageUrl'] as String?; } The constructor maps the JSON key imageUrl to the Dart field imageURL.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code s nippet: class ProductDataModel { final String? imageURL; ProductDataModel.fromJson(Map<String, dynamic> json) : imageURL = json['imageUrl'] as String?; } The constructor maps the JSON key imageUrl to the Dart field imageURL.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12856,13 +12856,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "The keys read by a fromJson constructor must match the keys supplied by the JSON map.",
-    "questionAr": "العبارة رقم 32: The keys read by a fromJson constructor must match the keys supplied by the JSON map.",
+    "questionAr": "سؤال متعلق بالمنهج: The keys read by a fromJson constructor must match the keys supplied by the JSON map.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12881,13 +12881,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final jsonText = await rootBundle.loadString('jsonfile/productlist.json'); The asset path must be declared in pubsp ec.yaml before rootBundle can load it.",
-    "questionAr": "العبارة رقم 33: If we have the following code snippet: final jsonText = await rootBundle.loadString('jsonfile/productlist.json'); The asset path must be declared in pubsp ec.yaml before rootBundle can load it.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final jsonText = await rootBundle.loadString('jsonfile/productlist.json'); The asset path must be declared in pubsp ec.yaml before rootBundle can load it.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12906,13 +12906,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "rootBundle.loadString reads a registered JSON asset as text.",
-    "questionAr": "العبارة رقم 34: rootBundle.loadString reads a registered JSON asset as text.",
+    "questionAr": "سؤال متعلق بالمنهج: rootBundle.loadString reads a registered JSON asset as text.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12931,13 +12931,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final decoded = jsonDecode(jsonText) as List<dynamic>; final products = decoded .map((item) => ProductDataModel.fromJson(item)) .toList(); The decoded local JSON root is cast to List<dynamic> before its elements are mapped.",
-    "questionAr": "العبارة رقم 35: If we have the following code snippet: final decoded = jsonDecode(jsonText) as List<dynamic>; final products = decoded .map((item) => ProductDataModel.fromJson(item)) .toList(); The decoded local JSON root is cast to List<dynamic> before its elements are mapped.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final decoded = jsonDecode(jsonText) as List<dynamic>; final products = decoded .map((item) => ProductDataModel.fromJson(item)) .toList(); The decoded local JSON root is cast to List<dynamic> before its elements are mapped.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12956,13 +12956,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: FutureBuilder<List<ProductDataModel>>( future: readJsonData(), builder: (context, snapshot) => const SizedBox(), ); FutureBuilder receives readJsonData() through its future property.",
-    "questionAr": "العبارة رقم 36: If we have the following code snippet: FutureBuilder<List<ProductDataModel>>( future: readJsonData(), builder: (context, snapshot) => const SizedBox(), ); FutureBuilder receives readJsonData() through its future property.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: FutureBuilder<List<ProductDataModel>>( future: readJsonData(), builder: (context, snapshot) => const SizedBox(), ); FutureBuilder receives readJsonData() through its future property.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12981,13 +12981,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A FutureBuilder for a local product list may disp lay an error branch, a data/ListView branch, or a loading branch.",
-    "questionAr": "العبارة رقم 37: A FutureBuilder for a local product list may disp lay an error branch, a data/ListView branch, or a loading branch.",
+    "questionAr": "سؤال متعلق بالمنهج: A FutureBuilder for a local product list may disp lay an error branch, a data/ListView branch, or a loading branch.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13006,13 +13006,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "An empty JSON array can be a valid UI state rather than an exception.",
-    "questionAr": "العبارة رقم 38: An empty JSON array can be a valid UI state rather than an exception.",
+    "questionAr": "سؤال متعلق بالمنهج: An empty JSON array can be a valid UI state rather than an exception.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13031,13 +13031,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A product row can use Image.network with an image URL and disp lay the product name, category, and price.",
-    "questionAr": "العبارة رقم 39: A product row can use Image.network with an image URL and disp lay the product name, category, and price.",
+    "questionAr": "سؤال متعلق بالمنهج: A product row can use Image.network with an image URL and disp lay the product name, category, and price.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13056,13 +13056,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final response = await http.get( Uri.parse('https://randomuser.me/api/?results=20'), ); The request uses package:http to call the URL https://randomuser.me/api/?results=20.",
-    "questionAr": "العبارة رقم 40: If we have the following code snippet: final response = await http.get( Uri.parse('https://randomuser.me/api/?results=20'), ); The request uses package:http to call the URL https://randomuser.me/api/?results=20.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = await http.get( Uri.parse('https://randomuser.me/api/?results=20'), ); The request uses package:http to call the URL https://randomuser.me/api/?results=20.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13081,13 +13081,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: <uses-permission android:name=\"android.permi ssion.INTERNET\" /> The Android application needs the INTERNET permission for this request.",
-    "questionAr": "العبارة رقم 41: If we have the following code snippet: <uses-permission android:name=\"android.permi ssion.INTERNET\" /> The Android application needs the INTERNET permission for this request.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: <uses-permission android:name=\"android.permi ssion.INTERNET\" /> The Android application needs the INTERNET permission for this request.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13106,13 +13106,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final response = await http.get(uri); if (response.statusCode != 200) throw Exception('Request failed'); final results = jsonDecode(response.body)['results'] as List<dynamic>; The response status is checked before the results array is decoded and mapped.",
-    "questionAr": "العبارة رقم 42: If we have the following code snippet: final response = await http.get(uri); if (response.statusCode != 200) throw Exception('Request failed'); final results = jsonDecode(response.body)['results'] as List<dynamic>; The response status is checked before the results array is decoded and mapped.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = await http.get(uri); if (response.statusCode != 200) throw Exception('Request failed'); final results = jsonDecode(response.body)['results'] as List<dynamic>; The response status is checked before the results array is decoded and mapped.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13131,13 +13131,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final avatarUrl = user['picture']['large']; final age = user['dob']['age']; The ListTile reads the avatar from picture.large and the age from dob.age.",
-    "questionAr": "العبارة رقم 43: If we have the following code snippet: final avatarUrl = user['picture']['large']; final age = user['dob']['age']; The ListTile reads the avatar from picture.large and the age from dob.age.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final avatarUrl = user['picture']['large']; final age = user['dob']['age']; The ListTile reads the avatar from picture.large and the age from dob.age.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13156,13 +13156,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A FutureBuilder can receive fetchUsers() through its future property.",
-    "questionAr": "العبارة رقم 44: A FutureBuilder can receive fetchUsers() through its future property.",
+    "questionAr": "سؤال متعلق بالمنهج: A FutureBuilder can receive fetchUsers() through its future property.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13181,13 +13181,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A successful response may still contain an empty list, so the UI should h andle an empty state.",
-    "questionAr": "العبارة رقم 45: A successful response may still contain an empty list, so the UI should h andle an empty state.",
+    "questionAr": "سؤال متعلق بالمنهج: A successful response may still contain an empty list, so the UI should h andle an empty state.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13206,13 +13206,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "GET usually sends no JSON request body in a basic CRUD request.",
-    "questionAr": "العبارة رقم 46: GET usually sends no JSON request body in a basic CRUD request.",
+    "questionAr": "سؤال متعلق بالمنهج: GET usually sends no JSON request body in a basic CRUD request.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13231,13 +13231,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A simple POST request may send a Dart Map body, while a form -based inventory request sends fields to its endpoint.",
-    "questionAr": "العبارة رقم 47: A simple POST request may send a Dart Map body, while a form -based inventory request sends fields to its endpoint.",
+    "questionAr": "سؤال متعلق بالمنهج: A simple POST request may send a Dart Map body, while a form -based inventory request sends fields to its endpoint.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13256,13 +13256,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If an API contract accepts 200 and 204 for an update, both statuses may be treated as success.",
-    "questionAr": "العبارة رقم 48: If an API contract accepts 200 and 204 for an update, both statuses may be treated as success.",
+    "questionAr": "سؤال متعلق بالمنهج: If an API contract accepts 200 and 204 for an update, both statuses may be treated as success.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13281,13 +13281,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "The UI should change visible data before the server confirms a write so the app always feels faster.",
-    "questionAr": "العبارة رقم 49: The UI should change visible data before the server confirms a write so the app always feels faster.",
+    "questionAr": "سؤال متعلق بالمنهج: The UI should change visible data before the server confirms a write so the app always feels faster.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13306,13 +13306,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Dart’s package:http API exposes functions such as http. get and http.post for network requests.",
-    "questionAr": "العبارة رقم 50: Dart’s package:http API exposes functions such as http. get and http.post for network requests.",
+    "questionAr": "سؤال متعلق بالمنهج: Dart’s package:http API exposes functions such as http. get and http.post for network requests.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13331,13 +13331,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "After an awaited HTTP request, mounted or context.mounted may need to be checked before setState, Navigator, or SnackBar work.",
-    "questionAr": "العبارة رقم 51: After an awaited HTTP request, mounted or context.mounted may need to be checked before setState, Navigator, or SnackBar work.",
+    "questionAr": "سؤال متعلق بالمنهج: After an awaited HTTP request, mounted or context.mounted may need to be checked before setState, Navigator, or SnackBar work.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13356,13 +13356,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "In a three-lay er inventory system, the data flow is Flutter clien t → PHP API → MySQL.",
-    "questionAr": "العبارة رقم 52: In a three-lay er inventory system, the data flow is Flutter clien t → PHP API → MySQL.",
+    "questionAr": "سؤال متعلق بالمنهج: In a three-lay er inventory system, the data flow is Flutter clien t → PHP API → MySQL.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13381,13 +13381,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A PHP API should perform server -side validation and use prepared SQL statements when it accesses the database.",
-    "questionAr": "العبارة رقم 53: A PHP API should perform server -side validation and use prepared SQL statements when it accesses the database.",
+    "questionAr": "سؤال متعلق بالمنهج: A PHP API should perform server -side validation and use prepared SQL statements when it accesses the database.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13406,13 +13406,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "MySQL should accept direct connections from the Flutter mobile app in a protected client –API–databas e architecture.",
-    "questionAr": "العبارة رقم 54: MySQL should accept direct connections from the Flutter mobile app in a protected client –API–databas e architecture.",
+    "questionAr": "سؤال متعلق بالمنهج: MySQL should accept direct connections from the Flutter mobile app in a protected client –API–databas e architecture.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13431,13 +13431,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final response = await http.get( Uri.parse('$baseUrl/getdata.php'), ); getdata.php is called with GET to read the inventory list.",
-    "questionAr": "العبارة رقم 55: If we have the following code snippet: final response = await http.get( Uri.parse('$baseUrl/getdata.php'), ); getdata.php is called with GET to read the inventory list.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = await http.get( Uri.parse('$baseUrl/getdata.php'), ); getdata.php is called with GET to read the inventory list.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13456,13 +13456,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final response = await http.post( Uri.parse('$baseUrl/adddata.php'), body: {'itemcode': 'A10', 'itemname': 'Mouse'}, ); adddata.php receives POST form fields to create an inventory item.",
-    "questionAr": "العبارة رقم 56: If we have the following code snippet: final response = await http.post( Uri.parse('$baseUrl/adddata.php'), body: {'itemcode': 'A10', 'itemname': 'Mouse'}, ); adddata.php receives POST form fields to create an inventory item.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = await http.post( Uri.parse('$baseUrl/adddata.php'), body: {'itemcode': 'A10', 'itemname': 'Mouse'}, ); adddata.php receives POST form fields to create an inventory item.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13481,13 +13481,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final response = await http.post( Uri.parse('$baseUrl/editdata.php'),",
-    "questionAr": "العبارة رقم 57: If we have the following code snippet: final response = await http.post( Uri.parse('$baseUrl/editdata.php'),",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = await http.post( Uri.parse('$baseUrl/editdata.php'),",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13506,13 +13506,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final response = await http.post( Uri.parse('$baseUrl/deleteData.php'), body: {'id': id.toString()}, ); deleteData.php receives the selected id in a POST body rather than through HTTP DELETE.",
-    "questionAr": "العبارة رقم 58: If we have the following code snippet: final response = await http.post( Uri.parse('$baseUrl/deleteData.php'), body: {'id': id.toString()}, ); deleteData.php receives the selected id in a POST body rather than through HTTP DELETE.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = await http.post( Uri.parse('$baseUrl/deleteData.php'), body: {'id': id.toString()}, ); deleteData.php receives the selected id in a POST body rather than through HTTP DELETE.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13531,13 +13531,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final uri = Uri.parse('http://10.0.2.2/my_store/getdata.php'); The address 10.0.2.2 is the Android Emulator alias for the development host loopback.",
-    "questionAr": "العبارة رقم 59: If we have the following code snippet: final uri = Uri.parse('http://10.0.2.2/my_store/getdata.php'); The address 10.0.2.2 is the Android Emulator alias for the development host loopback.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final uri = Uri.parse('http://10.0.2.2/my_store/getdata.php'); The address 10.0.2.2 is the Android Emulator alias for the development host loopback.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Inside the Android Emulator virtual networking environment, 10.0.2.2 is the special alias mapped to 127.0.0.1 (localhost) of the host computer running Apache/PHP.",
+    "explanationAr": "داخل محاكي أندرويد، يمثل العنوان 10.0.2.2 البوابة الافتراضية الخاصة المرتبطة بـ localhost (127.0.0.1) على جهاز الحاسوب المضيف لخادم PHP.",
     "codeSnippet": null
   },
   {
@@ -13556,13 +13556,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A physical phone cannot automatically use the Android Emulator loopback alias to reach a development server on another computer.",
-    "questionAr": "العبارة رقم 60: A physical phone cannot automatically use the Android Emulator loopback alias to reach a development server on another computer.",
+    "questionAr": "سؤال متعلق بالمنهج: A physical phone cannot automatically use the Android Emulator loopback alias to reach a development server on another computer.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13581,13 +13581,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "EXCLUDED FROM FINAL EXAM",
     "questionEn": "An inventory backend may use MySQLi prepared statements through $connect, while a secure upload handler may use PDO through $pdo.",
-    "questionAr": "سؤال رفع الصور عبر الـ API: An inventory backend may use MySQLi prepared statements through $connect, while a secure upload handler may use PDO through $pdo.",
+    "questionAr": "يقوم كود معالجة الرفع في PHP بنقل الملف المرفوع إلى مجلد uploads والتحقق من نوع وحجم الصورة.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "EXCLUDED FROM FINAL EXAM: Image upload via MultipartRequest / API is officially excluded from the final exam scope by Dr. Ruqaih Salman.",
-    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور عبر الـ API مستبعد رسمياً من الاختبار النهائي بقرار أستاذة المادة م/ رقية حسين سلمان.",
+    "explanationEn": "EXCLUDED FROM FINAL EXAM: Image upload via MultipartRequest / API is officially excluded from the final exam scope per Dr. Ruqaih Salman's syllabus announcement.",
+    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور والملفات عبر الـ API مستبعد رسمياً من الاختبار النهائي بقرار أستاذة المادة م/ رقية حسين سلمان.",
     "codeSnippet": null
   },
   {
@@ -13606,13 +13606,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A login endpoint should return the stored password hash to Flutter so the app can compare passwords locally.",
-    "questionAr": "العبارة رقم 62: A login endpoint should return the stored password hash to Flutter so the app can compare passwords locally.",
+    "questionAr": "سؤال متعلق بالمنهج: A login endpoint should return the stored password hash to Flutter so the app can compare passwords locally.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13631,13 +13631,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A registration handler should hash the password on the server before inserting it into the users table.",
-    "questionAr": "العبارة رقم 63: A registration handler should hash the password on the server before inserting it into the users table.",
+    "questionAr": "سؤال متعلق بالمنهج: A registration handler should hash the password on the server before inserting it into the users table.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13656,13 +13656,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "The inventory list decodes a JSON List and reads row keys such as item['item_name'].",
-    "questionAr": "العبارة رقم 64: The inventory list decodes a JSON List and reads row keys such as item['item_name'].",
+    "questionAr": "سؤال متعلق بالمنهج: The inventory list decodes a JSON List and reads row keys such as item['item_name'].",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13681,13 +13681,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "After a POS T create, update, or delete operation, a fresh GET is stronger evidence that the database persisted the change.",
-    "questionAr": "العبارة رقم 65: After a POS T create, update, or delete operation, a fresh GET is stronger evidence that the database persisted the change.",
+    "questionAr": "سؤال متعلق بالمنهج: After a POS T create, update, or delete operation, a fresh GET is stronger evidence that the database persisted the change.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13706,13 +13706,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "The delete interaction asks for confirmation before sending POST to deleteData.php.",
-    "questionAr": "العبارة رقم 66: The delete interaction asks for confirmation before sending POST to deleteData.php.",
+    "questionAr": "سؤال متعلق بالمنهج: The delete interaction asks for confirmation before sending POST to deleteData.php.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13731,13 +13731,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "EXCLUDED FROM FINAL EXAM",
     "questionEn": "If we have the following code snippe t: final XFile? image = await picker.pickImage( source: ImageSource.gallery, ); The image-picking workflow uses ImagePicker and returns an XFile?",
-    "questionAr": "سؤال رفع الصور عبر الـ API: If we have the following code snippe t: final XFile? image = await picker.pickImage( source: ImageSource.gallery, ); The image-picking workflow uses ImagePicker and returns an XFile?",
+    "questionAr": "تُستخدم دالة picker.pickImage() من حزمة image_picker لاختيار صورة من المعرض أو التقاطها بالكاميرا.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "EXCLUDED FROM FINAL EXAM: Image upload via MultipartRequest / API is officially excluded from the final exam scope by Dr. Ruqaih Salman.",
-    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور عبر الـ API مستبعد رسمياً من الاختبار النهائي بقرار أستاذة المادة م/ رقية حسين سلمان.",
+    "explanationEn": "EXCLUDED FROM FINAL EXAM: Image upload via MultipartRequest / API is officially excluded from the final exam scope per Dr. Ruqaih Salman's syllabus announcement.",
+    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور والملفات عبر الـ API مستبعد رسمياً من الاختبار النهائي بقرار أستاذة المادة م/ رقية حسين سلمان.",
     "codeSnippet": null
   },
   {
@@ -13756,13 +13756,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "EXCLUDED FROM FINAL EXAM",
     "questionEn": "If we have the following code snippet: final request = http.MultipartRequest('POST', uri) ..files.add(await http.MultipartFile.fromPath('image', image.path)); The multipart field name used for the uploaded file is image.",
-    "questionAr": "سؤال رفع الصور عبر الـ API: If we have the following code snippet: final request = http.MultipartRequest('POST', uri) ..files.add(await http.MultipartFile.fromPath('image', image.path)); The multipart field name used for the uploaded file is image.",
+    "questionAr": "يُستخدم كلاس MultipartRequest في حزمة http لإرسال طلبات متعددة الأجزاء لرفع الصور والملفات إلى الخادم.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "EXCLUDED FROM FINAL EXAM: Image upload via MultipartRequest / API is officially excluded from the final exam scope by Dr. Ruqaih Salman.",
-    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور عبر الـ API مستبعد رسمياً من الاختبار النهائي بقرار أستاذة المادة م/ رقية حسين سلمان.",
+    "explanationEn": "EXCLUDED FROM FINAL EXAM: Image upload via MultipartRequest / API is officially excluded from the final exam scope per Dr. Ruqaih Salman's syllabus announcement.",
+    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور والملفات عبر الـ API مستبعد رسمياً من الاختبار النهائي بقرار أستاذة المادة م/ رقية حسين سلمان.",
     "codeSnippet": null
   },
   {
@@ -13781,13 +13781,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "EXCLUDED FROM FINAL EXAM",
     "questionEn": "An image upload is not complete when the phone receives an XFile; the server response must also be handled.",
-    "questionAr": "سؤال رفع الصور عبر الـ API: An image upload is not complete when the phone receives an XFile; the server response must also be handled.",
+    "questionAr": "سؤال رفع الصور (مستبعد من الاختبار): An image upload is not complete when the phone receives an XFile; the server response must also be handled.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "EXCLUDED FROM FINAL EXAM: Image upload via MultipartRequest / API is officially excluded from the final exam scope by Dr. Ruqaih Salman.",
-    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور عبر الـ API مستبعد رسمياً من الاختبار النهائي بقرار أستاذة المادة م/ رقية حسين سلمان.",
+    "explanationEn": "EXCLUDED FROM FINAL EXAM: Image upload via MultipartRequest / API is officially excluded from the final exam scope per Dr. Ruqaih Salman's syllabus announcement.",
+    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور والملفات عبر الـ API مستبعد رسمياً من الاختبار النهائي بقرار أستاذة المادة م/ رقية حسين سلمان.",
     "codeSnippet": null
   },
   {
@@ -13806,13 +13806,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A database should store a server -side image path or URL rather than the phone’s temporary file path.",
-    "questionAr": "العبارة رقم 70: A database should store a server -side image path or URL rather than the phone’s temporary file path.",
+    "questionAr": "سؤال متعلق بالمنهج: A database should store a server -side image path or URL rather than the phone’s temporary file path.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13831,13 +13831,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "EXCLUDED FROM FINAL EXAM",
     "questionEn": "If we have the following code snippet: if ($_FILES['image']['error'] !== UPLOAD_ERR_OK) { exit; } $finfo = new finfo(FILEINFO_MIME_TYPE); $mime = $finfo->file($_FILES['image']['tmp_name']); The upload endpoint validates upload status, size, MIME type, and the generated server filename before inserting the path.",
-    "questionAr": "سؤال رفع الصور عبر الـ API: If we have the following code snippet: if ($_FILES['image']['error'] !== UPLOAD_ERR_OK) { exit; } $finfo = new finfo(FILEINFO_MIME_TYPE); $mime = $finfo->file($_FILES['image']['tmp_name']); The upload endpoint validates upload status, size, MIME type, and the generated server filename before inserting the path.",
+    "questionAr": "سؤال رفع الصور (مستبعد من الاختبار): If we have the following code snippet: if ($_FILES['image']['error'] !== UPLOAD_ERR_OK) { exit; } $finfo = new finfo(FILEINFO_MIME_TYPE); $mime = $finfo->file($_FILES['image']['tmp_name']); The upload endpoint validates upload status, size, MIME type, and the generated server filename before inserting the path.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "EXCLUDED FROM FINAL EXAM: Image upload via MultipartRequest / API is officially excluded from the final exam scope by Dr. Ruqaih Salman.",
-    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور عبر الـ API مستبعد رسمياً من الاختبار النهائي بقرار أستاذة المادة م/ رقية حسين سلمان.",
+    "explanationEn": "EXCLUDED FROM FINAL EXAM: Image upload via MultipartRequest / API is officially excluded from the final exam scope per Dr. Ruqaih Salman's syllabus announcement.",
+    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور والملفات عبر الـ API مستبعد رسمياً من الاختبار النهائي بقرار أستاذة المادة م/ رقية حسين سلمان.",
     "codeSnippet": null
   },
   {
@@ -13856,13 +13856,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "EXCLUDED FROM FINAL EXAM",
     "questionEn": "An upload handler should not trust the original client filename extension when deciding whether a file is safe.",
-    "questionAr": "سؤال رفع الصور عبر الـ API: An upload handler should not trust the original client filename extension when deciding whether a file is safe.",
+    "questionAr": "يقوم كود معالجة الرفع في PHP بنقل الملف المرفوع إلى مجلد uploads والتحقق من نوع وحجم الصورة.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "EXCLUDED FROM FINAL EXAM: Image upload via MultipartRequest / API is officially excluded from the final exam scope by Dr. Ruqaih Salman.",
-    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور عبر الـ API مستبعد رسمياً من الاختبار النهائي بقرار أستاذة المادة م/ رقية حسين سلمان.",
+    "explanationEn": "EXCLUDED FROM FINAL EXAM: Image upload via MultipartRequest / API is officially excluded from the final exam scope per Dr. Ruqaih Salman's syllabus announcement.",
+    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور والملفات عبر الـ API مستبعد رسمياً من الاختبار النهائي بقرار أستاذة المادة م/ رقية حسين سلمان.",
     "codeSnippet": null
   },
   {
@@ -13881,13 +13881,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final decoded = jsonDecode(response.body); A FormatException can indicate that the response body is not valid JSON for the expected API contract.",
-    "questionAr": "العبارة رقم 73: If we have the following code snippet: final decoded = jsonDecode(response.body); A FormatException can indicate that the response body is not valid JSON for the expected API contract.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final decoded = jsonDecode(response.body); A FormatException can indicate that the response body is not valid JSON for the expected API contract.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13906,13 +13906,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A network exercise should evaluate request, status, and JSON evidence together with the matching Flutter screen state. ( ) Code and Screen True / False Compare each code fragment with the disp layed target screen. Mark True or False.",
-    "questionAr": "العبارة رقم 74: A network exercise should evaluate request, status, and JSON evidence together with the matching Flutter screen state. ( ) Code and Screen True / False Compare each code fragment with the disp layed target screen. Mark True or False.",
+    "questionAr": "سؤال متعلق بالمنهج: A network exercise should evaluate request, status, and JSON evidence together with the matching Flutter screen state. ( ) Code and Screen True / False Compare each code fragment with the disp layed target screen. Mark True or False.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13931,13 +13931,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: if (snapshot.connectionState == ConnectionState.waiting) { return const Center(child: CircularProgressIndicator()); }",
-    "questionAr": "العبارة رقم 75: If we have the following code snippet: if (snapshot.connectionState == ConnectionState.waiting) { return const Center(child: CircularProgressIndicator()); }",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (snapshot.connectionState == ConnectionState.waiting) { return const Center(child: CircularProgressIndicator()); }",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13956,13 +13956,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final jsonText = await rootBundle .loadString('jsonfile/productlist.json'); The following code is sufficient to produce the loaded product screen even when jsonfile/productlist.json was not declared in pu bspec.yaml.",
-    "questionAr": "العبارة رقم 76: If we have the following code snippet: final jsonText = await rootBundle .loadString('jsonfile/productlist.json'); The following code is sufficient to produce the loaded product screen even when jsonfile/productlist.json was not declared in pu bspec.yaml.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final jsonText = await rootBundle .loadString('jsonfile/productlist.json'); The following code is sufficient to produce the loaded product screen even when jsonfile/productlist.json was not declared in pu bspec.yaml.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13981,13 +13981,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: if (response.statusCode != 200) throw Exception(...); final results = jsonDecode(response.body)['results'] as List<dynamic>; return results;",
-    "questionAr": "العبارة رقم 77: If we have the following code snippet: if (response.statusCode != 200) throw Exception(...); final results = jsonDecode(response.body)['results'] as List<dynamic>; return results;",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (response.statusCode != 200) throw Exception(...); final results = jsonDecode(response.body)['results'] as List<dynamic>; return results;",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -14006,13 +14006,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: if (snapshot.hasError) { return Center(child: Text('${snapshot.error}')); } If snapshot.hasError is true, does this code represent an API error state in which a retry action could be added?",
-    "questionAr": "العبارة رقم 78: If we have the following code snippet: if (snapshot.hasError) { return Center(child: Text('${snapshot.error}')); } If snapshot.hasError is true, does this code represent an API error state in which a retry action could be added?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (snapshot.hasError) { return Center(child: Text('${snapshot.error}')); } If snapshot.hasError is true, does this code represent an API error state in which a retry action could be added?",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -14031,13 +14031,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: await addData(); if (!mounted) return; Navigator.pop(context, true);",
-    "questionAr": "العبارة رقم 79: If we have the following code snippet: await addData(); if (!mounted) return; Navigator.pop(context, true);",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: await addData(); if (!mounted) return; Navigator.pop(context, true);",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -14056,13 +14056,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: await http.post( Uri.parse('$baseUrl/deleteData.php'), body: {'id': id.toString()}, ); // Parent reloads with GET. A successful POST to delet eData.php should be followed by a fresh GET that can produce the after -delete list shown.",
-    "questionAr": "العبارة رقم 80: If we have the following code snippet: await http.post( Uri.parse('$baseUrl/deleteData.php'), body: {'id': id.toString()}, ); // Parent reloads with GET. A successful POST to delet eData.php should be followed by a fresh GET that can produce the after -delete list shown.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: await http.post( Uri.parse('$baseUrl/deleteData.php'), body: {'id': id.toString()}, ); // Parent reloads with GET. A successful POST to delet eData.php should be followed by a fresh GET that can produce the after -delete list shown.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -14081,13 +14081,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "EXCLUDED FROM FINAL EXAM",
     "questionEn": "If we have the following code snippet: final XFile? image = await picker.pickImage(source: ImageSource.gallery); if (image == null) return;",
-    "questionAr": "سؤال رفع الصور عبر الـ API: If we have the following code snippet: final XFile? image = await picker.pickImage(source: ImageSource.gallery); if (image == null) return;",
+    "questionAr": "تُستخدم دالة picker.pickImage() من حزمة image_picker لاختيار صورة من المعرض أو التقاطها بالكاميرا.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "EXCLUDED FROM FINAL EXAM: Image upload via MultipartRequest / API is officially excluded from the final exam scope by Dr. Ruqaih Salman.",
-    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور عبر الـ API مستبعد رسمياً من الاختبار النهائي بقرار أستاذة المادة م/ رقية حسين سلمان.",
+    "explanationEn": "EXCLUDED FROM FINAL EXAM: Image upload via MultipartRequest / API is officially excluded from the final exam scope per Dr. Ruqaih Salman's syllabus announcement.",
+    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور والملفات عبر الـ API مستبعد رسمياً من الاختبار النهائي بقرار أستاذة المادة م/ رقية حسين سلمان.",
     "codeSnippet": null
   },
   {
@@ -14106,13 +14106,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: if (response.statusCode != 200 && response.statusCode != 201) { throw Exception(...); } if (!mounted) return; await reloadImages(); After an upload response of 200 or 201 and reloadImages(), the refreshed server grid can disp lay the new image state.",
-    "questionAr": "العبارة رقم 82: If we have the following code snippet: if (response.statusCode != 200 && response.statusCode != 201) { throw Exception(...); } if (!mounted) return; await reloadImages(); After an upload response of 200 or 201 and reloadImages(), the refreshed server grid can disp lay the new image state.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (response.statusCode != 200 && response.statusCode != 201) { throw Exception(...); } if (!mounted) return; await reloadImages(); After an upload response of 200 or 201 and reloadImages(), the refreshed server grid can disp lay the new image state.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This statement is true according to the official Lecture 10 REST API curriculum.",
-    "explanationAr": "هذه العبارة صحيحة تماماً وتتوافق مع مفاهيم المحاضرة العاشرة (REST API).",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -14219,7 +14219,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which HTTP status code indicates that the requested resource was not found?",
-    "questionAr": "السؤال رقم 3: Which HTTP status code indicates that the requested resource was not found?",
+    "questionAr": "أي رمز حالة HTTP يشير إلى أن المورد المطلوب غير موجود على الخادم (Not Found)؟",
     "options": [
       {
         "label": "A",
@@ -14243,8 +14243,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "404 Not Found is the official HTTP standard code signifying that the target endpoint or record does not exist on the server.",
+    "explanationAr": "رمز الحالة 404 Not Found هو الرمز القياسي الذي يعني أن المسار أو السجل المطلوب غير موجود على خادم الويب.",
     "codeSnippet": null
   },
   {
@@ -14263,7 +14263,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "How do you parse JSON data in Flutter after making an HTTP request?",
-    "questionAr": "السؤال رقم 4: How do you parse JSON data in Flutter after making an HTTP request?",
+    "questionAr": "كيف تقوم بتحليل بيانات JSON في فلاتر بعد استلامها من طلب HTTP؟",
     "options": [
       {
         "label": "A",
@@ -14287,8 +14287,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Using jsonDecode(response.body) from the dart:convert library converts the raw JSON string into a Dart Map or List.",
+    "explanationAr": "باستخدام دالة jsonDecode(response.body) من مكتبة dart:convert لتحويل النص بصيغة JSON إلى قواميس Map أو قوائم List في دارت.",
     "codeSnippet": null
   },
   {
@@ -14307,7 +14307,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which package is commonly used in Flutter for making HTTP requests?",
-    "questionAr": "السؤال رقم 5: Which package is commonly used in Flutter for making HTTP requests?",
+    "questionAr": "أي حزمة هي الأكثر استخداماً في فلاتر لإرسال واستقبال طلبات HTTP للشبكة؟",
     "options": [
       {
         "label": "A",
@@ -14331,8 +14331,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "The official `http` package (package:http/http.dart) provides simple, robust methods (http.get, http.post, etc.) for communicating with REST backends.",
+    "explanationAr": "حزمة `http` الرسمية (package:http/http.dart) هي الحزمة الأساسية المعتمدة في فلاتر لإجراء طلبات الشبكة (http.get, http.post).",
     "codeSnippet": null
   },
   {
@@ -14351,7 +14351,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which HTTP method would you use to update an existing resource in a REST PHP API?",
-    "questionAr": "السؤال رقم 6: Which HTTP method would you use to update an existing resource in a REST PHP API?",
+    "questionAr": "سؤال متعلق بالمنهج: Which HTTP method would you use to update an existing resource in a REST PHP API?",
     "options": [
       {
         "label": "A",
@@ -14375,8 +14375,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -14395,7 +14395,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What does a 500 Internal Server Error indicate when calling a REST PHP API?",
-    "questionAr": "السؤال رقم 7: What does a 500 Internal Server Error indicate when calling a REST PHP API?",
+    "questionAr": "سؤال متعلق بالمنهج: What does a 500 Internal Server Error indicate when calling a REST PHP API?",
     "options": [
       {
         "label": "A",
@@ -14419,8 +14419,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -14439,7 +14439,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which of the following header s is required when sending JSON data to a REST PHP API?",
-    "questionAr": "السؤال رقم 8: Which of the following header s is required when sending JSON data to a REST PHP API?",
+    "questionAr": "سؤال متعلق بالمنهج: Which of the following header s is required when sending JSON data to a REST PHP API?",
     "options": [
       {
         "label": "A",
@@ -14463,8 +14463,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -14483,7 +14483,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What widget is commonly used in Flutter to handle asynchronous data from an HTTP request?",
-    "questionAr": "السؤال رقم 9: What widget is commonly used in Flutter to handle asynchronous data from an HTTP request?",
+    "questionAr": "سؤال متعلق بالمنهج: What widget is commonly used in Flutter to handle asynchronous data from an HTTP request?",
     "options": [
       {
         "label": "A",
@@ -14507,8 +14507,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -14527,7 +14527,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which function would you use to send data in a URL -encoded format in Flutter?",
-    "questionAr": "السؤال رقم 10: Which function would you use to send data in a URL -encoded format in Flutter?",
+    "questionAr": "سؤال متعلق بالمنهج: Which function would you use to send data in a URL -encoded format in Flutter?",
     "options": [
       {
         "label": "A",
@@ -14551,8 +14551,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -14571,7 +14571,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "………………………….enable seamless communication between different software applications, allowing them to exchange data and functionality.",
-    "questionAr": "السؤال رقم 11: ………………………….enable seamless communication between different software applications, allowing them to exchange data and functionality.",
+    "questionAr": "سؤال متعلق بالمنهج: ………………………….enable seamless communication between different software applications, allowing them to exchange data and functionality.",
     "options": [
       {
         "label": "A",
@@ -14595,8 +14595,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -14615,7 +14615,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "An API serves as a bridge that allows different software applications to communicate with each other. In the context of mobile app development, APIs are often used to fetch data from ……………………………………….",
-    "questionAr": "السؤال رقم 12: An API serves as a bridge that allows different software applications to communicate with each other. In the context of mobile app development, APIs are often used to fetch data from ……………………………………….",
+    "questionAr": "سؤال متعلق بالمنهج: An API serves as a bridge that allows different software applications to communicate with each other. In the context of mobile app development, APIs are often used to fetch data from ……………………………………….",
     "options": [
       {
         "label": "A",
@@ -14639,8 +14639,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -14659,7 +14659,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "To make HTTP requests, add the ……………….. package to your pubspec. yaml file and run flutter pub get",
-    "questionAr": "السؤال رقم 13: To make HTTP requests, add the ……………….. package to your pubspec. yaml file and run flutter pub get",
+    "questionAr": "سؤال متعلق بالمنهج: To make HTTP requests, add the ……………….. package to your pubspec. yaml file and run flutter pub get",
     "options": [
       {
         "label": "A",
@@ -14683,8 +14683,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -14703,7 +14703,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "When a Flutter app sends a GET request to an API endpoint, it receives a response containing the requested data, typical l y in ………………………. format.",
-    "questionAr": "السؤال رقم 14: When a Flutter app sends a GET request to an API endpoint, it receives a response containing the requested data, typical l y in ………………………. format.",
+    "questionAr": "سؤال متعلق بالمنهج: When a Flutter app sends a GET request to an API endpoint, it receives a response containing the requested data, typical l y in ………………………. format.",
     "options": [
       {
         "label": "A",
@@ -14727,8 +14727,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -14747,7 +14747,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "By understanding the concepts of……………………………………………………, developers can fetch and disp lay data from various sources, enabling the creation of dynamic and responsive mobile applications.",
-    "questionAr": "السؤال رقم 15: By understanding the concepts of……………………………………………………, developers can fetch and disp lay data from various sources, enabling the creation of dynamic and responsive mobile applications.",
+    "questionAr": "سؤال متعلق بالمنهج: By understanding the concepts of……………………………………………………, developers can fetch and disp lay data from various sources, enabling the creation of dynamic and responsive mobile applications.",
     "options": [
       {
         "label": "A",
@@ -14771,8 +14771,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -14791,7 +14791,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "…………………………: After receiving data from the API, you’ll need to parse the JSON response into Dart objects for use in your app.",
-    "questionAr": "السؤال رقم 16: …………………………: After receiving data from the API, you’ll need to parse the JSON response into Dart objects for use in your app.",
+    "questionAr": "سؤال متعلق بالمنهج: …………………………: After receiving data from the API, you’ll need to parse the JSON response into Dart objects for use in your app.",
     "options": [
       {
         "label": "A",
@@ -14815,8 +14815,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -14835,7 +14835,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "There are many benefits to using an API in Flutter. APIs allow you to:",
-    "questionAr": "السؤال رقم 17: There are many benefits to using an API in Flutter. APIs allow you to:",
+    "questionAr": "سؤال متعلق بالمنهج: There are many benefits to using an API in Flutter. APIs allow you to:",
     "options": [
       {
         "label": "A",
@@ -14859,8 +14859,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -14879,7 +14879,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "An API request typically includes a…………………………………………………………...",
-    "questionAr": "السؤال رقم 18: An API request typically includes a…………………………………………………………...",
+    "questionAr": "سؤال متعلق بالمنهج: An API request typically includes a…………………………………………………………...",
     "options": [
       {
         "label": "A",
@@ -14903,8 +14903,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -14923,7 +14923,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What’s inside curly brackets is called ……………………….and it’s always made up of a string, which is the key of the field, and a value which can be a string, a number, a Boolean, a list, null or another object.",
-    "questionAr": "السؤال رقم 19: What’s inside curly brackets is called ……………………….and it’s always made up of a string, which is the key of the field, and a value which can be a string, a number, a Boolean, a list, null or another object.",
+    "questionAr": "سؤال متعلق بالمنهج: What’s inside curly brackets is called ……………………….and it’s always made up of a string, which is the key of the field, and a value which can be a string, a number, a Boolean, a list, null or another object.",
     "options": [
       {
         "label": "A",
@@ -14947,8 +14947,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -14967,7 +14967,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "In Flutter you can decide betwee n manually parsing strings, using facilities from import …………………or usi ng automatic code generation, which does most of the work automatically.",
-    "questionAr": "السؤال رقم 20: In Flutter you can decide betwee n manually parsing strings, using facilities from import …………………or usi ng automatic code generation, which does most of the work automatically.",
+    "questionAr": "سؤال متعلق بالمنهج: In Flutter you can decide betwee n manually parsing strings, using facilities from import …………………or usi ng automatic code generation, which does most of the work automatically.",
     "options": [
       {
         "label": "A",
@@ -14991,8 +14991,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15011,7 +15011,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Flutter provides http pack age to use http resources. The http package uses …………………………. features and provides many high -level methods.",
-    "questionAr": "السؤال رقم 21: Flutter provides http pack age to use http resources. The http package uses …………………………. features and provides many high -level methods.",
+    "questionAr": "سؤال متعلق بالمنهج: Flutter provides http pack age to use http resources. The http package uses …………………………. features and provides many high -level methods.",
     "options": [
       {
         "label": "A",
@@ -15035,8 +15035,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15055,7 +15055,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What’s inside curly brackets is called:",
-    "questionAr": "السؤال رقم 22: What’s inside curly brackets is called:",
+    "questionAr": "سؤال متعلق بالمنهج: What’s inside curly brackets is called:",
     "options": [
       {
         "label": "A",
@@ -15079,8 +15079,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15099,7 +15099,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Fetching data from APIs is a common requirement in Flutter apps. To interact with APIs, you can use packages like ………………",
-    "questionAr": "السؤال رقم 23: Fetching data from APIs is a common requirement in Flutter apps. To interact with APIs, you can use packages like ………………",
+    "questionAr": "سؤال متعلق بالمنهج: Fetching data from APIs is a common requirement in Flutter apps. To interact with APIs, you can use packages like ………………",
     "options": [
       {
         "label": "A",
@@ -15123,8 +15123,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15143,7 +15143,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: import 'package:http/http.dart' as httproq; Which line correctly retrieves data from the server?",
-    "questionAr": "السؤال رقم 24: If we have the following code snippet: import 'package:http/http.dart' as httproq; Which line correctly retrieves data from the server?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: import 'package:http/http.dart' as httproq; Which line correctly retrieves data from the server?",
     "options": [
       {
         "label": "A",
@@ -15167,8 +15167,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15187,7 +15187,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: import 'package:http/http.dart' as httproq; final item = {'itemcode': code, 'itemname': name, 'price': price, 'stock': stock}; Which line correctly sends the item fields to the server?",
-    "questionAr": "السؤال رقم 25: If we have the following code snippet: import 'package:http/http.dart' as httproq; final item = {'itemcode': code, 'itemname': name, 'price': price, 'stock': stock}; Which line correctly sends the item fields to the server?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: import 'package:http/http.dart' as httproq; final item = {'itemcode': code, 'itemname': name, 'price': price, 'stock': stock}; Which line correctly sends the item fields to the server?",
     "options": [
       {
         "label": "A",
@@ -15211,8 +15211,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15231,7 +15231,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "An API interaction is described by method, endpoint, headers, body, status, and response. Which item is NOT one of these parts?",
-    "questionAr": "السؤال رقم 26: An API interaction is described by method, endpoint, headers, body, status, and response. Which item is NOT one of these parts?",
+    "questionAr": "سؤال متعلق بالمنهج: An API interaction is described by method, endpoint, headers, body, status, and response. Which item is NOT one of these parts?",
     "options": [
       {
         "label": "A",
@@ -15255,8 +15255,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15275,7 +15275,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Suppose a Flutter client sends HTTP requests to a PHP API , and the PHP API executes SQL against MySQL. Which boundary should own raw SQL and database credentials?",
-    "questionAr": "السؤال رقم 27: Suppose a Flutter client sends HTTP requests to a PHP API , and the PHP API executes SQL against MySQL. Which boundary should own raw SQL and database credentials?",
+    "questionAr": "سؤال متعلق بالمنهج: Suppose a Flutter client sends HTTP requests to a PHP API , and the PHP API executes SQL against MySQL. Which boundary should own raw SQL and database credentials?",
     "options": [
       {
         "label": "A",
@@ -15299,8 +15299,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15319,7 +15319,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which HTTP method is normally associated with updating selected field s of an existing resource?",
-    "questionAr": "السؤال رقم 28: Which HTTP method is normally associated with updating selected field s of an existing resource?",
+    "questionAr": "سؤال متعلق بالمنهج: Which HTTP method is normally associated with updating selected field s of an existing resource?",
     "options": [
       {
         "label": "A",
@@ -15343,8 +15343,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15363,7 +15363,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which status code is commonly used to indicate that a create operation succeeded?",
-    "questionAr": "السؤال رقم 29: Which status code is commonly used to indicate that a create operation succeeded?",
+    "questionAr": "سؤال متعلق بالمنهج: Which status code is commonly used to indicate that a create operation succeeded?",
     "options": [
       {
         "label": "A",
@@ -15387,8 +15387,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15407,7 +15407,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: if (response.statusCode != 200 && response.statusCode != 201) { throw Exception('Request failed');",
-    "questionAr": "السؤال رقم 30: If we have the following code snippet: if (response.statusCode != 200 && response.statusCode != 201) { throw Exception('Request failed');",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (response.statusCode != 200 && response.statusCode != 201) { throw Exception('Request failed');",
     "options": [
       {
         "label": "A",
@@ -15431,8 +15431,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15451,7 +15451,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final decoded = jsonDecode('[1, 2, 3]'); After jsonDecode runs, which Dart structure naturally represents the top -level JSON array?",
-    "questionAr": "السؤال رقم 31: If we have the following code snippet: final decoded = jsonDecode('[1, 2, 3]'); After jsonDecode runs, which Dart structure naturally represents the top -level JSON array?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final decoded = jsonDecode('[1, 2, 3]'); After jsonDecode runs, which Dart structure naturally represents the top -level JSON array?",
     "options": [
       {
         "label": "A",
@@ -15475,8 +15475,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15495,7 +15495,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which JSON value is valid in a Dart value decoded from JSON?",
-    "questionAr": "السؤال رقم 32: Which JSON value is valid in a Dart value decoded from JSON?",
+    "questionAr": "سؤال متعلق بالمنهج: Which JSON value is valid in a Dart value decoded from JSON?",
     "options": [
       {
         "label": "A",
@@ -15519,8 +15519,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15539,7 +15539,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: class ProductDataModel { final String? oldPrice; final String? price; ProductDataModel.fromJson(Map<String, dynamic> json) : oldPrice = json['oldPrice'] as String?,",
-    "questionAr": "السؤال رقم 33: If we have the following code snippet: class ProductDataModel { final String? oldPrice; final String? price; ProductDataModel.fromJson(Map<String, dynamic> json) : oldPrice = json['oldPrice'] as String?,",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: class ProductDataModel { final String? oldPrice; final String? price; ProductDataModel.fromJson(Map<String, dynamic> json) : oldPrice = json['oldPrice'] as String?,",
     "options": [
       {
         "label": "A",
@@ -15563,8 +15563,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15583,7 +15583,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final body = {'name': 'Mouse', 'price': '25'}; final text = jsonEncode(body); Which function serializes the Dart map -like value into JSON text?",
-    "questionAr": "السؤال رقم 34: If we have the following code snippet: final body = {'name': 'Mouse', 'price': '25'}; final text = jsonEncode(body); Which function serializes the Dart map -like value into JSON text?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final body = {'name': 'Mouse', 'price': '25'}; final text = jsonEncode(body); Which function serializes the Dart map -like value into JSON text?",
     "options": [
       {
         "label": "A",
@@ -15607,8 +15607,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15627,7 +15627,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: class ProductDataModel { final String? imageURL; ProductDataModel.fromJson(Map<String, dynamic> json)",
-    "questionAr": "السؤال رقم 35: If we have the following code snippet: class ProductDataModel { final String? imageURL; ProductDataModel.fromJson(Map<String, dynamic> json)",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: class ProductDataModel { final String? imageURL; ProductDataModel.fromJson(Map<String, dynamic> json)",
     "options": [
       {
         "label": "A",
@@ -15651,8 +15651,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15671,7 +15671,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final jsonText = await rootBundle.loadString('jsonfile/productlist.json'); Which asset path must be registered in pubspec.yaml so that this code can load the file?",
-    "questionAr": "السؤال رقم 36: If we have the following code snippet: final jsonText = await rootBundle.loadString('jsonfile/productlist.json'); Which asset path must be registered in pubspec.yaml so that this code can load the file?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final jsonText = await rootBundle.loadString('jsonfile/productlist.json'); Which asset path must be registered in pubspec.yaml so that this code can load the file?",
     "options": [
       {
         "label": "A",
@@ -15695,8 +15695,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15715,7 +15715,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final jsonText = await rootBundle.loadString('jsonfile/productlist.json'); Which API loads the registered local JSON asset as text?",
-    "questionAr": "السؤال رقم 37: If we have the following code snippet: final jsonText = await rootBundle.loadString('jsonfile/productlist.json'); Which API loads the registered local JSON asset as text?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final jsonText = await rootBundle.loadString('jsonfile/productlist.json'); Which API loads the registered local JSON asset as text?",
     "options": [
       {
         "label": "A",
@@ -15739,8 +15739,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15759,7 +15759,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final decoded = jsonDecode(jsonText) as List<dynamic>; final products = decoded.map((item) => ProductDataModel.fromJson(item)).toList(); What type is the decoded local JSON value cast to before its items are mapped?",
-    "questionAr": "السؤال رقم 38: If we have the following code snippet: final decoded = jsonDecode(jsonText) as List<dynamic>; final products = decoded.map((item) => ProductDataModel.fromJson(item)).toList(); What type is the decoded local JSON value cast to before its items are mapped?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final decoded = jsonDecode(jsonText) as List<dynamic>; final products = decoded.map((item) => ProductDataModel.fromJson(item)).toList(); What type is the decoded local JSON value cast to before its items are mapped?",
     "options": [
       {
         "label": "A",
@@ -15783,8 +15783,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15803,7 +15803,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: FutureBuilder<List<ProductDataModel>>( future: readJsonData(), builder: (context, snapsho t) => const SizedBox(), ); Which expression is supplied to the FutureBuilder future property?",
-    "questionAr": "السؤال رقم 39: If we have the following code snippet: FutureBuilder<List<ProductDataModel>>( future: readJsonData(), builder: (context, snapsho t) => const SizedBox(), ); Which expression is supplied to the FutureBuilder future property?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: FutureBuilder<List<ProductDataModel>>( future: readJsonData(), builder: (context, snapsho t) => const SizedBox(), ); Which expression is supplied to the FutureBuilder future property?",
     "options": [
       {
         "label": "A",
@@ -15827,8 +15827,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15847,7 +15847,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: if (snapshot.connectionState == ConnectionStat e.waiting) { return const Center(child: CircularProgressIndicator()); } What should the FutureBuilder disp lay while the asset Future is waiting?",
-    "questionAr": "السؤال رقم 40: If we have the following code snippet: if (snapshot.connectionState == ConnectionStat e.waiting) { return const Center(child: CircularProgressIndicator()); } What should the FutureBuilder disp lay while the asset Future is waiting?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (snapshot.connectionState == ConnectionStat e.waiting) { return const Center(child: CircularProgressIndicator()); } What should the FutureBuilder disp lay while the asset Future is waiting?",
     "options": [
       {
         "label": "A",
@@ -15871,8 +15871,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15891,7 +15891,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final items = snapshot.data ?? const <ProductDataModel>[]; if (items.isEmpty) { return const Center(child: Text('No products found')); } What is the intended UI when the decoded product list is empty?",
-    "questionAr": "السؤال رقم 41: If we have the following code snippet: final items = snapshot.data ?? const <ProductDataModel>[]; if (items.isEmpty) { return const Center(child: Text('No products found')); } What is the intended UI when the decoded product list is empty?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final items = snapshot.data ?? const <ProductDataModel>[]; if (items.isEmpty) { return const Center(child: Text('No products found')); } What is the intended UI when the decoded product list is empty?",
     "options": [
       {
         "label": "A",
@@ -15915,8 +15915,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15935,7 +15935,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: ListView.builder( itemCount: products.length,",
-    "questionAr": "السؤال رقم 42: If we have the following code snippet: ListView.builder( itemCount: products.length,",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: ListView.builder( itemCount: products.length,",
     "options": [
       {
         "label": "A",
@@ -15959,8 +15959,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15979,7 +15979,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final response = await http.get( Uri.parse('https://randomuser.me/api/?results=20'), ); Which exact URL is passed to the RandomUser GET requ est?",
-    "questionAr": "السؤال رقم 43: If we have the following code snippet: final response = await http.get( Uri.parse('https://randomuser.me/api/?results=20'), ); Which exact URL is passed to the RandomUser GET requ est?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = await http.get( Uri.parse('https://randomuser.me/api/?results=20'), ); Which exact URL is passed to the RandomUser GET requ est?",
     "options": [
       {
         "label": "A",
@@ -16003,8 +16003,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16023,7 +16023,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: <uses-permission android:name=\"android.permission.INTERNET\" /> Which Android permission is required for the network request?",
-    "questionAr": "السؤال رقم 44: If we have the following code snippet: <uses-permission android:name=\"android.permission.INTERNET\" /> Which Android permission is required for the network request?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: <uses-permission android:name=\"android.permission.INTERNET\" /> Which Android permission is required for the network request?",
     "options": [
       {
         "label": "A",
@@ -16047,8 +16047,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16067,7 +16067,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final response = await http.get(uri); if (response.statusCode != 200) { throw Exception('Request failed'); } What is checked immediately after the RandomUser GET response?",
-    "questionAr": "السؤال رقم 45: If we have the following code snippet: final response = await http.get(uri); if (response.statusCode != 200) { throw Exception('Request failed'); } What is checked immediately after the RandomUser GET response?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = await http.get(uri); if (response.statusCode != 200) { throw Exception('Request failed'); } What is checked immediately after the RandomUser GET response?",
     "options": [
       {
         "label": "A",
@@ -16091,8 +16091,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16111,7 +16111,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final decoded = jsonDecode(response.body ); final results = decoded['results'] as List<dynamic>; What type does the parser expect under the top -level key results?",
-    "questionAr": "السؤال رقم 46: If we have the following code snippet: final decoded = jsonDecode(response.body ); final results = decoded['results'] as List<dynamic>; What type does the parser expect under the top -level key results?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final decoded = jsonDecode(response.body ); final results = decoded['results'] as List<dynamic>; What type does the parser expect under the top -level key results?",
     "options": [
       {
         "label": "A",
@@ -16135,8 +16135,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16155,7 +16155,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final age = user['dob']['age']; final avatar = user['picture']['large']; Which nested value is disp layed as the trailing age?",
-    "questionAr": "السؤال رقم 47: If we have the following code snippet: final age = user['dob']['age']; final avatar = user['picture']['large']; Which nested value is disp layed as the trailing age?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final age = user['dob']['age']; final avatar = user['picture']['large']; Which nested value is disp layed as the trailing age?",
     "options": [
       {
         "label": "A",
@@ -16179,8 +16179,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16199,7 +16199,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: if (snapshot.hasError) { return Center(child: Text('${snapshot.error}')); } What does the FutureBuilder render when snapshot.hasError is true?",
-    "questionAr": "السؤال رقم 48: If we have the following code snippet: if (snapshot.hasError) { return Center(child: Text('${snapshot.error}')); } What does the FutureBuilder render when snapshot.hasError is true?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (snapshot.hasError) { return Center(child: Text('${snapshot.error}')); } What does the FutureBuilder render when snapshot.hasError is true?",
     "options": [
       {
         "label": "A",
@@ -16223,8 +16223,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16243,7 +16243,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snip pet: final response = await http.post( uri,",
-    "questionAr": "السؤال رقم 49: If we have the following code snip pet: final response = await http.post( uri,",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snip pet: final response = await http.post( uri,",
     "options": [
       {
         "label": "A",
@@ -16267,8 +16267,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16287,7 +16287,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: if (response.statusCode != 200 && response.statusCode != 204) { throw Exception('Update failed'); } Which status pair is accepted by this PUT success check?",
-    "questionAr": "السؤال رقم 50: If we have the following code snippet: if (response.statusCode != 200 && response.statusCode != 204) { throw Exception('Update failed'); } Which status pair is accepted by this PUT success check?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (response.statusCode != 200 && response.statusCode != 204) { throw Exception('Update failed'); } Which status pair is accepted by this PUT success check?",
     "options": [
       {
         "label": "A",
@@ -16311,8 +16311,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16331,7 +16331,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: if (response.statusCode != 200 && response.statusCode != 204) { throw Exception('Delete failed'); } Which status pair is accepted by this DELETE success check?",
-    "questionAr": "السؤال رقم 51: If we have the following code snippet: if (response.statusCode != 200 && response.statusCode != 204) { throw Exception('Delete failed'); } Which status pair is accepted by this DELETE success check?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (response.statusCode != 200 && response.statusCode != 204) { throw Exception('Delete failed'); } Which status pair is accepted by this DELETE success check?",
     "options": [
       {
         "label": "A",
@@ -16355,8 +16355,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16375,7 +16375,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "In an inventory application, which layer collects user input and renders the Flutter UI states?",
-    "questionAr": "السؤال رقم 52: In an inventory application, which layer collects user input and renders the Flutter UI states?",
+    "questionAr": "سؤال متعلق بالمنهج: In an inventory application, which layer collects user input and renders the Flutter UI states?",
     "options": [
       {
         "label": "A",
@@ -16399,8 +16399,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16419,7 +16419,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "In a client–API–database architecture, which layer validates requests an d executes prepared SQL?",
-    "questionAr": "السؤال رقم 53: In a client–API–database architecture, which layer validates requests an d executes prepared SQL?",
+    "questionAr": "سؤال متعلق بالمنهج: In a client–API–database architecture, which layer validates requests an d executes prepared SQL?",
     "options": [
       {
         "label": "A",
@@ -16443,8 +16443,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16463,7 +16463,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final response = await http.get( Uri.parse('$baseUrl/getdata.php'), ); Which route is called by this GET request to read the inventory list?",
-    "questionAr": "السؤال رقم 54: If we have the following code snippet: final response = await http.get( Uri.parse('$baseUrl/getdata.php'), ); Which route is called by this GET request to read the inventory list?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = await http.get( Uri.parse('$baseUrl/getdata.php'), ); Which route is called by this GET request to read the inventory list?",
     "options": [
       {
         "label": "A",
@@ -16487,8 +16487,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16507,7 +16507,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final response = await http.post( Uri.parse('$baseUrl/adddata.php'),",
-    "questionAr": "السؤال رقم 55: If we have the following code snippet: final response = await http.post( Uri.parse('$baseUrl/adddata.php'),",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = await http.post( Uri.parse('$baseUrl/adddata.php'),",
     "options": [
       {
         "label": "A",
@@ -16531,8 +16531,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16551,7 +16551,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final response = await http.post( Uri.parse('$baseUrl/editdata.php'), body: {'id': '7', 'itemname': 'Keyboard'}, ); Which route and method update an inventory item in this code?",
-    "questionAr": "السؤال رقم 56: If we have the following code snippet: final response = await http.post( Uri.parse('$baseUrl/editdata.php'), body: {'id': '7', 'itemname': 'Keyboard'}, ); Which route and method update an inventory item in this code?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = await http.post( Uri.parse('$baseUrl/editdata.php'), body: {'id': '7', 'itemname': 'Keyboard'}, ); Which route and method update an inventory item in this code?",
     "options": [
       {
         "label": "A",
@@ -16575,8 +16575,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16595,7 +16595,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final response = await http.post( Uri.parse('$baseUrl/deleteData.php'),",
-    "questionAr": "السؤال رقم 57: If we have the following code snippet: final response = await http.post( Uri.parse('$baseUrl/deleteData.php'),",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = await http.post( Uri.parse('$baseUrl/deleteData.php'),",
     "options": [
       {
         "label": "A",
@@ -16619,8 +16619,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16639,7 +16639,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final uri = Uri.parse('http://10.0.2.2/my_store/getdata.php'); What does 10.0.2.2 represent in this Android Emulator URL?",
-    "questionAr": "السؤال رقم 58: If we have the following code snippet: final uri = Uri.parse('http://10.0.2.2/my_store/getdata.php'); What does 10.0.2.2 represent in this Android Emulator URL?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final uri = Uri.parse('http://10.0.2.2/my_store/getdata.php'); What does 10.0.2.2 represent in this Android Emulator URL?",
     "options": [
       {
         "label": "A",
@@ -16663,8 +16663,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Inside the Android Emulator virtual networking environment, 10.0.2.2 is the special alias mapped to 127.0.0.1 (localhost) of the host computer running Apache/PHP.",
+    "explanationAr": "داخل محاكي أندرويد، يمثل العنوان 10.0.2.2 البوابة الافتراضية الخاصة المرتبطة بـ localhost (127.0.0.1) على جهاز الحاسوب المضيف لخادم PHP.",
     "codeSnippet": null
   },
   {
@@ -16683,7 +16683,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What should a physical device use instead of assuming the Android Emulator loopback alias?",
-    "questionAr": "السؤال رقم 59: What should a physical device use instead of assuming the Android Emulator loopback alias?",
+    "questionAr": "سؤال متعلق بالمنهج: What should a physical device use instead of assuming the Android Emulator loopback alias?",
     "options": [
       {
         "label": "A",
@@ -16707,8 +16707,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16727,7 +16727,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: $connect = new mysqli($host, $user, $password, $database); Which PHP database API is represented by the connection variable in this code?",
-    "questionAr": "السؤال رقم 60: If we have the following code snippet: $connect = new mysqli($host, $user, $password, $database); Which PHP database API is represented by the connection variable in this code?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: $connect = new mysqli($host, $user, $password, $database); Which PHP database API is represented by the connection variable in this code?",
     "options": [
       {
         "label": "A",
@@ -16751,8 +16751,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16771,7 +16771,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: // connect.php require_once __DIR__ . '/conn.php'; Why is connect.php kept as a short compatibility alias in this file structure?",
-    "questionAr": "السؤال رقم 61: If we have the following code snippet: // connect.php require_once __DIR__ . '/conn.php'; Why is connect.php kept as a short compatibility alias in this file structure?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: // connect.php require_once __DIR__ . '/conn.php'; Why is connect.php kept as a short compatibility alias in this file structure?",
     "options": [
       {
         "label": "A",
@@ -16795,8 +16795,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16815,7 +16815,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: http_response_code(400); echo json_encode(['error' => 'Invalid item']);",
-    "questionAr": "السؤال رقم 62: If we have the following code snippet: http_response_code(400); echo json_encode(['error' => 'Invalid item']);",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: http_response_code(400); echo json_encode(['error' => 'Invalid item']);",
     "options": [
       {
         "label": "A",
@@ -16839,8 +16839,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16859,7 +16859,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: if (password_verify($password, $storedHash)) { echo 'Login accepted'; } Which function verifie s a submitted password against the stored hash?",
-    "questionAr": "السؤال رقم 63: If we have the following code snippet: if (password_verify($password, $storedHash)) { echo 'Login accepted'; } Which function verifie s a submitted password against the stored hash?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (password_verify($password, $storedHash)) { echo 'Login accepted'; } Which function verifie s a submitted password against the stored hash?",
     "options": [
       {
         "label": "A",
@@ -16883,8 +16883,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16903,7 +16903,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: $hash = password_hash($password, PASSWORD_DEFAULT); Which function creates the password hash during registration?",
-    "questionAr": "السؤال رقم 64: If we have the following code snippet: $hash = password_hash($password, PASSWORD_DEFAULT); Which function creates the password hash during registration?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: $hash = password_hash($password, PASSWORD_DEFAULT); Which function creates the password hash during registration?",
     "options": [
       {
         "label": "A",
@@ -16927,8 +16927,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16947,7 +16947,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: echo json_encode([ 'uid' => $uid, 'uname' => $uname, 'upass' => $storedHash, ]); Which server field must not be returned to Flut ter after login?",
-    "questionAr": "السؤال رقم 65: If we have the following code snippet: echo json_encode([ 'uid' => $uid, 'uname' => $uname, 'upass' => $storedHash, ]); Which server field must not be returned to Flut ter after login?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: echo json_encode([ 'uid' => $uid, 'uname' => $uname, 'upass' => $storedHash, ]); Which server field must not be returned to Flut ter after login?",
     "options": [
       {
         "label": "A",
@@ -16971,8 +16971,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16991,7 +16991,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final rows = jsonDecode(response.body) as List<dynamic>; final itemName = rows[index]['item_name']; How does the Flutter code access each decoded ser ver row?",
-    "questionAr": "السؤال رقم 66: If we have the following code snippet: final rows = jsonDecode(response.body) as List<dynamic>; final itemName = rows[index]['item_name']; How does the Flutter code access each decoded ser ver row?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final rows = jsonDecode(response.body) as List<dynamic>; final itemName = rows[index]['item_name']; How does the Flutter code access each decoded ser ver row?",
     "options": [
       {
         "label": "A",
@@ -17015,8 +17015,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -17035,7 +17035,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: await Navigator.push( context, MaterialPageRoute(builder: (_) => const AddData_Roq()),",
-    "questionAr": "السؤال رقم 67: If we have the following code snippet: await Navigator.push( context, MaterialPageRoute(builder: (_) => const AddData_Roq()),",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: await Navigator.push( context, MaterialPageRoute(builder: (_) => const AddData_Roq()),",
     "options": [
       {
         "label": "A",
@@ -17059,8 +17059,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -17079,7 +17079,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: await updateItem(); final latest = await http.get( Uri.parse('$baseUrl/getdata.php'), ); What is the strongest evidence that the server persisted an update?",
-    "questionAr": "السؤال رقم 68: If we have the following code snippet: await updateItem(); final latest = await http.get( Uri.parse('$baseUrl/getdata.php'), ); What is the strongest evidence that the server persisted an update?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: await updateItem(); final latest = await http.get( Uri.parse('$baseUrl/getdata.php'), ); What is the strongest evidence that the server persisted an update?",
     "options": [
       {
         "label": "A",
@@ -17103,8 +17103,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -17123,7 +17123,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final confirmed = await showDialog<bool>(context: context, builder: (_) => const AlertDialog()); if (confirmed == true) {",
-    "questionAr": "السؤال رقم 69: If we have the following code snippet: final confirmed = await showDialog<bool>(context: context, builder: (_) => const AlertDialog()); if (confirmed == true) {",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final confirmed = await showDialog<bool>(context: context, builder: (_) => const AlertDialog()); if (confirmed == true) {",
     "options": [
       {
         "label": "A",
@@ -17147,8 +17147,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -17299,7 +17299,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: $finfo = new finfo(FILEINFO_MIME_TYPE); $mime = $finfo->file($_FILES['image']['tmp_name']); Which upload validation must not be skipped?",
-    "questionAr": "السؤال رقم 73: If we have the following code snippet: $finfo = new finfo(FILEINFO_MIME_TYPE); $mime = $finfo->file($_FILES['image']['tmp_name']); Which upload validation must not be skipped?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: $finfo = new finfo(FILEINFO_MIME_TYPE); $mime = $finfo->file($_FILES['image']['tmp_name']); Which upload validation must not be skipped?",
     "options": [
       {
         "label": "A",
@@ -17323,8 +17323,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -17343,7 +17343,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: http_response_code(201); echo json_encode(['message' => 'Upload complete']); Which status code is returned by this successful upload response?",
-    "questionAr": "السؤال رقم 74: If we have the following code snippet: http_response_code(201); echo json_encode(['message' => 'Upload complete']); Which status code is returned by this successful upload response?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: http_response_code(201); echo json_encode(['message' => 'Upload complete']); Which status code is returned by this successful upload response?",
     "options": [
       {
         "label": "A",
@@ -17367,8 +17367,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -17387,7 +17387,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: if (response.statusCode == 201) { await reloadImages(); } What should the UI do after the upload response indicates success?",
-    "questionAr": "السؤال رقم 75: If we have the following code snippet: if (response.statusCode == 201) { await reloadImages(); } What should the UI do after the upload response indicates success?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (response.statusCode == 201) { await reloadImages(); } What should the UI do after the upload response indicates success?",
     "options": [
       {
         "label": "A",
@@ -17411,8 +17411,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -17431,7 +17431,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: try { await http.get(Uri.parse(baseUrl)); } on SocketException { // inspect the connection } What should be checked first when this network call raises SocketException?",
-    "questionAr": "السؤال رقم 76: If we have the following code snippet: try { await http.get(Uri.parse(baseUrl)); } on SocketException { // inspect the connection } What should be checked first when this network call raises SocketException?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: try { await http.get(Uri.parse(baseUrl)); } on SocketException { // inspect the connection } What should be checked first when this network call raises SocketException?",
     "options": [
       {
         "label": "A",
@@ -17455,8 +17455,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -17475,7 +17475,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final decoded = jsonDecode(response.body); // FormatException occurs if response.body is not valid JSON. What should be inspected first when jsonDecode raises FormatException?",
-    "questionAr": "السؤال رقم 77: If we have the following code snippet: final decoded = jsonDecode(response.body); // FormatException occurs if response.body is not valid JSON. What should be inspected first when jsonDecode raises FormatException?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final decoded = jsonDecode(response.body); // FormatException occurs if response.body is not valid JSON. What should be inspected first when jsonDecode raises FormatException?",
     "options": [
       {
         "label": "A",
@@ -17499,8 +17499,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -17519,7 +17519,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final item = ProductDataModel.fromJson({ 'price': '799', }); print(item.price); What is printed for the mapped product price?",
-    "questionAr": "السؤال رقم 78: If we have the following code snippet: final item = ProductDataModel.fromJson({ 'price': '799', }); print(item.price); What is printed for the mapped product price?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final item = ProductDataModel.fromJson({ 'price': '799', }); print(item.price); What is printed for the mapped product price?",
     "options": [
       {
         "label": "A",
@@ -17543,8 +17543,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -17563,7 +17563,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: if (snapshot.connectionState == ConnectionState.waiting) { return const Center(child: CircularProgressIndicator()); } Which UI branch is selected while the Future is waiting?",
-    "questionAr": "السؤال رقم 79: If we have the following code snippet: if (snapshot.connectionState == ConnectionState.waiting) { return const Center(child: CircularProgressIndicator()); } Which UI branch is selected while the Future is waiting?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (snapshot.connectionState == ConnectionState.waiting) { return const Center(child: CircularProgressIndicator()); } Which UI branch is selected while the Future is waiting?",
     "options": [
       {
         "label": "A",
@@ -17587,8 +17587,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -17607,7 +17607,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final items = snapshot.data ?? const <ProductDataModel>[]; if (items.isEmpty) { return const Cent er(child: Text('No products found')); } What result is expected when products is empty?",
-    "questionAr": "السؤال رقم 80: If we have the following code snippet: final items = snapshot.data ?? const <ProductDataModel>[]; if (items.isEmpty) { return const Cent er(child: Text('No products found')); } What result is expected when products is empty?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final items = snapshot.data ?? const <ProductDataModel>[]; if (items.isEmpty) { return const Cent er(child: Text('No products found')); } What result is expected when products is empty?",
     "options": [
       {
         "label": "A",
@@ -17631,8 +17631,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -17651,7 +17651,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: if (response.statusCode != 200) { throw Exception('GET failed: ${response.statusCode}'); } What happens when the GET status is 500?",
-    "questionAr": "السؤال رقم 81: If we have the following code snippet: if (response.statusCode != 200) { throw Exception('GET failed: ${response.statusCode}'); } What happens when the GET status is 500?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (response.statusCode != 200) { throw Exception('GET failed: ${response.statusCode}'); } What happens when the GET status is 500?",
     "options": [
       {
         "label": "A",
@@ -17675,8 +17675,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -17695,7 +17695,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following co de snippet: final users = await fetchUsers(); print('users=${users.length}'); How many users does the console driver expect after a successful RandomUser request with results=20?",
-    "questionAr": "السؤال رقم 82: If we have the following co de snippet: final users = await fetchUsers(); print('users=${users.length}'); How many users does the console driver expect after a successful RandomUser request with results=20?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following co de snippet: final users = await fetchUsers(); print('users=${users.length}'); How many users does the console driver expect after a successful RandomUser request with results=20?",
     "options": [
       {
         "label": "A",
@@ -17719,8 +17719,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -17739,7 +17739,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final r = await http.post( Uri.parse('$baseUrl/adddata.php'), body: { 'itemcode': 'A10', 'itemname': 'Mouse', 'price': '25', 'stock': '4',",
-    "questionAr": "السؤال رقم 83: If we have the following code snippet: final r = await http.post( Uri.parse('$baseUrl/adddata.php'), body: { 'itemcode': 'A10', 'itemname': 'Mouse', 'price': '25', 'stock': '4',",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final r = await http.post( Uri.parse('$baseUrl/adddata.php'), body: { 'itemcode': 'A10', 'itemname': 'Mouse', 'price': '25', 'stock': '4',",
     "options": [
       {
         "label": "A",
@@ -17763,8 +17763,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -17783,7 +17783,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: if (r.statusCode != 200 && r.statusCode != 201) { throw Exception('Create failed: ${r.statusCode}'); } What does the success check do when create returns status 200?",
-    "questionAr": "السؤال رقم 84: If we have the following code snippet: if (r.statusCode != 200 && r.statusCode != 201) { throw Exception('Create failed: ${r.statusCode}'); } What does the success check do when create returns status 200?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (r.statusCode != 200 && r.statusCode != 201) { throw Exception('Create failed: ${r.statusCode}'); } What does the success check do when create returns status 200?",
     "options": [
       {
         "label": "A",
@@ -17807,8 +17807,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -17827,7 +17827,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final r = await http.post( Uri.parse('$baseUrl/deleteData.php'), body: {'id': '7'}, ); Which request is sent for id=7?",
-    "questionAr": "السؤال رقم 85: If we have the following code snippet: final r = await http.post( Uri.parse('$baseUrl/deleteData.php'), body: {'id': '7'}, ); Which request is sent for id=7?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final r = await http.post( Uri.parse('$baseUrl/deleteData.php'), body: {'id': '7'}, ); Which request is sent for id=7?",
     "options": [
       {
         "label": "A",
@@ -17851,8 +17851,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -17915,7 +17915,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: if (response.statusCode != 200 && response.statusCode != 201) { throw Exception(...); } if (!mounted) return; await reloadImages(); What does the upload code do after HTTP 200 or 201?",
-    "questionAr": "السؤال رقم 87: If we have the following code snippet: if (response.statusCode != 200 && response.statusCode != 201) { throw Exception(...); } if (!mounted) return; await reloadImages(); What does the upload code do after HTTP 200 or 201?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (response.statusCode != 200 && response.statusCode != 201) { throw Exception(...); } if (!mounted) return; await reloadImages(); What does the upload code do after HTTP 200 or 201?",
     "options": [
       {
         "label": "A",
@@ -17939,8 +17939,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Choice A is the correct answer according to official Chapter 10 API guidelines.",
-    "explanationAr": "الخيار (A) هو الإجابة الصحيحة وفقاً لما ورد في المحاضرة العاشرة للتعامل مع الـ API.",
+    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
