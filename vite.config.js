@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  base: '/flutter-dart-final-study/',
+  base: process.env.VERCEL ? '/' : '/flutter-dart-final-study/',
   plugins: [
     react(),
     tailwindcss()
