@@ -121,7 +121,7 @@ export default function QuestionCard({ question, onStatusChange, currentStatus }
             {question.questionEn}
           </div>
           {/* Arabic Translation directly underneath */}
-          <div className="text-xs md:text-sm font-arabic font-medium text-slate-400 mt-2 leading-relaxed dir-rtl text-right">
+          <div dir="rtl" className="text-xs md:text-sm font-arabic font-medium text-slate-400 mt-2 leading-relaxed text-right">
             {question.questionAr}
           </div>
         </div>
@@ -166,7 +166,7 @@ export default function QuestionCard({ question, onStatusChange, currentStatus }
                     <div>
                       <div className="text-xs md:text-sm font-medium">{opt.textEn}</div>
                       {opt.textAr && opt.textAr !== opt.textEn && (
-                        <div className="text-xs font-arabic text-slate-400 mt-0.5 text-right dir-rtl">{opt.textAr}</div>
+                        <div dir="rtl" className="text-xs font-arabic text-slate-400 mt-0.5 text-right">{opt.textAr}</div>
                       )}
                     </div>
                   </div>
@@ -249,7 +249,7 @@ export default function QuestionCard({ question, onStatusChange, currentStatus }
                 <strong className="block text-rose-400 font-bold mb-0.5">Correction / التصحيح المعتمد:</strong>
                 <p className="leading-relaxed">{question.correctionEn}</p>
                 {question.correctionAr && (
-                  <p className="font-arabic text-slate-400 text-[11px] mt-1 text-right dir-rtl">{question.correctionAr}</p>
+                  <p dir="rtl" className="font-arabic text-slate-400 text-[11px] mt-1 text-right">{question.correctionAr}</p>
                 )}
               </div>
             )}
@@ -260,7 +260,7 @@ export default function QuestionCard({ question, onStatusChange, currentStatus }
                 <strong className="text-indigo-300 block mb-0.5">Why this answer is correct:</strong>
                 {question.explanationEn}
               </div>
-              <div className="text-slate-400 font-arabic text-[11px] leading-relaxed pt-2 border-t border-slate-800/80 text-right dir-rtl">
+              <div dir="rtl" className="text-slate-400 font-arabic text-[11px] leading-relaxed pt-2 border-t border-slate-800/80 text-right">
                 <strong className="text-indigo-400 block mb-0.5">الشرح والتوضيح:</strong>
                 {question.explanationAr}
               </div>

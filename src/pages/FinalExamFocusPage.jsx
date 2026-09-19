@@ -60,7 +60,7 @@ export default function FinalExamFocusPage({ onNavigate }) {
         <h1 className="text-2xl md:text-4xl font-black text-white tracking-tight">
           Final Exam Focus & Official Scope Guide
         </h1>
-        <p className="text-slate-300 text-sm md:text-base font-arabic mt-2 leading-relaxed">
+        <p dir="rtl" className="text-slate-300 text-sm md:text-base font-arabic mt-2 leading-relaxed text-right">
           الدليل الامتحاني المباشر للطلاب ذوي الوقت المحدود قبل موعد الاختبار. تم تلخيص كافة اشتراطات أستاذة المنهج، الفروقات الرئيسية، نماذج الكود الإلزامية، وتنبيهات الاستبعاد لضمان مراجعة مركزة وفعالة دون تشتيت.
         </p>
 

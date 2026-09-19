@@ -127,6 +127,50 @@ export default function QuestionBankPage({ onStatusChange, userProgress }) {
           </button>
         </div>
 
+        {/* Primary Filter Tabs */}
+        <div className="flex flex-wrap items-center gap-2 pb-2">
+          {[
+            { id: 'all', label: 'ALL' },
+            { id: 'included', label: 'EXAM SCOPE' },
+            { id: '7', label: 'LECTURE 7' },
+            { id: '8', label: 'LECTURE 8' },
+            { id: '9', label: 'LECTURE 9' },
+            { id: '10', label: 'LECTURE 10' }
+          ].map(tab => {
+            let isActive = false;
+            if (tab.id === 'all') isActive = selectedScope === 'all' && selectedLecture === 'all';
+            else if (tab.id === 'included') isActive = selectedScope === 'included' && selectedLecture === 'all';
+            else isActive = selectedLecture === tab.id;
+
+            return (
+              <button
+                key={tab.id}
+                onClick={() => {
+                  if (tab.id === 'all') {
+                    setSelectedScope('all');
+                    setSelectedLecture('all');
+                  } else if (tab.id === 'included') {
+                    setSelectedScope('included');
+                    setSelectedLecture('all');
+                  } else {
+                    // For specific lectures, default to exam scope included unless they manually change it later
+                    setSelectedScope('included');
+                    setSelectedLecture(tab.id);
+                  }
+                  setCurrentPage(1);
+                }}
+                className={`px-4 py-1.5 rounded-full text-xs font-bold transition-all ${
+                  isActive
+                    ? 'bg-indigo-600 text-white shadow-md'
+                    : 'bg-slate-900 border border-slate-750 text-slate-400 hover:bg-slate-800 hover:text-slate-200'
+                }`}
+              >
+                {tab.label}
+              </button>
+            );
+          })}
+        </div>
+
         {/* Search Input Bar */}
         <div className="relative">
           <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />

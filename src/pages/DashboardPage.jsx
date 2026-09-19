@@ -163,12 +163,12 @@ export default function DashboardPage({ onNavigate, userProgress, totalQuestions
       {/* Official Exam Scope Filter Notice */}
       <div className="bg-slate-900 border border-slate-800 rounded-2xl p-5 flex items-start gap-4">
         <ShieldCheck className="w-6 h-6 text-emerald-400 shrink-0 mt-1" />
-        <div className="space-y-1 text-xs md:text-sm">
+        <div className="space-y-1 text-xs md:text-sm w-full">
           <h4 className="font-bold text-white">
             Authoritative Exam Filtering & Academic Integrity Rule
           </h4>
-          <p className="text-slate-300 leading-relaxed font-arabic">
-            هذه المنصة تلتزم حرفياً بتحديد أستاذة المنهج: المحاضرات 7 و 8 و 9 و 10 فقط. في المحاضرة 9، الفصل بالكامل مطلوب. وفي المحاضرة 10، تم استبعاد جزئية رفع الصور تماماً (API with Images) وتصنيفها كـ <span className="text-rose-400 font-bold underline">EXCLUDED FROM FINAL EXAM</span> لعدم تشتيت الطالب قبل الاختبار.
+          <p dir="rtl" className="text-slate-300 leading-relaxed font-arabic text-right mt-2">
+            هذه المنصة تلتزم حرفياً بتحديد أستاذة المنهج: المحاضرات 7 و 8 و 9 و 10 فقط. في المحاضرة 9، الفصل بالكامل مطلوب. وفي المحاضرة 10، تم استبعاد جزئية رفع الصور تماماً (API with Images) وتصنيفها كـ <span dir="ltr" className="inline-block text-rose-400 font-bold underline px-1">EXCLUDED FROM FINAL EXAM</span> لعدم تشتيت الطالب قبل الاختبار.
           </p>
         </div>
       </div>
@@ -176,9 +176,9 @@ export default function DashboardPage({ onNavigate, userProgress, totalQuestions
       {/* 4 Lecture Cards */}
       <div className="space-y-4">
         <div className="flex items-center justify-between">
-          <div>
-            <h3 className="text-lg md:text-xl font-bold text-white">Course Lectures Study Modules</h3>
-            <p className="text-xs text-slate-400 font-arabic">المحاضرات الأربع المطلوبة في الاختبار النهائي مع الشرح الثنائي والأسئلة</p>
+          <div className="w-full">
+            <h3 className="text-lg md:text-xl font-bold text-white text-center md:text-left">Course Lectures Study Modules</h3>
+            <p dir="rtl" className="text-xs text-slate-400 font-arabic text-center md:text-right mt-1">المحاضرات الأربع المطلوبة في الاختبار النهائي مع الشرح الثنائي والأسئلة</p>
           </div>
         </div>
 
@@ -216,7 +216,7 @@ export default function DashboardPage({ onNavigate, userProgress, totalQuestions
                   <p className="text-xs text-slate-400 leading-relaxed mb-1">
                     {lec.descEn}
                   </p>
-                  <p className="text-[11px] text-slate-400 font-arabic leading-relaxed dir-rtl text-right">
+                  <p dir="rtl" className="text-[11px] text-slate-400 font-arabic leading-relaxed text-right">
                     {lec.descAr}
                   </p>
                 </div>

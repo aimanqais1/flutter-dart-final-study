@@ -17,13 +17,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Anonymous routes are created directly with Route objects and do not require a registered string name.",
-    "questionAr": "تُنشأ المسارات المجهولة (Anonymous routes) مباشرةً باستخدام كائنات Route ولا تتطلب اسماً نصياً مسجلاً.",
+    "questionAr": "تُنشأ المسارات المجهولة (Anonymous routes) مباشرةً باستخدام كائنات (Route) ولا تتطلب اسماً نصياً مسجلاً.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "True. Anonymous routes use `MaterialPageRoute(builder: ...)` directly in code without string route names.",
-    "explanationAr": "صحيح. تُنشأ المسارات المجهولة مباشرة بتمرير كائن MaterialPageRoute دون الحاجة لتسجيل اسم نصي في جدول المسارات.",
+    "explanationAr": "صحيح. تُنشأ المسارات المجهولة مباشرة بتمرير كائن (MaterialPageRoute) دون الحاجة لتسجيل اسم نصي في جدول المسارات.",
     "codeSnippet": null
   },
   {
@@ -65,13 +65,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "The Navigator widget in Flutter manages a stack of Route objects.",
-    "questionAr": "يدير ويدجت Navigator في فلاتر مكدساً (Stack) من كائنات المسارات Route.",
+    "questionAr": "يدير ويدجت (Navigator) في فلاتر مكدساً (Stack) من كائنات المسارات (Route).",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "True. Flutter navigation is architected as a LIFO stack of Route objects managed by the Navigator widget.",
-    "explanationAr": "صحيح. يعتمد نظام التنقل في فلاتر على مكدس (LIFO Stack) من كائنات Route يديره ويدجت Navigator.",
+    "explanationAr": "صحيح. يعتمد نظام التنقل في فلاتر على مكدس (LIFO Stack) من كائنات (Route) يديره ويدجت (Navigator).",
     "codeSnippet": null
   },
   {
@@ -89,7 +89,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "pushReplacement installs a new route and removes the current route from Back history.",
-    "questionAr": "تقوم الدالة pushReplacement بتثبيت مسار جديد وإزالة المسار الحالي من سجل الرجوع للخلف (Back history).",
+    "questionAr": "تقوم الدالة (pushReplacement) بتثبيت مسار جديد وإزالة المسار الحالي من سجل الرجوع للخلف (Back history).",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -137,11 +137,11 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Navigator.pop() requires a mandatory data argument on every call.",
-    "questionAr": "تتطلب الدالة Navigator.pop() تمرير وسيط بيانات إلزامي في كل استدعاء.",
+    "questionAr": "تتطلب الدالة (Navigator).pop() تمرير وسيط بيانات إلزامي في كل استدعاء.",
     "options": null,
     "correctAnswer": "False",
     "correctionEn": "Navigator.pop() does NOT require a mandatory data argument; the result parameter is optional.",
-    "correctionAr": "دالة Navigator.pop() لا تتطلب وسيط بيانات إلزامي؛ فمعامل النتيجة اختياري تماماً.",
+    "correctionAr": "دالة (Navigator).pop() لا تتطلب وسيط بيانات إلزامي؛ فمعامل النتيجة اختياري تماماً.",
     "explanationEn": "False. Calling `Navigator.pop(context)` without a second argument is completely valid when no return value is needed.",
     "explanationAr": "خطأ. استدعاء `Navigator.pop(context)` بدون معامل ثانٍ صالح تماماً عندما لا تكون هناك قيمة معادة.",
     "codeSnippet": null
@@ -185,13 +185,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "MaterialPageRoute creates a platform-appropriate full-page route transition.",
-    "questionAr": "ينشئ MaterialPageRoute انتقالاً ملائماً لمنصة التشغيل (أندرويد أو iOS) يغطي كامل الصفحة.",
+    "questionAr": "ينشئ (MaterialPageRoute) انتقالاً ملائماً لمنصة التشغيل (أندرويد أو iOS) يغطي كامل الصفحة.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "True. MaterialPageRoute uses platform-adaptive animations: slide up on iOS, fade/slide upwards on Android.",
-    "explanationAr": "صحيح. يوفر MaterialPageRoute حركات انتقال تلقائية تلائم نظام التشغيل (انزلاق رأسي في iOS وتلاشٍ في أندرويد).",
+    "explanationAr": "صحيح. يوفر (MaterialPageRoute) حركات انتقال تلقائية تلائم نظام التشغيل (انزلاق رأسي في iOS وتلاشٍ في أندرويد).",
     "codeSnippet": null
   },
   {
@@ -209,7 +209,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "pushAndRemoveUntil() can push a new route and remove earlier routes according to a predicate.",
-    "questionAr": "يمكن لدالة pushAndRemoveUntil() دفع مسار جديد وإزالة المسارات السابقة وفقاً لشرط منطقي (Predicate).",
+    "questionAr": "يمكن لدالة (pushAndRemoveUntil()) دفع مسار جديد وإزالة المسارات السابقة وفقاً لشرط منطقي (Predicate).",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -257,13 +257,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Navigator.push() returns a Future that completes when the pushed route is popped.",
-    "questionAr": "تُرجع الدالة Navigator.push() كائن Future يكتمل عندما يتم إغلاق (Pop) المسار المدفوع والرجوع منه.",
+    "questionAr": "تُرجع الدالة (Navigator).push() كائن (Future) يكتمل عندما يتم إغلاق (Pop) المسار المدفوع والرجوع منه.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "True. The returned Future completes with any optional result value passed to `Navigator.pop(context, result)`.",
-    "explanationAr": "صحيح. تُرجع `Navigator.push()` كائن Future يكتمل بالقيمة التي تمررها الشاشة المغلقة عبر `Navigator.pop(context, result)`.",
+    "explanationAr": "صحيح. تُرجع `Navigator.push()` كائن (Future) يكتمل بالقيمة التي تمررها الشاشة المغلقة عبر `Navigator.pop(context, result)`.",
     "codeSnippet": null
   },
   {
@@ -305,13 +305,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A route is a screen represented by a widget and displayed by a Navigator.",
-    "questionAr": "المسار (Route) عبارة عن شاشة يمثلها ويدجت ويتم عرضها وإدارتها بواسطة Navigator.",
+    "questionAr": "المسار (Route) عبارة عن شاشة يمثلها ويدجت ويتم عرضها وإدارتها بواسطة (Navigator).",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "True. In Flutter architecture, a Route models a screen widget presented on the Navigator stack.",
-    "explanationAr": "صحيح. في فلاتر، يمثل المسار (Route) شاشة كاملة مبنية كـ Widget يديرها ويعرضها الـ Navigator.",
+    "explanationAr": "صحيح. في فلاتر، يمثل المسار (Route) شاشة كاملة مبنية كـ Widget يديرها ويعرضها الـ (Navigator).",
     "codeSnippet": null
   },
   {
@@ -329,7 +329,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "push adds a route to the stack, while pop removes the top route from the relevant Navigator.",
-    "questionAr": "تضيف عملية push مساراً إلى أعلى المكدس، بينما تزيل عملية pop المسار العلوي من الـ Navigator المعني.",
+    "questionAr": "تضيف عملية push مساراً إلى أعلى المكدس، بينما تزيل عملية pop المسار العلوي من الـ (Navigator) المعني.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -353,13 +353,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Navigator.pushNamed() receives a BuildContext and route name, with arguments supplied optionally.",
-    "questionAr": "تستقبل الدالة Navigator.pushNamed() سياق البناء BuildContext واسم المسار، مع إمكانية تمرير وسائط اختيارية.",
+    "questionAr": "تستقبل الدالة (Navigator).(pushNamed()) سياق البناء BuildContext واسم المسار، مع إمكانية تمرير وسائط اختيارية.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "True. The signature is `Navigator.pushNamed(context, routeName, {Object? arguments})`.",
-    "explanationAr": "صحيح. الصيغة الرسمية هي `Navigator.pushNamed(context, routeName, {Object? arguments})` لاستدعاء مسار مسمى.",
+    "explanationAr": "صحيح. الصيغة الرسمية هي `Navigator.(pushNamed)(context, routeName, {Object? arguments})` لاستدعاء مسار مسمى.",
     "codeSnippet": null
   },
   {
@@ -377,13 +377,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Navigator.pushNamed() can navigate to a registered named route.",
-    "questionAr": "تستطيع الدالة Navigator.pushNamed() الانتقال إلى مسار مسمى مسجل مسبقاً في جدول المسارات.",
+    "questionAr": "تستطيع الدالة (Navigator).(pushNamed()) الانتقال إلى مسار مسمى مسجل مسبقاً في جدول المسارات.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "True. Navigator.pushNamed(context, routeName) looks up the route name string in MaterialApp's routes table and pushes the corresponding widget onto the stack.",
-    "explanationAr": "صحيح. تبحث دالة Navigator.pushNamed(context, routeName) عن الاسم النصي في جدول routes داخل MaterialApp وتدفع الشاشة المقابلة له إلى أعلى مكدس التنقل.",
+    "explanationAr": "صحيح. تبحث دالة (Navigator).(pushNamed)(context, routeName) عن الاسم النصي في جدول routes داخل MaterialApp وتدفع الشاشة المقابلة له إلى أعلى مكدس التنقل.",
     "codeSnippet": null
   },
   {
@@ -401,13 +401,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Navigator.pop() is used only to close the entire application.",
-    "questionAr": "تُستخدم الدالة Navigator.pop() فقط لإغلاق التطبيق بأكمله.",
+    "questionAr": "تُستخدم الدالة (Navigator).pop() فقط لإغلاق التطبيق بأكمله.",
     "options": null,
     "correctAnswer": "False",
     "correctionEn": "Navigator.pop() removes the top route from the stack and returns to the previous screen.",
-    "correctionAr": "تقوم دالة Navigator.pop() بإزالة الشاشة العلوية من المكدس والرجوع للشاشة السابقة، وليس لإغلاق التطبيق بأكمله فقط.",
+    "correctionAr": "تقوم دالة (Navigator).pop() بإزالة الشاشة العلوية من المكدس والرجوع للشاشة السابقة، وليس لإغلاق التطبيق بأكمله فقط.",
     "explanationEn": "False. Navigator.pop() pops the current route off the navigator history to reveal the route below it. It only exits the app if called on the very last remaining root route.",
-    "explanationAr": "خطأ. وظيفة Navigator.pop() هي إغلاق الشاشة الحالية والرجوع إلى الشاشة التي تسبقها في المكدس، ولا يُغلق التطبيق إلا إذا استُدعيت على الشاشة الجذرية الأخيرة.",
+    "explanationAr": "خطأ. وظيفة (Navigator).pop() هي إغلاق الشاشة الحالية والرجوع إلى الشاشة التي تسبقها في المكدس، ولا يُغلق التطبيق إلا إذا استُدعيت على الشاشة الجذرية الأخيرة.",
     "codeSnippet": null
   },
   {
@@ -425,13 +425,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "MaterialApp can configure the app Navigator and its route entry points.",
-    "questionAr": "يستطيع ويدجت MaterialApp تكوين وإعداد Navigator التطبيق وتحديد نقاط الدخول للمسارات المختلفة.",
+    "questionAr": "يستطيع ويدجت MaterialApp تكوين وإعداد (Navigator) التطبيق وتحديد نقاط الدخول للمسارات المختلفة.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "True. `MaterialApp` configures the root Navigator via `initialRoute`, `routes`, `onGenerateRoute`, and `home`.",
-    "explanationAr": "صحيح. يتولى ويدجت `MaterialApp` تهيئة الـ Navigator الرئيسي وتحديد الشاشة الأولى عبر `initialRoute` أو `home`.",
+    "explanationAr": "صحيح. يتولى ويدجت `MaterialApp` تهيئة الـ (Navigator) الرئيسي وتحديد الشاشة الأولى عبر `initialRoute` أو `home`.",
     "codeSnippet": null
   },
   {
@@ -449,7 +449,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Navigator.pushReplacement() replaces the current screen in the route history.",
-    "questionAr": "تستبدل الدالة Navigator.pushReplacement() الشاشة الحالية في سجل مسارات التنقل بشاشة جديدة.",
+    "questionAr": "تستبدل الدالة (Navigator).(pushReplacement()) الشاشة الحالية في سجل مسارات التنقل بشاشة جديدة.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -473,7 +473,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Navigator.pushAndRemoveUntil() can remove multiple routes from the stack.",
-    "questionAr": "تستطيع الدالة Navigator.pushAndRemoveUntil() إزالة وحذف عدة مسارات من المكدس دفعة واحدة.",
+    "questionAr": "تستطيع الدالة (Navigator).(pushAndRemoveUntil()) إزالة وحذف عدة مسارات من المكدس دفعة واحدة.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -497,13 +497,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "The BuildContext passed to Navigator.of(context) is optional in most cases.",
-    "questionAr": "يعد سياق البناء BuildContext الممرر إلى Navigator.of(context) اختيارياً في معظم الحالات.",
+    "questionAr": "يعد سياق البناء BuildContext الممرر إلى (Navigator).of(context) اختيارياً في معظم الحالات.",
     "options": null,
     "correctAnswer": "False",
     "correctionEn": "BuildContext is mandatory for Navigator.of(context) to look up the Navigator widget in the widget tree.",
-    "correctionAr": "سياق البناء BuildContext مطلوب وإلزامي لتمكين Navigator.of(context) من تحديد موقع الـ Navigator في شجرة الويدجت.",
+    "correctionAr": "سياق البناء BuildContext مطلوب وإلزامي لتمكين (Navigator).of(context) من تحديد موقع الـ (Navigator) في شجرة الويدجت.",
     "explanationEn": "False. BuildContext gives Navigator.of(context) the tree coordinates needed to find the nearest ancestor NavigatorState.",
-    "explanationAr": "خطأ. سياق البناء BuildContext ضروري وإلزامي لتحديد موقع أقرب ويدجت Navigator في الشجرة.",
+    "explanationAr": "خطأ. سياق البناء BuildContext ضروري وإلزامي لتحديد موقع أقرب ويدجت (Navigator) في الشجرة.",
     "codeSnippet": null
   },
   {
@@ -521,13 +521,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "In Flutter navigation, a screen is represented by a Route.",
-    "questionAr": "في نظام التنقل في فلاتر، يتم تمثيل كل شاشة بكائن مسار Route.",
+    "questionAr": "في نظام التنقل في فلاتر، يتم تمثيل كل شاشة بكائن مسار (Route).",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -545,7 +545,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Navigator.canPop() returns true when a previous route can be revealed. ( ) Lab6 |",
-    "questionAr": "تُرجع الدالة Navigator.canPop() القيمة true عندما يكون هناك مسار سابق في المكدس يمكن الرجوع إليه.",
+    "questionAr": "تُرجع الدالة (Navigator).canPop() القيمة true عندما يكون هناك مسار سابق في المكدس يمكن الرجوع إليه.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -599,7 +599,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -671,7 +671,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -695,7 +695,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -719,7 +719,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -743,7 +743,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -767,7 +767,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -791,7 +791,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -809,13 +809,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A typed modal bottom sheet can return an enum value through its Future.",
-    "questionAr": "سؤال متعلق بالمنهج: A typed modal bottom sheet can return an enum value through its Future.",
+    "questionAr": "سؤال متعلق بالمنهج: A typed modal bottom sheet can return an enum value through its (Future).",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -839,7 +839,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -863,7 +863,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -887,7 +887,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -911,7 +911,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -929,13 +929,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "EXCLUDED FROM FINAL EXAM",
     "questionEn": "The current XFile API represents a selected local image; it does not by itself represent a completed upload.",
-    "questionAr": "سؤال رفع الصور (مستبعد من الاختبار): The current XFile API represents a selected local image; it does not by itself represent a completed upload.",
+    "questionAr": "سؤال رفع الصور (مستبعد من الاختبار): The current XFile (API) represents a selected local image; it does not by itself represent a completed upload.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "EXCLUDED FROM FINAL EXAM: Image upload via MultipartRequest / API is officially excluded from the final exam scope per Dr. Ruqaih Salman's syllabus announcement.",
-    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور والملفات عبر الـ API مستبعد رسمياً من الاختبار النهائي بقرار أستاذة المادة م/ رقية حسين سلمان.",
+    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور والملفات عبر الـ (API) مستبعد رسمياً من الاختبار النهائي بقرار أستاذة المادة م/ رقية حسين سلمان.",
     "codeSnippet": null
   },
   {
@@ -959,7 +959,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "True. picker.pickImage() returns a Future<XFile?> which resolves to null if the user cancels image picking. The app checks if (image != null) before updating state, so returning null safely preserves the existing preview without errors. (Note: Image upload is officially EXCLUDED from final exam).",
-    "explanationAr": "صحيح. دالة picker.pickImage() تُرجع Future<XFile?> بقيمة null عند إلغاء المستخدم لاختيار الصورة. يفحص التطبيق الشرط if (image != null) قبل تحديث الحالة، وبالتالي فإن قيمة null تترك المعاينة السابقة كما هي دون تغيير أو أخطاء. (ملاحظة: رفع الصور مستبعد رسمياً من الاختبار النهائي).",
+    "explanationAr": "صحيح. دالة picker.pickImage() تُرجع (Future)<XFile?> بقيمة null عند إلغاء المستخدم لاختيار الصورة. يفحص التطبيق الشرط if (image != null) قبل تحديث الحالة، وبالتالي فإن قيمة null تترك المعاينة السابقة كما هي دون تغيير أو أخطاء. (ملاحظة: رفع الصور مستبعد رسمياً من الاختبار النهائي).",
     "codeSnippet": null
   },
   {
@@ -983,7 +983,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -1007,7 +1007,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -1025,13 +1025,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Route names make observer logs and widget-test assertions easier to interpret.",
-    "questionAr": "سؤال متعلق بالمنهج: Route names make observer logs and widget-test assertions easier to interpret.",
+    "questionAr": "سؤال متعلق بالمنهج: (Route) names make observer logs and widget-test assertions easier to interpret.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -1055,7 +1055,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -1079,7 +1079,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -1097,13 +1097,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Navigator.pop(context) removes the route at the top of the relevant navigator stack.",
-    "questionAr": "سؤال متعلق بالمنهج: Navigator.pop(context) removes the route at the top of the relevant navigator stack.",
+    "questionAr": "سؤال متعلق بالمنهج: (Navigator).pop(context) removes the route at the top of the relevant navigator stack.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -1121,13 +1121,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "pushAndRemoveUntil can preserve a newly opened home route while removing all routes below it when the predicate is false.",
-    "questionAr": "سؤال متعلق بالمنهج: pushAndRemoveUntil can preserve a newly opened home route while removing all routes below it when the predicate is false.",
+    "questionAr": "سؤال متعلق بالمنهج: (pushAndRemoveUntil) can preserve a newly opened home route while removing all routes below it when the predicate is false.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -1145,13 +1145,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "popUntil and pushReplacement express different history changes and should not be selected only because they both change the visible screen.",
-    "questionAr": "سؤال متعلق بالمنهج: popUntil and pushReplacement express different history changes and should not be selected only because they both change the visible screen.",
+    "questionAr": "سؤال متعلق بالمنهج: (popUntil) and (pushReplacement) express different history changes and should not be selected only because they both change the visible screen.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -1175,7 +1175,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -1199,7 +1199,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -1217,13 +1217,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Using a BuildContext after an await without checking its lifecycle can lead to invalid navigation or feedback calls.",
-    "questionAr": "سؤال متعلق بالمنهج: Using a BuildContext after an await without checking its lifecycle can lead to invalid navigation or feedback calls.",
+    "questionAr": "سؤال متعلق بالمنهج: Using a BuildContext after an (await) without checking its lifecycle can lead to invalid navigation or feedback calls.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -1247,7 +1247,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -1271,7 +1271,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -1295,7 +1295,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -1319,7 +1319,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -1343,7 +1343,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -1361,13 +1361,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "The smallest correct navigation API is the one whose history semantics match the required Back behavior.",
-    "questionAr": "سؤال متعلق بالمنهج: The smallest correct navigation API is the one whose history semantics match the required Back behavior.",
+    "questionAr": "سؤال متعلق بالمنهج: The smallest correct navigation (API) is the one whose history semantics match the required Back behavior.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -1391,7 +1391,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -1415,7 +1415,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -1439,7 +1439,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -1500,7 +1500,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "In Flutter, screens and pages are known as ______, and they are widgets displayed by a Navigator.",
-    "questionAr": "في فلاتر، تُعرف الشاشات والصفحات باسم ______، وهي ويدجت يتم عرضها بواسطة Navigator.",
+    "questionAr": "في فلاتر، تُعرف الشاشات والصفحات باسم ______، وهي ويدجت يتم عرضها بواسطة (Navigator).",
     "options": [
       {
         "label": "A",
@@ -1525,7 +1525,7 @@ export const questionsData = [
     ],
     "correctAnswer": "B",
     "explanationEn": "In Flutter terminology, screens and pages are called 'routes' (Route objects) displayed and managed by a Navigator.",
-    "explanationAr": "في فلاتر، تُسمى الشاشات والصفحات 'مسارات' (routes)، ويتم عرضها وإدارتها بواسطة ويدجت Navigator.",
+    "explanationAr": "في فلاتر، تُسمى الشاشات والصفحات 'مسارات' (routes)، ويتم عرضها وإدارتها بواسطة ويدجت (Navigator).",
     "codeSnippet": null
   },
   {
@@ -1543,7 +1543,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Flutter provides MaterialPageRoute and which two methods to demonstrate navigation between routes?",
-    "questionAr": "يوفر فلاتر كلاس MaterialPageRoute وأي دالتين لتوضيح آلية التنقل بين المسارات؟",
+    "questionAr": "يوفر فلاتر كلاس (MaterialPageRoute) وأي دالتين لتوضيح آلية التنقل بين المسارات؟",
     "options": [
       {
         "label": "A",
@@ -1629,7 +1629,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which method removes the current route from the Navigator stack?",
-    "questionAr": "أي دالة تقوم بإزالة المسار الحالي من مكدس Navigator؟",
+    "questionAr": "أي دالة تقوم بإزالة المسار الحالي من مكدس (Navigator)؟",
     "options": [
       {
         "label": "A",
@@ -1697,7 +1697,7 @@ export const questionsData = [
     ],
     "correctAnswer": "B",
     "explanationEn": "The correct syntax for anonymous routing is `Navigator.push(context, MaterialPageRoute(builder: (context) => SecondRoute_Roq()))`.",
-    "explanationAr": "الصيغة البرمجية الصحيحة للمسارات المجهولة هي `Navigator.push(context, MaterialPageRoute(builder: (context) => SecondRoute_Roq()))`.",
+    "explanationAr": "الصيغة البرمجية الصحيحة للمسارات المجهولة هي `Navigator.push(context, (MaterialPageRoute)(builder: (context) => SecondRoute_Roq()))`.",
     "codeSnippet": null
   },
   {
@@ -1715,7 +1715,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What is the purpose of the Navigator widget in Flutter?",
-    "questionAr": "ما هو الغرض الأساسي لويدجت Navigator في فلاتر؟",
+    "questionAr": "ما هو الغرض الأساسي لويدجت (Navigator) في فلاتر؟",
     "options": [
       {
         "label": "A",
@@ -1740,7 +1740,7 @@ export const questionsData = [
     ],
     "correctAnswer": "B",
     "explanationEn": "The Navigator widget manages a stack of Route objects according to the LIFO discipline.",
-    "explanationAr": "الغرض الأساسي لويدجت Navigator هو إدارة مكدس (Stack) من كائنات المسارات Route وفق مبدأ LIFO.",
+    "explanationAr": "الغرض الأساسي لويدجت (Navigator) هو إدارة مكدس (Stack) من كائنات المسارات (Route) وفق مبدأ (LIFO).",
     "codeSnippet": null
   },
   {
@@ -1849,7 +1849,7 @@ export const questionsData = [
       {
         "label": "A",
         "textEn": "Navigator",
-        "textAr": "كائن Navigator"
+        "textAr": "كائن (Navigator)"
       },
       {
         "label": "B",
@@ -1897,7 +1897,7 @@ export const questionsData = [
       {
         "label": "B",
         "textEn": "MaterialPageRoute",
-        "textAr": "كلاس MaterialPageRoute"
+        "textAr": "كلاس (MaterialPageRoute)"
       },
       {
         "label": "C",
@@ -1998,7 +1998,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "`Navigator.pushAndRemoveUntil()` removes preceding routes based on a predicate and pushes a new route.",
-    "explanationAr": "تستطيع دالة `Navigator.pushAndRemoveUntil()` حذف المسارات السابقة حسب شرط معين ودفع مسار جديد.",
+    "explanationAr": "تستطيع دالة `Navigator.(pushAndRemoveUntil)()` حذف المسارات السابقة حسب شرط معين ودفع مسار جديد.",
     "codeSnippet": null
   },
   {
@@ -2016,7 +2016,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What does Navigator.push() return when the new screen is popped?",
-    "questionAr": "ماذا تُرجع دالة Navigator.push() عند إغلاق الشاشة الجديدة والرجوع منها؟",
+    "questionAr": "ماذا تُرجع دالة (Navigator).push() عند إغلاق الشاشة الجديدة والرجوع منها؟",
     "options": [
       {
         "label": "A",
@@ -2127,7 +2127,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -2170,7 +2170,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Navigator.pushNamed(context, '/routeName') is the specific API designed for navigating using predefined route strings.",
-    "explanationAr": "دالة Navigator.pushNamed(context, '/routeName') هي الواجهة البرمجية المخصصة للتنقل باستخدام الأسماء المعرفة مسبقاً في جدول المسارات.",
+    "explanationAr": "دالة (Navigator).(pushNamed)(context, '/routeName') هي الواجهة البرمجية المخصصة للتنقل باستخدام الأسماء المعرفة مسبقاً في جدول المسارات.",
     "codeSnippet": null
   },
   {
@@ -2213,7 +2213,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -2256,7 +2256,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -2299,7 +2299,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -2342,7 +2342,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -2385,7 +2385,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "EXCLUDED FROM FINAL EXAM: Image upload via MultipartRequest / API is officially excluded from the final exam scope per Dr. Ruqaih Salman's syllabus announcement.",
-    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور والملفات عبر الـ API مستبعد رسمياً من الاختبار النهائي بقرار أستاذة المادة م/ رقية حسين سلمان.",
+    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور والملفات عبر الـ (API) مستبعد رسمياً من الاختبار النهائي بقرار أستاذة المادة م/ رقية حسين سلمان.",
     "codeSnippet": null
   },
   {
@@ -2428,7 +2428,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "EXCLUDED FROM FINAL EXAM: Image upload via MultipartRequest / API is officially excluded from the final exam scope per Dr. Ruqaih Salman's syllabus announcement.",
-    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور والملفات عبر الـ API مستبعد رسمياً من الاختبار النهائي بقرار أستاذة المادة م/ رقية حسين سلمان.",
+    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور والملفات عبر الـ (API) مستبعد رسمياً من الاختبار النهائي بقرار أستاذة المادة م/ رقية حسين سلمان.",
     "codeSnippet": null
   },
   {
@@ -2471,7 +2471,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -2514,7 +2514,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -2557,7 +2557,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -2600,7 +2600,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -2618,7 +2618,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What is the main difference between pushReplacement and push?",
-    "questionAr": "سؤال متعلق بالمنهج: What is the main difference between pushReplacement and push?",
+    "questionAr": "سؤال متعلق بالمنهج: What is the main difference between (pushReplacement) and push?",
     "options": [
       {
         "label": "A",
@@ -2643,7 +2643,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -2661,7 +2661,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What is the main difference between popUntil and pushAndRemoveUntil?",
-    "questionAr": "سؤال متعلق بالمنهج: What is the main difference between popUntil and pushAndRemoveUntil?",
+    "questionAr": "سؤال متعلق بالمنهج: What is the main difference between (popUntil) and (pushAndRemoveUntil)?",
     "options": [
       {
         "label": "A",
@@ -2686,7 +2686,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -2729,7 +2729,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -2772,7 +2772,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -2815,7 +2815,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -2858,7 +2858,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -2901,7 +2901,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -2944,7 +2944,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -2987,7 +2987,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3030,7 +3030,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3048,7 +3048,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A widget has a controller created in initState and used by a visible Search page. Where should cleanup occur?",
-    "questionAr": "سؤال متعلق بالمنهج: A widget has a controller created in initState and used by a visible Search page. Where should cleanup occur?",
+    "questionAr": "سؤال متعلق بالمنهج: A widget has a controller created in (initState) and used by a visible Search page. Where should cleanup occur?",
     "options": [
       {
         "label": "A",
@@ -3073,7 +3073,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3116,7 +3116,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3134,7 +3134,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Why is checking mounted after awaiting Navigator.push important?",
-    "questionAr": "سؤال متعلق بالمنهج: Why is checking mounted after awaiting Navigator.push important?",
+    "questionAr": "سؤال متعلق بالمنهج: Why is checking mounted after awaiting (Navigator).push important?",
     "options": [
       {
         "label": "A",
@@ -3159,7 +3159,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3202,7 +3202,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3245,7 +3245,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3288,7 +3288,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3331,7 +3331,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3374,7 +3374,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3417,7 +3417,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3460,7 +3460,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3503,7 +3503,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3546,7 +3546,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3589,7 +3589,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3607,7 +3607,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What should a navigation API choice be judged against?",
-    "questionAr": "سؤال متعلق بالمنهج: What should a navigation API choice be judged against?",
+    "questionAr": "سؤال متعلق بالمنهج: What should a navigation (API) choice be judged against?",
     "options": [
       {
         "label": "A",
@@ -3632,7 +3632,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3675,7 +3675,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3693,7 +3693,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A widget uses a context after an await but the route was popped. What risk exists?",
-    "questionAr": "سؤال متعلق بالمنهج: A widget uses a context after an await but the route was popped. What risk exists?",
+    "questionAr": "سؤال متعلق بالمنهج: A widget uses a (context) after an (await) but the route was popped. What risk exists?",
     "options": [
       {
         "label": "A",
@@ -3718,7 +3718,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3761,7 +3761,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3804,7 +3804,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3847,7 +3847,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3890,7 +3890,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3933,7 +3933,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -3976,7 +3976,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -4019,7 +4019,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس LIFO عبر ويدجت Navigator؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -4085,13 +4085,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "An uncompleted Future is already completed and has returned its data.",
-    "questionAr": "كائن الـ Future غير المكتمل (Uncompleted) هو كائن اكتمل بالفعل وقام بإرجاع بياناته.",
+    "questionAr": "كائن الـ (Future) غير المكتمل (Uncompleted) هو كائن اكتمل بالفعل وقام بإرجاع بياناته.",
     "options": null,
     "correctAnswer": "False",
     "correctionEn": "An uncompleted Future has NOT yet finished and is waiting to produce either a value or an error.",
-    "correctionAr": "كائن Future غير المكتمل لم ينتهِ بعد، وما زال ينتظر إنتاج قيمة أو إرجاع خطأ.",
+    "correctionAr": "كائن (Future) غير المكتمل لم ينتهِ بعد، وما زال ينتظر إنتاج قيمة أو إرجاع خطأ.",
     "explanationEn": "False. An Uncompleted Future is in a pending state awaiting the completion of an asynchronous operation. Once finished, it transitions to Completed (with data or with error).",
-    "explanationAr": "خطأ. حالة Uncompleted تعني أن كائن الـ Future ما زال قيد الانتظار ولم ينتهِ بعد. وعند الانتهاء يتحول إلى Completed (مع بيانات أو خطأ).",
+    "explanationAr": "خطأ. حالة Uncompleted تعني أن كائن الـ (Future) ما زال قيد الانتظار ولم ينتهِ بعد. وعند الانتهاء يتحول إلى Completed (مع بيانات أو خطأ).",
     "codeSnippet": null
   },
   {
@@ -4113,9 +4113,9 @@ export const questionsData = [
     "options": null,
     "correctAnswer": "False",
     "correctionEn": "An ASYNCHRONOUS function performs at least one asynchronous operation and is marked with the async keyword.",
-    "correctionAr": "الدالة غير المتزامنة (Asynchronous) هي التي تنفذ عملية غير متزامنة واحدة على الأقل وتُوسم بكلمة async.",
+    "correctionAr": "الدالة غير المتزامنة (Asynchronous) هي التي تنفذ عملية غير متزامنة واحدة على الأقل وتُوسم بكلمة (async).",
     "explanationEn": "False. A function that performs an asynchronous operation (like await) must be declared with `async` and returns a Future, making it an asynchronous function.",
-    "explanationAr": "خطأ. الدالة التي تحتوي على عملية غير متزامنة (مثل await) يجب وسمها بالكلمة المحجوزة async وترجع Future، وبذلك تصبح دالة غير متزامنة.",
+    "explanationAr": "خطأ. الدالة التي تحتوي على عملية غير متزامنة (مثل await) يجب وسمها بالكلمة المحجوزة (async) وترجع (Future)، وبذلك تصبح دالة غير متزامنة.",
     "codeSnippet": null
   },
   {
@@ -4133,13 +4133,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "You can use FutureBuilder to use or display data returned by a Future.",
-    "questionAr": "يمكنك استخدام ويدجت FutureBuilder لاستخدام أو عرض البيانات التي يرجعها كائن Future.",
+    "questionAr": "يمكنك استخدام ويدجت (FutureBuilder) لاستخدام أو عرض البيانات التي يرجعها كائن (Future).",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "True. FutureBuilder is a Flutter widget that listens to a Future and rebuilds itself based on its latest AsyncSnapshot states (waiting, done, error, data).",
-    "explanationAr": "صحيح. ويدجت FutureBuilder يستمع لكائن Future ويعيد بناء واجهة المستخدم تلقائياً حسب الحالة اللحظية (انتظار، نجاح مع بيانات، أو خطأ).",
+    "explanationAr": "صحيح. ويدجت (FutureBuilder) يستمع لكائن (Future) ويعيد بناء واجهة المستخدم تلقائياً حسب الحالة اللحظية (انتظار، نجاح مع بيانات، أو خطأ).",
     "codeSnippet": null
   },
   {
@@ -4181,13 +4181,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Uncompleted describes a Future before it has produced a value or error.",
-    "questionAr": "تصف حالة 'غير مكتمل' (Uncompleted) كائن Future قبل أن ينتج قيمة أو يرمي خطأ.",
+    "questionAr": "تصف حالة 'غير مكتمل' (Uncompleted) كائن (Future) قبل أن ينتج قيمة أو يرمي خطأ.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "True. While the asynchronous operation is in progress, the Future remains in the uncompleted state.",
-    "explanationAr": "صحيح. طالما أن العملية غير المتزامنة لا تزال قيد التنفيذ، يظل كائن Future في حالة غير مكتمل (Uncompleted).",
+    "explanationAr": "صحيح. طالما أن العملية غير المتزامنة لا تزال قيد التنفيذ، يظل كائن (Future) في حالة غير مكتمل (Uncompleted).",
     "codeSnippet": null
   },
   {
@@ -4205,13 +4205,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A synchronous function is a function labeled with the async keyword.",
-    "questionAr": "الدالة المتزامنة هي دالة يتم وسمها بالكلمة المفتاحية async.",
+    "questionAr": "الدالة المتزامنة هي دالة يتم وسمها بالكلمة المفتاحية (async).",
     "options": null,
     "correctAnswer": "False",
     "correctionEn": "A function labeled with async is an ASYNCHRONOUS function.",
-    "correctionAr": "الدالة الموسومة بالكلمة async هي دالة غير متزامنة (Asynchronous).",
+    "correctionAr": "الدالة الموسومة بالكلمة (async) هي دالة غير متزامنة (Asynchronous).",
     "explanationEn": "False. Marking a function with `async` makes it an asynchronous function that returns a Future.",
-    "explanationAr": "خطأ. وسم أي دالة بـ `async` يجعلها دالة غير متزامنة ترجع كائناً من نوع Future.",
+    "explanationAr": "خطأ. وسم أي دالة بـ `async` يجعلها دالة غير متزامنة ترجع كائناً من نوع (Future).",
     "codeSnippet": null
   },
   {
@@ -4229,13 +4229,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "FutureBuilder can represent waiting, error, and data through its AsyncSnapshot.",
-    "questionAr": "يستطيع ويدجت FutureBuilder تمثيل حالات الانتظار والخطأ والبيانات من خلال كائن AsyncSnapshot الخاص به.",
+    "questionAr": "يستطيع ويدجت (FutureBuilder) تمثيل حالات الانتظار والخطأ والبيانات من خلال كائن AsyncSnapshot الخاص به.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "True. FutureBuilder provides an AsyncSnapshot parameter inside builder, enabling checks like `snapshot.connectionState == ConnectionState.waiting`, `snapshot.hasError`, and `snapshot.hasData`.",
-    "explanationAr": "صحيح. يوفر FutureBuilder كائن AsyncSnapshot داخل دالة builder للتحقق من الانتظار، وجود خطأ، أو توفر البيانات.",
+    "explanationAr": "صحيح. يوفر (FutureBuilder) كائن AsyncSnapshot داخل دالة builder للتحقق من الانتظار، وجود خطأ، أو توفر البيانات.",
     "codeSnippet": null
   },
   {
@@ -4253,13 +4253,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "FutureBuilder should normally receive a stable Future rather than a newly created request on every build.",
-    "questionAr": "يجب على FutureBuilder عادةً استلام كائن Future ثابت تم تخزينه مسبقاً بدلاً من إنشاء طلب جديد مع كل عملية build.",
+    "questionAr": "يجب على (FutureBuilder) عادةً استلام كائن (Future) ثابت تم تخزينه مسبقاً بدلاً من إنشاء طلب جديد مع كل عملية (build).",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "True. Instantiating a new Future inside `build()` causes it to re-execute repeatedly on every widget rebuild. It should be instantiated in `initState()` and assigned to a member variable.",
-    "explanationAr": "صحيح. إنشاء كائن الـ Future داخل دالة build() يجعله يُعاد تنفيذه مع كل إعادة رسم للشاشة، لذا يجب إنشاؤه في initState وتخزينه في متغير ثابت.",
+    "explanationAr": "صحيح. إنشاء كائن الـ (Future) داخل دالة (build()) يجعله يُعاد تنفيذه مع كل إعادة رسم للشاشة، لذا يجب إنشاؤه في (initState) وتخزينه في متغير ثابت.",
     "codeSnippet": null
   },
   {
@@ -4277,13 +4277,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A Stream can deliver multiple values over time and then complete or report an error.",
-    "questionAr": "يمكن للـ Stream تسليم قيم متعددة على مدار الوقت ثم يكتمل أو يُبلغ عن حدوث خطأ.",
+    "questionAr": "يمكن للـ (Stream) تسليم قيم متعددة على مدار الوقت ثم يكتمل أو يُبلغ عن حدوث خطأ.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "True. Unlike a Future which delivers only a single value once, a Stream provides an asynchronous sequence of multiple events over time.",
-    "explanationAr": "صحيح. على عكس الـ Future الذي يرجع قيمة واحدة فقط، يوفر الـ Stream تدفقاً متتابعاً من عدة أحداث أو بيانات عبر الزمن.",
+    "explanationAr": "صحيح. على عكس الـ (Future) الذي يرجع قيمة واحدة فقط، يوفر الـ (Stream) تدفقاً متتابعاً من عدة أحداث أو بيانات عبر الزمن.",
     "codeSnippet": null
   },
   {
@@ -4301,13 +4301,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "An async* function returns a Stream and can use yield to emit values over time.",
-    "questionAr": "تُرجع الدالة الموسومة بـ async* كائناً من نوع Stream ويمكنها استخدام yield لضخ وبث القيم عبر الزمن.",
+    "questionAr": "تُرجع الدالة الموسومة بـ (async)* كائناً من نوع (Stream) ويمكنها استخدام yield لضخ وبث القيم عبر الزمن.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "True. In Dart, an asynchronous generator uses `async*` syntax and emits values using the `yield` statement, returning a `Stream`.",
-    "explanationAr": "صحيح. في لغة دارت، تُستخدم `async*` مع المولدات غير المتزامنة التي تبث قيماً متتابعة باستخدام أمر `yield` وترجع كائن Stream.",
+    "explanationAr": "صحيح. في لغة دارت، تُستخدم `async*` مع المولدات غير المتزامنة التي تبث قيماً متتابعة باستخدام أمر `yield` وترجع كائن (Stream).",
     "codeSnippet": null
   },
   {
@@ -4325,13 +4325,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "await for consumes stream events in sequence until the stream is done or errors.",
-    "questionAr": "يستقبل التكرار await for أحداث الـ stream بالتسلسل حتى يكتمل التدفق أو يرمي خطأ.",
+    "questionAr": "يستقبل التكرار (await) for أحداث الـ stream بالتسلسل حتى يكتمل التدفق أو يرمي خطأ.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "True. The `await for` loop is Dart's syntax for asynchronously iterating over values emitted by a Stream until it closes.",
-    "explanationAr": "صحيح. حلقة `await for` مخصصة في دارت للاستماع التسلسلي لأحداث الـ Stream قيمة تلو الأخرى حتى ينتهي التدفق.",
+    "explanationAr": "صحيح. حلقة `await for` مخصصة في دارت للاستماع التسلسلي لأحداث الـ (Stream) قيمة تلو الأخرى حتى ينتهي التدفق.",
     "codeSnippet": null
   },
   {
@@ -4349,13 +4349,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A single-subscription stream is not automatically safe for multiple simultaneous listeners. ( ) Code fragment: void main() { print('Method 1'); print('Method 2'); print('Method 3'); }",
-    "questionAr": "الـ Stream أحادي الاشتراك (single-subscription) غير آمن تلقائياً للاستماع المتزامن من عدة مستمعين.",
+    "questionAr": "الـ (Stream) أحادي الاشتراك (single-subscription) غير آمن تلقائياً للاستماع المتزامن من عدة مستمعين.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "True. A single-subscription Stream allows only one listener; attempting to listen a second time throws a StateError. Broadcast streams are required for multiple listeners.",
-    "explanationAr": "صحيح. الـ Stream أحادي الاشتراك لا يسمح إلا بمستمع واحد فقط؛ ومحاولة الاستماع مرة ثانية ترمي خطأ StateError، ويجب تحويله إلى Broadcast stream إن أردنا عدة مستمعين.",
+    "explanationAr": "صحيح. الـ (Stream) أحادي الاشتراك لا يسمح إلا بمستمع واحد فقط؛ ومحاولة الاستماع مرة ثانية ترمي خطأ StateError، ويجب تحويله إلى Broadcast stream إن أردنا عدة مستمعين.",
     "codeSnippet": null
   },
   {
@@ -4403,7 +4403,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "True. `Method 1` runs, `Future.delayed` schedules `Method 2` for 2 seconds later in the event queue, `Method 3` runs immediately, and after 2 seconds `Method 2` prints.",
-    "explanationAr": "صحيح. تنفذ Method 1 ثم تجدول Future.delayed الدالة Method 2 بعد ثانيتين في طابور الأحداث، فتنفذ Method 3 فوراً، ثم تطبع Method 2 لاحقاً.",
+    "explanationAr": "صحيح. تنفذ Method 1 ثم تجدول (Future).delayed الدالة Method 2 بعد ثانيتين في طابور الأحداث، فتنفذ Method 3 فوراً، ثم تطبع Method 2 لاحقاً.",
     "codeSnippet": null
   },
   {
@@ -4421,13 +4421,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "The following awaited fetch pauses the async function while the Future is pending, then resumes with the name. ( ) Code fragment: FutureBuilder<String>( future: storedFuture, builder: (context, snapshot) { if (snapshot.hasError) { return ElevatedButton(onPressed: retry, child: const Text('Retry')); } return const CircularProgressIndicator(); }, )",
-    "questionAr": "استدعاء fetchName مسبوقاً بـ await يوقف دالة main مؤقتاً أثناء انتظار الـ Future، ثم يكمل تنفيذ وطباعة الاسم.",
+    "questionAr": "استدعاء fetchName مسبوقاً بـ (await) يوقف دالة main مؤقتاً أثناء انتظار الـ (Future)، ثم يكمل تنفيذ وطباعة الاسم.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "True. The `await` keyword pauses execution of the surrounding async function until the awaited Future completes, then assigns the result and continues sequentially.",
-    "explanationAr": "صحيح. الكلمة المفتاحية `await` توقف تنفيذ الدالة غير المتزامنة مؤقتاً لحين اكتمال الـ Future ثم تستأنف تنفيذ الأسطر التالية بالبيانات الناتجة.",
+    "explanationAr": "صحيح. الكلمة المفتاحية `await` توقف تنفيذ الدالة غير المتزامنة مؤقتاً لحين اكتمال الـ (Future) ثم تستأنف تنفيذ الأسطر التالية بالبيانات الناتجة.",
     "codeSnippet": null
   },
   {
@@ -4445,13 +4445,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "In this FutureBuilder, the Retry branch represents a completed failure rather than a waiting state. ( ) Code fragment: FutureBuilder<String>( future: storedFuture, builder: (context, snapshot) { if (snapshot.hasData) return Text(snapshot.requireData); return const CircularProgressIndicator(); }, )",
-    "questionAr": "في هذا الـ FutureBuilder، يمثل فرع Retry حالة الفشل بعد الاكتمال بخطأ (hasError) وليس حالة الانتظار.",
+    "questionAr": "في هذا الـ (FutureBuilder)، يمثل فرع Retry حالة الفشل بعد الاكتمال بخطأ (hasError) وليس حالة الانتظار.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "True. `snapshot.hasError` is only true when the Future has completed with an exception or error, triggering the Retry UI.",
-    "explanationAr": "صحيح. الشرط `snapshot.hasError` لا يتحقق إلا عند فشل الـ Future واكتماله بخطأ، مما يعرض زر المحاولة مجدداً (Retry).",
+    "explanationAr": "صحيح. الشرط `snapshot.hasError` لا يتحقق إلا عند فشل الـ (Future) واكتماله بخطأ، مما يعرض زر المحاولة مجدداً (Retry).",
     "codeSnippet": null
   },
   {
@@ -4469,7 +4469,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "In this FutureBuilder, the data branch represents a successful completed value, including an explicitly empty value when the design permits it. ( ) Code fragment: StreamBuilder<DateTime>( stream: clockStream(), builder: (context, snapshot) => Text('${snapshot.data}'), )",
-    "questionAr": "في هذا الـ FutureBuilder، يمثل فرع snapshot.hasData نجاح اكتمال العملية والحصول على قيمة صالحة.",
+    "questionAr": "في هذا الـ (FutureBuilder)، يمثل فرع snapshot.hasData نجاح اكتمال العملية والحصول على قيمة صالحة.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -4493,13 +4493,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "In this StreamBuilder, a new DateTime event can cause a rebuild without the caller manually requesting every frame.",
-    "questionAr": "في هذا الـ StreamBuilder، يتسبب كل حدث DateTime جديد في إعادة بناء الويدجت تلقائياً دون الحاجة لطلب تحديث الإطارات يدوياً.",
+    "questionAr": "في هذا الـ (StreamBuilder)، يتسبب كل حدث DateTime جديد في إعادة بناء الويدجت تلقائياً دون الحاجة لطلب تحديث الإطارات يدوياً.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "True. StreamBuilder listens to the stream and automatically triggers `setState()` internally whenever a new event is emitted.",
-    "explanationAr": "صحيح. يستمع StreamBuilder لأحداث التدفق ويستدعي داخلياً إعادة البناء (setState) مع كل عنصر زمني جديد يضخه الـ Stream.",
+    "explanationAr": "صحيح. يستمع (StreamBuilder) لأحداث التدفق ويستدعي داخلياً إعادة البناء (setState) مع كل عنصر زمني جديد يضخه الـ (Stream).",
     "codeSnippet": null
   },
   {
@@ -4589,17 +4589,17 @@ export const questionsData = [
       {
         "label": "A",
         "textEn": "Future",
-        "textAr": "كائن Future"
+        "textAr": "كائن (Future)"
       },
       {
         "label": "B",
         "textEn": "async/await",
-        "textAr": "صيغة async/await"
+        "textAr": "صيغة (async)/(await)"
       },
       {
         "label": "C",
         "textEn": "Future and async/await",
-        "textAr": "كائن Future وصيغة async/await"
+        "textAr": "كائن (Future) وصيغة (async)/(await)"
       },
       {
         "label": "D",
@@ -4609,7 +4609,7 @@ export const questionsData = [
     ],
     "correctAnswer": "C",
     "explanationEn": "Both Future (representing deferred values) and async/await syntax are the foundational APIs for asynchronous programming in Dart.",
-    "explanationAr": "كلا المفهومين: كائنات Future وصيغة async/await هما الأساس الرسمي للبرمجة غير المتزامنة في دارت وفلاتر.",
+    "explanationAr": "كلا المفهومين: كائنات (Future) وصيغة (async)/(await) هما الأساس الرسمي للبرمجة غير المتزامنة في دارت وفلاتر.",
     "codeSnippet": null
   },
   {
@@ -4670,7 +4670,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which states can a Future have?",
-    "questionAr": "ما هي الحالات التي يمكن أن يتواجد فيها كائن الـ Future؟",
+    "questionAr": "ما هي الحالات التي يمكن أن يتواجد فيها كائن الـ (Future)؟",
     "options": [
       {
         "label": "A",
@@ -4695,7 +4695,7 @@ export const questionsData = [
     ],
     "correctAnswer": "D",
     "explanationEn": "A Future starts in the Uncompleted state, and later transitions to Completed either with data (value) or with an error.",
-    "explanationAr": "يمر الـ Future بحالة غير مكتمل (Uncompleted) في البداية، ثم ينتقل عند الانتهاء إلى مكتمل مع بيانات أو مكتمل مع خطأ.",
+    "explanationAr": "يمر الـ (Future) بحالة غير مكتمل (Uncompleted) في البداية، ثم ينتقل عند الانتهاء إلى مكتمل مع بيانات أو مكتمل مع خطأ.",
     "codeSnippet": null
   },
   {
@@ -4713,7 +4713,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which parameters must a FutureBuilder normally receive?",
-    "questionAr": "ما هي المعاملات (Parameters) التي يجب أن يستقبلها ويدجت FutureBuilder عادةً؟",
+    "questionAr": "ما هي المعاملات (Parameters) التي يجب أن يستقبلها ويدجت (FutureBuilder) عادةً؟",
     "options": [
       {
         "label": "A",
@@ -4738,7 +4738,7 @@ export const questionsData = [
     ],
     "correctAnswer": "C",
     "explanationEn": "FutureBuilder primarily requires: (1) `future` to listen to, and (2) `builder` callback function `(context, snapshot)` to build UI based on state.",
-    "explanationAr": "يتطلب FutureBuilder وسيطين أساسيين: الـ `future` المراد مراقبته، ودالة البناء `builder` التي تبني الواجهة اعتماداً على لقطة البيانات (snapshot).",
+    "explanationAr": "يتطلب (FutureBuilder) وسيطين أساسيين: الـ `future` المراد مراقبته، ودالة البناء `builder` التي تبني الواجهة اعتماداً على لقطة البيانات (snapshot).",
     "codeSnippet": null
   },
   {
@@ -4761,17 +4761,17 @@ export const questionsData = [
       {
         "label": "A",
         "textEn": "async",
-        "textAr": "الكلمة المفتاحية async"
+        "textAr": "الكلمة المفتاحية (async)"
       },
       {
         "label": "B",
         "textEn": "await",
-        "textAr": "الكلمة المفتاحية await"
+        "textAr": "الكلمة المفتاحية (await)"
       },
       {
         "label": "C",
         "textEn": "async and await",
-        "textAr": "الكلمتان async و await معاً"
+        "textAr": "الكلمتان (async) و (await) معاً"
       },
       {
         "label": "D",
@@ -4799,12 +4799,12 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which widget builds a widget when a Future resolves?",
-    "questionAr": "أي ويدجت في فلاتر يبني واجهة المستخدم تلقائياً عند اكتمال كائن Future؟",
+    "questionAr": "أي ويدجت في فلاتر يبني واجهة المستخدم تلقائياً عند اكتمال كائن (Future)؟",
     "options": [
       {
         "label": "A",
         "textEn": "FutureBuilder",
-        "textAr": "ويدجت FutureBuilder"
+        "textAr": "ويدجت (FutureBuilder)"
       },
       {
         "label": "B",
@@ -4814,7 +4814,7 @@ export const questionsData = [
       {
         "label": "C",
         "textEn": "Future",
-        "textAr": "كائن Future"
+        "textAr": "كائن (Future)"
       },
       {
         "label": "D",
@@ -4824,7 +4824,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "FutureBuilder is the official Flutter widget designed specifically to rebuild its UI when an associated Future resolves.",
-    "explanationAr": "ويدجت FutureBuilder هو الويدجت الرسمي المخصص في فلاتر لإعادة بناء الواجهة تلقائياً لحظة اكتمال كائن Future.",
+    "explanationAr": "ويدجت (FutureBuilder) هو الويدجت الرسمي المخصص في فلاتر لإعادة بناء الواجهة تلقائياً لحظة اكتمال كائن (Future).",
     "codeSnippet": null
   },
   {
@@ -4890,17 +4890,17 @@ export const questionsData = [
       {
         "label": "A",
         "textEn": "async, await",
-        "textAr": "async للتعبير، و await للدالة الحاوية"
+        "textAr": "(async) للتعبير، و (await) للدالة الحاوية"
       },
       {
         "label": "B",
         "textEn": "await, async",
-        "textAr": "await للتعبير، و async للدالة الحاوية"
+        "textAr": "(await) للتعبير، و (async) للدالة الحاوية"
       },
       {
         "label": "C",
         "textEn": "await, Future",
-        "textAr": "await و Future"
+        "textAr": "(await) و (Future)"
       },
       {
         "label": "D",
@@ -4910,7 +4910,7 @@ export const questionsData = [
     ],
     "correctAnswer": "B",
     "explanationEn": "`await` is used inside expressions to wait for the Future, while `async` labels the containing function signature.",
-    "explanationAr": "الكلمة `await` تُستخدم أمام التعبير لانتظار الـ Future، بينما `async` تُستخدم في ترويسة الدالة لتحديد أنها غير متزامنة.",
+    "explanationAr": "الكلمة `await` تُستخدم أمام التعبير لانتظار الـ (Future)، بينما `async` تُستخدم في ترويسة الدالة لتحديد أنها غير متزامنة.",
     "codeSnippet": null
   },
   {
@@ -4928,7 +4928,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A function returns Future<String>. What does that contract mean?",
-    "questionAr": "دالة تُرجع نوع Future<String>، ماذا يعني هذا العقد البرمجي؟",
+    "questionAr": "دالة تُرجع نوع (Future)<String>، ماذا يعني هذا العقد البرمجي؟",
     "options": [
       {
         "label": "A",
@@ -4953,7 +4953,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Future<String> promises that the function will eventually complete by yielding a single String value or throwing an error.",
-    "explanationAr": "يعني نوع الإرجاع Future<String> أن الدالة ستنتهي في المستقبل بقيمة نصية واحدة (String) أو تنتهي برمي خطأ.",
+    "explanationAr": "يعني نوع الإرجاع (Future)<String> أن الدالة ستنتهي في المستقبل بقيمة نصية واحدة (String) أو تنتهي برمي خطأ.",
     "codeSnippet": null
   },
   {
@@ -4971,12 +4971,12 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What does await do inside an async function?",
-    "questionAr": "ماذا تفعل الكلمة المفتاحية await داخل دالة غير متزامنة؟",
+    "questionAr": "ماذا تفعل الكلمة المفتاحية (await) داخل دالة غير متزامنة؟",
     "options": [
       {
         "label": "A",
         "textEn": "Suspends that function until the Future completes",
-        "textAr": "يعلق تنفيذ تلك الدالة حتى يكتمل الـ Future"
+        "textAr": "يعلق تنفيذ تلك الدالة حتى يكتمل الـ (Future)"
       },
       {
         "label": "B",
@@ -4996,7 +4996,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "`await` suspends execution of the current async function until the awaited Future completes, allowing other isolate events to process.",
-    "explanationAr": "تقوم `await` بتعليق تنفيذ الدالة غير المتزامنة مؤقتاً حتى يكتمل الـ Future مع إبقاء التطبيق متفاعلاً لمعالجة الأحداث الأخرى.",
+    "explanationAr": "تقوم `await` بتعليق تنفيذ الدالة غير المتزامنة مؤقتاً حتى يكتمل الـ (Future) مع إبقاء التطبيق متفاعلاً لمعالجة الأحداث الأخرى.",
     "codeSnippet": null
   },
   {
@@ -5014,7 +5014,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "The code calls Future.delayed but does not await or return it. What can happen?",
-    "questionAr": "يستدعي الكود Future.delayed دون استخدام await أو إرجاع الـ Future، ماذا يمكن أن يحدث؟",
+    "questionAr": "يستدعي الكود (Future).delayed دون استخدام (await) أو إرجاع الـ (Future)، ماذا يمكن أن يحدث؟",
     "options": [
       {
         "label": "A",
@@ -5034,7 +5034,7 @@ export const questionsData = [
       {
         "label": "D",
         "textEn": "The Future becomes a Stream",
-        "textAr": "يتحول الـ Future إلى Stream"
+        "textAr": "يتحول الـ (Future) إلى (Stream)"
       }
     ],
     "correctAnswer": "A",
@@ -5062,7 +5062,7 @@ export const questionsData = [
       {
         "label": "A",
         "textEn": "final value = await loadValue();",
-        "textAr": "final value = await loadValue(); (انتظار واستخدام القيمة)"
+        "textAr": "final value = (await) loadValue(); (انتظار واستخدام القيمة)"
       },
       {
         "label": "B",
@@ -5072,7 +5072,7 @@ export const questionsData = [
       {
         "label": "C",
         "textEn": "await Future<void> without a task",
-        "textAr": "await Future<void> بدون مهمة"
+        "textAr": "(await) (Future)<void> بدون مهمة"
       },
       {
         "label": "D",
@@ -5082,7 +5082,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "`final value = await loadValue();` explicitly suspends until `loadValue()` completes and stores its resolved result in `value`.",
-    "explanationAr": "السطر `final value = await loadValue();` يعبر بدقة عن انتظار اكتمال الدالة loadValue وتخزين قيمتها الناتجة قبل المتابعة.",
+    "explanationAr": "السطر `final value = (await) loadValue();` يعبر بدقة عن انتظار اكتمال الدالة loadValue وتخزين قيمتها الناتجة قبل المتابعة.",
     "codeSnippet": null
   },
   {
@@ -5125,7 +5125,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "In a Future chain, the value returned by `.then()` is wrapped into the next Future stage and passed to subsequent `.then()` handlers.",
-    "explanationAr": "في سلاسل الـ Future، فإن القيمة المحولة المعادة من `.then()` تُمرر مباشرة كمدخل للمرحلة التالية في السلسلة.",
+    "explanationAr": "في سلاسل الـ (Future)، فإن القيمة المحولة المعادة من `.then()` تُمرر مباشرة كمدخل للمرحلة التالية في السلسلة.",
     "codeSnippet": null
   },
   {
@@ -5143,27 +5143,27 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which error-handling structure is clearest for several awaited operations that share one recovery path?",
-    "questionAr": "ما هو هيكل معالجة الأخطاء الأكثر وضوحاً لعدة عمليات منتظرة بـ await تشترك في مسار استرجاع موحد؟",
+    "questionAr": "ما هو هيكل معالجة الأخطاء الأكثر وضوحاً لعدة عمليات منتظرة بـ (await) تشترك في مسار استرجاع موحد؟",
     "options": [
       {
         "label": "A",
         "textEn": "try/catch around the awaits",
-        "textAr": "كتلة try/catch تحيط بأوامر await"
+        "textAr": "كتلة try/catch تحيط بأوامر (await)"
       },
       {
         "label": "B",
         "textEn": "A color change in build",
-        "textAr": "تغيير اللون في build"
+        "textAr": "تغيير اللون في (build)"
       },
       {
         "label": "C",
         "textEn": "A new StreamBuilder with no stream",
-        "textAr": "ويدجت StreamBuilder جديد دون stream"
+        "textAr": "ويدجت (StreamBuilder) جديد دون stream"
       },
       {
         "label": "D",
         "textEn": "Navigator.pop only",
-        "textAr": "أمر Navigator.pop فقط"
+        "textAr": "أمر (Navigator).pop فقط"
       }
     ],
     "correctAnswer": "A",
@@ -5206,7 +5206,7 @@ export const questionsData = [
       {
         "label": "D",
         "textEn": "Convert a Future to a Stream",
-        "textAr": "تحويل Future إلى Stream"
+        "textAr": "تحويل (Future) إلى (Stream)"
       }
     ],
     "correctAnswer": "A",
@@ -5234,17 +5234,17 @@ export const questionsData = [
       {
         "label": "A",
         "textEn": "Future.timeout",
-        "textAr": "دالة Future.timeout"
+        "textAr": "دالة (Future).timeout"
       },
       {
         "label": "B",
         "textEn": "Future.wait with one item",
-        "textAr": "Future.wait بعنصر واحد"
+        "textAr": "(Future).wait بعنصر واحد"
       },
       {
         "label": "C",
         "textEn": "StreamBuilder.initialData",
-        "textAr": "خاصية StreamBuilder.initialData"
+        "textAr": "خاصية (StreamBuilder).initialData"
       },
       {
         "label": "D",
@@ -5315,7 +5315,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Task B finishes before task A in Future.wait([A, B]). What order is returned?",
-    "questionAr": "انتهت المهمة B قبل المهمة A داخل Future.wait([A, B])، فما هو ترتيب النتائج المعادة في القائمة؟",
+    "questionAr": "انتهت المهمة B قبل المهمة A داخل (Future).wait([A, B])، فما هو ترتيب النتائج المعادة في القائمة؟",
     "options": [
       {
         "label": "A",
@@ -5363,7 +5363,7 @@ export const questionsData = [
       {
         "label": "A",
         "textEn": "Await the first, then start the second with its id",
-        "textAr": "انتظار الأولى بـ await، ثم بدء الثانية باستخدام المعرف id"
+        "textAr": "انتظار الأولى بـ (await)، ثم بدء الثانية باستخدام المعرف id"
       },
       {
         "label": "B",
@@ -5378,7 +5378,7 @@ export const questionsData = [
       {
         "label": "D",
         "textEn": "Use cancelOnError on a Future",
-        "textAr": "استخدام cancelOnError مع Future"
+        "textAr": "استخدام cancelOnError مع (Future)"
       }
     ],
     "correctAnswer": "A",
@@ -5401,17 +5401,17 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A screen is popped while a Future is suspended. What risk exists when it completes?",
-    "questionAr": "تم إغلاق الشاشة (Popped) بينما كان كائن Future معلقاً. ما هو الخطر البرمجي عند اكتماله؟",
+    "questionAr": "تم إغلاق الشاشة (Popped) بينما كان كائن (Future) معلقاً. ما هو الخطر البرمجي عند اكتماله؟",
     "options": [
       {
         "label": "A",
         "textEn": "A later setState or context call may target an unmounted State",
-        "textAr": "استدعاء setState أو context لاحقاً قد يستهدف شاشة غير مثبتة"
+        "textAr": "استدعاء setState أو (context) لاحقاً قد يستهدف شاشة غير مثبتة"
       },
       {
         "label": "B",
         "textEn": "The Future changes into a Stream",
-        "textAr": "يتحول الـ Future إلى Stream"
+        "textAr": "يتحول الـ (Future) إلى (Stream)"
       },
       {
         "label": "C",
@@ -5444,7 +5444,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which snapshot state normally means a FutureBuilder Future is still running?",
-    "questionAr": "أي حالة في snapshot تعني عادةً أن كائن الـ Future في FutureBuilder لا يزال قيد التشغيل والانتظار؟",
+    "questionAr": "أي حالة في snapshot تعني عادةً أن كائن الـ (Future) في (FutureBuilder) لا يزال قيد التشغيل والانتظار؟",
     "options": [
       {
         "label": "A",
@@ -5464,12 +5464,12 @@ export const questionsData = [
       {
         "label": "D",
         "textEn": "ConnectionState.active for every Future",
-        "textAr": "ConnectionState.active لكل Future"
+        "textAr": "ConnectionState.active لكل (Future)"
       }
     ],
     "correctAnswer": "A",
     "explanationEn": "`ConnectionState.waiting` indicates the Future has connected and Flutter is actively waiting for its resolution.",
-    "explanationAr": "تعني الحالة `ConnectionState.waiting` أن الـ Future متصل ولا تزال بيئة فلاتر تنتظر انتهاء العملية غير المتزامنة.",
+    "explanationAr": "تعني الحالة `ConnectionState.waiting` أن الـ (Future) متصل ولا تزال بيئة فلاتر تنتظر انتهاء العملية غير المتزامنة.",
     "codeSnippet": null
   },
   {
@@ -5487,22 +5487,22 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Why store a Future in State for a FutureBuilder profile screen?",
-    "questionAr": "لماذا يتم حفظ كائن Future داخل متغير State في شاشة الملف الشخصي التي تستخدم FutureBuilder؟",
+    "questionAr": "لماذا يتم حفظ كائن (Future) داخل متغير State في شاشة الملف الشخصي التي تستخدم (FutureBuilder)؟",
     "options": [
       {
         "label": "A",
         "textEn": "To avoid creating a new request on every build",
-        "textAr": "لتجنب إنشاء طلب جديد متكرر مع كل عملية build"
+        "textAr": "لتجنب إنشاء طلب جديد متكرر مع كل عملية (build)"
       },
       {
         "label": "B",
         "textEn": "To make the Future persistent after uninstall",
-        "textAr": "لجعل الـ Future محفوظاً بعد حذف التطبيق"
+        "textAr": "لجعل الـ (Future) محفوظاً بعد حذف التطبيق"
       },
       {
         "label": "C",
         "textEn": "To convert it into a Stream automatically",
-        "textAr": "لتحويله إلى Stream تلقائياً"
+        "textAr": "لتحويله إلى (Stream) تلقائياً"
       },
       {
         "label": "D",
@@ -5512,7 +5512,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Storing the Future in State (typically initialized in `initState`) prevents triggering duplicate network requests on every widget rebuild.",
-    "explanationAr": "تخزين الـ Future في متغير الحالة (داخل initState) يمنع إعادة إرسال طلبات الشبكة مراراً مع كل إعادة بناء أو تحديث للشاشة.",
+    "explanationAr": "تخزين الـ (Future) في متغير الحالة (داخل initState) يمنع إعادة إرسال طلبات الشبكة مراراً مع كل إعادة بناء أو تحديث للشاشة.",
     "codeSnippet": null
   },
   {
@@ -5535,12 +5535,12 @@ export const questionsData = [
       {
         "label": "A",
         "textEn": "Stream<T>",
-        "textAr": "كائن Stream<T>"
+        "textAr": "كائن (Stream)<T>"
       },
       {
         "label": "B",
         "textEn": "Future<T>",
-        "textAr": "كائن Future<T>"
+        "textAr": "كائن (Future)<T>"
       },
       {
         "label": "C",
@@ -5573,12 +5573,12 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What does async* return?",
-    "questionAr": "ما هو نوع القيمة المعادة من دالة موسومة بـ async*؟",
+    "questionAr": "ما هو نوع القيمة المعادة من دالة موسومة بـ (async)*؟",
     "options": [
       {
         "label": "A",
         "textEn": "A Stream",
-        "textAr": "كائن تدفق Stream"
+        "textAr": "كائن تدفق (Stream)"
       },
       {
         "label": "B",
@@ -5593,12 +5593,12 @@ export const questionsData = [
       {
         "label": "D",
         "textEn": "A route name",
-        "textAr": "اسم مسار Route name"
+        "textAr": "اسم مسار (Route) name"
       }
     ],
     "correctAnswer": "A",
     "explanationEn": "Functions declared with `async*` are asynchronous generator functions that always return a `Stream`.",
-    "explanationAr": "الدوال الموسومة بـ `async*` هي مولدات غير متزامنة تُرجع دائماً كائناً من نوع Stream.",
+    "explanationAr": "الدوال الموسومة بـ `async*` هي مولدات غير متزامنة تُرجع دائماً كائناً من نوع (Stream).",
     "codeSnippet": null
   },
   {
@@ -5621,12 +5621,12 @@ export const questionsData = [
       {
         "label": "A",
         "textEn": "Emit one event into the generated Stream",
-        "textAr": "بث وضخ حدث جديد داخل الـ Stream المتولد"
+        "textAr": "بث وضخ حدث جديد داخل الـ (Stream) المتولد"
       },
       {
         "label": "B",
         "textEn": "Await a Future without suspension",
-        "textAr": "انتظار Future بدون تعليق"
+        "textAr": "انتظار (Future) بدون تعليق"
       },
       {
         "label": "C",
@@ -5641,7 +5641,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "`yield` emits a single value as a new event into the generated Stream without terminating the generator function.",
-    "explanationAr": "تقوم `yield` بضخ وبث قيمة واحدة كحدث جديد داخل الـ Stream دون إنهاء تنفيذ الدالة المولدة.",
+    "explanationAr": "تقوم `yield` بضخ وبث قيمة واحدة كحدث جديد داخل الـ (Stream) دون إنهاء تنفيذ الدالة المولدة.",
     "codeSnippet": null
   },
   {
@@ -5659,7 +5659,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which StreamBuilder state can show that a finite stream has completed?",
-    "questionAr": "أي حالة في StreamBuilder توضح أن تدفق الـ stream المنتهي قد اكتمل تماماً؟",
+    "questionAr": "أي حالة في (StreamBuilder) توضح أن تدفق الـ stream المنتهي قد اكتمل تماماً؟",
     "options": [
       {
         "label": "A",
@@ -5674,7 +5674,7 @@ export const questionsData = [
       {
         "label": "C",
         "textEn": "Future.timeout",
-        "textAr": "دالة Future.timeout"
+        "textAr": "دالة (Future).timeout"
       },
       {
         "label": "D",
@@ -5684,7 +5684,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "`ConnectionState.done` indicates that the Stream has finished emitting all items and has closed.",
-    "explanationAr": "توضح الحالة `ConnectionState.done` أن الـ Stream قد انتهى من بث كافة العناصر وأُغلق تماماً.",
+    "explanationAr": "توضح الحالة `ConnectionState.done` أن الـ (Stream) قد انتهى من بث كافة العناصر وأُغلق تماماً.",
     "codeSnippet": null
   },
   {
@@ -5846,11 +5846,11 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "sqflite in flutter are used to store data locally in key -value pairs in android and ios apps.",
-    "questionAr": "تُستخدم حزمة sqflite في فلاتر لتخزين البيانات محلياً على شكل أزواج (مفتاح-قيمة).",
+    "questionAr": "تُستخدم حزمة (sqflite) في فلاتر لتخزين البيانات محلياً على شكل أزواج (مفتاح-قيمة).",
     "options": null,
     "correctAnswer": "False",
     "correctionEn": "SharedPreferences stores key-value pairs; sqflite stores structured relational data in tables.",
-    "correctionAr": "تُستخدم SharedPreferences لتخزين أزواج (مفتاح-قيمة)، بينما تُستخدم sqflite لقواعد البيانات العلائقية والجداول.",
+    "correctionAr": "تُستخدم (SharedPreferences) لتخزين أزواج (مفتاح-قيمة)، بينما تُستخدم (sqflite) لقواعد البيانات العلائقية والجداول.",
     "explanationEn": "False. `sqflite` is an SQLite database engine for relational tables. Key-value storage is provided by `shared_preferences`.",
     "explanationAr": "خطأ. حزمة `sqflite` مخصصة لقواعد البيانات العلائقية والجداول SQL، بينما تخزين مفتاح-قيمة مخصص لـ `shared_preferences`.",
     "codeSnippet": null
@@ -5870,13 +5870,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Don’t use sharedpreferences to save complex data. It is useful to save simple data .",
-    "questionAr": "لا تستخدم SharedPreferences لحفظ البيانات المعقدة؛ بل هي مفيدة ومخصصة لحفظ البيانات الأولية البسيطة.",
+    "questionAr": "لا تستخدم (SharedPreferences) لحفظ البيانات المعقدة؛ بل هي مفيدة ومخصصة لحفظ البيانات الأولية البسيطة.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "True. SharedPreferences is optimized for simple primitives (bool, int, double, String). Complex data belongs in SQLite or JSON files.",
-    "explanationAr": "صحيح. صُممت SharedPreferences للبيانات الأولية البسيطة فقط، بينما البيانات المعقدة والكبيرة مكانها المناسب قواعد بيانات SQLite.",
+    "explanationAr": "صحيح. صُممت (SharedPreferences) للبيانات الأولية البسيطة فقط، بينما البيانات المعقدة والكبيرة مكانها المناسب قواعد بيانات (SQLite).",
     "codeSnippet": null
   },
   {
@@ -5894,7 +5894,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "To save data in sharedpreferences in flutter declare an object of SharedPreferences class. Initialize the object and call the getter methods to save data.",
-    "questionAr": "لحفظ البيانات في SharedPreferences، نقوم بالحصول على كائن SharedPreferences عبر getInstance().",
+    "questionAr": "لحفظ البيانات في (SharedPreferences)، نقوم بالحصول على كائن (SharedPreferences) عبر getInstance().",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -5918,13 +5918,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "To save string value in sharedpreferences call the setString() method and provide the key and value.",
-    "questionAr": "لحفظ قيمة نصية في SharedPreferences، نستدعي دالة setString() ونمرر المفتاح والقيمة النصية.",
+    "questionAr": "لحفظ قيمة نصية في (SharedPreferences)، نستدعي دالة setString() ونمرر المفتاح والقيمة النصية.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "True. `prefs.setString(key, value)` is the official method for persisting a string in SharedPreferences.",
-    "explanationAr": "صحيح. دالة `prefs.setString(key, value)` هي الدالة الرسمية لتخزين النصوص في SharedPreferences.",
+    "explanationAr": "صحيح. دالة `prefs.setString(key, value)` هي الدالة الرسمية لتخزين النصوص في (SharedPreferences).",
     "codeSnippet": null
   },
   {
@@ -5942,7 +5942,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "To retrieve or read data from sharedpreferences in flutter we have to use setter methods of sharedpreferences class.",
-    "questionAr": "سؤال التفضيلات المشتركة SharedPreferences: To retrieve or read data from sharedpreferences in flutter we have to use setter methods of sharedpreferences class.",
+    "questionAr": "سؤال التفضيلات المشتركة (SharedPreferences): To retrieve or read data from sharedpreferences in flutter we have to use setter methods of sharedpreferences class.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -5966,7 +5966,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "To delete or remove data from sharedpreferences in flutter we have to use remove() method. We have to provide only the key to delete the record (both the key and the value corresponding to that key). This method can delete all four types of data by simply taking the key.",
-    "questionAr": "سؤال التفضيلات المشتركة SharedPreferences: To delete or remove data from sharedpreferences in flutter we have to use remove() method. We have to provide only the key to delete the record (both the key and the value corresponding to that key). This method can delete all four types of data by simply taking the key.",
+    "questionAr": "سؤال التفضيلات المشتركة (SharedPreferences): To delete or remove data from sharedpreferences in flutter we have to use remove() method. We have to provide only the key to delete the record (both the key and the value corresponding to that key). This method can delete all four types of data by simply taking the key.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -5990,7 +5990,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "containsKey() method takes key as value and checks if the key is present in sharedpreferences. If the key is present it will return false else it will return true.",
-    "questionAr": "سؤال التفضيلات المشتركة SharedPreferences: containsKey() method takes key as value and checks if the key is present in sharedpreferences. If the key is present it will return false else it will return true.",
+    "questionAr": "سؤال التفضيلات المشتركة (SharedPreferences): containsKey() method takes key as value and checks if the key is present in sharedpreferences. If the key is present it will return false else it will return true.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6014,7 +6014,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "To store some simple data persistently, you can use the shared_preferences plugin. Data is persisted to disk asynchronously so you need to use Future, async and await.",
-    "questionAr": "سؤال متعلق بالمنهج: To store some simple data persistently, you can use the shared_preferences plugin. Data is persisted to disk asynchronously so you need to use Future, async and await.",
+    "questionAr": "سؤال متعلق بالمنهج: To store some simple data persistently, you can use the shared_preferences plugin. Data is persisted to disk asynchronously so you need to use (Future), (async) and (await).",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6086,7 +6086,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Define the path to the database file using getDatabasesPath() from the path package, combined with the join function from the sqflite package.",
-    "questionAr": "سؤال قاعدة بيانات SQLite: Define the path to the database file using getDatabasesPath() from the path package, combined with the join function from the sqflite package.",
+    "questionAr": "سؤال قاعدة بيانات (SQLite): Define the path to the database file using getDatabasesPath() from the path package, combined with the join function from the (sqflite) package.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6110,7 +6110,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "To insert a data into a table in sqflite database. This involves two steps: Convert the data into a Map and Use the add () method to store the Map in the table.",
-    "questionAr": "سؤال قاعدة بيانات SQLite: To insert a data into a table in sqflite database. This involves two steps: Convert the data into a Map and Use the add () method to store the Map in the table.",
+    "questionAr": "سؤال قاعدة بيانات (SQLite): To insert a data into a table in (sqflite) database. This involves two steps: Convert the data into a Map and Use the add () method to store the Map in the table.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6158,7 +6158,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A value stored only in a lo cal variable inside build is not expected to survive the next rebuild.",
-    "questionAr": "سؤال متعلق بالمنهج: A value stored only in a lo cal variable inside build is not expected to survive the next rebuild.",
+    "questionAr": "سؤال متعلق بالمنهج: A value stored only in a lo cal variable inside (build) is not expected to survive the next rebuild.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6302,7 +6302,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "DateTime values usually need an explicit serialization format before being stored as text or JSON.",
-    "questionAr": "سؤال متعلق بالمنهج: DateTime values usually need an explicit serialization format before being stored as text or JSON.",
+    "questionAr": "سؤال متعلق بالمنهج: DateTime values usually need an explicit serialization format before being stored as text or (JSON).",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6374,7 +6374,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A successful SQLite query that returns zero rows is a valid empty state, not automatically a database failure.",
-    "questionAr": "سؤال قاعدة بيانات SQLite: A successful SQLite query that returns zero rows is a valid empty state, not automatically a database failure.",
+    "questionAr": "سؤال قاعدة بيانات (SQLite): A successful (SQLite) query that returns zero rows is a valid empty state, not automatically a database failure.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6422,7 +6422,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Loading persistent data in initState can establish the initial source for a stateful screen.",
-    "questionAr": "سؤال متعلق بالمنهج: Loading persistent data in initState can establish the initial source for a stateful screen.",
+    "questionAr": "سؤال متعلق بالمنهج: Loading persistent data in (initState) can establish the initial source for a stateful screen.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6494,7 +6494,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "SharedPreferencesAsync reads from the platform -backed preference store rather than relying on a permanently cached value.",
-    "questionAr": "سؤال التفضيلات المشتركة SharedPreferences: SharedPreferencesAsync reads from the platform -backed preference store rather than relying on a permanently cached value.",
+    "questionAr": "سؤال التفضيلات المشتركة (SharedPreferences): (SharedPreferencesAsync) reads from the platform -backed preference store rather than relying on a permanently cached value.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6518,7 +6518,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A cached preferences API can return stale data if another actor changes the underlying store and the cache is not reloaded.",
-    "questionAr": "سؤال متعلق بالمنهج: A cached preferences API can return stale data if another actor changes the underlying store and the cache is not reloaded.",
+    "questionAr": "سؤال متعلق بالمنهج: A cached preferences (API) can return stale data if another actor changes the underlying store and the cache is not reloaded.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6542,7 +6542,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "SQLite is useful when data needs structured rows, filtering, ordering, and relationships.",
-    "questionAr": "سؤال قاعدة بيانات SQLite: SQLite is useful when data needs structured rows, filtering, ordering, and relationships.",
+    "questionAr": "سؤال قاعدة بيانات (SQLite): (SQLite) is useful when data needs structured rows, filtering, ordering, and relationships.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6566,7 +6566,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A file is often a natural choice for raw text, serialized JSON, or other document -like content.",
-    "questionAr": "سؤال متعلق بالمنهج: A file is often a natural choice for raw text, serialized JSON, or other document -like content.",
+    "questionAr": "سؤال متعلق بالمنهج: A file is often a natural choice for raw text, serialized (JSON), or other document -like content.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6638,7 +6638,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "On mobile, sqflite normally stores a database in an application -controlled local database location.",
-    "questionAr": "سؤال قاعدة بيانات SQLite: On mobile, sqflite normally stores a database in an application -controlled local database location.",
+    "questionAr": "سؤال قاعدة بيانات (SQLite): On mobile, (sqflite) normally stores a database in an application -controlled local database location.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6662,7 +6662,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A web target can have different file and SQLite capabilities from Android or iOS, so the storage plan must name its platform assumptions.",
-    "questionAr": "سؤال قاعدة بيانات SQLite: A web target can have different file and SQLite capabilities from Android or iOS, so the storage plan must name its platform assumptions.",
+    "questionAr": "سؤال قاعدة بيانات (SQLite): A web target can have different file and (SQLite) capabilities from Android or iOS, so the storage plan must name its platform assumptions.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6686,7 +6686,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A repository boundary can keep UI code independent from whether data comes from preferences, SQLite, files, or a remote source.",
-    "questionAr": "سؤال قاعدة بيانات SQLite: A repository boundary can keep UI code independent from whether data comes from preferences, SQLite, files, or a remote source.",
+    "questionAr": "سؤال قاعدة بيانات (SQLite): A repository boundary can keep UI code independent from whether data comes from preferences, (SQLite), files, or a remote source.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6734,7 +6734,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A toMap method should produce keys and value types that agree with the database or JSON contract.",
-    "questionAr": "سؤال متعلق بالمنهج: A toMap method should produce keys and value types that agree with the database or JSON contract.",
+    "questionAr": "سؤال متعلق بالمنهج: A toMap method should produce keys and value types that agree with the database or (JSON) contract.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6926,7 +6926,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A batch groups operations for efficiency but should not automatically be described as a transaction without checking the API semantics.",
-    "questionAr": "سؤال متعلق بالمنهج: A batch groups operations for efficiency but should not automatically be described as a transaction without checking the API semantics.",
+    "questionAr": "سؤال متعلق بالمنهج: A batch groups operations for efficiency but should not automatically be described as a transaction without checking the (API) semantics.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6998,7 +6998,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A JSON decoder can parse syntactically valid JS ON that still violates the application schema.",
-    "questionAr": "سؤال متعلق بالمنهج: A JSON decoder can parse syntactically valid JS ON that still violates the application schema.",
+    "questionAr": "سؤال متعلق بالمنهج: A (JSON) decoder can parse syntactically valid JS ON that still violates the application schema.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7238,7 +7238,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "SharedPreferencesAsy nc can store supported primitive types, but the read type should match the write contract.",
-    "questionAr": "سؤال التفضيلات المشتركة SharedPreferences: SharedPreferencesAsy nc can store supported primitive types, but the read type should match the write contract.",
+    "questionAr": "سؤال التفضيلات المشتركة (SharedPreferences): SharedPreferencesAsy nc can store supported primitive types, but the read type should match the write contract.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7262,7 +7262,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Calling remove for one preference key should not be described as clearing every unrelated preference unless the API call actually does that.",
-    "questionAr": "سؤال متعلق بالمنهج: Calling remove for one preference key should not be described as clearing every unrelated preference unless the API call actually does that.",
+    "questionAr": "سؤال متعلق بالمنهج: Calling remove for one preference key should not be described as clearing every unrelated preference unless the (API) call actually does that.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7550,7 +7550,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A repository can expose domain -level operations while hiding wh ether the current implementation uses a preference, file, SQLite, or remote source.",
-    "questionAr": "سؤال قاعدة بيانات SQLite: A repository can expose domain -level operations while hiding wh ether the current implementation uses a preference, file, SQLite, or remote source.",
+    "questionAr": "سؤال قاعدة بيانات (SQLite): A repository can expose domain -level operations while hiding wh ether the current implementation uses a preference, file, (SQLite), or remote source.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7598,7 +7598,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: FloatingActionButton( onPressed: () => _showForm(null), child: const Icon(Icons.add), ) A local SQLite query can return zero rows successfully, so the UI should distinguish empty from error.",
-    "questionAr": "سؤال قاعدة بيانات SQLite: If we have the following code fragment: FloatingActionButton( onPressed: () => _showForm(null), child: const Icon(Icons.add), ) A local SQLite query can return zero rows successfully, so the UI should distinguish empty from error.",
+    "questionAr": "سؤال قاعدة بيانات (SQLite): If we have the following code fragment: FloatingActionButton( onPressed: () => _showForm(null), child: const Icon(Icons.add), ) A local (SQLite) query can return zero rows successfully, so the UI should distinguish empty from error.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7622,7 +7622,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: setState(() { _journals.add({'title':'Study Plan', 'description':'Review SQLite CRUD'}); }); A FAB callback can open a cre ate form while keeping the list route available for refresh after return.",
-    "questionAr": "سؤال قاعدة بيانات SQLite: If we have the following code fragment: setState(() { _journals.add({'title':'Study Plan', 'description':'Review SQLite CRUD'}); }); A FAB callback can open a cre ate form while keeping the list route available for refresh after return.",
+    "questionAr": "سؤال قاعدة بيانات (SQLite): If we have the following code fragment: setState(() { _journals.add({'title':'Study Plan', 'description':'Review (SQLite) CRUD'}); }); A FAB callback can open a cre ate form while keeping the list route available for refresh after return.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7646,7 +7646,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: @override void initState() { super.initState(); _retrieveName(); } Future<void> _retrieveName() async { final value = await _prefs.g etString(_nameKey) ?? ''; if (!mounted) return; setState(() => savedName = value); } After create completes, a fresh query is evidence that the new row is actually stored.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: @override void initState() { super.initState(); _retrieveName(); } Future<void> _retrieveName() async { final value = await _prefs.g etString(_nameKey) ?? ''; if (!mounted) return; setState(() => savedName = value); } After create completes, a fresh query is evidence that the new row is actually stored.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: @override void (initState()) { super.(initState()); _retrieveName(); } (Future)<void> _retrieveName() (async) { final value = (await) _prefs.g etString(_nameKey) ?? ''; if (!mounted) return; setState(() => savedName = value); } After create completes, a fresh query is evidence that the new row is actually stored.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7670,7 +7670,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: await prefs.setBool('dark_mode', tru e); final dark = await prefs.getBool('dark -mode') ?? false; After update completes, querying the target id again verifies the edited values rather than trusting the form.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: await prefs.setBool('dark_mode', tru e); final dark = await prefs.getBool('dark -mode') ?? false; After update completes, querying the target id again verifies the edited values rather than trusting the form.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: (await) prefs.setBool('dark_mode', tru e); final dark = (await) prefs.getBool('dark -mode') ?? false; After update completes, querying the target id again verifies the edited values rather than trusting the form.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7694,7 +7694,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: final file = await _dataFile(); final data = await file.exists() ? await file.readAsString(encoding: utf8) : ''; if (!mounted) return; setState(() => _content = data); After delete and refresh, a success message is truthful only after the awaited operation has completed.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: final file = await _dataFile(); final data = await file.exists() ? await file.readAsString(encoding: utf8) : ''; if (!mounted) return; setState(() => _content = data); After delete and refresh, a success message is truthful only after the awaited operation has completed.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: final file = (await) _dataFile(); final data = (await) file.exists() ? (await) file.readAsString(encoding: utf8) : ''; if (!mounted) return; setState(() => _content = data); After delete and refresh, a success message is truthful only after the awaited operation has completed.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7718,7 +7718,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have th e following code fragment: final data = await file.exists() ? await file.readAsString() : ''; A saved preference must be read back into State before the restored name can be shown after relaunch.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have th e following code fragment: final data = await file.exists() ? await file.readAsString() : ''; A saved preference must be read back into State before the restored name can be shown after relaunch.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have th e following code fragment: final data = (await) file.exists() ? (await) file.readAsString() : ''; A saved preference must be read back into State before the restored name can be shown after relaunch.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7742,7 +7742,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: final decoded = jsonDecode(raw); if (decoded is! Map<String, dynamic>) { throw const FormatException('Expected a JSON object'); } A process restart can restore persistent data only when startup code reads the correct store.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: final decoded = jsonDecode(raw); if (decoded is! Map<String, dynamic>) { throw const FormatException('Expected a JSON object'); } A process restart can restore persistent data only when startup code reads the correct store.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: final decoded = jsonDecode(raw); if (decoded is! Map<String, dynamic>) { throw const FormatException('Expected a (JSON) object'); } A process restart can restore persistent data only when startup code reads the correct store.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7766,7 +7766,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code frag ment: setState(() => loading = true); final data = await repository.loadAll(); if (!mounted) return; setState(() { loading = false; items = data; }); A file read should map an absent file to the feature’s defined first -run state, not to malformed JSON.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code frag ment: setState(() => loading = true); final data = await repository.loadAll(); if (!mounted) return; setState(() { loading = false; items = data; }); A file read should map an absent file to the feature’s defined first -run state, not to malformed JSON.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code frag ment: setState(() => loading = true); final data = (await) repository.loadAll(); if (!mounted) return; setState(() { loading = false; items = data; }); A file read should map an absent file to the feature’s defined first -run state, not to malformed (JSON).",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7805,7 +7805,7 @@ export const questionsData = [
       {
         "label": "C",
         "textEn": "Local database using SQLite",
-        "textAr": "قاعدة بيانات محلية باستخدام SQLite"
+        "textAr": "قاعدة بيانات محلية باستخدام (SQLite)"
       },
       {
         "label": "D",
@@ -7815,7 +7815,7 @@ export const questionsData = [
     ],
     "correctAnswer": "D",
     "explanationEn": "Flutter supports all three offline persistence mechanisms: File Storage, Key-Value SharedPreferences, and SQLite relational databases.",
-    "explanationAr": "يدعم فلاتر الخيارات الثلاثة جميعها: تخزين الملفات عبر dart:io، وتخزين مفتاح-قيمة عبر SharedPreferences، وقواعد بيانات SQLite.",
+    "explanationAr": "يدعم فلاتر الخيارات الثلاثة جميعها: تخزين الملفات عبر dart:io، وتخزين مفتاح-قيمة عبر (SharedPreferences)، وقواعد بيانات (SQLite).",
     "codeSnippet": null
   },
   {
@@ -7843,7 +7843,7 @@ export const questionsData = [
       {
         "label": "B",
         "textEn": "dart:async",
-        "textAr": "مكتبة dart:async"
+        "textAr": "مكتبة dart:(async)"
       },
       {
         "label": "C",
@@ -7891,7 +7891,7 @@ export const questionsData = [
       {
         "label": "C",
         "textEn": "dart:async",
-        "textAr": "مكتبة dart:async"
+        "textAr": "مكتبة dart:(async)"
       },
       {
         "label": "D",
@@ -8263,7 +8263,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Using sharedpreferences we can save multi types of values such as .",
-    "questionAr": "سؤال التفضيلات المشتركة SharedPreferences: Using sharedpreferences we can save multi types of values such as .",
+    "questionAr": "سؤال التفضيلات المشتركة (SharedPreferences): Using sharedpreferences we can save multi types of values such as .",
     "options": [
       {
         "label": "A",
@@ -8306,7 +8306,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "To implement and use sharedpreferences in flutter follow the steps below",
-    "questionAr": "سؤال التفضيلات المشتركة SharedPreferences: To implement and use sharedpreferences in flutter follow the steps below",
+    "questionAr": "سؤال التفضيلات المشتركة (SharedPreferences): To implement and use sharedpreferences in flutter follow the steps below",
     "options": [
       {
         "label": "A",
@@ -8392,7 +8392,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "To save the boolean value in sharedpreferences call the ______ method and provide the key and value.",
-    "questionAr": "سؤال التفضيلات المشتركة SharedPreferences: To save the boolean value in sharedpreferences call the ______ method and provide the key and value.",
+    "questionAr": "سؤال التفضيلات المشتركة (SharedPreferences): To save the boolean value in sharedpreferences call the ______ method and provide the key and value.",
     "options": [
       {
         "label": "A",
@@ -8435,7 +8435,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "To save a string list value in sharedpreferences call the setStringList() method and provide the key and value. The next code snippet will add list( [“pizza”, “burger”, “sandwich”] ) as a value to the key foodList",
-    "questionAr": "سؤال التفضيلات المشتركة SharedPreferences: To save a string list value in sharedpreferences call the setStringList() method and provide the key and value. The next code snippet will add list( [“pizza”, “burger”, “sandwich”] ) as a value to the key foodList",
+    "questionAr": "سؤال التفضيلات المشتركة (SharedPreferences): To save a string list value in sharedpreferences call the setStringList() method and provide the key and value. The next code snippet will add list( [“pizza”, “burger”, “sandwich”] ) as a value to the key foodList",
     "options": [
       {
         "label": "A",
@@ -8478,7 +8478,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "To retrieve or read int value from sharedpreferences call ______.. method and provide the key.",
-    "questionAr": "سؤال التفضيلات المشتركة SharedPreferences: To retrieve or read int value from sharedpreferences call ______.. method and provide the key.",
+    "questionAr": "سؤال التفضيلات المشتركة (SharedPreferences): To retrieve or read int value from sharedpreferences call ______.. method and provide the key.",
     "options": [
       {
         "label": "A",
@@ -8521,7 +8521,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "To retrieve or read double value from sharedpreferences call ______.. method and provide the key.",
-    "questionAr": "سؤال التفضيلات المشتركة SharedPreferences: To retrieve or read double value from sharedpreferences call ______.. method and provide the key.",
+    "questionAr": "سؤال التفضيلات المشتركة (SharedPreferences): To retrieve or read double value from sharedpreferences call ______.. method and provide the key.",
     "options": [
       {
         "label": "A",
@@ -8564,7 +8564,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "To retrieve or read string list value from sharedpreferences call ______ method and provide the key.",
-    "questionAr": "سؤال التفضيلات المشتركة SharedPreferences: To retrieve or read string list value from sharedpreferences call ______ method and provide the key.",
+    "questionAr": "سؤال التفضيلات المشتركة (SharedPreferences): To retrieve or read string list value from sharedpreferences call ______ method and provide the key.",
     "options": [
       {
         "label": "A",
@@ -8607,7 +8607,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "To check if a key or record is present in shared preferences we have to use ______ method. This methods takes key as value and checks if the key is present in sharedpreferences.",
-    "questionAr": "سؤال التفضيلات المشتركة SharedPreferences: To check if a key or record is present in shared preferences we have to use ______ method. This methods takes key as value and checks if the key is present in sharedpreferences.",
+    "questionAr": "سؤال التفضيلات المشتركة (SharedPreferences): To check if a key or record is present in shared preferences we have to use ______ method. This methods takes key as value and checks if the key is present in sharedpreferences.",
     "options": [
       {
         "label": "A",
@@ -8650,7 +8650,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "To reset and rem ove any saved data in sharedpreferences call the ______ method without provide the key and value",
-    "questionAr": "سؤال التفضيلات المشتركة SharedPreferences: To reset and rem ove any saved data in sharedpreferences call the ______ method without provide the key and value",
+    "questionAr": "سؤال التفضيلات المشتركة (SharedPreferences): To reset and rem ove any saved data in sharedpreferences call the ______ method without provide the key and value",
     "options": [
       {
         "label": "A",
@@ -8693,7 +8693,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Flutter apps can make use of the SQLite databases via the ______.. plugin available on pub.dev.",
-    "questionAr": "سؤال قاعدة بيانات SQLite: Flutter apps can make use of the SQLite databases via the ______.. plugin available on pub.dev.",
+    "questionAr": "سؤال قاعدة بيانات (SQLite): Flutter apps can make use of the (SQLite) databases via the ______.. plugin available on pub.dev.",
     "options": [
       {
         "label": "A",
@@ -8703,7 +8703,7 @@ export const questionsData = [
       {
         "label": "B",
         "textEn": "sqflite",
-        "textAr": "حزمة sqflite"
+        "textAr": "حزمة (sqflite)"
       },
       {
         "label": "C",
@@ -8736,12 +8736,12 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "The ______. package provides classes and functions to interact with a SQLite database.",
-    "questionAr": "سؤال قاعدة بيانات SQLite: The ______. package provides classes and functions to interact with a SQLite database.",
+    "questionAr": "سؤال قاعدة بيانات (SQLite): The ______. package provides classes and functions to interact with a (SQLite) database.",
     "options": [
       {
         "label": "A",
         "textEn": "sqflite",
-        "textAr": "حزمة sqflite"
+        "textAr": "حزمة (sqflite)"
       },
       {
         "label": "B",
@@ -8784,7 +8784,7 @@ export const questionsData = [
       {
         "label": "A",
         "textEn": "sqflite",
-        "textAr": "حزمة sqflite"
+        "textAr": "حزمة (sqflite)"
       },
       {
         "label": "B",
@@ -8822,7 +8822,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Define the path to the database file using ______. from the sqflite package, combined with the join function from the path package.",
-    "questionAr": "سؤال قاعدة بيانات SQLite: Define the path to the database file using ______. from the sqflite package, combined with the join function from the path package.",
+    "questionAr": "سؤال قاعدة بيانات (SQLite): Define the path to the database file using ______. from the (sqflite) package, combined with the join function from the path package.",
     "options": [
       {
         "label": "A",
@@ -8865,7 +8865,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Before reading and writing data to the database, open a connection to the database. Open the database with the ______.. function from sqflite.",
-    "questionAr": "سؤال قاعدة بيانات SQLite: Before reading and writing data to the database, open a connection to the database. Open the database with the ______.. function from sqflite.",
+    "questionAr": "سؤال قاعدة بيانات (SQLite): Before reading and writing data to the database, open a connection to the database. Open the database with the ______.. function from (sqflite).",
     "options": [
       {
         "label": "A",
@@ -8908,7 +8908,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "To insert a data into a table in sqflite database. This involves:",
-    "questionAr": "سؤال قاعدة بيانات SQLite: To insert a data into a table in sqflite database. This involves:",
+    "questionAr": "سؤال قاعدة بيانات (SQLite): To insert a data into a table in (sqflite) database. This involves:",
     "options": [
       {
         "label": "A",
@@ -9123,7 +9123,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A value is created as a local variable inside build. What is the main limitation?",
-    "questionAr": "سؤال متعلق بالمنهج: A value is created as a local variable inside build. What is the main limitation?",
+    "questionAr": "سؤال متعلق بالمنهج: A value is created as a local variable inside (build). What is the main limitation?",
     "options": [
       {
         "label": "A",
@@ -9252,7 +9252,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A notes feature stores one document as JSON text and reads it back as a whole. Which store is a natural fit?",
-    "questionAr": "سؤال متعلق بالمنهج: A notes feature stores one document as JSON text and reads it back as a whole. Which store is a natural fit?",
+    "questionAr": "سؤال متعلق بالمنهج: A notes feature stores one document as (JSON) text and reads it back as a whole. Which store is a natural fit?",
     "options": [
       {
         "label": "A",
@@ -9381,7 +9381,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A SQLite query succeeds but returns an empty list. What should the UI show?",
-    "questionAr": "سؤال قاعدة بيانات SQLite: A SQLite query succeeds but returns an empty list. What should the UI show?",
+    "questionAr": "سؤال قاعدة بيانات (SQLite): A (SQLite) query succeeds but returns an empty list. What should the UI show?",
     "options": [
       {
         "label": "A",
@@ -9424,7 +9424,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A file does not exist the first time the app runs. What should a JSON repository do if first -run is valid?",
-    "questionAr": "سؤال متعلق بالمنهج: A file does not exist the first time the app runs. What should a JSON repository do if first -run is valid?",
+    "questionAr": "سؤال متعلق بالمنهج: A file does not exist the first time the app runs. What should a (JSON) repository do if first -run is valid?",
     "options": [
       {
         "label": "A",
@@ -9467,7 +9467,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Why check mounted after awaiting a database read in a StatefulWidget?",
-    "questionAr": "سؤال متعلق بالمنهج: Why check mounted after awaiting a database read in a StatefulWidget?",
+    "questionAr": "سؤال متعلق بالمنهج: Why check mounted after awaiting a database read in a (StatefulWidget)?",
     "options": [
       {
         "label": "A",
@@ -9596,7 +9596,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A Dog model needs to be inserted into SQLite. What should toMap provide?",
-    "questionAr": "سؤال قاعدة بيانات SQLite: A Dog model needs to be inserted into SQLite. What should toMap provide?",
+    "questionAr": "سؤال قاعدة بيانات (SQLite): A Dog model needs to be inserted into (SQLite). What should toMap provide?",
     "options": [
       {
         "label": "A",
@@ -9897,7 +9897,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which code owns form controllers in a StatefulWidget?",
-    "questionAr": "سؤال متعلق بالمنهج: Which code owns form controllers in a StatefulWidget?",
+    "questionAr": "سؤال متعلق بالمنهج: Which code owns form controllers in a (StatefulWidget)?",
     "options": [
       {
         "label": "A",
@@ -9940,7 +9940,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A string is valid JSON but lacks the required title field. What should the model boundary do?",
-    "questionAr": "سؤال متعلق بالمنهج: A string is valid JSON but lacks the required title field. What should the model boundary do?",
+    "questionAr": "سؤال متعلق بالمنهج: A string is valid (JSON) but lacks the required title field. What should the model boundary do?",
     "options": [
       {
         "label": "A",
@@ -10370,7 +10370,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which API scope is appropriate for removing one preference?",
-    "questionAr": "سؤال متعلق بالمنهج: Which API scope is appropriate for removing one preference?",
+    "questionAr": "سؤال متعلق بالمنهج: Which (API) scope is appropriate for removing one preference?",
     "options": [
       {
         "label": "A",
@@ -10628,7 +10628,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A screen reads a stored name in initState and calls setState after await. What must it check?",
-    "questionAr": "سؤال متعلق بالمنهج: A screen reads a stored name in initState and calls setState after await. What must it check?",
+    "questionAr": "سؤال متعلق بالمنهج: A screen reads a stored name in (initState) and calls setState after (await). What must it check?",
     "options": [
       {
         "label": "A",
@@ -10671,7 +10671,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which result should a repository return for a missing JSON file when the product defines first -run as empty?",
-    "questionAr": "سؤال متعلق بالمنهج: Which result should a repository return for a missing JSON file when the product defines first -run as empty?",
+    "questionAr": "سؤال متعلق بالمنهج: Which result should a repository return for a missing (JSON) file when the product defines first -run as empty?",
     "options": [
       {
         "label": "A",
@@ -10800,7 +10800,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What does a fresh GET after a remote write prove more strongly than a local list append?",
-    "questionAr": "سؤال متعلق بالمنهج: What does a fresh GET after a remote write prove more strongly than a local list append?",
+    "questionAr": "سؤال متعلق بالمنهج: What does a fresh (GET) after a remote write prove more strongly than a local list append?",
     "options": [
       {
         "label": "A",
@@ -10886,7 +10886,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A file contains JSON for a LocalNote. What should be checked after decoding?",
-    "questionAr": "سؤال متعلق بالمنهج: A file contains JSON for a LocalNote. What should be checked after decoding?",
+    "questionAr": "سؤال متعلق بالمنهج: A file contains (JSON) for a LocalNote. What should be checked after decoding?",
     "options": [
       {
         "label": "A",
@@ -10972,7 +10972,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Why distinguish an empty SQLite query from an error?",
-    "questionAr": "سؤال قاعدة بيانات SQLite: Why distinguish an empty SQLite query from an error?",
+    "questionAr": "سؤال قاعدة بيانات (SQLite): Why distinguish an empty (SQLite) query from an error?",
     "options": [
       {
         "label": "A",
@@ -11273,7 +11273,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which statement about SharedPreferencesAsync is most useful?",
-    "questionAr": "سؤال التفضيلات المشتركة SharedPreferences: Which statement about SharedPreferencesAsync is most useful?",
+    "questionAr": "سؤال التفضيلات المشتركة (SharedPreferences): Which statement about (SharedPreferencesAsync) is most useful?",
     "options": [
       {
         "label": "A",
@@ -11445,7 +11445,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A local note is saved as JSON but the schema later gains a required field. What is needed?",
-    "questionAr": "سؤال متعلق بالمنهج: A local note is saved as JSON but the schema later gains a required field. What is needed?",
+    "questionAr": "سؤال متعلق بالمنهج: A local note is saved as (JSON) but the schema later gains a required field. What is needed?",
     "options": [
       {
         "label": "A",
@@ -11660,7 +11660,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: await insertDog(const Dog(id: 0, name: 'Fido', age: 35)); print(await dogs()); After inserting Fido with age 35, what exact list is printed?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: await insertDog(const Dog(id: 0, name: 'Fido', age: 35)); print(await dogs()); After inserting Fido with age 35, what exact list is printed?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: (await) insertDog(const Dog(id: 0, name: 'Fido', age: 35)); print(await dogs()); After inserting Fido with age 35, what exact list is printed?",
     "options": [
       {
         "label": "A",
@@ -11703,7 +11703,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: fido = Dog(id: 0, name: 'Fido', age: 42); await updateDog(fido); print(await dogs()); After updating Fido to age 42, what exact list is printed?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: fido = Dog(id: 0, name: 'Fido', age: 42); await updateDog(fido); print(await dogs()); After updating Fido to age 42, what exact list is printed?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: fido = Dog(id: 0, name: 'Fido', age: 42); (await) updateDog(fido); print(await dogs()); After updating Fido to age 42, what exact list is printed?",
     "options": [
       {
         "label": "A",
@@ -11746,7 +11746,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: await deleteDog(fido.id); print(await dogs()); After deleting Fido, what exact list is printed?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: await deleteDog(fido.id); print(await dogs()); After deleting Fido, what exact list is printed?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: (await) deleteDog(fido.id); print(await dogs()); After deleting Fido, what exact list is printed?",
     "options": [
       {
         "label": "A",
@@ -11789,7 +11789,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: final prefs = SharedPreferencesAsync(); print(await prefs.getString('username')); When the username key is absent, what does getString print?",
-    "questionAr": "سؤال التفضيلات المشتركة SharedPreferences: If we have the following code fragment: final prefs = SharedPreferencesAsync(); print(await prefs.getString('username')); When the username key is absent, what does getString print?",
+    "questionAr": "سؤال التفضيلات المشتركة (SharedPreferences): If we have the following code fragment: final prefs = (SharedPreferencesAsync()); print(await prefs.getString('username')); When the username key is absent, what does getString print?",
     "options": [
       {
         "label": "A",
@@ -11865,7 +11865,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: await prefs.remove(usernameKey); print(await prefs.containsKey(username Key)); After removing usernameKey, what does containsKey print?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: await prefs.remove(usernameKey); print(await prefs.containsKey(username Key)); After removing usernameKey, what does containsKey print?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: (await) prefs.remove(usernameKey); print(await prefs.containsKey(username Key)); After removing usernameKey, what does containsKey print?",
     "options": [
       {
         "label": "A",
@@ -11908,7 +11908,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: final contents = await file.readAsString(); return int.parse(contents); If the text file contains 7, what integer is returned?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: final contents = await file.readAsString(); return int.parse(contents); If the text file contains 7, what integer is returned?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: final contents = (await) file.readAsString(); return int.parse(contents); If the text file contains 7, what integer is returned?",
     "options": [
       {
         "label": "A",
@@ -11951,7 +11951,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: final counter = int.parse(await file.readAsString()); await file.writeAsString('${counter + 1}'); print(int.parse(await file.readAsString())); If the file contains 7, what is print ed after incrementing and overwriting it?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: final counter = int.parse(await file.readAsString()); await file.writeAsString('${counter + 1}'); print(int.parse(await file.readAsString())); If the file contains 7, what is print ed after incrementing and overwriting it?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: final counter = int.parse(await file.readAsString()); (await) file.writeAsString('${counter + 1}'); print(int.parse(await file.readAsString())); If the file contains 7, what is print ed after incrementing and overwriting it?",
     "options": [
       {
         "label": "A",
@@ -11994,7 +11994,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: if (!await file.exists()) return null; If the JSON file does not exist, what first -run result is returned?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: if (!await file.exists()) return null; If the JSON file does not exist, what first -run result is returned?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: if (!(await) file.exists()) return null; If the (JSON) file does not exist, what first -run result is returned?",
     "options": [
       {
         "label": "A",
@@ -12037,7 +12037,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: final decoded = jsonDecode(raw); if (decoded is! Map<String, dynamic>) { throw const FormatException('Expected a JSON object'); } If decoded JSON is not a map, which result follows the validation code?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: final decoded = jsonDecode(raw); if (decoded is! Map<String, dynamic>) { throw const FormatException('Expected a JSON object'); } If decoded JSON is not a map, which result follows the validation code?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: final decoded = jsonDecode(raw); if (decoded is! Map<String, dynamic>) { throw const FormatException('Expected a (JSON) object'); } If decoded (JSON) is not a map, which result follows the validation code?",
     "options": [
       {
         "label": "A",
@@ -12087,7 +12087,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "True. Network communication and consuming REST APIs is an essential capability for real-world Flutter apps.",
-    "explanationAr": "صحيح. يعد استدعاء واجهات REST API وتبادل البيانات عبر الشبكة مهارة أساسية لبناء تطبيقات فلاتر متصلة بالإنترنت.",
+    "explanationAr": "صحيح. يعد استدعاء واجهات (REST API) وتبادل البيانات عبر الشبكة مهارة أساسية لبناء تطبيقات فلاتر متصلة بالإنترنت.",
     "codeSnippet": null
   },
   {
@@ -12106,13 +12106,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "In REST APIs, the POST method is used to retrieve data from the server.",
-    "questionAr": "في واجهات برمجة التطبيقات REST، تُستخدم طريقة POST لاسترجاع وقراءة البيانات من الخادم.",
+    "questionAr": "في واجهات برمجة التطبيقات REST، تُستخدم طريقة (POST) لاسترجاع وقراءة البيانات من الخادم.",
     "options": null,
     "correctAnswer": "False",
     "correctionEn": "GET is used to retrieve data; POST is used to send/create data.",
-    "correctionAr": "تُستخدم طريقة GET لقراءة واسترجاع البيانات، بينما تُستخدم POST لإرسال وإنشاء بيانات جديدة.",
+    "correctionAr": "تُستخدم طريقة (GET) لقراءة واسترجاع البيانات، بينما تُستخدم (POST) لإرسال وإنشاء بيانات جديدة.",
     "explanationEn": "False. In REST standards, GET reads data from the server, while POST submits new data.",
-    "explanationAr": "خطأ. في معايير REST، تُستخدم GET لقراءة وجلب البيانات، بينما POST مخصصة لإنشاء وإرسال بيانات جديدة.",
+    "explanationAr": "خطأ. في معايير REST، تُستخدم (GET) لقراءة وجلب البيانات، بينما (POST) مخصصة لإنشاء وإرسال بيانات جديدة.",
     "codeSnippet": null
   },
   {
@@ -12131,13 +12131,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "JSON is a commonly used data format for communication between Flutter apps and REST PHP APIs.",
-    "questionAr": "تعد صيغة JSON تنسيق بيانات شائع الاستخدام للتواصل بين تطبيقات فلاتر وواجهات برمجة تطبيقات PHP REST.",
+    "questionAr": "تعد صيغة (JSON) تنسيق بيانات شائع الاستخدام للتواصل بين تطبيقات فلاتر وواجهات برمجة تطبيقات PHP REST.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "True. JSON is the universal lightweight format used to transmit structured objects between Flutter and PHP backends.",
-    "explanationAr": "صحيح. تمثل صيغة JSON المعيار الأكثر شيوعاً لنقل البيانات المهيكلة بين تطبيق فلاتر وخادم PHP.",
+    "explanationAr": "صحيح. تمثل صيغة (JSON) المعيار الأكثر شيوعاً لنقل البيانات المهيكلة بين تطبيق فلاتر وخادم PHP.",
     "codeSnippet": null
   },
   {
@@ -12185,9 +12185,9 @@ export const questionsData = [
     "options": null,
     "correctAnswer": "False",
     "correctionEn": "PUT is used to update/replace existing data; DELETE is used to delete.",
-    "correctionAr": "تُستخدم طريقة PUT لتحديث وتعديل البيانات، بينما DELETE هي المخصصة لحذف البيانات.",
+    "correctionAr": "تُستخدم طريقة (PUT) لتحديث وتعديل البيانات، بينما (DELETE) هي المخصصة لحذف البيانات.",
     "explanationEn": "False. The DELETE method removes resources, whereas PUT modifies/replaces existing resources.",
-    "explanationAr": "خطأ. طريقة DELETE هي المسؤولة عن حذف الموارد، في حين أن PUT مخصصة لتحديث وتعديل المورد الموجود.",
+    "explanationAr": "خطأ. طريقة (DELETE) هي المسؤولة عن حذف الموارد، في حين أن (PUT) مخصصة لتحديث وتعديل المورد الموجود.",
     "codeSnippet": null
   },
   {
@@ -12206,13 +12206,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A 200 OK HTTP status code means the request was successful.",
-    "questionAr": "رمز حالة HTTP رقم 200 OK يعني أن طلب الشبكة تم بنجاح من قبل الخادم.",
+    "questionAr": "رمز حالة (HTTP) رقم 200 OK يعني أن طلب الشبكة تم بنجاح من قبل الخادم.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "True. Status code 200 (OK) indicates that the REST API request succeeded and returned the requested data payload.",
-    "explanationAr": "صحيح. يشير رمز الحالة 200 OK إلى نجاح طلب الـ API واسترجاع البيانات المطلوبة بنجاح من الخادم.",
+    "explanationAr": "صحيح. يشير رمز الحالة 200 OK إلى نجاح طلب الـ (API) واسترجاع البيانات المطلوبة بنجاح من الخادم.",
     "codeSnippet": null
   },
   {
@@ -12231,13 +12231,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "The FutureBuilder widget in Flutter is commo nly used to handle asynchronous HTTP requests.",
-    "questionAr": "سؤال متعلق بالمنهج: The FutureBuilder widget in Flutter is commo nly used to handle asynchronous HTTP requests.",
+    "questionAr": "سؤال متعلق بالمنهج: The (FutureBuilder) widget in Flutter is commo nly used to handle asynchronous (HTTP) requests.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12256,13 +12256,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "The DELETE method in REST APIs can be used to update existing data.",
-    "questionAr": "يمكن استخدام طريقة DELETE في واجهات برمجة تطبيقات REST لتحديث البيانات الموجودة.",
+    "questionAr": "يمكن استخدام طريقة (DELETE) في واجهات برمجة تطبيقات REST لتحديث البيانات الموجودة.",
     "options": null,
     "correctAnswer": "False",
     "correctionEn": "DELETE is used to remove records; PUT or PATCH is used to update existing data.",
-    "correctionAr": "تُستخدم طريقة DELETE لحذف السجلات، بينما تُستخدم PUT أو PATCH لتحديث وتعديل البيانات.",
+    "correctionAr": "تُستخدم طريقة (DELETE) لحذف السجلات، بينما تُستخدم (PUT) أو PATCH لتحديث وتعديل البيانات.",
     "explanationEn": "False. The DELETE method instructs the server to remove the specified resource. Updating resources is performed via PUT (full update) or PATCH (partial update).",
-    "explanationAr": "خطأ. طريقة DELETE مخصصة لحذف السجلات من الخادم، بينما تحديث وتعديل البيانات يتم باستخدام طرق PUT أو PATCH.",
+    "explanationAr": "خطأ. طريقة (DELETE) مخصصة لحذف السجلات من الخادم، بينما تحديث وتعديل البيانات يتم باستخدام طرق (PUT) أو PATCH.",
     "codeSnippet": null
   },
   {
@@ -12287,7 +12287,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12306,13 +12306,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "In Flutter, you need to manually parse the JSON response from an HTTP request.",
-    "questionAr": "سؤال متعلق بالمنهج: In Flutter, you need to manually parse the JSON response from an HTTP request.",
+    "questionAr": "سؤال متعلق بالمنهج: In Flutter, you need to manually parse the (JSON) response from an (HTTP) request.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12331,13 +12331,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "The Content-Type: application/json header must be set when sending JSON data to a REST PHP API.",
-    "questionAr": "سؤال متعلق بالمنهج: The Content-Type: application/json header must be set when sending JSON data to a REST PHP API.",
+    "questionAr": "سؤال متعلق بالمنهج: The Content-Type: application/json header must be set when sending (JSON) data to a REST PHP (API).",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12356,13 +12356,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "The http package in Dart pr ovides high -level functions and classes that allow developers to make HTTP requests to web servers. It is not a future -based library.",
-    "questionAr": "سؤال متعلق بالمنهج: The http package in Dart pr ovides high -level functions and classes that allow developers to make HTTP requests to web servers. It is not a future -based library.",
+    "questionAr": "سؤال متعلق بالمنهج: The http package in Dart pr ovides high -level functions and classes that allow developers to make (HTTP) requests to web servers. It is not a future -based library.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12381,13 +12381,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "GET requests can be used to retrieve data from a server. You can use a GET request to fetch a list of us ers from a database or to retrieve the details of a specific user.",
-    "questionAr": "سؤال متعلق بالمنهج: GET requests can be used to retrieve data from a server. You can use a GET request to fetch a list of us ers from a database or to retrieve the details of a specific user.",
+    "questionAr": "سؤال متعلق بالمنهج: (GET) requests can be used to retrieve data from a server. You can use a (GET) request to fetch a list of us ers from a database or to retrieve the details of a specific user.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12412,7 +12412,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12431,13 +12431,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "When a Flutter app sends a GET request to an API endpoint, it receives a response containing the requested data, typically in XML format.",
-    "questionAr": "سؤال متعلق بالمنهج: When a Flutter app sends a GET request to an API endpoint, it receives a response containing the requested data, typically in XML format.",
+    "questionAr": "سؤال متعلق بالمنهج: When a Flutter app sends a (GET) request to an (API) endpoint, it receives a response containing the requested data, typically in XML format.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12456,13 +12456,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Flutter developers can make HTTP requests to APIs using various packages, with Da irt’s http package being one of the most popula r choices. ( ) Additional Conceptual and Code -Based Statements",
-    "questionAr": "سؤال متعلق بالمنهج: Flutter developers can make HTTP requests to APIs using various packages, with Da irt’s http package being one of the most popula r choices. ( ) Additional Conceptual and Code -Based Statements",
+    "questionAr": "سؤال متعلق بالمنهج: Flutter developers can make (HTTP) requests to APIs using various packages, with Da irt’s http package being one of the most popula r choices. ( ) Additional Conceptual and Code -Based Statements",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12481,13 +12481,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "An HTTP API request can be described using its method, endpoint, headers, body, status, and response.",
-    "questionAr": "سؤال متعلق بالمنهج: An HTTP API request can be described using its method, endpoint, headers, body, status, and response.",
+    "questionAr": "سؤال متعلق بالمنهج: An (HTTP) (API) request can be described using its method, endpoint, headers, body, status, and response.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12506,13 +12506,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Suppose a Flutter app sends requests to a PHP API that accesses M ySQL. The Flutter client should store the MySQL username and password and connect directly to the database.",
-    "questionAr": "سؤال متعلق بالمنهج: Suppose a Flutter app sends requests to a PHP API that accesses M ySQL. The Flutter client should store the MySQL username and password and connect directly to the database.",
+    "questionAr": "سؤال متعلق بالمنهج: Suppose a Flutter app sends requests to a PHP (API) that accesses M ySQL. The Flutter client should store the MySQL username and password and connect directly to the database.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12531,13 +12531,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "In a three-lay er design in which Flutter communicates with a PHP HTTP API and the API communicates with MySQL, Flutter should communicat e with the API rather than directly with MySQL.",
-    "questionAr": "سؤال متعلق بالمنهج: In a three-lay er design in which Flutter communicates with a PHP HTTP API and the API communicates with MySQL, Flutter should communicat e with the API rather than directly with MySQL.",
+    "questionAr": "سؤال متعلق بالمنهج: In a three-lay er design in which Flutter communicates with a PHP (HTTP) (API) and the (API) communicates with MySQL, Flutter should communicat e with the (API) rather than directly with MySQL.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12556,13 +12556,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "POST is normally associated with creating a new resource.",
-    "questionAr": "ترتبط طريقة POST عادة بإنشاء وإضافة مورد أو سجل جديد على الخادم.",
+    "questionAr": "ترتبط طريقة (POST) عادة بإنشاء وإضافة مورد أو سجل جديد على الخادم.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "True. In REST conventions, POST is the HTTP verb designated for resource creation.",
-    "explanationAr": "صحيح. في معايير RESTful، طريقة POST هي الطريقة المخصصة لإنشاء وإضافة سجلات وموارد جديدة.",
+    "explanationAr": "صحيح. في معايير RESTful، طريقة (POST) هي الطريقة المخصصة لإنشاء وإضافة سجلات وموارد جديدة.",
     "codeSnippet": null
   },
   {
@@ -12581,13 +12581,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "PUT and PATCH have exactly the same semantic meaning in every API contract.",
-    "questionAr": "سؤال متعلق بالمنهج: PUT and PATCH have exactly the same semantic meaning in every API contract.",
+    "questionAr": "سؤال متعلق بالمنهج: (PUT) and PATCH have exactly the same semantic meaning in every (API) contract.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12606,13 +12606,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "DELETE is the HTTP method normally ass ociated with removing a resource.",
-    "questionAr": "سؤال متعلق بالمنهج: DELETE is the HTTP method normally ass ociated with removing a resource.",
+    "questionAr": "سؤال متعلق بالمنهج: (DELETE) is the (HTTP) method normally ass ociated with removing a resource.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12631,13 +12631,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A 201 status is a common success convention for a create operation, but the client must still follow the actual API contract.",
-    "questionAr": "سؤال متعلق بالمنهج: A 201 status is a common success convention for a create operation, but the client must still follow the actual API contract.",
+    "questionAr": "سؤال متعلق بالمنهج: A 201 status is a common success convention for a create operation, but the client must still follow the actual (API) contract.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12656,13 +12656,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A client may safely parse any response body as JSON before checking the HTTP status code.",
-    "questionAr": "سؤال متعلق بالمنهج: A client may safely parse any response body as JSON before checking the HTTP status code.",
+    "questionAr": "سؤال متعلق بالمنهج: A client may safely parse any response body as (JSON) before checking the (HTTP) status code.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12681,13 +12681,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A decoded JSON object maps naturally to a Dart Map -like structure.",
-    "questionAr": "سؤال متعلق بالمنهج: A decoded JSON object maps naturally to a Dart Map -like structure.",
+    "questionAr": "سؤال متعلق بالمنهج: A decoded (JSON) object maps naturally to a Dart Map -like structure.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12706,13 +12706,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A decoded top -level JSON array maps naturally to a Dart List -like structure.",
-    "questionAr": "سؤال متعلق بالمنهج: A decoded top -level JSON array maps naturally to a Dart List -like structure.",
+    "questionAr": "سؤال متعلق بالمنهج: A decoded top -level (JSON) array maps naturally to a Dart List -like structure.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12731,13 +12731,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "JSON can contain nested objects, arrays, primitive values, and null.",
-    "questionAr": "سؤال متعلق بالمنهج: JSON can contain nested objects, arrays, primitive values, and null.",
+    "questionAr": "سؤال متعلق بالمنهج: (JSON) can contain nested objects, arrays, primitive values, and null.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12756,13 +12756,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A fromJson constructor can centralize the mapping between JSON keys and Dart fields.",
-    "questionAr": "سؤال متعلق بالمنهج: A fromJson constructor can centralize the mapping between JSON keys and Dart fields.",
+    "questionAr": "سؤال متعلق بالمنهج: A fromJson constructor can centralize the mapping between (JSON) keys and Dart fields.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12781,13 +12781,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final data = {'oldPrice': '699', 'price': '799'}; final String? oldPrice = data['oldPrice']; final String? price = data['price']; If the JSON values are quoted strings, oldPrice and price should be declared as nullable String fields.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final data = {'oldPrice': '699', 'price': '799'}; final String? oldPrice = data['oldPrice']; final String? price = data['price']; If the JSON values are quoted strings, oldPrice and price should be declared as nullable String fields.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final data = {'oldPrice': '699', 'price': '799'}; final String? oldPrice = data['oldPrice']; final String? price = data['price']; If the (JSON) values are quoted strings, oldPrice and price should be declared as nullable String fields.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12806,13 +12806,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "jsonEncode converts a Dart -compatible structure into JSON text.",
-    "questionAr": "سؤال متعلق بالمنهج: jsonEncode converts a Dart -compatible structure into JSON text.",
+    "questionAr": "سؤال متعلق بالمنهج: jsonEncode converts a Dart -compatible structure into (JSON) text.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12831,13 +12831,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code s nippet: class ProductDataModel { final String? imageURL; ProductDataModel.fromJson(Map<String, dynamic> json) : imageURL = json['imageUrl'] as String?; } The constructor maps the JSON key imageUrl to the Dart field imageURL.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code s nippet: class ProductDataModel { final String? imageURL; ProductDataModel.fromJson(Map<String, dynamic> json) : imageURL = json['imageUrl'] as String?; } The constructor maps the JSON key imageUrl to the Dart field imageURL.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code s nippet: class ProductDataModel { final String? imageURL; ProductDataModel.fromJson(Map<String, dynamic> json) : imageURL = json['imageUrl'] as String?; } The constructor maps the (JSON) key imageUrl to the Dart field imageURL.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12856,13 +12856,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "The keys read by a fromJson constructor must match the keys supplied by the JSON map.",
-    "questionAr": "سؤال متعلق بالمنهج: The keys read by a fromJson constructor must match the keys supplied by the JSON map.",
+    "questionAr": "سؤال متعلق بالمنهج: The keys read by a fromJson constructor must match the keys supplied by the (JSON) map.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12881,13 +12881,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final jsonText = await rootBundle.loadString('jsonfile/productlist.json'); The asset path must be declared in pubsp ec.yaml before rootBundle can load it.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final jsonText = await rootBundle.loadString('jsonfile/productlist.json'); The asset path must be declared in pubsp ec.yaml before rootBundle can load it.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final jsonText = (await) rootBundle.loadString('jsonfile/productlist.json'); The asset path must be declared in pubsp ec.yaml before rootBundle can load it.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12906,13 +12906,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "rootBundle.loadString reads a registered JSON asset as text.",
-    "questionAr": "سؤال متعلق بالمنهج: rootBundle.loadString reads a registered JSON asset as text.",
+    "questionAr": "سؤال متعلق بالمنهج: rootBundle.loadString reads a registered (JSON) asset as text.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12931,13 +12931,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final decoded = jsonDecode(jsonText) as List<dynamic>; final products = decoded .map((item) => ProductDataModel.fromJson(item)) .toList(); The decoded local JSON root is cast to List<dynamic> before its elements are mapped.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final decoded = jsonDecode(jsonText) as List<dynamic>; final products = decoded .map((item) => ProductDataModel.fromJson(item)) .toList(); The decoded local JSON root is cast to List<dynamic> before its elements are mapped.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final decoded = jsonDecode(jsonText) as List<dynamic>; final products = decoded .map((item) => ProductDataModel.fromJson(item)) .toList(); The decoded local (JSON) root is cast to List<dynamic> before its elements are mapped.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12956,13 +12956,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: FutureBuilder<List<ProductDataModel>>( future: readJsonData(), builder: (context, snapshot) => const SizedBox(), ); FutureBuilder receives readJsonData() through its future property.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: FutureBuilder<List<ProductDataModel>>( future: readJsonData(), builder: (context, snapshot) => const SizedBox(), ); FutureBuilder receives readJsonData() through its future property.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: (FutureBuilder)<List<ProductDataModel>>( future: readJsonData(), builder: (context, snapshot) => const SizedBox(), ); (FutureBuilder) receives readJsonData() through its future property.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -12981,13 +12981,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A FutureBuilder for a local product list may disp lay an error branch, a data/ListView branch, or a loading branch.",
-    "questionAr": "سؤال متعلق بالمنهج: A FutureBuilder for a local product list may disp lay an error branch, a data/ListView branch, or a loading branch.",
+    "questionAr": "سؤال متعلق بالمنهج: A (FutureBuilder) for a local product list may disp lay an error branch, a data/ListView branch, or a loading branch.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13006,13 +13006,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "An empty JSON array can be a valid UI state rather than an exception.",
-    "questionAr": "سؤال متعلق بالمنهج: An empty JSON array can be a valid UI state rather than an exception.",
+    "questionAr": "سؤال متعلق بالمنهج: An empty (JSON) array can be a valid UI state rather than an exception.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13037,7 +13037,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13056,13 +13056,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final response = await http.get( Uri.parse('https://randomuser.me/api/?results=20'), ); The request uses package:http to call the URL https://randomuser.me/api/?results=20.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = await http.get( Uri.parse('https://randomuser.me/api/?results=20'), ); The request uses package:http to call the URL https://randomuser.me/api/?results=20.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = (await) http.get( Uri.parse('https://randomuser.me/api/?results=20'), ); The request uses package:http to call the URL https://randomuser.me/api/?results=20.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13087,7 +13087,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13106,13 +13106,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final response = await http.get(uri); if (response.statusCode != 200) throw Exception('Request failed'); final results = jsonDecode(response.body)['results'] as List<dynamic>; The response status is checked before the results array is decoded and mapped.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = await http.get(uri); if (response.statusCode != 200) throw Exception('Request failed'); final results = jsonDecode(response.body)['results'] as List<dynamic>; The response status is checked before the results array is decoded and mapped.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = (await) http.get(uri); if (response.statusCode != 200) throw Exception('Request failed'); final results = jsonDecode(response.body)['results'] as List<dynamic>; The response status is checked before the results array is decoded and mapped.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13137,7 +13137,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13156,13 +13156,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A FutureBuilder can receive fetchUsers() through its future property.",
-    "questionAr": "سؤال متعلق بالمنهج: A FutureBuilder can receive fetchUsers() through its future property.",
+    "questionAr": "سؤال متعلق بالمنهج: A (FutureBuilder) can receive fetchUsers() through its future property.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13187,7 +13187,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13206,13 +13206,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "GET usually sends no JSON request body in a basic CRUD request.",
-    "questionAr": "سؤال متعلق بالمنهج: GET usually sends no JSON request body in a basic CRUD request.",
+    "questionAr": "سؤال متعلق بالمنهج: (GET) usually sends no (JSON) request body in a basic (CRUD) request.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13231,13 +13231,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A simple POST request may send a Dart Map body, while a form -based inventory request sends fields to its endpoint.",
-    "questionAr": "سؤال متعلق بالمنهج: A simple POST request may send a Dart Map body, while a form -based inventory request sends fields to its endpoint.",
+    "questionAr": "سؤال متعلق بالمنهج: A simple (POST) request may send a Dart Map body, while a form -based inventory request sends fields to its endpoint.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13256,13 +13256,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If an API contract accepts 200 and 204 for an update, both statuses may be treated as success.",
-    "questionAr": "سؤال متعلق بالمنهج: If an API contract accepts 200 and 204 for an update, both statuses may be treated as success.",
+    "questionAr": "سؤال متعلق بالمنهج: If an (API) contract accepts 200 and 204 for an update, both statuses may be treated as success.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13287,7 +13287,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13306,13 +13306,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Dart’s package:http API exposes functions such as http. get and http.post for network requests.",
-    "questionAr": "سؤال متعلق بالمنهج: Dart’s package:http API exposes functions such as http. get and http.post for network requests.",
+    "questionAr": "سؤال متعلق بالمنهج: Dart’s package:http (API) exposes functions such as http. get and http.post for network requests.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13331,13 +13331,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "After an awaited HTTP request, mounted or context.mounted may need to be checked before setState, Navigator, or SnackBar work.",
-    "questionAr": "سؤال متعلق بالمنهج: After an awaited HTTP request, mounted or context.mounted may need to be checked before setState, Navigator, or SnackBar work.",
+    "questionAr": "سؤال متعلق بالمنهج: After an awaited (HTTP) request, mounted or (context).mounted may need to be checked before setState, (Navigator), or SnackBar work.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13356,13 +13356,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "In a three-lay er inventory system, the data flow is Flutter clien t → PHP API → MySQL.",
-    "questionAr": "سؤال متعلق بالمنهج: In a three-lay er inventory system, the data flow is Flutter clien t → PHP API → MySQL.",
+    "questionAr": "سؤال متعلق بالمنهج: In a three-lay er inventory system, the data flow is Flutter clien t → PHP (API) → MySQL.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13381,13 +13381,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A PHP API should perform server -side validation and use prepared SQL statements when it accesses the database.",
-    "questionAr": "سؤال متعلق بالمنهج: A PHP API should perform server -side validation and use prepared SQL statements when it accesses the database.",
+    "questionAr": "سؤال متعلق بالمنهج: A PHP (API) should perform server -side validation and use prepared SQL statements when it accesses the database.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13406,13 +13406,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "MySQL should accept direct connections from the Flutter mobile app in a protected client –API–databas e architecture.",
-    "questionAr": "سؤال متعلق بالمنهج: MySQL should accept direct connections from the Flutter mobile app in a protected client –API–databas e architecture.",
+    "questionAr": "سؤال متعلق بالمنهج: MySQL should accept direct connections from the Flutter mobile app in a protected client –(API)–databas e architecture.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13431,13 +13431,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final response = await http.get( Uri.parse('$baseUrl/getdata.php'), ); getdata.php is called with GET to read the inventory list.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = await http.get( Uri.parse('$baseUrl/getdata.php'), ); getdata.php is called with GET to read the inventory list.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = (await) http.get( Uri.parse('$baseUrl/getdata.php'), ); getdata.php is called with (GET) to read the inventory list.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13456,13 +13456,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final response = await http.post( Uri.parse('$baseUrl/adddata.php'), body: {'itemcode': 'A10', 'itemname': 'Mouse'}, ); adddata.php receives POST form fields to create an inventory item.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = await http.post( Uri.parse('$baseUrl/adddata.php'), body: {'itemcode': 'A10', 'itemname': 'Mouse'}, ); adddata.php receives POST form fields to create an inventory item.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = (await) http.post( Uri.parse('$baseUrl/adddata.php'), body: {'itemcode': 'A10', 'itemname': 'Mouse'}, ); adddata.php receives (POST) form fields to create an inventory item.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13481,13 +13481,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final response = await http.post( Uri.parse('$baseUrl/editdata.php'),",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = await http.post( Uri.parse('$baseUrl/editdata.php'),",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = (await) http.post( Uri.parse('$baseUrl/editdata.php'),",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13506,13 +13506,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final response = await http.post( Uri.parse('$baseUrl/deleteData.php'), body: {'id': id.toString()}, ); deleteData.php receives the selected id in a POST body rather than through HTTP DELETE.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = await http.post( Uri.parse('$baseUrl/deleteData.php'), body: {'id': id.toString()}, ); deleteData.php receives the selected id in a POST body rather than through HTTP DELETE.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = (await) http.post( Uri.parse('$baseUrl/deleteData.php'), body: {'id': id.toString()}, ); deleteData.php receives the selected id in a (POST) body rather than through (HTTP) (DELETE).",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13562,7 +13562,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13587,7 +13587,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "EXCLUDED FROM FINAL EXAM: Image upload via MultipartRequest / API is officially excluded from the final exam scope per Dr. Ruqaih Salman's syllabus announcement.",
-    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور والملفات عبر الـ API مستبعد رسمياً من الاختبار النهائي بقرار أستاذة المادة م/ رقية حسين سلمان.",
+    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور والملفات عبر الـ (API) مستبعد رسمياً من الاختبار النهائي بقرار أستاذة المادة م/ رقية حسين سلمان.",
     "codeSnippet": null
   },
   {
@@ -13612,7 +13612,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13637,7 +13637,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13656,13 +13656,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "The inventory list decodes a JSON List and reads row keys such as item['item_name'].",
-    "questionAr": "سؤال متعلق بالمنهج: The inventory list decodes a JSON List and reads row keys such as item['item_name'].",
+    "questionAr": "سؤال متعلق بالمنهج: The inventory list decodes a (JSON) List and reads row keys such as item['item_name'].",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13681,13 +13681,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "After a POS T create, update, or delete operation, a fresh GET is stronger evidence that the database persisted the change.",
-    "questionAr": "سؤال متعلق بالمنهج: After a POS T create, update, or delete operation, a fresh GET is stronger evidence that the database persisted the change.",
+    "questionAr": "سؤال متعلق بالمنهج: After a POS T create, update, or delete operation, a fresh (GET) is stronger evidence that the database persisted the change.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13706,13 +13706,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "The delete interaction asks for confirmation before sending POST to deleteData.php.",
-    "questionAr": "سؤال متعلق بالمنهج: The delete interaction asks for confirmation before sending POST to deleteData.php.",
+    "questionAr": "سؤال متعلق بالمنهج: The delete interaction asks for confirmation before sending (POST) to deleteData.php.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13737,7 +13737,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "EXCLUDED FROM FINAL EXAM: Image upload via MultipartRequest / API is officially excluded from the final exam scope per Dr. Ruqaih Salman's syllabus announcement.",
-    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور والملفات عبر الـ API مستبعد رسمياً من الاختبار النهائي بقرار أستاذة المادة م/ رقية حسين سلمان.",
+    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور والملفات عبر الـ (API) مستبعد رسمياً من الاختبار النهائي بقرار أستاذة المادة م/ رقية حسين سلمان.",
     "codeSnippet": null
   },
   {
@@ -13762,7 +13762,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "EXCLUDED FROM FINAL EXAM: Image upload via MultipartRequest / API is officially excluded from the final exam scope per Dr. Ruqaih Salman's syllabus announcement.",
-    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور والملفات عبر الـ API مستبعد رسمياً من الاختبار النهائي بقرار أستاذة المادة م/ رقية حسين سلمان.",
+    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور والملفات عبر الـ (API) مستبعد رسمياً من الاختبار النهائي بقرار أستاذة المادة م/ رقية حسين سلمان.",
     "codeSnippet": null
   },
   {
@@ -13787,7 +13787,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "EXCLUDED FROM FINAL EXAM: Image upload via MultipartRequest / API is officially excluded from the final exam scope per Dr. Ruqaih Salman's syllabus announcement.",
-    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور والملفات عبر الـ API مستبعد رسمياً من الاختبار النهائي بقرار أستاذة المادة م/ رقية حسين سلمان.",
+    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور والملفات عبر الـ (API) مستبعد رسمياً من الاختبار النهائي بقرار أستاذة المادة م/ رقية حسين سلمان.",
     "codeSnippet": null
   },
   {
@@ -13812,7 +13812,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13837,7 +13837,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "EXCLUDED FROM FINAL EXAM: Image upload via MultipartRequest / API is officially excluded from the final exam scope per Dr. Ruqaih Salman's syllabus announcement.",
-    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور والملفات عبر الـ API مستبعد رسمياً من الاختبار النهائي بقرار أستاذة المادة م/ رقية حسين سلمان.",
+    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور والملفات عبر الـ (API) مستبعد رسمياً من الاختبار النهائي بقرار أستاذة المادة م/ رقية حسين سلمان.",
     "codeSnippet": null
   },
   {
@@ -13862,7 +13862,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "EXCLUDED FROM FINAL EXAM: Image upload via MultipartRequest / API is officially excluded from the final exam scope per Dr. Ruqaih Salman's syllabus announcement.",
-    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور والملفات عبر الـ API مستبعد رسمياً من الاختبار النهائي بقرار أستاذة المادة م/ رقية حسين سلمان.",
+    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور والملفات عبر الـ (API) مستبعد رسمياً من الاختبار النهائي بقرار أستاذة المادة م/ رقية حسين سلمان.",
     "codeSnippet": null
   },
   {
@@ -13881,13 +13881,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final decoded = jsonDecode(response.body); A FormatException can indicate that the response body is not valid JSON for the expected API contract.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final decoded = jsonDecode(response.body); A FormatException can indicate that the response body is not valid JSON for the expected API contract.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final decoded = jsonDecode(response.body); A FormatException can indicate that the response body is not valid (JSON) for the expected (API) contract.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13906,13 +13906,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A network exercise should evaluate request, status, and JSON evidence together with the matching Flutter screen state. ( ) Code and Screen True / False Compare each code fragment with the disp layed target screen. Mark True or False.",
-    "questionAr": "سؤال متعلق بالمنهج: A network exercise should evaluate request, status, and JSON evidence together with the matching Flutter screen state. ( ) Code and Screen True / False Compare each code fragment with the disp layed target screen. Mark True or False.",
+    "questionAr": "سؤال متعلق بالمنهج: A network exercise should evaluate request, status, and (JSON) evidence together with the matching Flutter screen state. ( ) Code and Screen True / False Compare each code fragment with the disp layed target screen. Mark True or False.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13937,7 +13937,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13956,13 +13956,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final jsonText = await rootBundle .loadString('jsonfile/productlist.json'); The following code is sufficient to produce the loaded product screen even when jsonfile/productlist.json was not declared in pu bspec.yaml.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final jsonText = await rootBundle .loadString('jsonfile/productlist.json'); The following code is sufficient to produce the loaded product screen even when jsonfile/productlist.json was not declared in pu bspec.yaml.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final jsonText = (await) rootBundle .loadString('jsonfile/productlist.json'); The following code is sufficient to produce the loaded product screen even when jsonfile/productlist.json was not declared in pu bspec.yaml.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -13987,7 +13987,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -14006,13 +14006,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: if (snapshot.hasError) { return Center(child: Text('${snapshot.error}')); } If snapshot.hasError is true, does this code represent an API error state in which a retry action could be added?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (snapshot.hasError) { return Center(child: Text('${snapshot.error}')); } If snapshot.hasError is true, does this code represent an API error state in which a retry action could be added?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (snapshot.hasError) { return Center(child: Text('${snapshot.error}')); } If snapshot.hasError is true, does this code represent an (API) error state in which a retry action could be added?",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -14031,13 +14031,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: await addData(); if (!mounted) return; Navigator.pop(context, true);",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: await addData(); if (!mounted) return; Navigator.pop(context, true);",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: (await) addData(); if (!mounted) return; (Navigator).pop(context, true);",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -14056,13 +14056,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: await http.post( Uri.parse('$baseUrl/deleteData.php'), body: {'id': id.toString()}, ); // Parent reloads with GET. A successful POST to delet eData.php should be followed by a fresh GET that can produce the after -delete list shown.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: await http.post( Uri.parse('$baseUrl/deleteData.php'), body: {'id': id.toString()}, ); // Parent reloads with GET. A successful POST to delet eData.php should be followed by a fresh GET that can produce the after -delete list shown.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: (await) http.post( Uri.parse('$baseUrl/deleteData.php'), body: {'id': id.toString()}, ); // Parent reloads with (GET). A successful (POST) to delet eData.php should be followed by a fresh (GET) that can produce the after -delete list shown.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -14087,7 +14087,7 @@ export const questionsData = [
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "EXCLUDED FROM FINAL EXAM: Image upload via MultipartRequest / API is officially excluded from the final exam scope per Dr. Ruqaih Salman's syllabus announcement.",
-    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور والملفات عبر الـ API مستبعد رسمياً من الاختبار النهائي بقرار أستاذة المادة م/ رقية حسين سلمان.",
+    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور والملفات عبر الـ (API) مستبعد رسمياً من الاختبار النهائي بقرار أستاذة المادة م/ رقية حسين سلمان.",
     "codeSnippet": null
   },
   {
@@ -14106,13 +14106,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: if (response.statusCode != 200 && response.statusCode != 201) { throw Exception(...); } if (!mounted) return; await reloadImages(); After an upload response of 200 or 201 and reloadImages(), the refreshed server grid can disp lay the new image state.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (response.statusCode != 200 && response.statusCode != 201) { throw Exception(...); } if (!mounted) return; await reloadImages(); After an upload response of 200 or 201 and reloadImages(), the refreshed server grid can disp lay the new image state.",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (response.statusCode != 200 && response.statusCode != 201) { throw Exception(...); } if (!mounted) return; (await) reloadImages(); After an upload response of 200 or 201 and reloadImages(), the refreshed server grid can disp lay the new image state.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -14131,32 +14131,32 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which HTTP method is used to retrieve data from a REST PHP API?",
-    "questionAr": "أي طريقة HTTP تُستخدم لاسترجاع وقراءة البيانات من واجهة برمجة تطبيقات PHP REST؟",
+    "questionAr": "أي طريقة (HTTP) تُستخدم لاسترجاع وقراءة البيانات من واجهة برمجة تطبيقات PHP REST؟",
     "options": [
       {
         "label": "A",
         "textEn": "POST",
-        "textAr": "طريقة POST (للإرسال والإنشاء)"
+        "textAr": "طريقة (POST) (للإرسال والإنشاء)"
       },
       {
         "label": "B",
         "textEn": "PUT",
-        "textAr": "طريقة PUT (للتحديث والتعديل)"
+        "textAr": "طريقة (PUT) (للتحديث والتعديل)"
       },
       {
         "label": "C",
         "textEn": "GET",
-        "textAr": "طريقة GET (للقراءة والاسترجاع)"
+        "textAr": "طريقة (GET) (للقراءة والاسترجاع)"
       },
       {
         "label": "D",
         "textEn": "DELETE",
-        "textAr": "طريقة DELETE (للحذف)"
+        "textAr": "طريقة (DELETE) (للحذف)"
       }
     ],
     "correctAnswer": "C",
     "explanationEn": "GET is the standard HTTP method used to retrieve and read data from a REST endpoint without side effects.",
-    "explanationAr": "طريقة GET هي الطريقة القياسية المخصصة في بروتوكول HTTP لقراءة واسترجاع البيانات من الخادم دون تعديلها.",
+    "explanationAr": "طريقة (GET) هي الطريقة القياسية المخصصة في بروتوكول (HTTP) لقراءة واسترجاع البيانات من الخادم دون تعديلها.",
     "codeSnippet": null
   },
   {
@@ -14180,7 +14180,7 @@ export const questionsData = [
       {
         "label": "A",
         "textEn": "Retrieves data from an API",
-        "textAr": "تسترجع وتقرأ البيانات من الـ API"
+        "textAr": "تسترجع وتقرأ البيانات من الـ (API)"
       },
       {
         "label": "B",
@@ -14219,7 +14219,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which HTTP status code indicates that the requested resource was not found?",
-    "questionAr": "أي رمز حالة HTTP يشير إلى أن المورد المطلوب غير موجود على الخادم (Not Found)؟",
+    "questionAr": "أي رمز حالة (HTTP) يشير إلى أن المورد المطلوب غير موجود على الخادم (Not Found)؟",
     "options": [
       {
         "label": "A",
@@ -14263,7 +14263,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "How do you parse JSON data in Flutter after making an HTTP request?",
-    "questionAr": "كيف تقوم بتحليل بيانات JSON في فلاتر بعد استلامها من طلب HTTP؟",
+    "questionAr": "كيف تقوم بتحليل بيانات (JSON) في فلاتر بعد استلامها من طلب (HTTP)؟",
     "options": [
       {
         "label": "A",
@@ -14288,7 +14288,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Using jsonDecode(response.body) from the dart:convert library converts the raw JSON string into a Dart Map or List.",
-    "explanationAr": "باستخدام دالة jsonDecode(response.body) من مكتبة dart:convert لتحويل النص بصيغة JSON إلى قواميس Map أو قوائم List في دارت.",
+    "explanationAr": "باستخدام دالة jsonDecode(response.body) من مكتبة dart:convert لتحويل النص بصيغة (JSON) إلى قواميس Map أو قوائم List في دارت.",
     "codeSnippet": null
   },
   {
@@ -14307,7 +14307,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which package is commonly used in Flutter for making HTTP requests?",
-    "questionAr": "أي حزمة هي الأكثر استخداماً في فلاتر لإرسال واستقبال طلبات HTTP للشبكة؟",
+    "questionAr": "أي حزمة هي الأكثر استخداماً في فلاتر لإرسال واستقبال طلبات (HTTP) للشبكة؟",
     "options": [
       {
         "label": "A",
@@ -14351,22 +14351,22 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which HTTP method would you use to update an existing resource in a REST PHP API?",
-    "questionAr": "سؤال متعلق بالمنهج: Which HTTP method would you use to update an existing resource in a REST PHP API?",
+    "questionAr": "سؤال متعلق بالمنهج: Which (HTTP) method would you use to update an existing resource in a REST PHP (API)?",
     "options": [
       {
         "label": "A",
         "textEn": "GET",
-        "textAr": "طريقة GET (للقراءة والاسترجاع)"
+        "textAr": "طريقة (GET) (للقراءة والاسترجاع)"
       },
       {
         "label": "B",
         "textEn": "DELETE",
-        "textAr": "طريقة DELETE (للحذف)"
+        "textAr": "طريقة (DELETE) (للحذف)"
       },
       {
         "label": "C",
         "textEn": "PUT",
-        "textAr": "طريقة PUT (للتحديث والتعديل)"
+        "textAr": "طريقة (PUT) (للتحديث والتعديل)"
       },
       {
         "label": "D",
@@ -14376,7 +14376,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -14395,7 +14395,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What does a 500 Internal Server Error indicate when calling a REST PHP API?",
-    "questionAr": "سؤال متعلق بالمنهج: What does a 500 Internal Server Error indicate when calling a REST PHP API?",
+    "questionAr": "سؤال متعلق بالمنهج: What does a 500 Internal Server Error indicate when calling a REST PHP (API)?",
     "options": [
       {
         "label": "A",
@@ -14420,7 +14420,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -14439,7 +14439,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which of the following header s is required when sending JSON data to a REST PHP API?",
-    "questionAr": "سؤال متعلق بالمنهج: Which of the following header s is required when sending JSON data to a REST PHP API?",
+    "questionAr": "سؤال متعلق بالمنهج: Which of the following header s is required when sending (JSON) data to a REST PHP (API)?",
     "options": [
       {
         "label": "A",
@@ -14464,7 +14464,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -14483,7 +14483,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What widget is commonly used in Flutter to handle asynchronous data from an HTTP request?",
-    "questionAr": "سؤال متعلق بالمنهج: What widget is commonly used in Flutter to handle asynchronous data from an HTTP request?",
+    "questionAr": "سؤال متعلق بالمنهج: What widget is commonly used in Flutter to handle asynchronous data from an (HTTP) request?",
     "options": [
       {
         "label": "A",
@@ -14508,7 +14508,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -14552,7 +14552,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -14596,7 +14596,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -14615,7 +14615,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "An API serves as a bridge that allows different software applications to communicate with each other. In the context of mobile app development, APIs are often used to fetch data from ……………………………………….",
-    "questionAr": "سؤال متعلق بالمنهج: An API serves as a bridge that allows different software applications to communicate with each other. In the context of mobile app development, APIs are often used to fetch data from ……………………………………….",
+    "questionAr": "سؤال متعلق بالمنهج: An (API) serves as a bridge that allows different software applications to communicate with each other. In the (context) of mobile app development, APIs are often used to fetch data from ……………………………………….",
     "options": [
       {
         "label": "A",
@@ -14640,7 +14640,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -14659,7 +14659,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "To make HTTP requests, add the ……………….. package to your pubspec. yaml file and run flutter pub get",
-    "questionAr": "سؤال متعلق بالمنهج: To make HTTP requests, add the ……………….. package to your pubspec. yaml file and run flutter pub get",
+    "questionAr": "سؤال متعلق بالمنهج: To make (HTTP) requests, add the ……………….. package to your pubspec. yaml file and run flutter pub get",
     "options": [
       {
         "label": "A",
@@ -14684,7 +14684,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -14703,7 +14703,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "When a Flutter app sends a GET request to an API endpoint, it receives a response containing the requested data, typical l y in ………………………. format.",
-    "questionAr": "سؤال متعلق بالمنهج: When a Flutter app sends a GET request to an API endpoint, it receives a response containing the requested data, typical l y in ………………………. format.",
+    "questionAr": "سؤال متعلق بالمنهج: When a Flutter app sends a (GET) request to an (API) endpoint, it receives a response containing the requested data, typical l y in ………………………. format.",
     "options": [
       {
         "label": "A",
@@ -14728,7 +14728,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -14772,7 +14772,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -14791,7 +14791,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "…………………………: After receiving data from the API, you’ll need to parse the JSON response into Dart objects for use in your app.",
-    "questionAr": "سؤال متعلق بالمنهج: …………………………: After receiving data from the API, you’ll need to parse the JSON response into Dart objects for use in your app.",
+    "questionAr": "سؤال متعلق بالمنهج: …………………………: After receiving data from the (API), you’ll need to parse the (JSON) response into Dart objects for use in your app.",
     "options": [
       {
         "label": "A",
@@ -14816,7 +14816,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -14835,7 +14835,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "There are many benefits to using an API in Flutter. APIs allow you to:",
-    "questionAr": "سؤال متعلق بالمنهج: There are many benefits to using an API in Flutter. APIs allow you to:",
+    "questionAr": "سؤال متعلق بالمنهج: There are many benefits to using an (API) in Flutter. APIs allow you to:",
     "options": [
       {
         "label": "A",
@@ -14860,7 +14860,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -14879,7 +14879,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "An API request typically includes a…………………………………………………………...",
-    "questionAr": "سؤال متعلق بالمنهج: An API request typically includes a…………………………………………………………...",
+    "questionAr": "سؤال متعلق بالمنهج: An (API) request typically includes a…………………………………………………………...",
     "options": [
       {
         "label": "A",
@@ -14904,7 +14904,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -14948,7 +14948,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -14992,7 +14992,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15036,7 +15036,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15080,7 +15080,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15124,7 +15124,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15168,7 +15168,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15212,7 +15212,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15231,7 +15231,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "An API interaction is described by method, endpoint, headers, body, status, and response. Which item is NOT one of these parts?",
-    "questionAr": "سؤال متعلق بالمنهج: An API interaction is described by method, endpoint, headers, body, status, and response. Which item is NOT one of these parts?",
+    "questionAr": "سؤال متعلق بالمنهج: An (API) interaction is described by method, endpoint, headers, body, status, and response. Which item is NOT one of these parts?",
     "options": [
       {
         "label": "A",
@@ -15256,7 +15256,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15275,7 +15275,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Suppose a Flutter client sends HTTP requests to a PHP API , and the PHP API executes SQL against MySQL. Which boundary should own raw SQL and database credentials?",
-    "questionAr": "سؤال متعلق بالمنهج: Suppose a Flutter client sends HTTP requests to a PHP API , and the PHP API executes SQL against MySQL. Which boundary should own raw SQL and database credentials?",
+    "questionAr": "سؤال متعلق بالمنهج: Suppose a Flutter client sends (HTTP) requests to a PHP (API) , and the PHP (API) executes SQL against MySQL. Which boundary should own raw SQL and database credentials?",
     "options": [
       {
         "label": "A",
@@ -15300,7 +15300,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15319,7 +15319,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which HTTP method is normally associated with updating selected field s of an existing resource?",
-    "questionAr": "سؤال متعلق بالمنهج: Which HTTP method is normally associated with updating selected field s of an existing resource?",
+    "questionAr": "سؤال متعلق بالمنهج: Which (HTTP) method is normally associated with updating selected field s of an existing resource?",
     "options": [
       {
         "label": "A",
@@ -15329,22 +15329,22 @@ export const questionsData = [
       {
         "label": "B",
         "textEn": "GET",
-        "textAr": "طريقة GET (للقراءة والاسترجاع)"
+        "textAr": "طريقة (GET) (للقراءة والاسترجاع)"
       },
       {
         "label": "C",
         "textEn": "POST",
-        "textAr": "طريقة POST (للإرسال والإنشاء)"
+        "textAr": "طريقة (POST) (للإرسال والإنشاء)"
       },
       {
         "label": "D",
         "textEn": "DELETE",
-        "textAr": "طريقة DELETE (للحذف)"
+        "textAr": "طريقة (DELETE) (للحذف)"
       }
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15388,7 +15388,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15432,7 +15432,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15451,7 +15451,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final decoded = jsonDecode('[1, 2, 3]'); After jsonDecode runs, which Dart structure naturally represents the top -level JSON array?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final decoded = jsonDecode('[1, 2, 3]'); After jsonDecode runs, which Dart structure naturally represents the top -level JSON array?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final decoded = jsonDecode('[1, 2, 3]'); After jsonDecode runs, which Dart structure naturally represents the top -level (JSON) array?",
     "options": [
       {
         "label": "A",
@@ -15476,7 +15476,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15495,7 +15495,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which JSON value is valid in a Dart value decoded from JSON?",
-    "questionAr": "سؤال متعلق بالمنهج: Which JSON value is valid in a Dart value decoded from JSON?",
+    "questionAr": "سؤال متعلق بالمنهج: Which (JSON) value is valid in a Dart value decoded from (JSON)?",
     "options": [
       {
         "label": "A",
@@ -15520,7 +15520,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15564,7 +15564,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15583,7 +15583,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final body = {'name': 'Mouse', 'price': '25'}; final text = jsonEncode(body); Which function serializes the Dart map -like value into JSON text?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final body = {'name': 'Mouse', 'price': '25'}; final text = jsonEncode(body); Which function serializes the Dart map -like value into JSON text?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final body = {'name': 'Mouse', 'price': '25'}; final text = jsonEncode(body); Which function serializes the Dart map -like value into (JSON) text?",
     "options": [
       {
         "label": "A",
@@ -15608,7 +15608,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15652,7 +15652,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15671,7 +15671,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final jsonText = await rootBundle.loadString('jsonfile/productlist.json'); Which asset path must be registered in pubspec.yaml so that this code can load the file?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final jsonText = await rootBundle.loadString('jsonfile/productlist.json'); Which asset path must be registered in pubspec.yaml so that this code can load the file?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final jsonText = (await) rootBundle.loadString('jsonfile/productlist.json'); Which asset path must be registered in pubspec.yaml so that this code can load the file?",
     "options": [
       {
         "label": "A",
@@ -15696,7 +15696,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15715,7 +15715,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final jsonText = await rootBundle.loadString('jsonfile/productlist.json'); Which API loads the registered local JSON asset as text?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final jsonText = await rootBundle.loadString('jsonfile/productlist.json'); Which API loads the registered local JSON asset as text?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final jsonText = (await) rootBundle.loadString('jsonfile/productlist.json'); Which (API) loads the registered local (JSON) asset as text?",
     "options": [
       {
         "label": "A",
@@ -15740,7 +15740,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15759,7 +15759,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final decoded = jsonDecode(jsonText) as List<dynamic>; final products = decoded.map((item) => ProductDataModel.fromJson(item)).toList(); What type is the decoded local JSON value cast to before its items are mapped?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final decoded = jsonDecode(jsonText) as List<dynamic>; final products = decoded.map((item) => ProductDataModel.fromJson(item)).toList(); What type is the decoded local JSON value cast to before its items are mapped?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final decoded = jsonDecode(jsonText) as List<dynamic>; final products = decoded.map((item) => ProductDataModel.fromJson(item)).toList(); What type is the decoded local (JSON) value cast to before its items are mapped?",
     "options": [
       {
         "label": "A",
@@ -15784,7 +15784,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15803,7 +15803,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: FutureBuilder<List<ProductDataModel>>( future: readJsonData(), builder: (context, snapsho t) => const SizedBox(), ); Which expression is supplied to the FutureBuilder future property?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: FutureBuilder<List<ProductDataModel>>( future: readJsonData(), builder: (context, snapsho t) => const SizedBox(), ); Which expression is supplied to the FutureBuilder future property?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: (FutureBuilder)<List<ProductDataModel>>( future: readJsonData(), builder: (context, snapsho t) => const SizedBox(), ); Which expression is supplied to the (FutureBuilder) future property?",
     "options": [
       {
         "label": "A",
@@ -15828,7 +15828,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15847,7 +15847,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: if (snapshot.connectionState == ConnectionStat e.waiting) { return const Center(child: CircularProgressIndicator()); } What should the FutureBuilder disp lay while the asset Future is waiting?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (snapshot.connectionState == ConnectionStat e.waiting) { return const Center(child: CircularProgressIndicator()); } What should the FutureBuilder disp lay while the asset Future is waiting?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (snapshot.connectionState == ConnectionStat e.waiting) { return const Center(child: CircularProgressIndicator()); } What should the (FutureBuilder) disp lay while the asset (Future) is waiting?",
     "options": [
       {
         "label": "A",
@@ -15872,7 +15872,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15916,7 +15916,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15960,7 +15960,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -15979,7 +15979,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final response = await http.get( Uri.parse('https://randomuser.me/api/?results=20'), ); Which exact URL is passed to the RandomUser GET requ est?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = await http.get( Uri.parse('https://randomuser.me/api/?results=20'), ); Which exact URL is passed to the RandomUser GET requ est?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = (await) http.get( Uri.parse('https://randomuser.me/api/?results=20'), ); Which exact URL is passed to the RandomUser (GET) requ est?",
     "options": [
       {
         "label": "A",
@@ -16004,7 +16004,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16048,7 +16048,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16067,7 +16067,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final response = await http.get(uri); if (response.statusCode != 200) { throw Exception('Request failed'); } What is checked immediately after the RandomUser GET response?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = await http.get(uri); if (response.statusCode != 200) { throw Exception('Request failed'); } What is checked immediately after the RandomUser GET response?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = (await) http.get(uri); if (response.statusCode != 200) { throw Exception('Request failed'); } What is checked immediately after the RandomUser (GET) response?",
     "options": [
       {
         "label": "A",
@@ -16092,7 +16092,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16136,7 +16136,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16180,7 +16180,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16199,7 +16199,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: if (snapshot.hasError) { return Center(child: Text('${snapshot.error}')); } What does the FutureBuilder render when snapshot.hasError is true?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (snapshot.hasError) { return Center(child: Text('${snapshot.error}')); } What does the FutureBuilder render when snapshot.hasError is true?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (snapshot.hasError) { return Center(child: Text('${snapshot.error}')); } What does the (FutureBuilder) render when snapshot.hasError is true?",
     "options": [
       {
         "label": "A",
@@ -16224,7 +16224,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16243,7 +16243,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snip pet: final response = await http.post( uri,",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snip pet: final response = await http.post( uri,",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snip pet: final response = (await) http.post( uri,",
     "options": [
       {
         "label": "A",
@@ -16268,7 +16268,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16287,7 +16287,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: if (response.statusCode != 200 && response.statusCode != 204) { throw Exception('Update failed'); } Which status pair is accepted by this PUT success check?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (response.statusCode != 200 && response.statusCode != 204) { throw Exception('Update failed'); } Which status pair is accepted by this PUT success check?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (response.statusCode != 200 && response.statusCode != 204) { throw Exception('Update failed'); } Which status pair is accepted by this (PUT) success check?",
     "options": [
       {
         "label": "A",
@@ -16312,7 +16312,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16331,7 +16331,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: if (response.statusCode != 200 && response.statusCode != 204) { throw Exception('Delete failed'); } Which status pair is accepted by this DELETE success check?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (response.statusCode != 200 && response.statusCode != 204) { throw Exception('Delete failed'); } Which status pair is accepted by this DELETE success check?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (response.statusCode != 200 && response.statusCode != 204) { throw Exception('Delete failed'); } Which status pair is accepted by this (DELETE) success check?",
     "options": [
       {
         "label": "A",
@@ -16356,7 +16356,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16400,7 +16400,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16419,7 +16419,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "In a client–API–database architecture, which layer validates requests an d executes prepared SQL?",
-    "questionAr": "سؤال متعلق بالمنهج: In a client–API–database architecture, which layer validates requests an d executes prepared SQL?",
+    "questionAr": "سؤال متعلق بالمنهج: In a client–(API)–database architecture, which layer validates requests an d executes prepared SQL?",
     "options": [
       {
         "label": "A",
@@ -16444,7 +16444,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16463,7 +16463,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final response = await http.get( Uri.parse('$baseUrl/getdata.php'), ); Which route is called by this GET request to read the inventory list?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = await http.get( Uri.parse('$baseUrl/getdata.php'), ); Which route is called by this GET request to read the inventory list?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = (await) http.get( Uri.parse('$baseUrl/getdata.php'), ); Which route is called by this (GET) request to read the inventory list?",
     "options": [
       {
         "label": "A",
@@ -16488,7 +16488,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16507,7 +16507,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final response = await http.post( Uri.parse('$baseUrl/adddata.php'),",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = await http.post( Uri.parse('$baseUrl/adddata.php'),",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = (await) http.post( Uri.parse('$baseUrl/adddata.php'),",
     "options": [
       {
         "label": "A",
@@ -16532,7 +16532,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16551,7 +16551,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final response = await http.post( Uri.parse('$baseUrl/editdata.php'), body: {'id': '7', 'itemname': 'Keyboard'}, ); Which route and method update an inventory item in this code?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = await http.post( Uri.parse('$baseUrl/editdata.php'), body: {'id': '7', 'itemname': 'Keyboard'}, ); Which route and method update an inventory item in this code?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = (await) http.post( Uri.parse('$baseUrl/editdata.php'), body: {'id': '7', 'itemname': 'Keyboard'}, ); Which route and method update an inventory item in this code?",
     "options": [
       {
         "label": "A",
@@ -16576,7 +16576,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16595,7 +16595,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final response = await http.post( Uri.parse('$baseUrl/deleteData.php'),",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = await http.post( Uri.parse('$baseUrl/deleteData.php'),",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = (await) http.post( Uri.parse('$baseUrl/deleteData.php'),",
     "options": [
       {
         "label": "A",
@@ -16620,7 +16620,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16708,7 +16708,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16727,7 +16727,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: $connect = new mysqli($host, $user, $password, $database); Which PHP database API is represented by the connection variable in this code?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: $connect = new mysqli($host, $user, $password, $database); Which PHP database API is represented by the connection variable in this code?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: $connect = new mysqli($host, $user, $password, $database); Which PHP database (API) is represented by the connection variable in this code?",
     "options": [
       {
         "label": "A",
@@ -16752,7 +16752,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16796,7 +16796,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16840,7 +16840,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16884,7 +16884,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16928,7 +16928,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -16972,7 +16972,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -17016,7 +17016,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -17035,7 +17035,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: await Navigator.push( context, MaterialPageRoute(builder: (_) => const AddData_Roq()),",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: await Navigator.push( context, MaterialPageRoute(builder: (_) => const AddData_Roq()),",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: (await) (Navigator).push( (context), (MaterialPageRoute)(builder: (_) => const AddData_Roq()),",
     "options": [
       {
         "label": "A",
@@ -17060,7 +17060,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -17079,7 +17079,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: await updateItem(); final latest = await http.get( Uri.parse('$baseUrl/getdata.php'), ); What is the strongest evidence that the server persisted an update?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: await updateItem(); final latest = await http.get( Uri.parse('$baseUrl/getdata.php'), ); What is the strongest evidence that the server persisted an update?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: (await) updateItem(); final latest = (await) http.get( Uri.parse('$baseUrl/getdata.php'), ); What is the strongest evidence that the server persisted an update?",
     "options": [
       {
         "label": "A",
@@ -17104,7 +17104,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -17123,7 +17123,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final confirmed = await showDialog<bool>(context: context, builder: (_) => const AlertDialog()); if (confirmed == true) {",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final confirmed = await showDialog<bool>(context: context, builder: (_) => const AlertDialog()); if (confirmed == true) {",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final confirmed = (await) showDialog<bool>(context: (context), builder: (_) => const AlertDialog()); if (confirmed == true) {",
     "options": [
       {
         "label": "A",
@@ -17148,7 +17148,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -17167,7 +17167,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "EXCLUDED FROM FINAL EXAM",
     "questionEn": "If we have the following code snippet: final XFile? image = await picker. pickImage( source: ImageSource.gallery, ); Which type is returned by the image_picker call?",
-    "questionAr": "سؤال رفع الصور (مستبعد من الاختبار): If we have the following code snippet: final XFile? image = await picker. pickImage( source: ImageSource.gallery, ); Which type is returned by the image_picker call?",
+    "questionAr": "سؤال رفع الصور (مستبعد من الاختبار): If we have the following code snippet: final XFile? image = (await) picker. pickImage( source: ImageSource.gallery, ); Which type is returned by the image_picker call?",
     "options": [
       {
         "label": "A",
@@ -17192,7 +17192,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "EXCLUDED FROM FINAL EXAM: Image uploading with API is officially quarantined from the exam scope per Eng. Ruqaih Salman's syllabus.",
-    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور عبر الـ API مستبعد رسمياً من الاختبار النهائي وفق توجيهات أستاذة المادة.",
+    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور عبر الـ (API) مستبعد رسمياً من الاختبار النهائي وفق توجيهات أستاذة المادة.",
     "codeSnippet": null
   },
   {
@@ -17236,7 +17236,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "EXCLUDED FROM FINAL EXAM: Image uploading with API is officially quarantined from the exam scope per Eng. Ruqaih Salman's syllabus.",
-    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور عبر الـ API مستبعد رسمياً من الاختبار النهائي وفق توجيهات أستاذة المادة.",
+    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور عبر الـ (API) مستبعد رسمياً من الاختبار النهائي وفق توجيهات أستاذة المادة.",
     "codeSnippet": null
   },
   {
@@ -17280,7 +17280,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "EXCLUDED FROM FINAL EXAM: Image uploading with API is officially quarantined from the exam scope per Eng. Ruqaih Salman's syllabus.",
-    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور عبر الـ API مستبعد رسمياً من الاختبار النهائي وفق توجيهات أستاذة المادة.",
+    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور عبر الـ (API) مستبعد رسمياً من الاختبار النهائي وفق توجيهات أستاذة المادة.",
     "codeSnippet": null
   },
   {
@@ -17324,7 +17324,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -17368,7 +17368,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -17387,7 +17387,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: if (response.statusCode == 201) { await reloadImages(); } What should the UI do after the upload response indicates success?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (response.statusCode == 201) { await reloadImages(); } What should the UI do after the upload response indicates success?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (response.statusCode == 201) { (await) reloadImages(); } What should the UI do after the upload response indicates success?",
     "options": [
       {
         "label": "A",
@@ -17412,7 +17412,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -17431,7 +17431,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: try { await http.get(Uri.parse(baseUrl)); } on SocketException { // inspect the connection } What should be checked first when this network call raises SocketException?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: try { await http.get(Uri.parse(baseUrl)); } on SocketException { // inspect the connection } What should be checked first when this network call raises SocketException?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: try { (await) http.get(Uri.parse(baseUrl)); } on SocketException { // inspect the connection } What should be checked first when this network call raises SocketException?",
     "options": [
       {
         "label": "A",
@@ -17456,7 +17456,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -17475,7 +17475,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final decoded = jsonDecode(response.body); // FormatException occurs if response.body is not valid JSON. What should be inspected first when jsonDecode raises FormatException?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final decoded = jsonDecode(response.body); // FormatException occurs if response.body is not valid JSON. What should be inspected first when jsonDecode raises FormatException?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final decoded = jsonDecode(response.body); // FormatException occurs if response.body is not valid (JSON). What should be inspected first when jsonDecode raises FormatException?",
     "options": [
       {
         "label": "A",
@@ -17500,7 +17500,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -17544,7 +17544,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -17563,7 +17563,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: if (snapshot.connectionState == ConnectionState.waiting) { return const Center(child: CircularProgressIndicator()); } Which UI branch is selected while the Future is waiting?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (snapshot.connectionState == ConnectionState.waiting) { return const Center(child: CircularProgressIndicator()); } Which UI branch is selected while the Future is waiting?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (snapshot.connectionState == ConnectionState.waiting) { return const Center(child: CircularProgressIndicator()); } Which UI branch is selected while the (Future) is waiting?",
     "options": [
       {
         "label": "A",
@@ -17588,7 +17588,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -17632,7 +17632,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -17651,7 +17651,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: if (response.statusCode != 200) { throw Exception('GET failed: ${response.statusCode}'); } What happens when the GET status is 500?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (response.statusCode != 200) { throw Exception('GET failed: ${response.statusCode}'); } What happens when the GET status is 500?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (response.statusCode != 200) { throw Exception('GET failed: ${response.statusCode}'); } What happens when the (GET) status is 500?",
     "options": [
       {
         "label": "A",
@@ -17676,7 +17676,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -17695,7 +17695,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following co de snippet: final users = await fetchUsers(); print('users=${users.length}'); How many users does the console driver expect after a successful RandomUser request with results=20?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following co de snippet: final users = await fetchUsers(); print('users=${users.length}'); How many users does the console driver expect after a successful RandomUser request with results=20?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following co de snippet: final users = (await) fetchUsers(); print('users=${users.length}'); How many users does the console driver expect after a successful RandomUser request with results=20?",
     "options": [
       {
         "label": "A",
@@ -17720,7 +17720,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -17739,7 +17739,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final r = await http.post( Uri.parse('$baseUrl/adddata.php'), body: { 'itemcode': 'A10', 'itemname': 'Mouse', 'price': '25', 'stock': '4',",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final r = await http.post( Uri.parse('$baseUrl/adddata.php'), body: { 'itemcode': 'A10', 'itemname': 'Mouse', 'price': '25', 'stock': '4',",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final r = (await) http.post( Uri.parse('$baseUrl/adddata.php'), body: { 'itemcode': 'A10', 'itemname': 'Mouse', 'price': '25', 'stock': '4',",
     "options": [
       {
         "label": "A",
@@ -17764,7 +17764,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -17808,7 +17808,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -17827,7 +17827,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final r = await http.post( Uri.parse('$baseUrl/deleteData.php'), body: {'id': '7'}, ); Which request is sent for id=7?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final r = await http.post( Uri.parse('$baseUrl/deleteData.php'), body: {'id': '7'}, ); Which request is sent for id=7?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final r = (await) http.post( Uri.parse('$baseUrl/deleteData.php'), body: {'id': '7'}, ); Which request is sent for id=7?",
     "options": [
       {
         "label": "A",
@@ -17852,7 +17852,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -17871,7 +17871,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "EXCLUDED FROM FINAL EXAM",
     "questionEn": "If we have the following code snippet: final XFile? image = await picker.pickImage(source: source); if (image == null) return; What happens if I magePicker returns null?",
-    "questionAr": "سؤال رفع الصور (مستبعد من الاختبار): If we have the following code snippet: final XFile? image = await picker.pickImage(source: source); if (image == null) return; What happens if I magePicker returns null?",
+    "questionAr": "سؤال رفع الصور (مستبعد من الاختبار): If we have the following code snippet: final XFile? image = (await) picker.pickImage(source: source); if (image == null) return; What happens if I magePicker returns null?",
     "options": [
       {
         "label": "A",
@@ -17896,7 +17896,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "EXCLUDED FROM FINAL EXAM: Image uploading with API is officially quarantined from the exam scope per Eng. Ruqaih Salman's syllabus.",
-    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور عبر الـ API مستبعد رسمياً من الاختبار النهائي وفق توجيهات أستاذة المادة.",
+    "explanationAr": "مستبعد رسمياً من الاختبار النهائي: موضوع رفع الصور عبر الـ (API) مستبعد رسمياً من الاختبار النهائي وفق توجيهات أستاذة المادة.",
     "codeSnippet": null
   },
   {
@@ -17915,7 +17915,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: if (response.statusCode != 200 && response.statusCode != 201) { throw Exception(...); } if (!mounted) return; await reloadImages(); What does the upload code do after HTTP 200 or 201?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (response.statusCode != 200 && response.statusCode != 201) { throw Exception(...); } if (!mounted) return; await reloadImages(); What does the upload code do after HTTP 200 or 201?",
+    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (response.statusCode != 200 && response.statusCode != 201) { throw Exception(...); } if (!mounted) return; (await) reloadImages(); What does the upload code do after (HTTP) 200 or 201?",
     "options": [
       {
         "label": "A",
@@ -17940,7 +17940,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات REST API: طرق HTTP (GET للقراءة، POST للإنشاء، PUT للتعديل، DELETE للحذف)، وتحليل JSON عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
     "codeSnippet": null
   },
   {
@@ -17958,7 +17958,7 @@ export const questionsData = [
     "isGenerated": true,
     "badge": "GENERATED PRACTICE QUESTION",
     "questionEn": "An app starts on Screen A. The user performs Navigator.push to Screen B, then Navigator.pushReplacement to Screen C. What will happen when the user presses the system Back button on Screen C?",
-    "questionAr": "يبدأ التطبيق في الشاشة A. ينفذ المستخدم Navigator.push للانتقال إلى الشاشة B، ثم ينفذ Navigator.pushReplacement إلى الشاشة C. ماذا سيحدث عندما يضغط المستخدم على زر الرجوع في الشاشة C؟",
+    "questionAr": "يبدأ التطبيق في الشاشة A. ينفذ المستخدم (Navigator).push للانتقال إلى الشاشة B، ثم ينفذ (Navigator).(pushReplacement) إلى الشاشة C. ماذا سيحدث عندما يضغط المستخدم على زر الرجوع في الشاشة C؟",
     "options": [
       {
         "label": "A",
@@ -17983,7 +17983,7 @@ export const questionsData = [
     ],
     "correctAnswer": "B",
     "explanationEn": "pushReplacement replaced Screen B with Screen C on top of the stack. Therefore, Screen B was popped and destroyed. Below Screen C is Screen A. Pressing Back returns directly to Screen A.",
-    "explanationAr": "قامت pushReplacement باستبدال الشاشة B بالشاشة C في قمة المكدس وحذفت الشاشة B من سجل الرجوع. وبالتالي أصبحت الشاشة A هي التي تقع أسفل C مباشرة. الضغط على الرجوع سيعود للشاشة A."
+    "explanationAr": "قامت (pushReplacement) باستبدال الشاشة B بالشاشة C في قمة المكدس وحذفت الشاشة B من سجل الرجوع. وبالتالي أصبحت الشاشة A هي التي تقع أسفل C مباشرة. الضغط على الرجوع سيعود للشاشة A."
   },
   {
     "id": "gen_l7_02",
@@ -18021,12 +18021,12 @@ export const questionsData = [
     "isGenerated": true,
     "badge": "GENERATED PRACTICE QUESTION",
     "questionEn": "Why must the Future passed to FutureBuilder be instantiated outside the build() method (e.g. in initState)?",
-    "questionAr": "لماذا يجب إنشاء كائن الـ Future الممرر إلى FutureBuilder خارج دالة build() (مثلاً داخل initState)؟",
+    "questionAr": "لماذا يجب إنشاء كائن الـ (Future) الممرر إلى (FutureBuilder) خارج دالة (build()) (مثلاً داخل initState)؟",
     "options": [
       {
         "label": "A",
         "textEn": "Because build() is not allowed to return FutureBuilder",
-        "textAr": "لأن دالة build() لا يُسمح لها بإرجاع FutureBuilder"
+        "textAr": "لأن دالة (build()) لا يُسمح لها بإرجاع (FutureBuilder)"
       },
       {
         "label": "B",
@@ -18036,17 +18036,17 @@ export const questionsData = [
       {
         "label": "C",
         "textEn": "Because FutureBuilder only works with synchronous functions",
-        "textAr": "لأن FutureBuilder يعمل فقط مع الدوال المتزامنة"
+        "textAr": "لأن (FutureBuilder) يعمل فقط مع الدوال المتزامنة"
       },
       {
         "label": "D",
         "textEn": "To convert the Future automatically into a Stream",
-        "textAr": "لتحويل الـ Future تلقائياً إلى Stream"
+        "textAr": "لتحويل الـ (Future) تلقائياً إلى (Stream)"
       }
     ],
     "correctAnswer": "B",
     "explanationEn": "If instantiated inside build(), every time the framework rebuilds the widget (e.g., keyboard opens, parent updates), a brand new Future is created, restarting the async task repeatedly.",
-    "explanationAr": "إذا تم إنشاء الـ Future داخل build()، فمع كل إعادة بناء للشاشة سيتم إنشاء كائن Future جديد والبدء في طلب البيانات من الصفر، مما يسبب استهلاكاً للشبكة وحلقات لا نهائية."
+    "explanationAr": "إذا تم إنشاء الـ (Future) داخل (build())، فمع كل إعادة بناء للشاشة سيتم إنشاء كائن (Future) جديد والبدء في طلب البيانات من الصفر، مما يسبب استهلاكاً للشبكة وحلقات لا نهائية."
   },
   {
     "id": "gen_l9_01",
@@ -18068,12 +18068,12 @@ export const questionsData = [
       {
         "label": "A",
         "textEn": "SharedPreferences",
-        "textAr": "التفضيلات المشتركة SharedPreferences"
+        "textAr": "التفضيلات المشتركة (SharedPreferences)"
       },
       {
         "label": "B",
         "textEn": "SQLite Database (sqflite)",
-        "textAr": "قاعدة بيانات SQLite (sqflite)"
+        "textAr": "قاعدة بيانات (SQLite) (sqflite)"
       },
       {
         "label": "C",
@@ -18088,7 +18088,7 @@ export const questionsData = [
     ],
     "correctAnswer": "B",
     "explanationEn": "SQLite provides relational indexing, SQL WHERE clauses, ORDER BY, and fast querying across thousands of rows. SharedPreferences and single text files cannot efficiently filter or query large datasets.",
-    "explanationAr": "قواعد بيانات SQLite تدعم الفهارس واستعلامات SQL المنظمة (WHERE, ORDER BY) والبحث السريع في آلاف السجلات، على عكس SharedPreferences والملفات النصية العادية."
+    "explanationAr": "قواعد بيانات (SQLite) تدعم الفهارس واستعلامات SQL المنظمة (WHERE, ORDER BY) والبحث السريع في آلاف السجلات، على عكس (SharedPreferences) والملفات النصية العادية."
   },
   {
     "id": "gen_l10_01",
