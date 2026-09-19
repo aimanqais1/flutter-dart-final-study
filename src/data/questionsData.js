@@ -595,8 +595,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "True. A Hero widget needs a unique tag within its route so that Flutter knows exactly which widgets correspond to each other during the transition.",
+    "explanationAr": "صحيح. يحتاج ويدجت Hero إلى علامة (tag) فريدة داخل مساره حتى يعرف فلاتر بالضبط أي الويدجت تتوافق مع بعضها أثناء الانتقال.",
     "codeSnippet": null
   },
   {
@@ -667,8 +667,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "True. The TabBar and TabBarView must have the exact same number of tabs/children so the controller can sync their indices correctly.",
+    "explanationAr": "صحيح. يجب أن يحتوي TabBar و TabBarView على نفس العدد بالضبط من علامات التبويب/العناصر الفرعية حتى يتمكن وحدة التحكم من مزامنة فهارسها بشكل صحيح.",
     "codeSnippet": null
   },
   {
@@ -691,8 +691,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "True. IndexedStack renders all its children but only shows one at a time, allowing inactive children to retain their state.",
+    "explanationAr": "صحيح. يقوم IndexedStack بعرض جميع أبنائه ولكنه يُظهر واحداً فقط في كل مرة، مما يسمح للأبناء غير النشطين بالاحتفاظ بحالتهم.",
     "codeSnippet": null
   },
   {
@@ -715,8 +715,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "True. When using a NavigationBar, selecting a tab updates the active index in the state, triggering a rebuild to display the corresponding body.",
+    "explanationAr": "صحيح. عند استخدام NavigationBar، يؤدي تحديد علامة تبويب إلى تحديث الفهرس النشط في الحالة، مما يؤدي إلى إعادة البناء لعرض المحتوى المقابل.",
     "codeSnippet": null
   },
   {
@@ -739,8 +739,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "True. Controllers consume system resources and must be explicitly disposed in the State's dispose() method to prevent memory leaks.",
+    "explanationAr": "صحيح. تستهلك أدوات التحكم (Controllers) موارد النظام ويجب التخلص منها صراحة في دالة dispose() الخاصة بـ State لمنع تسرب الذاكرة.",
     "codeSnippet": null
   },
   {
@@ -763,8 +763,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "True. A dialog returns the value passed to Navigator.pop(context, value). If the user taps outside to dismiss, it returns null.",
+    "explanationAr": "صحيح. يُرجع مربع الحوار القيمة الممررة إلى Navigator.pop. وإذا نقر المستخدم بالخارج لإغلاقه، فإنه يُرجع null.",
     "codeSnippet": null
   },
   {
@@ -787,8 +787,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "True. Just like other dialogs, SimpleDialog completes its Future with a value if an option is selected, or null if dismissed.",
+    "explanationAr": "صحيح. تمامًا مثل مربعات الحوار الأخرى، يكمل SimpleDialog كائن Future الخاص به بقيمة إذا تم تحديد خيار، أو null إذا تم إغلاقه.",
     "codeSnippet": null
   },
   {
@@ -806,13 +806,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A typed modal bottom sheet can return an enum value through its Future.",
-    "questionAr": "سؤال متعلق بالمنهج: A typed modal bottom sheet can return an enum value through its (Future).",
+    "questionAr": "يمكن لورقة سفلية مشروطة (modal bottom sheet) محددة النوع أن تُرجع قيمة من نوع enum من خلال الـ (Future) الخاص بها.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "True. When showing a modal bottom sheet, its Future can be strongly typed (e.g., Future<MyEnum?>) to return a specific enum value.",
+    "explanationAr": "صحيح. عند عرض modal bottom sheet، يمكن أن يكون كائن Future الخاص به محدد النوع (مثل Future<MyEnum?>) لإرجاع قيمة enum معينة.",
     "codeSnippet": null
   },
   {
@@ -835,8 +835,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "True. Users can dismiss dialogs or bottom sheets by tapping outside them, causing the Future to resolve with null. The caller must handle this.",
+    "explanationAr": "صحيح. يمكن للمستخدمين إغلاق مربعات الحوار عن طريق النقر خارجها، مما يؤدي إلى إكمال كائن Future بقيمة null. يجب على المستدعي التعامل مع هذا.",
     "codeSnippet": null
   },
   {
@@ -859,8 +859,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "True. showDatePicker returns a Future<DateTime?> which resolves to null if the user cancels or dismisses the picker.",
+    "explanationAr": "صحيح. تُرجع الدالة showDatePicker كائن Future<DateTime?> والذي يكتمل بقيمة null إذا قام المستخدم بإلغاء أداة الاختيار أو إغلاقها.",
     "codeSnippet": null
   },
   {
@@ -883,8 +883,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "showTimePicker returns a Future<TimeOfDay?> where null represents the user cancelling the dialog.",
+    "explanationAr": "ترجع الدالة showTimePicker قيمة Future<TimeOfDay?>، حيث تمثل القيمة null إلغاء المستخدم لمربع الحوار.",
     "codeSnippet": null
   },
   {
@@ -907,8 +907,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "showDatePicker requires firstDate <= initialDate <= lastDate to ensure the initially selected date is within the valid range.",
+    "explanationAr": "تتطلب showDatePicker أن يكون firstDate <= initialDate <= lastDate لضمان أن التاريخ المحدد مبدئياً يقع ضمن النطاق الصالح.",
     "codeSnippet": null
   },
   {
@@ -968,7 +968,7 @@ export const questionsData = [
     "topic": "Navigation & Routing",
     "subtopic": "Core Fundamentals",
     "type": "tf",
-    "examRelevance": "included",
+    "examRelevance": "excluded",
     "source": "Lab 7 (Q1.41)",
     "sourceType": "actual",
     "isGenerated": false,
@@ -979,8 +979,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "On Android, if the OS kills the MainActivity while the image picker is active, the app must call retrieveLostData() to recover the picked image upon restart.",
+    "explanationAr": "في نظام Android، إذا قام النظام بإغلاق MainActivity أثناء نشاط أداة اختيار الصور، يجب على التطبيق استدعاء retrieveLostData() لاستعادة الصورة عند إعادة التشغيل.",
     "codeSnippet": null
   },
   {
@@ -1003,8 +1003,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "NavigatorObserver acts as a listener that hooks into the routing lifecycle (push, pop) to log or track navigation events, separate from the UI rendering logic.",
+    "explanationAr": "يعمل NavigatorObserver كمستمع يتصل بدورة حياة التوجيه لتسجيل وتتبع أحداث التنقل، بمعزل عن منطق عرض واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -1027,8 +1027,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "Using named routes assigns identifiable string names to routes, making debugging logs and test output more readable compared to anonymous MaterialPageRoute objects.",
+    "explanationAr": "يؤدي استخدام المسارات المسماة إلى تعيين أسماء نصية مميزة للمسارات، مما يجعل سجلات التصحيح ومخرجات الاختبار أكثر قابلية للقراءة.",
     "codeSnippet": null
   },
   {
@@ -1051,8 +1051,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "pumpAndSettle() repeatedly pumps frames until all animations and scheduled microtasks (like page transitions) finish, making it ideal for testing navigation outcomes.",
+    "explanationAr": "تقوم الدالة pumpAndSettle() بضخ الإطارات بشكل متكرر حتى تنتهي جميع الرسوم المتحركة والمهام المجدولة (مثل انتقالات الصفحات)، مما يجعلها مثالية لاختبار نتائج التنقل.",
     "codeSnippet": null
   },
   {
@@ -1075,8 +1075,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "BuildContext is strictly tied to a widget's position in the UI tree. Business logic or data models like Course should be independent of the UI layer.",
+    "explanationAr": "يرتبط BuildContext بشكل صارم بموقع الويدجت في شجرة واجهة المستخدم. يجب أن تكون نماذج البيانات مثل Course مستقلة عن طبقة الواجهة.",
     "codeSnippet": null
   },
   {
@@ -1099,8 +1099,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "Navigator.pop removes the topmost route (the active screen) from the Navigator stack, returning the user to the previous screen.",
+    "explanationAr": "تقوم دالة Navigator.pop بإزالة المسار العلوي (الشاشة النشطة) من مكدس Navigator، مما يعيد المستخدم إلى الشاشة السابقة.",
     "codeSnippet": null
   },
   {
@@ -1123,8 +1123,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "pushAndRemoveUntil pushes a new route and iterates backwards, removing routes until the given predicate returns true. Passing (route) => false removes all previous routes.",
+    "explanationAr": "تقوم الدالة pushAndRemoveUntil بدفع مسار جديد وتزيل المسارات السابقة حتى يرجع الشرط المحدد قيمة صحيحة. إرجاع false يزيل جميع المسارات السابقة.",
     "codeSnippet": null
   },
   {
@@ -1147,8 +1147,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "pushReplacement replaces the current route with a new one, while popUntil pops multiple existing routes until a condition is met. Their effects on the route stack are completely different.",
+    "explanationAr": "تقوم الدالة pushReplacement باستبدال المسار الحالي بمسار جديد، بينما تزيل popUntil مسارات متعددة حتى يتحقق شرط معين. تأثيرهما على مكدس المسارات مختلف تماماً.",
     "codeSnippet": null
   },
   {
@@ -1171,8 +1171,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "Flutter allows mixing Navigator.push (anonymous) and Navigator.pushNamed (named). However, standardizing navigation approaches helps maintainability.",
+    "explanationAr": "يسمح فلاتر بخلط المسارات المجهولة والمسارات المسماة. ومع ذلك، فإن توحيد أساليب التنقل يساعد في قابلية صيانة التطبيق.",
     "codeSnippet": null
   },
   {
@@ -1195,8 +1195,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "Navigator.push returns a Future<T?>. The result can be null if the user pops the route using the back button without providing a value, so the caller must handle this null case.",
+    "explanationAr": "تُرجع دالة Navigator.push قيمة Future<T?>. يمكن أن تكون النتيجة null إذا قام المستخدم بالرجوع دون توفير قيمة، لذا يجب التعامل مع هذه الحالة.",
     "codeSnippet": null
   },
   {
@@ -1219,8 +1219,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "Across an await gap, the widget might be unmounted. Using the BuildContext then will throw an exception. The code should check if (!context.mounted) return;.",
+    "explanationAr": "بعد انتظار عملية غير متزامنة (await)، قد يتم إلغاء تركيب الويدجت. استخدام BuildContext حينها سيؤدي إلى خطأ، لذا يجب التحقق من context.mounted.",
     "codeSnippet": null
   },
   {
@@ -1243,8 +1243,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "The Hero widget animates a UI element seamlessly from one route to another during navigation, but both routes remain distinct entities in the Navigator stack.",
+    "explanationAr": "يقوم ويدجت Hero بتحريك عنصر واجهة مستخدم بسلاسة من مسار إلى آخر أثناء التنقل، لكن يظل كلا المسارين كيانين منفصلين في المكدس.",
     "codeSnippet": null
   },
   {
@@ -1267,8 +1267,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "Dialogs and bottom sheets are pushed as standalone routes with transparent backgrounds. When dismissed (e.g., clicking outside), they return null.",
+    "explanationAr": "يتم تقديم مربعات الحوار (Dialogs) كمسارات مستقلة بخلفيات شفافة. عند إغلاقها (مثلاً بالنقر خارجها)، فإنها تُرجع القيمة null.",
     "codeSnippet": null
   },
   {
@@ -1291,8 +1291,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "maybePop only pops the route if there is more than one route on the stack or if a PopScope allows it. It prevents accidentally closing the entire app.",
+    "explanationAr": "تقوم maybePop بإزالة المسار فقط إذا كان هناك أكثر من مسار في المكدس. وهي تمنع إغلاق التطبيق بأكمله عن طريق الخطأ.",
     "codeSnippet": null
   },
   {
@@ -1315,8 +1315,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "Standard routing destroys widget state when navigating away. To keep tab states alive, widgets like IndexedStack or a StatefulShellRoute are necessary.",
+    "explanationAr": "التوجيه القياسي يدمر حالة الويدجت عند الانتقال. للحفاظ على حالة علامات التبويب، يلزم استخدام أدوات مثل IndexedStack.",
     "codeSnippet": null
   },
   {
@@ -1339,8 +1339,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "When a dialog returns null (cancellation), the application should ignore it and retain the currently selected valid date, avoiding unintended data resets.",
+    "explanationAr": "عندما يرجع مربع الحوار null (بسبب الإلغاء)، يجب على التطبيق تجاهله والاحتفاظ بالتاريخ الصالح المحدد حالياً لتجنب إعادة تعيين البيانات.",
     "codeSnippet": null
   },
   {
@@ -1363,8 +1363,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "The choice between push, replace, or removeUntil should be dictated by how the system Back button should behave for the user.",
+    "explanationAr": "يجب أن يُملى الاختيار بين push أو replace أو removeUntil بناءً على الكيفية التي ينبغي أن يعمل بها زر الرجوع (Back) للمستخدم.",
     "codeSnippet": null
   },
   {
@@ -1387,8 +1387,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "Visual tests verify the UI, but testing typed route results requires verifying the Future returned by Navigator.push resolves with the expected data object.",
+    "explanationAr": "تتحقق الاختبارات المرئية من واجهة المستخدم، لكن اختبار نتائج المسار المكتوبة يتطلب التحقق من أن Future المُرجع يكتمل بكائن البيانات المتوقع.",
     "codeSnippet": null
   },
   {
@@ -1411,8 +1411,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "A complete understanding of navigation involves knowing the method used, how the history stack changes, what data is returned, and ensuring context validity across asynchronous calls.",
+    "explanationAr": "يتضمن الفهم الكامل للتنقل معرفة الدالة المستخدمة، وكيف يتغير مكدس السجل، والبيانات المُرجعة، وضمان صلاحية السياق (context) بعد العمليات غير المتزامنة.",
     "codeSnippet": null
   },
   {
@@ -1435,8 +1435,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "Navigation state is defined by the entire stack of routes, not just the currently visible screen, because the stack dictates the Back button behavior.",
+    "explanationAr": "يتم تعريف حالة التنقل بواسطة مكدس المسارات بالكامل، وليس فقط الشاشة المرئية حالياً، لأن المكدس يحدد سلوك زر الرجوع.",
     "codeSnippet": null
   },
   {
@@ -1778,7 +1778,7 @@ export const questionsData = [
         "textAr": "لا شيء مما ذُكر"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanationEn": "Flutter supports two major routing paradigms: Anonymous routes (direct MaterialPageRoute) and Named routes (string table lookup).",
     "explanationAr": "يدعم فلاتر أسلوبين رئيسيين للتنقل: المسارات المجهولة (Anonymous) والمسارات المسماة (Named routes).",
     "codeSnippet": null
@@ -1907,7 +1907,7 @@ export const questionsData = [
         "textAr": "PageViewRoute"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanationEn": "`MaterialPageRoute` is the standard widget used to define full-screen route transitions conforming to Material Design.",
     "explanationAr": "ويدجت `MaterialPageRoute` هو الكلاس المخصص لتعريف مسارات الصفحات كاملة الشاشة بنمط Material Design.",
     "codeSnippet": null
@@ -1950,7 +1950,7 @@ export const questionsData = [
         "textAr": "onRouteChange"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanationEn": "The `routes` property of `MaterialApp` accepts a map of named routes to their respective widget builders.",
     "explanationAr": "خاصية `routes` في ويدجت `MaterialApp` هي المسؤولة عن تسجيل خريطة المسارات المسماة.",
     "codeSnippet": null
@@ -1993,7 +1993,7 @@ export const questionsData = [
         "textAr": "Navigator.replaceAll"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanationEn": "`Navigator.pushAndRemoveUntil()` removes preceding routes based on a predicate and pushes a new route.",
     "explanationAr": "تستطيع دالة `Navigator.(pushAndRemoveUntil)()` حذف المسارات السابقة حسب شرط معين ودفع مسار جديد.",
     "codeSnippet": null
@@ -2013,7 +2013,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What does Navigator.push() return when the new screen is popped?",
-    "questionAr": "ماذا تُرجع دالة (Navigator).push() عند إغلاق الشاشة الجديدة والرجوع منها؟",
+    "questionAr": "ماذا تُرجع دالة Navigator.push() عند إغلاق الشاشة الجديدة والرجوع منها؟",
     "options": [
       {
         "label": "A",
@@ -2036,7 +2036,7 @@ export const questionsData = [
         "textAr": "Nothing"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanationEn": "`Navigator.push()` returns a `Future` that resolves with the value passed to `Navigator.pop(context, result)`.",
     "explanationAr": "تُرجع دالة `Navigator.push()` كائن `Future` يكتمل بالبيانات التي تعيدها الشاشة عند استدعاء pop.",
     "codeSnippet": null
@@ -2079,7 +2079,7 @@ export const questionsData = [
         "textAr": "It disables named routes"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanationEn": "`onGenerateRoute` allows dynamically generating routes, inspecting route arguments, and creating fallbacks.",
     "explanationAr": "تسمح خاصية `onGenerateRoute` بإنشاء المسارات ديناميكياً والتعامل مع الوسائط وتوفير مسارات بديلة.",
     "codeSnippet": null
@@ -2123,8 +2123,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "`Navigator.maybePop()` respects route guards and will not pop the root route, avoiding closing the app inadvertently.",
+    "explanationAr": "تحترم `Navigator.maybePop()` حراس المسار ولا تغلق المسار الجذري، مما يمنع إغلاق التطبيق عن طريق الخطأ.",
     "codeSnippet": null
   },
   {
@@ -2165,9 +2165,9 @@ export const questionsData = [
         "textAr": "Navigator.startNamed"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanationEn": "Navigator.pushNamed(context, '/routeName') is the specific API designed for navigating using predefined route strings.",
-    "explanationAr": "دالة (Navigator).(pushNamed)(context, '/routeName') هي الواجهة البرمجية المخصصة للتنقل باستخدام الأسماء المعرفة مسبقاً في جدول المسارات.",
+    "explanationAr": "دالة Navigator.pushNamed(context, '/routeName') هي الواجهة البرمجية المخصصة للتنقل باستخدام الأسماء المعرفة مسبقاً في جدول المسارات.",
     "codeSnippet": null
   },
   {
@@ -2209,8 +2209,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "Because bottom sheets can be dismissed without selection, the returned `Future` should resolve to a nullable type `SortType?`.",
+    "explanationAr": "نظراً لأنه يمكن إغلاق bottom sheet دون تحديد، يجب أن يرجع `Future` نوعاً يقبل القيمة الفارغة `SortType?`.",
     "codeSnippet": null
   },
   {
@@ -2252,8 +2252,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "After awaiting a dialog or picker, the widget might have been unmounted. Checking `mounted` before accessing context is required to avoid exceptions.",
+    "explanationAr": "بعد انتظار مربع حوار أو أداة اختيار، قد يتم إلغاء الواجهة. يجب التحقق من `mounted` قبل استخدام context لتجنب الأخطاء.",
     "codeSnippet": null
   },
   {
@@ -2295,8 +2295,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "A date picker throws an error if the initial date is not within the provided `firstDate` and `lastDate` bounds.",
+    "explanationAr": "تُظهر أداة اختيار التاريخ خطأً إذا لم يكن التاريخ المبدئي ضمن حدود `firstDate` و `lastDate`.",
     "codeSnippet": null
   },
   {
@@ -2338,8 +2338,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "If the user cancels, the picker returns null. The UI should gracefully handle this by keeping the previously selected or default time.",
+    "explanationAr": "إذا ألغى المستخدم، تُرجع أداة الاختيار null. يجب أن تتعامل الواجهة مع ذلك بالاحتفاظ بالوقت المحدد مسبقاً.",
     "codeSnippet": null
   },
   {
@@ -2467,8 +2467,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "On Android, activity recreation can kill the app process while picking. The image_picker plugin provides methods to retrieve lost data.",
+    "explanationAr": "في Android، قد تؤدي إعادة إنشاء النشاط إلى إنهاء التطبيق أثناء الاختيار. توفر الإضافة طرقاً لاستعادة البيانات المفقودة.",
     "codeSnippet": null
   },
   {
@@ -2510,8 +2510,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "A `NavigatorObserver` allows a widget test to inspect and verify that navigation actions (push, pop) occurred in the correct sequence.",
+    "explanationAr": "يسمح `NavigatorObserver` لاختبار الواجهة بالتحقق من حدوث أحداث التنقل (push، pop) بالتسلسل الصحيح.",
     "codeSnippet": null
   },
   {
@@ -2529,7 +2529,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "After tapping a route and waiting for animations and Futures, which test step is commonly needed before finding the final widget?",
-    "questionAr": "بعد النقر على مسار (route) وانتظار الرسوم المتحركة و (Future)، ما هي خطوة الاختبار التي تشتد الحاجة إليها عادةً قبل العثور على الواجهة (widget) النهائية؟",
+    "questionAr": "بعد النقر على مسار وانتظار الرسوم المتحركة و Futures، ما هي خطوة الاختبار التي تشتد الحاجة إليها عادةً قبل العثور على الواجهة النهائية؟",
     "options": [
       {
         "label": "A",
@@ -2553,8 +2553,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "`pumpAndSettle` repeatedly pumps frames until all animations (like route transitions) have completed, ensuring the new UI is ready.",
+    "explanationAr": "تقوم `pumpAndSettle` بتحديث الإطارات حتى تكتمل جميع الرسوم المتحركة (مثل انتقالات المسار)، مما يضمن جاهزية الواجهة الجديدة.",
     "codeSnippet": null
   },
   {
@@ -2596,8 +2596,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "Passing a strongly typed, immutable model directly through a constructor is a reliable and clean way to provide data to a route.",
+    "explanationAr": "يُعد تمرير نموذج ثابت ومحدد النوع مباشرة عبر المُنشئ طريقة موثوقة لتوفير البيانات للمسار.",
     "codeSnippet": null
   },
   {
@@ -2615,7 +2615,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What is the main difference between pushReplacement and push?",
-    "questionAr": "سؤال متعلق بالمنهج: What is the main difference between (pushReplacement) and push?",
+    "questionAr": "ما هو الفرق الرئيسي بين pushReplacement و push؟",
     "options": [
       {
         "label": "A",
@@ -2639,8 +2639,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "`pushReplacement` removes the current route and replaces it with the new one, meaning the user cannot go back to the replaced route.",
+    "explanationAr": "تقوم `pushReplacement` بإزالة المسار الحالي واستبداله بالمسار الجديد، مما يعني عدم قدرة المستخدم على الرجوع للمسار المستبدل.",
     "codeSnippet": null
   },
   {
@@ -2658,7 +2658,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What is the main difference between popUntil and pushAndRemoveUntil?",
-    "questionAr": "سؤال متعلق بالمنهج: What is the main difference between (popUntil) and (pushAndRemoveUntil)?",
+    "questionAr": "ما هو الفرق الرئيسي بين popUntil و pushAndRemoveUntil؟",
     "options": [
       {
         "label": "A",
@@ -2682,8 +2682,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "`popUntil` removes top routes until a condition is met, whereas `pushAndRemoveUntil` adds a new route first and then removes underlying routes based on a condition.",
+    "explanationAr": "تقوم `popUntil` بحذف المسارات العلوية، بينما تقوم `pushAndRemoveUntil` بإضافة مسار جديد ثم إزالة المسارات السابقة بناءً على شرط.",
     "codeSnippet": null
   },
   {
@@ -2725,8 +2725,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "Returning a typed result via `Navigator.pop(context, result)` is the safest and most decoupled way to pass feedback back to the caller.",
+    "explanationAr": "يُعد إرجاع نتيجة محددة النوع عبر `Navigator.pop(context, result)` الطريقة الأكثر أماناً واستقلالية لإرسال استجابة للمستدعي.",
     "codeSnippet": null
   },
   {
@@ -2768,8 +2768,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "If a route expects a specific model but receives an invalid argument, failing early or showing a safe error screen is the best contract enforcement.",
+    "explanationAr": "إذا كان المسار يتوقع نموذجاً معيناً وتلقى معاملاً غير صالح، فإن الفشل المبكر أو إظهار شاشة خطأ آمنة هو الحل الأمثل.",
     "codeSnippet": null
   },
   {
@@ -2791,8 +2791,8 @@ export const questionsData = [
     "options": [
       {
         "label": "A",
-        "textEn": "Navigator.canPop(contex t) is true",
-        "textAr": "Navigator.canPop(contex t) is true"
+        "textEn": "Navigator.canPop(context) is true",
+        "textAr": "Navigator.canPop(context) is true"
       },
       {
         "label": "B",
@@ -2811,8 +2811,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "`Navigator.canPop(context)` returns true if there is more than one route on the stack, indicating it is not the root route.",
+    "explanationAr": "تُرجع `Navigator.canPop(context)` قيمة true إذا كان هناك أكثر من مسار واحد، مما يشير إلى أنه ليس المسار الجذري.",
     "codeSnippet": null
   },
   {
@@ -2830,7 +2830,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Why can maybePop be preferable to an unconditional pop in a back action?",
-    "questionAr": "لماذا يمكن أن يكون maybePop مفضلاً على pop غير المشروط في إجراء العودة (back action)؟",
+    "questionAr": "لماذا يمكن أن يكون maybePop مفضلاً على pop غير المشروط في إجراء العودة؟",
     "options": [
       {
         "label": "A",
@@ -2854,8 +2854,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "`maybePop` allows intercepting the back action (e.g., via `WillPopScope`) to prompt the user or prevent popping the root route.",
+    "explanationAr": "تسمح `maybePop` باعتراض إجراء العودة (مثلاً لسؤال المستخدم) وتمنع إغلاق المسار الجذري فجأة.",
     "codeSnippet": null
   },
   {
@@ -2873,7 +2873,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A dirty edit screen shows a Stay/Discard dialog. What should Stay do?",
-    "questionAr": "تعرض شاشة التعديل التي تحتوي على تغييرات غير محفوظة (dirty edit screen) مربع حوار البقاء/التجاهل (Stay/Discard). ماذا يجب أن يفعل خيار البقاء (Stay)؟",
+    "questionAr": "تعرض شاشة التعديل التي تحتوي على تغييرات غير محفوظة مربع حوار البقاء/التجاهل. ماذا يجب أن يفعل خيار البقاء؟",
     "options": [
       {
         "label": "A",
@@ -2897,8 +2897,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "Selecting \"Stay\" implies the user wants to continue editing, so only the dialog should be popped, leaving the edit route active.",
+    "explanationAr": "يعني اختيار \"البقاء\" رغبة المستخدم في الاستمرار بالتعديل، لذا يجب إغلاق مربع الحوار فقط وترك مسار التعديل نشطاً.",
     "codeSnippet": null
   },
   {
@@ -2940,8 +2940,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "Selecting \"Discard\" means both the dialog and the edit screen should be dismissed, typically achieved by popping with a specific result or popping twice.",
+    "explanationAr": "اختيار \"التجاهل\" يعني إغلاق مربع الحوار وشاشة التعديل معاً، وهو ما يتم عادةً عبر إغلاق المسارين.",
     "codeSnippet": null
   },
   {
@@ -2959,7 +2959,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which widget is the natural destination for a Material 3 three-destination shell?",
-    "questionAr": "أي واجهة (widget) تعتبر الوجهة الطبيعية لغلاف من ثلاث وجهات (three-destination shell) في Material 3؟",
+    "questionAr": "أي واجهة (widget) تعتبر الوجهة الطبيعية لغلاف من ثلاث وجهات في Material 3؟",
     "options": [
       {
         "label": "A",
@@ -2983,8 +2983,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "`NavigationBar` is the standard Material 3 widget for switching between top-level destinations (typically 3 to 5).",
+    "explanationAr": "يُعد `NavigationBar` الواجهة القياسية في Material 3 للتبديل بين الوجهات الرئيسية.",
     "codeSnippet": null
   },
   {
@@ -3026,8 +3026,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "`IndexedStack` keeps all its children in the widget tree (mounted) preserving their state, but only paints the active one.",
+    "explanationAr": "تحتفظ `IndexedStack` بجميع أبنائها في شجرة الواجهات (للحفاظ على حالتهم)، ولكنها ترسم فقط العنصر النشط.",
     "codeSnippet": null
   },
   {
@@ -3045,7 +3045,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A widget has a controller created in initState and used by a visible Search page. Where should cleanup occur?",
-    "questionAr": "سؤال متعلق بالمنهج: A widget has a controller created in (initState) and used by a visible Search page. Where should cleanup occur?",
+    "questionAr": "أين يجب أن يتم تنظيف المتحكم (controller) الذي تم إنشاؤه في initState والمستخدم في صفحة بحث مرئية؟",
     "options": [
       {
         "label": "A",
@@ -3069,8 +3069,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "Controllers must be disposed in the `dispose` lifecycle method to prevent memory leaks when the widget is removed.",
+    "explanationAr": "يجب التخلص من وحدات التحكم في دالة `dispose` لمنع تسرب الذاكرة عند إزالة الواجهة.",
     "codeSnippet": null
   },
   {
@@ -3112,8 +3112,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "Dismissing a bottom sheet by tapping outside completes its `Future` with `null`. The caller must handle the nullable type.",
+    "explanationAr": "إغلاق bottom sheet بالنقر خارجه يكمل الـ `Future` الخاص به بـ `null`. يجب على المستدعي التعامل مع النوع القابل للفراغ.",
     "codeSnippet": null
   },
   {
@@ -3131,7 +3131,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Why is checking mounted after awaiting Navigator.push important?",
-    "questionAr": "سؤال متعلق بالمنهج: Why is checking mounted after awaiting (Navigator).push important?",
+    "questionAr": "لماذا يعد التحقق من mounted بعد انتظار Navigator.push أمراً مهماً؟",
     "options": [
       {
         "label": "A",
@@ -3155,8 +3155,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "Because `Navigator.push` is asynchronous, the user might navigate elsewhere before it returns, potentially unmounting the current widget.",
+    "explanationAr": "لأن `Navigator.push` غير متزامنة، قد يغادر المستخدم الشاشة قبل عودتها، مما يلغي الواجهة الحالية من الشجرة.",
     "codeSnippet": null
   },
   {
@@ -3198,8 +3198,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "An integration or widget test must interact with the UI, wait for route animations (`pumpAndSettle`), and check the returned feedback on the initial screen.",
+    "explanationAr": "يجب أن يتفاعل الاختبار مع الواجهة، وينتظر حركات التنقل (`pumpAndSettle`)، ويتحقق من الاستجابة المرتجعة على الشاشة الأولى.",
     "codeSnippet": null
   },
   {
@@ -3217,7 +3217,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A route has a name but receives a missing argument. What is a robust UI outcome?",
-    "questionAr": "مسار له اسم ولكنه يتلقى معامل (argument) مفقود. ما هي النتيجة القوية المتوقعة لواجهة المستخدم (UI outcome)؟",
+    "questionAr": "مسار له اسم ولكنه يتلقى معامل (argument) مفقود. ما هي النتيجة القوية المتوقعة لواجهة المستخدم؟",
     "options": [
       {
         "label": "A",
@@ -3241,8 +3241,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "Routing systems should fallback gracefully (e.g., a \"Page Not Found\" route) when required arguments are missing, avoiding a fatal crash.",
+    "explanationAr": "يجب أن تتراجع أنظمة التوجيه بلطف (مثل إظهار شاشة \"الصفحة غير موجودة\") عند فقدان المعاملات، لتجنب انهيار التطبيق.",
     "codeSnippet": null
   },
   {
@@ -3284,8 +3284,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "A `Hero` animation connects two widgets across a route transition by matching their `tag` properties.",
+    "explanationAr": "تقوم حركة `Hero` بربط واجهتين عبر انتقال مسار من خلال مطابقة خصائص `tag` الخاصة بهما.",
     "codeSnippet": null
   },
   {
@@ -3303,7 +3303,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A date range picker returns a nullable DateTimeRange. How should cancellation be treated?",
-    "questionAr": "تُرجع أداة اختيار نطاق التاريخ قيمة DateTimeRange قابلة للترك كفارغة (nullable). كيف يجب التعامل مع الإلغاء؟",
+    "questionAr": "تُرجع أداة اختيار نطاق التاريخ قيمة DateTimeRange قابلة للترك كفارغة. كيف يجب التعامل مع الإلغاء؟",
     "options": [
       {
         "label": "A",
@@ -3327,8 +3327,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "If the user cancels picking a date range, the returned value is null. The application should safely ignore this and retain the existing date.",
+    "explanationAr": "إذا ألغى المستخدم تحديد التاريخ، تكون القيمة المرتجعة null. يجب أن يتجاهل التطبيق ذلك ويحتفظ بالتاريخ الحالي.",
     "codeSnippet": null
   },
   {
@@ -3346,7 +3346,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What does a named route provide that a constructor route does not automatically provide?",
-    "questionAr": "ما الذي يوفره المسار المسمى (named route) ولا يوفره مسار المُنشئ (constructor route) تلقائياً؟",
+    "questionAr": "ما الذي يوفره المسار المسمى (named route) ولا يوفره مسار المُنشئ تلقائياً؟",
     "options": [
       {
         "label": "A",
@@ -3370,8 +3370,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "Named routes use string paths, which inherently support deep linking and easier decoupling compared to direct widget constructors.",
+    "explanationAr": "تستخدم المسارات المسماة مسارات نصية، مما يدعم الروابط العميقة (deep linking) ويسهل فصل المكونات مقارنة بالمُنشئات المباشرة.",
     "codeSnippet": null
   },
   {
@@ -3389,7 +3389,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A destination needs an immutable course title and summary. Which constructor design is best?",
-    "questionAr": "تحتاج وجهة ما إلى عنوان وملخص ثابتين (immutable) للدورة التدريبية. أي تصميم للمُنشئ (constructor design) هو الأفضل؟",
+    "questionAr": "تحتاج وجهة ما إلى عنوان وملخص ثابتين (immutable) للدورة التدريبية. أي تصميم للمُنشئ هو الأفضل؟",
     "options": [
       {
         "label": "A",
@@ -3413,8 +3413,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "Passing a typed, immutable object via required final fields ensures compile-time safety and clear data dependencies.",
+    "explanationAr": "تمرير كائن محدد النوع وثابت عبر حقول final مطلوبة يضمن أمان وقت الترجمة ووضوح تبعيات البيانات.",
     "codeSnippet": null
   },
   {
@@ -3456,8 +3456,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "A navigation test verifies the route transitions by checking the route stack and ensuring the previous screen is completely removed from the hierarchy.",
+    "explanationAr": "يتحقق اختبار التنقل من انتقالات المسار عن طريق فحص مكدس المسارات والتأكد من إزالة الشاشة السابقة بالكامل من التسلسل الهرمي.",
     "codeSnippet": null
   },
   {
@@ -3499,8 +3499,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "Triggering a modal action multiple times quickly can push multiple dialogs. Developers must disable buttons or track state to avoid duplicate overlays.",
+    "explanationAr": "قد يؤدي النقر السريع إلى فتح مربعات حوار متعددة. يجب على المطورين تعطيل الأزرار أو تتبع الحالة لمنع ذلك.",
     "codeSnippet": null
   },
   {
@@ -3542,8 +3542,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "Using a Stateful navigation shell allows each tab to maintain its own navigation state. This ensures that the search query is kept alive when the user switches between tabs, rather than being discarded or recreated.",
+    "explanationAr": "استخدام غلاف تنقل ذو حالة (Stateful navigation shell) يسمح لكل علامة تبويب بالاحتفاظ بحالتها الخاصة، مما يضمن بقاء استعلام البحث عند التبديل بين التبويبات.",
     "codeSnippet": null
   },
   {
@@ -3585,8 +3585,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "Since dismissing a dialog or route without selecting an option returns null, checking `result != null` is the standard way to verify that a value was actually selected and returned.",
+    "explanationAr": "بما أن تجاهل مسار أو حوار يعيد null، فإن التحقق من `result != null` هو الطريقة القياسية للتأكد من أن المستخدم اختار قيمة بالفعل وتم إرجاعها.",
     "codeSnippet": null
   },
   {
@@ -3628,8 +3628,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "A navigation API should be chosen based on whether it can properly represent the target destination and handle the desired 'Back' button behavior and return semantics.",
+    "explanationAr": "يجب اختيار واجهة التنقل بناءً على قدرتها على تمثيل الوجهة المطلوبة بشكل صحيح ومعالجة سلوك زر 'الرجوع' ودلالات إرجاع البيانات.",
     "codeSnippet": null
   },
   {
@@ -3651,8 +3651,8 @@ export const questionsData = [
     "options": [
       {
         "label": "A",
-        "textEn": "A route result communi cates between active screens; persistence survives a later restart",
-        "textAr": "A route result communi cates between active screens; persistence survives a later restart"
+        "textEn": "A route result communicates between active screens; persistence survives a later restart",
+        "textAr": "A route result communicates between active screens; persistence survives a later restart"
       },
       {
         "label": "B",
@@ -3671,8 +3671,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "Navigation data (like route results) is temporary and only passed between active screens in memory. Persistent data is saved to storage and survives app restarts.",
+    "explanationAr": "بيانات التنقل (مثل نتائج المسارات) مؤقتة وتُنقل بين الشاشات النشطة في الذاكرة. بينما البيانات الدائمة تُحفظ في التخزين وتبقى بعد إعادة تشغيل التطبيق.",
     "codeSnippet": null
   },
   {
@@ -3714,8 +3714,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "Using a `BuildContext` across asynchronous gaps (after an `await`) is risky because the widget might be unmounted or the route popped by the time the operation completes, leading to lifecycle errors. You should check `mounted` before using the context.",
+    "explanationAr": "استخدام `BuildContext` بعد عملية غير متزامنة (await) محفوف بالمخاطر لأن الويدجت قد يُزال من الشاشة، مما يؤدي إلى أخطاء في دورة الحياة. يجب التحقق من `mounted` أولاً.",
     "codeSnippet": null
   },
   {
@@ -3757,8 +3757,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "When `Navigator.push` is called, it returns a `Future`. A successful `Navigator.pop(context, value)` completes that pending Future with the provided value, returning it to the caller.",
+    "explanationAr": "عند استدعاء `Navigator.push`، فإنه يُرجع `Future`. يؤدي استدعاء `Navigator.pop(context, value)` إلى إكمال هذا الـ `Future` المعلق وإرجاع القيمة للمستدعي.",
     "codeSnippet": null
   },
   {
@@ -3800,8 +3800,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "Modal routes (like dialogs or bottom sheets) act as an overlay on top of the current screen and block interaction with the underlying route. They can return a value to the caller when dismissed.",
+    "explanationAr": "المسارات المشروطة (مثل النوافذ المنبثقة) تظهر كطبقة مؤقتة فوق الشاشة الحالية وتمنع التفاعل مع ما تحتها، ويمكنها إرجاع قيمة عند إغلاقها.",
     "codeSnippet": null
   },
   {
@@ -3843,8 +3843,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "If the user cancels the picker, it returns null. To preserve the previously selected date, the state should only be updated if the result is not null.",
+    "explanationAr": "إذا قام المستخدم بإلغاء أداة الاختيار، فإنها ترجع null. للاحتفاظ بالتاريخ السابق، يجب تحديث الحالة فقط إذا كانت النتيجة غير فارغة (non-null).",
     "codeSnippet": null
   },
   {
@@ -3886,8 +3886,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "Tracing navigation requires understanding the state of the route stack at each step, as well as how data flows between routes (e.g., arguments passed in and results popped back).",
+    "explanationAr": "يتطلب تتبع التنقل فهم حالة مكدس المسارات بعد كل إجراء، بالإضافة إلى كيفية تدفق البيانات بين المسارات (مثل تمرير المعاملات وإرجاع النتائج).",
     "codeSnippet": null
   },
   {
@@ -3929,8 +3929,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "By only updating the state when a valid, non-null choice is returned, the app ensures that the original state is preserved if the user decides to cancel or dismiss the modal without making a choice.",
+    "explanationAr": "من خلال تحديث الحالة فقط عند إرجاع خيار صحيح غير فارغ، يضمن التطبيق الاحتفاظ بالحالة الأصلية إذا قرر المستخدم إلغاء النافذة المنبثقة دون اختيار.",
     "codeSnippet": null
   },
   {
@@ -3972,8 +3972,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "To diagnose routing issues, it is essential to track how the route stack changes after every navigation event (push, pop, replace). This reveals exactly which routes are active.",
+    "explanationAr": "لتشخيص مشاكل التنقل، من الضروري تتبع كيفية تغير مكدس المسارات بعد كل حدث تنقل (push، pop، replace)، مما يوضح بدقة المسارات النشطة.",
     "codeSnippet": null
   },
   {
@@ -4015,8 +4015,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "In Flutter's navigation system, routes are managed on a LIFO (Last-In, First-Out) stack via the Navigator widget. Pushing adds a route; popping reveals the underlying route.",
-    "explanationAr": "في نظام تنقل فلاتر، تُدار المسارات في مكدس (LIFO) عبر ويدجت (Navigator)؛ حيث تضيف push شاشة جديدة، بينما تزيل pop الشاشة العلوية للرجوع للشاشة السابقة.",
+    "explanationEn": "Strong typing with `Navigator.push<int>` clearly documents that the route returns an integer, and `Navigator.pop(context, id)` fulfills that contract by returning the exact ID type.",
+    "explanationAr": "استخدام النوع الصارم `Navigator.push<int>` يوضح بوضوح أن المسار يرجع رقماً صحيحاً (int)، و `Navigator.pop(context, id)` يفي بهذا العقد عبر إرجاع المعرف بالنوع المطابق.",
     "codeSnippet": null
   },
   {
@@ -4345,7 +4345,7 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "A single-subscription stream is not automatically safe for multiple simultaneous listeners. ( ) Code fragment: void main() { print('Method 1'); print('Method 2'); print('Method 3'); }",
+    "questionEn": "A single-subscription stream is not automatically safe for multiple simultaneous listeners.",
     "questionAr": "الـ (Stream) أحادي الاشتراك (single-subscription) غير آمن تلقائياً للاستماع المتزامن من عدة مستمعين.",
     "options": null,
     "correctAnswer": "True",
@@ -4369,7 +4369,7 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "The following direct print fragment completes its direct statements before any delayed callback can print. ( ) Code fragment: void main() { print('Method 1'); Future.delayed(const Duration(seconds: 2), () => print('Method 2')); print('Method 3'); }",
+    "questionEn": "The following direct print fragment completes its direct statements before any delayed callback can print.",
     "questionAr": "في الكود المباشر المتتالي، تنتهي الأوامر الطباعية المباشرة أولاً قبل تنفيذ أي دالة تأخير غير متزامنة.",
     "options": null,
     "correctAnswer": "True",
@@ -4377,7 +4377,7 @@ export const questionsData = [
     "correctionAr": null,
     "explanationEn": "True. Synchronous statements execute immediately on the main isolate execution thread. Any delayed callback is pushed to the event queue and processed later.",
     "explanationAr": "صحيح. الأوامر المتزامنة المباشرة تنفذ فوراً في الخيط الرئيسي، بينما الدوال المؤجلة توضع في طابور حلقة الأحداث لتنفذ بعد انتهاء المهام المباشرة.",
-    "codeSnippet": null
+    "codeSnippet": "void main() {\n  print('Method 1');\n  Future.delayed(const Duration(seconds: 2), () => print('Method 2'));\n  print('Method 3');\n}"
   },
   {
     "id": "lab8_tf_16",
@@ -4401,7 +4401,7 @@ export const questionsData = [
     "correctionAr": null,
     "explanationEn": "True. `Method 1` runs, `Future.delayed` schedules `Method 2` for 2 seconds later in the event queue, `Method 3` runs immediately, and after 2 seconds `Method 2` prints.",
     "explanationAr": "صحيح. تنفذ Method 1 ثم تجدول (Future).delayed الدالة Method 2 بعد ثانيتين في طابور الأحداث، فتنفذ Method 3 فوراً، ثم تطبع Method 2 لاحقاً.",
-    "codeSnippet": null
+    "codeSnippet": "void main() {\n  print('Method 1');\n  Future.delayed(const Duration(seconds: 2), () => print('Method 2'));\n  print('Method 3');\n}"
   },
   {
     "id": "lab8_tf_17",
@@ -4417,8 +4417,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "The following awaited fetch pauses the async function while the Future is pending, then resumes with the name. ( ) Code fragment: FutureBuilder<String>( future: storedFuture, builder: (context, snapshot) { if (snapshot.hasError) { return ElevatedButton(onPressed: retry, child: const Text('Retry')); } return const CircularProgressIndicator(); }, )",
-    "questionAr": "استدعاء fetchName مسبوقاً بـ (await) يوقف دالة main مؤقتاً أثناء انتظار الـ (Future)، ثم يكمل تنفيذ وطباعة الاسم.",
+    "questionEn": "Using await pauses the execution of the async function while the Future is pending, then resumes with the returned value.",
+    "questionAr": "استخدام await يوقف تنفيذ الدالة غير المتزامنة مؤقتاً أثناء انتظار الـ (Future)، ثم يستأنف التنفيذ بالقيمة المرجعة.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -4441,7 +4441,7 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "In this FutureBuilder, the Retry branch represents a completed failure rather than a waiting state. ( ) Code fragment: FutureBuilder<String>( future: storedFuture, builder: (context, snapshot) { if (snapshot.hasData) return Text(snapshot.requireData); return const CircularProgressIndicator(); }, )",
+    "questionEn": "In this FutureBuilder, the Retry branch represents a completed failure rather than a waiting state.",
     "questionAr": "في هذا الـ (FutureBuilder)، يمثل فرع Retry حالة الفشل بعد الاكتمال بخطأ (hasError) وليس حالة الانتظار.",
     "options": null,
     "correctAnswer": "True",
@@ -4449,7 +4449,7 @@ export const questionsData = [
     "correctionAr": null,
     "explanationEn": "True. `snapshot.hasError` is only true when the Future has completed with an exception or error, triggering the Retry UI.",
     "explanationAr": "صحيح. الشرط `snapshot.hasError` لا يتحقق إلا عند فشل الـ (Future) واكتماله بخطأ، مما يعرض زر المحاولة مجدداً (Retry).",
-    "codeSnippet": null
+    "codeSnippet": "FutureBuilder<String>(\n  future: storedFuture,\n  builder: (context, snapshot) {\n    if (snapshot.hasError) {\n      return ElevatedButton(onPressed: retry, child: const Text('Retry'));\n    }\n    return const CircularProgressIndicator();\n  },\n)"
   },
   {
     "id": "lab8_tf_19",
@@ -4465,7 +4465,7 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "In this FutureBuilder, the data branch represents a successful completed value, including an explicitly empty value when the design permits it. ( ) Code fragment: StreamBuilder<DateTime>( stream: clockStream(), builder: (context, snapshot) => Text('${snapshot.data}'), )",
+    "questionEn": "In this FutureBuilder, the data branch represents a successful completed value, including an explicitly empty value when the design permits it.",
     "questionAr": "في هذا الـ (FutureBuilder)، يمثل فرع snapshot.hasData نجاح اكتمال العملية والحصول على قيمة صالحة.",
     "options": null,
     "correctAnswer": "True",
@@ -4473,7 +4473,7 @@ export const questionsData = [
     "correctionAr": null,
     "explanationEn": "True. `snapshot.hasData` checks that the computation has completed successfully and provided a non-null result.",
     "explanationAr": "صحيح. الخاصية `snapshot.hasData` تعبر عن اكتمال العملية بنجاح وتوفر قيمة ناتجة غير فارغة.",
-    "codeSnippet": null
+    "codeSnippet": "FutureBuilder<String>(\n  future: storedFuture,\n  builder: (context, snapshot) {\n    if (snapshot.hasData) return Text(snapshot.requireData);\n    return const CircularProgressIndicator();\n  },\n)"
   },
   {
     "id": "lab8_tf_20",
@@ -4497,7 +4497,7 @@ export const questionsData = [
     "correctionAr": null,
     "explanationEn": "True. StreamBuilder listens to the stream and automatically triggers `setState()` internally whenever a new event is emitted.",
     "explanationAr": "صحيح. يستمع (StreamBuilder) لأحداث التدفق ويستدعي داخلياً إعادة البناء (setState) مع كل عنصر زمني جديد يضخه الـ (Stream).",
-    "codeSnippet": null
+    "codeSnippet": "StreamBuilder<DateTime>(\n  stream: clockStream(),\n  builder: (context, snapshot) => Text('${snapshot.data}'),\n)"
   },
   {
     "id": "lab8_tf_21",
@@ -5795,11 +5795,11 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Once you know where to store the file, create a reference to the file’s full location. You can use the File class from the path_provider library",
-    "questionAr": "بمجرد معرفة مكان تخزين الملف، يتم إنشاء مرجع للمسار الكامل للملف باستخدام كلاس File من مكتبة dart:io.",
+    "questionAr": "بمجرد معرفة مكان تخزين الملف، يتم إنشاء مرجع للمسار الكامل للملف باستخدام كلاس File من مكتبة path_provider.",
     "options": null,
-    "correctAnswer": "True",
-    "correctionEn": null,
-    "correctionAr": null,
+    "correctAnswer": "False",
+    "correctionEn": "The File class is from the dart:io library, not the path_provider library.",
+    "correctionAr": "فئة File موجودة في مكتبة dart:io وليس في مكتبة path_provider.",
     "explanationEn": "The path_provider package provides APIs like getApplicationDocumentsDirectory() to find the path, and the File class from the dart:io library (not path_provider) is used to create a reference to the file. (Note: The statement in the question incorrectly attributes the File class to path_provider, but the core concept is creating a file reference).",
     "explanationAr": "توفر حزمة path_provider واجهات برمجية للعثور على المسار، وتُستخدم فئة File من مكتبة dart:io لإنشاء مرجع للملف.",
     "codeSnippet": null
@@ -5891,11 +5891,11 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "To save data in sharedpreferences in flutter declare an object of SharedPreferences class. Initialize the object and call the getter methods to save data.",
-    "questionAr": "لحفظ البيانات في (SharedPreferences)، نقوم بالحصول على كائن (SharedPreferences) عبر getInstance().",
+    "questionAr": "لحفظ البيانات في SharedPreferences في فلاتر، نقوم بإنشاء كائن SharedPreferences واستدعاء دوال الجلب (getter) لحفظ البيانات.",
     "options": null,
-    "correctAnswer": "True",
-    "correctionEn": null,
-    "correctionAr": null,
+    "correctAnswer": "False",
+    "correctionEn": "We call setter methods (e.g., setString) to save data, not getter methods.",
+    "correctionAr": "نحن نستدعي دوال التعيين (setter) لحفظ البيانات، وليس دوال الجلب (getter).",
     "explanationEn": "SharedPreferences uses setter methods (like setString, setInt) to save data, not getter methods. However, initializing an instance of SharedPreferences is the first required step.",
     "explanationAr": "تستخدم SharedPreferences طرق التعيين (setter) لحفظ البيانات. التهيئة هي الخطوة الأولى المطلوبة.",
     "codeSnippet": null
@@ -5941,9 +5941,9 @@ export const questionsData = [
     "questionEn": "To retrieve or read data from SharedPreferences in Flutter, we have to use the setter methods of the SharedPreferences class.",
     "questionAr": "لاسترداد أو قراءة البيانات من (SharedPreferences) في Flutter، يجب علينا استخدام دوال التعيين (setter methods) الخاصة بفئة (SharedPreferences).",
     "options": null,
-    "correctAnswer": "True",
-    "correctionEn": null,
-    "correctionAr": null,
+    "correctAnswer": "False",
+    "correctionEn": "To retrieve or read data, we use getter methods (e.g., getString), not setter methods.",
+    "correctionAr": "لاسترداد أو قراءة البيانات، نستخدم دوال الجلب (getter) وليس دوال التعيين (setter).",
     "explanationEn": "To read data, you use getter methods (like getString, getInt), not setter methods. The statement is conceptually testing the difference between read (get) and write (set) operations.",
     "explanationAr": "لقراءة البيانات، يتم استخدام طرق الجلب (getter)، وليس التعيين (setter). يختبر هذا السؤال الفرق بين عمليات القراءة والكتابة.",
     "codeSnippet": null
@@ -5989,9 +5989,9 @@ export const questionsData = [
     "questionEn": "The containsKey() method takes a key as an argument and checks if the key is present in SharedPreferences. If the key is present, it will return false; otherwise, it will return true.",
     "questionAr": "تأخذ الدالة containsKey() مفتاحاً كمعامل وتتحقق مما إذا كان المفتاح موجوداً في (SharedPreferences). إذا كان المفتاح موجوداً، فسوف تُرجع false؛ وإلا، فإنها سترجع true.",
     "options": null,
-    "correctAnswer": "True",
-    "correctionEn": null,
-    "correctionAr": null,
+    "correctAnswer": "False",
+    "correctionEn": "The containsKey() method returns true if the key is present, and false otherwise.",
+    "correctionAr": "ترجع الدالة containsKey() القيمة true إذا كان المفتاح موجوداً، و false بخلاف ذلك.",
     "explanationEn": "The containsKey() method actually returns true if the key exists, and false if it does not. The statement tests the knowledge of checking key existence in the preferences dictionary.",
     "explanationAr": "تُرجع طريقة containsKey() القيمة المنطقية true إذا كان المفتاح موجودًا، و false إذا لم يكن كذلك.",
     "codeSnippet": null
@@ -6011,7 +6011,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "To store some simple data persistently, you can use the shared_preferences plugin. Data is persisted to disk asynchronously so you need to use Future, async and await.",
-    "questionAr": "سؤال متعلق بالمنهج: To store some simple data persistently, you can use the shared_preferences plugin. Data is persisted to disk asynchronously so you need to use (Future), (async) and (await).",
+    "questionAr": "لتخزين بعض البيانات البسيطة بشكل دائم، يمكنك استخدام حزمة shared_preferences. يتم حفظ البيانات على القرص بشكل غير متزامن، لذا تحتاج إلى استخدام Future و async و await.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6083,7 +6083,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Define the path to the database file using getDatabasesPath() from the path package, combined with the join function from the sqflite package.",
-    "questionAr": "سؤال قاعدة بيانات (SQLite): Define the path to the database file using getDatabasesPath() from the path package, combined with the join function from the (sqflite) package.",
+    "questionAr": "حدد مسار ملف قاعدة البيانات باستخدام getDatabasesPath() من حزمة path، مع الدالة join من حزمة sqflite.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6107,11 +6107,11 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "To insert a data into a table in sqflite database. This involves two steps: Convert the data into a Map and Use the add () method to store the Map in the table.",
-    "questionAr": "سؤال قاعدة بيانات (SQLite): To insert a data into a table in (sqflite) database. This involves two steps: Convert the data into a Map and Use the add () method to store the Map in the table.",
+    "questionAr": "لإدراج بيانات في جدول في قاعدة بيانات sqflite، يتضمن ذلك خطوتين: تحويل البيانات إلى Map واستخدام الدالة insert() لتخزين الـ Map في الجدول.",
     "options": null,
-    "correctAnswer": "True",
-    "correctionEn": null,
-    "correctionAr": null,
+    "correctAnswer": "False",
+    "correctionEn": "To insert data into a table in sqflite, you convert the data to a Map and use the insert() method, not add().",
+    "correctionAr": "لإدراج بيانات في جدول في sqflite، تقوم بتحويل البيانات إلى Map وتستخدم الدالة insert() وليس add().",
     "explanationEn": "Inserting data into SQLite via the sqflite package requires representing the data model as a Map<String, dynamic> and passing it to the database's insert() method.",
     "explanationAr": "إدراج البيانات في SQLite يتطلب تمثيل نموذج البيانات كـ Map وتمريره إلى طريقة insert() الخاصة بقاعدة البيانات.",
     "codeSnippet": null
@@ -6155,7 +6155,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A value stored only in a lo cal variable inside build is not expected to survive the next rebuild.",
-    "questionAr": "سؤال متعلق بالمنهج: A value stored only in a lo cal variable inside (build) is not expected to survive the next rebuild.",
+    "questionAr": "القيمة المخزنة فقط في متغير محلي داخل دالة build لا يُتوقع أن تبقى بعد إعادة البناء التالية.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6299,7 +6299,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "DateTime values usually need an explicit serialization format before being stored as text or JSON.",
-    "questionAr": "سؤال متعلق بالمنهج: DateTime values usually need an explicit serialization format before being stored as text or (JSON).",
+    "questionAr": "تحتاج قيم DateTime عادةً إلى تنسيق تسلسل صريح قبل تخزينها كنص أو JSON.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6371,7 +6371,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A successful SQLite query that returns zero rows is a valid empty state, not automatically a database failure.",
-    "questionAr": "سؤال قاعدة بيانات (SQLite): A successful (SQLite) query that returns zero rows is a valid empty state, not automatically a database failure.",
+    "questionAr": "الاستعلام الناجح في SQLite الذي يُرجع صفر صفوف يعد حالة فارغة صالحة، وليس عطلاً في قاعدة البيانات تلقائياً.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6419,7 +6419,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Loading persistent data in initState can establish the initial source for a stateful screen.",
-    "questionAr": "سؤال متعلق بالمنهج: Loading persistent data in (initState) can establish the initial source for a stateful screen.",
+    "questionAr": "يمكن أن يؤدي تحميل البيانات الدائمة في initState إلى إنشاء المصدر الأولي لشاشة ذات حالة (stateful screen).",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6491,7 +6491,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "SharedPreferencesAsync reads from the platform -backed preference store rather than relying on a permanently cached value.",
-    "questionAr": "سؤال التفضيلات المشتركة (SharedPreferences): (SharedPreferencesAsync) reads from the platform -backed preference store rather than relying on a permanently cached value.",
+    "questionAr": "تقرأ SharedPreferencesAsync من مخزن التفضيلات المدعوم من المنصة بدلاً من الاعتماد على قيمة مخبأة بشكل دائم.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6515,7 +6515,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A cached preferences API can return stale data if another actor changes the underlying store and the cache is not reloaded.",
-    "questionAr": "سؤال متعلق بالمنهج: A cached preferences (API) can return stale data if another actor changes the underlying store and the cache is not reloaded.",
+    "questionAr": "يمكن لواجهة برمجة تطبيقات التفضيلات المخبأة (cached preferences API) أن تُرجع بيانات قديمة إذا قام طرف آخر بتغيير المخزن الأساسي ولم يتم إعادة تحميل ذاكرة التخزين المؤقت.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6539,7 +6539,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "SQLite is useful when data needs structured rows, filtering, ordering, and relationships.",
-    "questionAr": "سؤال قاعدة بيانات (SQLite): (SQLite) is useful when data needs structured rows, filtering, ordering, and relationships.",
+    "questionAr": "تعد SQLite مفيدة عندما تحتاج البيانات إلى صفوف مهيكلة، وتصفية، وترتيب، وعلاقات.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6563,7 +6563,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A file is often a natural choice for raw text, serialized JSON, or other document -like content.",
-    "questionAr": "سؤال متعلق بالمنهج: A file is often a natural choice for raw text, serialized (JSON), or other document -like content.",
+    "questionAr": "غالباً ما يكون الملف خياراً طبيعياً للنصوص الخام، أو JSON المتسلسل، أو أي محتوى آخر يشبه المستندات.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6635,7 +6635,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "On mobile, sqflite normally stores a database in an application -controlled local database location.",
-    "questionAr": "سؤال قاعدة بيانات (SQLite): On mobile, (sqflite) normally stores a database in an application -controlled local database location.",
+    "questionAr": "على الأجهزة المحمولة، تقوم sqflite عادةً بتخزين قاعدة البيانات في موقع قاعدة بيانات محلي يتحكم فيه التطبيق.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6659,7 +6659,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A web target can have different file and SQLite capabilities from Android or iOS, so the storage plan must name its platform assumptions.",
-    "questionAr": "سؤال قاعدة بيانات (SQLite): A web target can have different file and (SQLite) capabilities from Android or iOS, so the storage plan must name its platform assumptions.",
+    "questionAr": "يمكن أن يمتلك هدف الويب إمكانات ملفات و SQLite مختلفة عن Android أو iOS، لذا يجب أن تحدد خطة التخزين افتراضات المنصة الخاصة بها.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6683,7 +6683,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A repository boundary can keep UI code independent from whether data comes from preferences, SQLite, files, or a remote source.",
-    "questionAr": "سؤال قاعدة بيانات (SQLite): A repository boundary can keep UI code independent from whether data comes from preferences, (SQLite), files, or a remote source.",
+    "questionAr": "يمكن لحدود المستودع (repository boundary) أن تبقي كود واجهة المستخدم مستقلاً عما إذا كانت البيانات تأتي من التفضيلات، أو SQLite، أو الملفات، أو مصدر بعيد.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6731,7 +6731,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A toMap method should produce keys and value types that agree with the database or JSON contract.",
-    "questionAr": "سؤال متعلق بالمنهج: A toMap method should produce keys and value types that agree with the database or (JSON) contract.",
+    "questionAr": "يجب أن تُنتج دالة toMap مفاتيح وأنواع قيم تتوافق مع عقد قاعدة البيانات أو JSON.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6923,7 +6923,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A batch groups operations for efficiency but should not automatically be described as a transaction without checking the API semantics.",
-    "questionAr": "سؤال متعلق بالمنهج: A batch groups operations for efficiency but should not automatically be described as a transaction without checking the (API) semantics.",
+    "questionAr": "تجمع الدفعة (batch) العمليات لزيادة الكفاءة ولكن لا ينبغي وصفها تلقائياً كمعاملة (transaction) دون التحقق من دلالات واجهة برمجة التطبيقات (API).",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6994,8 +6994,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "A JSON decoder can parse syntactically valid JS ON that still violates the application schema.",
-    "questionAr": "سؤال متعلق بالمنهج: A (JSON) decoder can parse syntactically valid JS ON that still violates the application schema.",
+    "questionEn": "A JSON decoder can parse syntactically valid JSON that still violates the application schema.",
+    "questionAr": "يمكن لوحدة فك ترميز JSON تحليل JSON صالح نحوياً والذي لا يزال ينتهك مخطط التطبيق.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7259,7 +7259,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Calling remove for one preference key should not be described as clearing every unrelated preference unless the API call actually does that.",
-    "questionAr": "سؤال متعلق بالمنهج: Calling remove for one preference key should not be described as clearing every unrelated preference unless the (API) call actually does that.",
+    "questionAr": "لا ينبغي وصف استدعاء remove لمفتاح تفضيل واحد بأنه يمسح كل التفضيلات غير المرتبطة إلا إذا كان استدعاء API يفعل ذلك فعلياً.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7546,8 +7546,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "A repository can expose domain -level operations while hiding wh ether the current implementation uses a preference, file, SQLite, or remote source.",
-    "questionAr": "سؤال قاعدة بيانات (SQLite): A repository can expose domain -level operations while hiding wh ether the current implementation uses a preference, file, (SQLite), or remote source.",
+    "questionEn": "A repository can expose domain-level operations while hiding whether the current implementation uses a preference, file, SQLite, or remote source.",
+    "questionAr": "يمكن أن يكشف المستودع (repository) عن عمليات على مستوى النطاق مع إخفاء ما إذا كان التنفيذ الحالي يستخدم تفضيلاً أو ملفاً أو SQLite أو مصدراً بعيداً.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7594,15 +7594,15 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "If we have the following code fragment: FloatingActionButton( onPressed: () => _showForm(null), child: const Icon(Icons.add), ) A local SQLite query can return zero rows successfully, so the UI should distinguish empty from error.",
-    "questionAr": "سؤال قاعدة بيانات (SQLite): If we have the following code fragment: FloatingActionButton( onPressed: () => _showForm(null), child: const Icon(Icons.add), ) A local (SQLite) query can return zero rows successfully, so the UI should distinguish empty from error.",
+    "questionEn": "A local SQLite query can return zero rows successfully, so the UI should distinguish empty from error.",
+    "questionAr": "يمكن أن يرجع استعلام SQLite محلي صفر صفوف بنجاح، لذا يجب أن تميز واجهة المستخدم (UI) بين حالة الفراغ وحالة الخطأ.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "An empty SQLite list simply means the database has no records matching the query. It is a valid state that the UI should represent (e.g., 'No items yet'), distinct from a database error state.",
     "explanationAr": "قائمة SQLite الفارغة تعني ببساطة أن قاعدة البيانات لا تحتوي على سجلات مطابقة. إنها حالة صالحة يجب أن تمثلها الواجهة بشكل مميز عن حالة خطأ قاعدة البيانات.",
-    "codeSnippet": null
+    "codeSnippet": "FloatingActionButton(\n  onPressed: () => _showForm(null),\n  child: const Icon(Icons.add),\n)"
   },
   {
     "id": "lab9_tf_82",
@@ -7618,15 +7618,15 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "If we have the following code fragment: setState(() { _journals.add({'title':'Study Plan', 'description':'Review SQLite CRUD'}); }); A FAB callback can open a cre ate form while keeping the list route available for refresh after return.",
-    "questionAr": "سؤال قاعدة بيانات (SQLite): If we have the following code fragment: setState(() { _journals.add({'title':'Study Plan', 'description':'Review (SQLite) CRUD'}); }); A FAB callback can open a cre ate form while keeping the list route available for refresh after return.",
+    "questionEn": "A FAB callback can open a create form while keeping the list route available for refresh after return.",
+    "questionAr": "يمكن لرد نداء FAB أن يفتح نموذج إنشاء مع الاحتفاظ بمسار القائمة متاحاً للتحديث بعد العودة.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Pushing a new route for a form using a FloatingActionButton allows the user to submit data, pop back to the previous screen, and instantly refresh the parent list without losing navigation context.",
     "explanationAr": "يسمح دفع مسار جديد لنموذج باستخدام FAB للمستخدم بإرسال البيانات، والعودة إلى الشاشة السابقة، وتحديث القائمة الأصلية على الفور دون فقد سياق التنقل.",
-    "codeSnippet": null
+    "codeSnippet": "setState(() {\n  _journals.add({'title':'Study Plan', 'description':'Review SQLite CRUD'});\n});"
   },
   {
     "id": "lab9_tf_83",
@@ -7642,15 +7642,15 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "If we have the following code fragment: @override void initState() { super.initState(); _retrieveName(); } Future<void> _retrieveName() async { final value = await _prefs.g etString(_nameKey) ?? ''; if (!mounted) return; setState(() => savedName = value); } After create completes, a fresh query is evidence that the new row is actually stored.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: @override void (initState()) { super.(initState()); _retrieveName(); } (Future)<void> _retrieveName() (async) { final value = (await) _prefs.g etString(_nameKey) ?? ''; if (!mounted) return; setState(() => savedName = value); } After create completes, a fresh query is evidence that the new row is actually stored.",
+    "questionEn": "After create completes, a fresh query is evidence that the new row is actually stored.",
+    "questionAr": "بعد اكتمال الإنشاء، يُعد الاستعلام الجديد دليلاً على أن الصف الجديد قد تم تخزينه بالفعل.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Executing a fresh SELECT query against the database immediately after an INSERT guarantees that the data read back into the app matches the definitive state stored on the disk.",
     "explanationAr": "يضمن تنفيذ استعلام SELECT جديد ضد قاعدة البيانات فورًا بعد عملية INSERT أن البيانات التي يتم قراءتها مرة أخرى تتطابق مع الحالة النهائية المخزنة على القرص.",
-    "codeSnippet": null
+    "codeSnippet": "@override\nvoid initState() {\n  super.initState();\n  _retrieveName();\n}\n\nFuture<void> _retrieveName() async {\n  final value = await _prefs.getString(_nameKey) ?? '';\n  if (!mounted) return;\n  setState(() => savedName = value);\n}"
   },
   {
     "id": "lab9_tf_84",
@@ -7666,15 +7666,15 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "If we have the following code fragment: await prefs.setBool('dark_mode', tru e); final dark = await prefs.getBool('dark -mode') ?? false; After update completes, querying the target id again verifies the edited values rather than trusting the form.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: (await) prefs.setBool('dark_mode', tru e); final dark = (await) prefs.getBool('dark -mode') ?? false; After update completes, querying the target id again verifies the edited values rather than trusting the form.",
+    "questionEn": "After update completes, querying the target id again verifies the edited values rather than trusting the form.",
+    "questionAr": "بعد اكتمال التحديث، يؤدي الاستعلام عن المعرف المستهدف مرة أخرى إلى التحقق من القيم المعدلة بدلاً من الوثوق بالنموذج.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Reloading the targeted record from persistent storage after a form update prevents desynchronization between what the database saved and what the local application memory holds.",
     "explanationAr": "تمنع إعادة تحميل السجل المستهدف من التخزين الدائم بعد تحديث النموذج عدم التزامن بين ما حفظته قاعدة البيانات وما تحتفظ به ذاكرة التطبيق المحلية.",
-    "codeSnippet": null
+    "codeSnippet": "await prefs.setBool('dark_mode', true);\nfinal dark = await prefs.getBool('dark_mode') ?? false;"
   },
   {
     "id": "lab9_tf_85",
@@ -7690,15 +7690,15 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "If we have the following code fragment: final file = await _dataFile(); final data = await file.exists() ? await file.readAsString(encoding: utf8) : ''; if (!mounted) return; setState(() => _content = data); After delete and refresh, a success message is truthful only after the awaited operation has completed.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: final file = (await) _dataFile(); final data = (await) file.exists() ? (await) file.readAsString(encoding: utf8) : ''; if (!mounted) return; setState(() => _content = data); After delete and refresh, a success message is truthful only after the awaited operation has completed.",
+    "questionEn": "After delete and refresh, a success message is truthful only after the awaited operation has completed.",
+    "questionAr": "بعد الحذف والتحديث، تكون رسالة النجاح صادقة فقط بعد اكتمال العملية المنتظرة.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
     "explanationEn": "Awaiting operations guarantees synchronous-like behavior in asynchronous code. The success logic and messages execute strictly after the IO operation guarantees completion.",
     "explanationAr": "يضمن انتظار العمليات سلوكًا يشبه التزامن. يتم تنفيذ منطق النجاح والرسائل بشكل صارم بعد أن تضمن عملية الإدخال والإخراج الاكتمال.",
-    "codeSnippet": null
+    "codeSnippet": "final file = await _dataFile();\nfinal data = await file.exists() ? await file.readAsString(encoding: utf8) : '';\nif (!mounted) return;\nsetState(() => _content = data);"
   },
   {
     "id": "lab9_tf_86",
@@ -7714,8 +7714,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "If we have th e following code fragment: final data = await file.exists() ? await file.readAsString() : ''; A saved preference must be read back into State before the restored name can be shown after relaunch.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have th e following code fragment: final data = (await) file.exists() ? (await) file.readAsString() : ''; A saved preference must be read back into State before the restored name can be shown after relaunch.",
+    "questionEn": "If we have the following code fragment: final data = await file.exists() ? await file.readAsString() : ''; A saved preference must be read back into State before the restored name can be shown after relaunch.",
+    "questionAr": "If we have th e following code fragment: final data = (await) file.exists() ? (await) file.readAsString() : ''; A saved preference must be read back into State before the restored name can be shown after relaunch.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7739,7 +7739,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: final decoded = jsonDecode(raw); if (decoded is! Map<String, dynamic>) { throw const FormatException('Expected a JSON object'); } A process restart can restore persistent data only when startup code reads the correct store.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: final decoded = jsonDecode(raw); if (decoded is! Map<String, dynamic>) { throw const FormatException('Expected a (JSON) object'); } A process restart can restore persistent data only when startup code reads the correct store.",
+    "questionAr": "If we have the following code fragment: final decoded = jsonDecode(raw); if (decoded is! Map<String, dynamic>) { throw const FormatException('Expected a (JSON) object'); } A process restart can restore persistent data only when startup code reads the correct store.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7762,8 +7762,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "If we have the following code frag ment: setState(() => loading = true); final data = await repository.loadAll(); if (!mounted) return; setState(() { loading = false; items = data; }); A file read should map an absent file to the feature’s defined first -run state, not to malformed JSON.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code frag ment: setState(() => loading = true); final data = (await) repository.loadAll(); if (!mounted) return; setState(() { loading = false; items = data; }); A file read should map an absent file to the feature’s defined first -run state, not to malformed (JSON).",
+    "questionEn": "If we have the following code fragment: setState(() => loading = true); final data = await repository.loadAll(); if (!mounted) return; setState(() { loading = false; items = data; }); A file read should map an absent file to the feature’s defined first-run state, not to malformed JSON.",
+    "questionAr": "If we have the following code frag ment: setState(() => loading = true); final data = (await) repository.loadAll(); if (!mounted) return; setState(() { loading = false; items = data; }); A file read should map an absent file to the feature’s defined first -run state, not to malformed (JSON).",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7872,7 +7872,7 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "The ______.. package provides a platform -agnostic way to access commonly used locations on the device’s file system.",
+    "questionEn": "The ______ package provides a platform-agnostic way to access commonly used locations on the device’s file system.",
     "questionAr": "ما هي الحزمة التي توفر طريقة محايدة ومستقلة عن المنصة للوصول إلى المواقع الشائعة في نظام الملفات؟",
     "options": [
       {
@@ -7915,7 +7915,7 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "The path_provider plugin currently supports access to______.. :",
+    "questionEn": "The path_provider plugin currently supports access to:",
     "questionAr": "تدعم حزمة path_provider حالياً الوصول إلى المجلد المؤقت ومجلد مستندات التطبيق.",
     "options": [
       {
@@ -7930,7 +7930,7 @@ export const questionsData = [
       },
       {
         "label": "C",
-        "textEn": "Two file system locations (Temporary and Documents dire ctory)",
+        "textEn": "Two file system locations (Temporary and Documents directory)",
         "textAr": "موقعان لنظام الملفات (الدليل المؤقت ودليل المستندات)"
       },
       {
@@ -7939,7 +7939,7 @@ export const questionsData = [
         "textAr": "لا شيء مما ذُكر"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanationEn": "The path_provider plugin gives Flutter applications access to commonly used locations on the device file system, specifically the temporary directory and the documents directory.",
     "explanationAr": "توفر إضافة path_provider لتطبيقات Flutter إمكانية الوصول إلى المواقع شائعة الاستخدام في نظام ملفات الجهاز، وتحديداً الدليل المؤقت ودليل المستندات.",
     "codeSnippet": null
@@ -7982,7 +7982,7 @@ export const questionsData = [
         "textAr": "لا شيء مما ذُكر"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanationEn": "The temporary directory is used as a cache that the operating system can clear at any time to free up space. It is not meant for persistent, long-term storage.",
     "explanationAr": "يتم استخدام الدليل المؤقت (Temporary directory) كذاكرة تخزين مؤقت (cache) يمكن لنظام التشغيل مسحها في أي وقت لتوفير المساحة. وهو ليس مخصصاً للتخزين الدائم طويل الأمد.",
     "codeSnippet": null
@@ -8025,7 +8025,7 @@ export const questionsData = [
         "textAr": "لا شيء مما ذُكر"
       }
     ],
-    "correctAnswer": "True",
+    "correctAnswer": "C",
     "explanationEn": "True. getApplicationDocumentsDirectory() returns the private sandboxed app directory where persistent data files reside and are cleared only when the user uninstalls the app.",
     "explanationAr": "صحيح. دالة getApplicationDocumentsDirectory() تُرجع المجلد الخاص المحمي للتطبيق، وتظل الملفات بداخله محفوظة ولا تُحذف إلا عند إلغاء تثبيت التطبيق بالكامل.",
     "codeSnippet": null
@@ -8068,7 +8068,7 @@ export const questionsData = [
         "textAr": "لا شيء مما ذُكر"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanationEn": "On iOS, the temporary cache directory corresponds to NSCachesDirectory. On Android, it maps to the value returned by getCacheDir().",
     "explanationAr": "في نظام iOS، يتوافق دليل الذاكرة المخبئية المؤقت مع NSCachesDirectory. أما في نظام Android، فهو يقابل القيمة التي ترجعها دالة getCacheDir().",
     "codeSnippet": null
@@ -8087,7 +8087,7 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "Once you know where to store the file, create a reference to the file’s full location. You can use the ______ …. . class from the dart:io library .",
+    "questionEn": "Once you know where to store the file, create a reference to the file’s full location. You can use the ______ class from the dart:io library .",
     "questionAr": "بمجرد معرفة مكان تخزين الملف، يتم إنشاء مرجع للمسار الكامل للملف باستخدام كلاس File من مكتبة dart:io.",
     "options": [
       {
@@ -8154,7 +8154,7 @@ export const questionsData = [
         "textAr": "لا شيء مما ذُكر"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanationEn": "File operations write and read string or byte representations to disk using File methods like writeAsString and readAsString.",
     "explanationAr": "تتم عمليات الملفات بكتابة وقراءة السلاسل النصية أو البايتات على القرص باستخدام writeAsString و readAsString.",
     "codeSnippet": null
@@ -8240,7 +8240,7 @@ export const questionsData = [
         "textAr": "لا شيء مما ذُكر"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanationEn": "SharedPreferences is a mechanism used in Flutter to persistently store simple data, like settings and flags, locally in key-value pairs on both Android and iOS.",
     "explanationAr": "تُعد SharedPreferences آلية تُستخدم في Flutter لتخزين البيانات البسيطة بشكل دائم، مثل الإعدادات والعلامات، محلياً في أزواج مفتاح-قيمة (key-value) على كل من Android وiOS.",
     "codeSnippet": null
@@ -8412,7 +8412,7 @@ export const questionsData = [
         "textAr": "setBool"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanationEn": "The setBool method is specifically designed to persist boolean values (true or false) under a designated key within SharedPreferences.",
     "explanationAr": "صُممت دالة setBool خصيصاً لحفظ القيم المنطقية (true أو false) تحت مفتاح محدد داخل SharedPreferences.",
     "codeSnippet": null
@@ -8498,7 +8498,7 @@ export const questionsData = [
         "textAr": "getInt"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanationEn": "The getInt method reads an integer value associated with a specific key from SharedPreferences. It returns null if the key does not exist.",
     "explanationAr": "تقوم دالة getInt بقراءة قيمة عدد صحيح مرتبطة بمفتاح معين من SharedPreferences. وترجع null إذا لم يكن المفتاح موجوداً.",
     "codeSnippet": null
@@ -8541,7 +8541,7 @@ export const questionsData = [
         "textAr": "getInt"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanationEn": "To read a stored floating-point number, the getDouble method is called on the SharedPreferences instance with the corresponding key.",
     "explanationAr": "لقراءة رقم عشري مخزن، يتم استدعاء دالة getDouble على نسخة SharedPreferences مع المفتاح المقابل.",
     "codeSnippet": null
@@ -8584,7 +8584,7 @@ export const questionsData = [
         "textAr": "getList"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanationEn": "The getStringList method fetches a list of strings previously stored in SharedPreferences under a given key.",
     "explanationAr": "تقوم دالة getStringList بجلب قائمة من السلاسل النصية التي تم تخزينها مسبقاً في SharedPreferences تحت مفتاح معين.",
     "codeSnippet": null
@@ -8627,7 +8627,7 @@ export const questionsData = [
         "textAr": "findesKey"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanationEn": "The containsKey method checks if a specific key exists within SharedPreferences, returning true if it does and false otherwise.",
     "explanationAr": "تتحقق دالة containsKey مما إذا كان مفتاح معين موجوداً داخل SharedPreferences، وترجع true إذا كان كذلك و false في حال العكس.",
     "codeSnippet": null
@@ -8670,7 +8670,7 @@ export const questionsData = [
         "textAr": "لا شيء مما ذُكر"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanationEn": "The remove method deletes a single entry based on its key. To completely clear all data within the SharedPreferences instance, the clear method is used.",
     "explanationAr": "تقوم دالة remove بحذف إدخال واحد بناءً على مفتاحه. لمسح جميع البيانات بالكامل داخل نسخة SharedPreferences، يتم استخدام دالة clear.",
     "codeSnippet": null
@@ -8690,7 +8690,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Flutter apps can make use of the SQLite databases via the ______.. plugin available on pub.dev.",
-    "questionAr": "سؤال قاعدة بيانات (SQLite): Flutter apps can make use of the (SQLite) databases via the ______.. plugin available on pub.dev.",
+    "questionAr": "Flutter apps can make use of the (SQLite) databases via the ______.. plugin available on pub.dev.",
     "options": [
       {
         "label": "A",
@@ -8713,7 +8713,7 @@ export const questionsData = [
         "textAr": "لا شيء مما ذُكر"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanationEn": "The sqflite plugin on pub.dev provides the necessary tools and wrappers to seamlessly interact with SQLite databases within Flutter applications.",
     "explanationAr": "توفر إضافة sqflite على pub.dev الأدوات والأغلفة اللازمة للتفاعل بسلاسة مع قواعد بيانات SQLite داخل تطبيقات Flutter.",
     "codeSnippet": null
@@ -8733,7 +8733,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "The ______. package provides classes and functions to interact with a SQLite database.",
-    "questionAr": "سؤال قاعدة بيانات (SQLite): The ______. package provides classes and functions to interact with a (SQLite) database.",
+    "questionAr": "The ______. package provides classes and functions to interact with a (SQLite) database.",
     "options": [
       {
         "label": "A",
@@ -8819,7 +8819,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Define the path to the database file using ______. from the sqflite package, combined with the join function from the path package.",
-    "questionAr": "سؤال قاعدة بيانات (SQLite): Define the path to the database file using ______. from the (sqflite) package, combined with the join function from the path package.",
+    "questionAr": "Define the path to the database file using ______. from the (sqflite) package, combined with the join function from the path package.",
     "options": [
       {
         "label": "A",
@@ -8861,8 +8861,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "Before reading and writing data to the database, open a connection to the database. Open the database with the ______.. function from sqflite.",
-    "questionAr": "سؤال قاعدة بيانات (SQLite): Before reading and writing data to the database, open a connection to the database. Open the database with the ______.. function from (sqflite).",
+    "questionEn": "Before reading and writing data to the database, open a connection to the database. Open the database with the ______ function from sqflite.",
+    "questionAr": "Before reading and writing data to the database, open a connection to the database. Open the database with the ______.. function from (sqflite).",
     "options": [
       {
         "label": "A",
@@ -8885,7 +8885,7 @@ export const questionsData = [
         "textAr": "لا شيء مما ذُكر"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanationEn": "The openDatabase function from the sqflite package is responsible for opening a connection to the SQLite database, creating it if it doesn't exist.",
     "explanationAr": "تعتبر دالة openDatabase من حزمة sqflite مسؤولة عن فتح اتصال بقاعدة بيانات SQLite، وإنشائها إذا لم تكن موجودة.",
     "codeSnippet": null
@@ -8905,7 +8905,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "To insert a data into a table in sqflite database. This involves:",
-    "questionAr": "سؤال قاعدة بيانات (SQLite): To insert a data into a table in (sqflite) database. This involves:",
+    "questionAr": "To insert a data into a table in (sqflite) database. This involves:",
     "options": [
       {
         "label": "A",
@@ -8928,7 +8928,7 @@ export const questionsData = [
         "textAr": "لا شيء مما ذُكر"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanationEn": "Inserting data into a sqflite table requires converting your Dart objects into a Map format, which is then passed to the insert() method.",
     "explanationAr": "يتطلب إدراج البيانات في جدول sqflite تحويل كائنات Dart الخاصة بك إلى صيغة Map، والتي يتم تمريرها بعد ذلك إلى دالة insert().",
     "codeSnippet": null
@@ -8971,7 +8971,7 @@ export const questionsData = [
         "textAr": "لا شيء مما ذُكر"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanationEn": "To remove records from a SQLite database, you use the delete() method provided by the sqflite library, specifying the table and conditions.",
     "explanationAr": "لإزالة السجلات من قاعدة بيانات SQLite، تستخدم دالة delete() التي توفرها مكتبة sqflite، مع تحديد الجدول والشروط.",
     "codeSnippet": null
@@ -9014,7 +9014,7 @@ export const questionsData = [
         "textAr": "لا شيء مما ذُكر"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanationEn": "SQLite is a robust, lightweight relational database engine widely used in mobile development for offline data storage.",
     "explanationAr": "SQLite هو محرك قاعدة بيانات علائقية قوي وخفيف الوزن يُستخدم على نطاق واسع في تطوير تطبيقات الهواتف المحمولة لتخزين البيانات دون اتصال بالإنترنت.",
     "codeSnippet": null
@@ -9091,7 +9091,7 @@ export const questionsData = [
       },
       {
         "label": "C",
-        "textEn": "A different AppBa r color",
+        "textEn": "A different AppBar color",
         "textAr": "لون AppBar مختلف"
       },
       {
@@ -9120,7 +9120,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A value is created as a local variable inside build. What is the main limitation?",
-    "questionAr": "سؤال متعلق بالمنهج: A value is created as a local variable inside (build). What is the main limitation?",
+    "questionAr": "A value is created as a local variable inside (build). What is the main limitation?",
     "options": [
       {
         "label": "A",
@@ -9167,7 +9167,7 @@ export const questionsData = [
     "options": [
       {
         "label": "A",
-        "textEn": "A user -selected theme mode",
+        "textEn": "A user-selected theme mode",
         "textAr": "وضع سمة (theme mode) محدد من قبل المستخدم"
       },
       {
@@ -9249,7 +9249,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A notes feature stores one document as JSON text and reads it back as a whole. Which store is a natural fit?",
-    "questionAr": "سؤال متعلق بالمنهج: A notes feature stores one document as (JSON) text and reads it back as a whole. Which store is a natural fit?",
+    "questionAr": "ميزة ملاحظات تخزن مستندًا واحدًا كنص JSON وتقرأه بالكامل. ما هو التخزين الأنسب؟",
     "options": [
       {
         "label": "A",
@@ -9339,7 +9339,7 @@ export const questionsData = [
     "options": [
       {
         "label": "A",
-        "textEn": "Show an explicit first -run or empty state",
+        "textEn": "Show an explicit first-run or empty state",
         "textAr": "إظهار حالة تشغيل أول (first-run) صريحة أو حالة فارغة"
       },
       {
@@ -9378,7 +9378,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A SQLite query succeeds but returns an empty list. What should the UI show?",
-    "questionAr": "سؤال قاعدة بيانات (SQLite): A (SQLite) query succeeds but returns an empty list. What should the UI show?",
+    "questionAr": "نجح استعلام SQLite ولكنه أرجع قائمة فارغة. ماذا يجب أن تعرض واجهة المستخدم؟",
     "options": [
       {
         "label": "A",
@@ -9420,12 +9420,12 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "A file does not exist the first time the app runs. What should a JSON repository do if first -run is valid?",
-    "questionAr": "سؤال متعلق بالمنهج: A file does not exist the first time the app runs. What should a (JSON) repository do if first -run is valid?",
+    "questionEn": "A file does not exist the first time the app runs. What should a JSON repository do if first-run is valid?",
+    "questionAr": "الملف غير موجود في أول مرة يتم فيها تشغيل التطبيق. ماذا يجب أن يفعل مستودع JSON إذا كان التشغيل الأول صالحًا؟",
     "options": [
       {
         "label": "A",
-        "textEn": "Return a defined empty/first -run result",
+        "textEn": "Return a defined empty/first-run result",
         "textAr": "إرجاع نتيجة فارغة/تشغيل أول (empty/first-run) محددة"
       },
       {
@@ -9464,7 +9464,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Why check mounted after awaiting a database read in a StatefulWidget?",
-    "questionAr": "سؤال متعلق بالمنهج: Why check mounted after awaiting a database read in a (StatefulWidget)?",
+    "questionAr": "لماذا نتحقق من mounted بعد انتظار قراءة قاعدة بيانات في StatefulWidget؟",
     "options": [
       {
         "label": "A",
@@ -9593,11 +9593,11 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A Dog model needs to be inserted into SQLite. What should toMap provide?",
-    "questionAr": "سؤال قاعدة بيانات (SQLite): A Dog model needs to be inserted into (SQLite). What should toMap provide?",
+    "questionAr": "نموذج Dog يحتاج إلى إدراجه في SQLite. ماذا يجب أن توفر toMap؟",
     "options": [
       {
         "label": "A",
-        "textEn": "Column names mapped to database -compatible values",
+        "textEn": "Column names mapped to database-compatible values",
         "textAr": "أسماء الأعمدة (Column names) المعينة إلى قيم متوافقة مع قاعدة البيانات"
       },
       {
@@ -9779,7 +9779,7 @@ export const questionsData = [
       },
       {
         "label": "C",
-        "textEn": "When rendering a Text wid get",
+        "textEn": "When rendering a Text widget",
         "textAr": "عند تصيير ويدجت Text"
       },
       {
@@ -9894,7 +9894,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which code owns form controllers in a StatefulWidget?",
-    "questionAr": "سؤال متعلق بالمنهج: Which code owns form controllers in a (StatefulWidget)?",
+    "questionAr": "أي كود يملك متحكمات النماذج (form controllers) في StatefulWidget؟",
     "options": [
       {
         "label": "A",
@@ -9937,7 +9937,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A string is valid JSON but lacks the required title field. What should the model boundary do?",
-    "questionAr": "سؤال متعلق بالمنهج: A string is valid (JSON) but lacks the required title field. What should the model boundary do?",
+    "questionAr": "سلسلة نصية صالحة كـ JSON ولكنها تفتقر إلى حقل العنوان (title) المطلوب. ماذا يجب أن تفعل حدود النموذج؟",
     "options": [
       {
         "label": "A",
@@ -10005,7 +10005,7 @@ export const questionsData = [
     ],
     "correctAnswer": "A",
     "explanationEn": "Optional fields must be serialized predictably. Using a documented nullable representation ensures parsers know how to reliably decode or skip absent values.",
-    "explanationAr": "يجب تسلسل החقول الاختيارية بشكل يمكن التنبؤ به. استخدام تمثيل موثق يقبل القيم الفارغة (nullable) يضمن معرفة المحللات لكيفية فك تشفير القيم الغائبة أو تخطيها بشكل موثوق.",
+    "explanationAr": "يجب تسلسل الحقول الاختيارية بشكل يمكن التنبؤ به. استخدام تمثيل موثق يقبل القيم الفارغة (nullable) يضمن معرفة المحللات لكيفية فك تشفير القيم الغائبة أو تخطيها بشكل موثوق.",
     "codeSnippet": null
   },
   {
@@ -10199,7 +10199,7 @@ export const questionsData = [
     "options": [
       {
         "label": "A",
-        "textEn": "Use a platform directory from path_provider and j oin the filename with path.join",
+        "textEn": "Use a platform directory from path_provider and join the filename with path.join",
         "textAr": "استخدام مسار منصة (platform directory) من path_provider ودمج اسم الملف باستخدام path.join"
       },
       {
@@ -10242,7 +10242,7 @@ export const questionsData = [
     "options": [
       {
         "label": "A",
-        "textEn": "The temporary location may disappear or be inaccessible lat er",
+        "textEn": "The temporary location may disappear or be inaccessible later",
         "textAr": "قد يختفي الموقع المؤقت أو يصبح غير قابل للوصول لاحقاً"
       },
       {
@@ -10290,7 +10290,7 @@ export const questionsData = [
       },
       {
         "label": "B",
-        "textEn": "A guarante ed valid model",
+        "textEn": "A guaranteed valid model",
         "textAr": "نموذج (model) صالح ومضمون"
       },
       {
@@ -10367,7 +10367,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which API scope is appropriate for removing one preference?",
-    "questionAr": "سؤال متعلق بالمنهج: Which (API) scope is appropriate for removing one preference?",
+    "questionAr": "أي نطاق API مناسب لإزالة تفضيل واحد؟",
     "options": [
       {
         "label": "A",
@@ -10457,7 +10457,7 @@ export const questionsData = [
     "options": [
       {
         "label": "A",
-        "textEn": "Reload the cache or read through a non -cached API",
+        "textEn": "Reload the cache or read through a non-cached API",
         "textAr": "أعد تحميل الذاكرة المخبئية (cache) أو اقرأ من خلال (API) غير مخبأة (non-cached)"
       },
       {
@@ -10505,7 +10505,7 @@ export const questionsData = [
       },
       {
         "label": "B",
-        "textEn": "A non -sensitive theme selection",
+        "textEn": "A non-sensitive theme selection",
         "textAr": "اختيار سمة (theme) غير حساس"
       },
       {
@@ -10625,11 +10625,11 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A screen reads a stored name in initState and calls setState after await. What must it check?",
-    "questionAr": "سؤال متعلق بالمنهج: A screen reads a stored name in (initState) and calls setState after (await). What must it check?",
+    "questionAr": "شاشة تقرأ اسمًا مخزنًا في initState وتستدعي setState بعد await. ماذا يجب أن تتحقق منه؟",
     "options": [
       {
         "label": "A",
-        "textEn": "mounted before the post -await update",
+        "textEn": "mounted before the post-await update",
         "textAr": "mounted قبل التحديث الذي يلي (await) (post-(await) update)"
       },
       {
@@ -10667,12 +10667,12 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "Which result should a repository return for a missing JSON file when the product defines first -run as empty?",
-    "questionAr": "سؤال متعلق بالمنهج: Which result should a repository return for a missing (JSON) file when the product defines first -run as empty?",
+    "questionEn": "Which result should a repository return for a missing JSON file when the product defines first-run as empty?",
+    "questionAr": "ما هي النتيجة التي يجب أن يرجعها المستودع لملف JSON مفقود عندما يحدد المنتج التشغيل الأول (first-run) كفارغ؟",
     "options": [
       {
         "label": "A",
-        "textEn": "A distinct empty/first -run outcome",
+        "textEn": "A distinct empty/first-run outcome",
         "textAr": "نتيجة فارغة/تشغيل أول (empty/first-run) مميزة"
       },
       {
@@ -10797,7 +10797,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What does a fresh GET after a remote write prove more strongly than a local list append?",
-    "questionAr": "سؤال متعلق بالمنهج: What does a fresh (GET) after a remote write prove more strongly than a local list append?",
+    "questionAr": "What does a fresh (GET) after a remote write prove more strongly than a local list append?",
     "options": [
       {
         "label": "A",
@@ -10883,7 +10883,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A file contains JSON for a LocalNote. What should be checked after decoding?",
-    "questionAr": "سؤال متعلق بالمنهج: A file contains (JSON) for a LocalNote. What should be checked after decoding?",
+    "questionAr": "A file contains (JSON) for a LocalNote. What should be checked after decoding?",
     "options": [
       {
         "label": "A",
@@ -10969,7 +10969,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Why distinguish an empty SQLite query from an error?",
-    "questionAr": "سؤال قاعدة بيانات (SQLite): Why distinguish an empty (SQLite) query from an error?",
+    "questionAr": "Why distinguish an empty (SQLite) query from an error?",
     "options": [
       {
         "label": "A",
@@ -11016,7 +11016,7 @@ export const questionsData = [
     "options": [
       {
         "label": "A",
-        "textEn": "update with whe re: \"id = ?\" and whereArgs: [4]",
+        "textEn": "update with where: \"id = ?\" and whereArgs: [4]",
         "textAr": "تحديث باستخدام where: \"id = ?\" و whereArgs: [4]"
       },
       {
@@ -11270,7 +11270,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which statement about SharedPreferencesAsync is most useful?",
-    "questionAr": "سؤال التفضيلات المشتركة (SharedPreferences): Which statement about (SharedPreferencesAsync) is most useful?",
+    "questionAr": "Which statement about (SharedPreferencesAsync) is most useful?",
     "options": [
       {
         "label": "A",
@@ -11442,7 +11442,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A local note is saved as JSON but the schema later gains a required field. What is needed?",
-    "questionAr": "سؤال متعلق بالمنهج: A local note is saved as (JSON) but the schema later gains a required field. What is needed?",
+    "questionAr": "A local note is saved as (JSON) but the schema later gains a required field. What is needed?",
     "options": [
       {
         "label": "A",
@@ -11451,7 +11451,7 @@ export const questionsData = [
       },
       {
         "label": "B",
-        "textEn": "A new route name o nly",
+        "textEn": "A new route name only",
         "textAr": "اسم مسار (route name) جديد فقط"
       },
       {
@@ -11489,7 +11489,7 @@ export const questionsData = [
     "options": [
       {
         "label": "A",
-        "textEn": "Use a stable id for exact -row update/delete boundaries",
+        "textEn": "Use a stable id for exact-row update/delete boundaries",
         "textAr": "استخدام معرف (id) ثابت لحدود التحديث/الحذف للصف الدقيق"
       },
       {
@@ -11532,7 +11532,7 @@ export const questionsData = [
     "options": [
       {
         "label": "A",
-        "textEn": "A typed error or recoverable result with a clear user -facing state",
+        "textEn": "A typed error or recoverable result with a clear user-facing state",
         "textAr": "خطأ محدد النوع أو نتيجة يمكن استردادها مع حالة واضحة للمستخدم"
       },
       {
@@ -11552,8 +11552,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "This concept highlights standard Flutter data flow and API integration logic, ensuring reliable parsing, execution, and UI state management.",
-    "explanationAr": "يسلط هذا المفهوم الضوء على تدفق بيانات Flutter القياسي ومنطق تكامل واجهة برمجة التطبيقات، مما يضمن تحليل موثوق وتنفيذ وإدارة حالة واجهة المستخدم.",
+    "explanationEn": "When persistent storage encounters malformed or corrupted data (like invalid JSON), the repository layer should catch the parsing error and return a safe fallback state or a clear error message, rather than crashing the app.",
+    "explanationAr": "عندما تواجه طبقة التخزين بيانات تالفة (مثل JSON غير صالح)، يجب على طبقة (Repository) التقاط الخطأ وإرجاع حالة بديلة آمنة أو رسالة خطأ واضحة بدلاً من التسبب في انهيار التطبيق.",
     "codeSnippet": null
   },
   {
@@ -11657,7 +11657,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: await insertDog(const Dog(id: 0, name: 'Fido', age: 35)); print(await dogs()); After inserting Fido with age 35, what exact list is printed?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: (await) insertDog(const Dog(id: 0, name: 'Fido', age: 35)); print(await dogs()); After inserting Fido with age 35, what exact list is printed?",
+    "questionAr": "If we have the following code fragment: (await) insertDog(const Dog(id: 0, name: 'Fido', age: 35)); print(await dogs()); After inserting Fido with age 35, what exact list is printed?",
     "options": [
       {
         "label": "A",
@@ -11700,7 +11700,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: fido = Dog(id: 0, name: 'Fido', age: 42); await updateDog(fido); print(await dogs()); After updating Fido to age 42, what exact list is printed?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: fido = Dog(id: 0, name: 'Fido', age: 42); (await) updateDog(fido); print(await dogs()); After updating Fido to age 42, what exact list is printed?",
+    "questionAr": "If we have the following code fragment: fido = Dog(id: 0, name: 'Fido', age: 42); (await) updateDog(fido); print(await dogs()); After updating Fido to age 42, what exact list is printed?",
     "options": [
       {
         "label": "A",
@@ -11743,7 +11743,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: await deleteDog(fido.id); print(await dogs()); After deleting Fido, what exact list is printed?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: (await) deleteDog(fido.id); print(await dogs()); After deleting Fido, what exact list is printed?",
+    "questionAr": "If we have the following code fragment: (await) deleteDog(fido.id); print(await dogs()); After deleting Fido, what exact list is printed?",
     "options": [
       {
         "label": "A",
@@ -11786,12 +11786,17 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: final prefs = SharedPreferencesAsync(); print(await prefs.getString('username')); When the username key is absent, what does getString print?",
-    "questionAr": "سؤال التفضيلات المشتركة (SharedPreferences): If we have the following code fragment: final prefs = (SharedPreferencesAsync()); print(await prefs.getString('username')); When the username key is absent, what does getString print?",
+    "questionAr": "If we have the following code fragment: final prefs = (SharedPreferencesAsync()); print(await prefs.getString('username')); When the username key is absent, what does getString print?",
     "options": [
       {
         "label": "A",
         "textEn": "null",
         "textAr": "null"
+      },
+      {
+        "label": "B",
+        "textEn": "An empty string",
+        "textAr": "سلسلة نصية فارغة"
       },
       {
         "label": "C",
@@ -11827,6 +11832,11 @@ export const questionsData = [
     "questionAr": "إذا كان لدينا جزء الشيفرة التالي: print(await prefs.getString('username')); بعد حفظ اسم المستخدم، ماذا تطبع عملية القراءة التالية؟",
     "options": [
       {
+        "label": "A",
+        "textEn": "The saved string value",
+        "textAr": "القيمة النصية المحفوظة"
+      },
+      {
         "label": "B",
         "textEn": "null",
         "textAr": "null"
@@ -11843,8 +11853,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "This concept highlights standard Flutter data flow and API integration logic, ensuring reliable parsing, execution, and UI state management.",
-    "explanationAr": "يسلط هذا المفهوم الضوء على تدفق بيانات Flutter القياسي ومنطق تكامل واجهة برمجة التطبيقات، مما يضمن تحليل موثوق وتنفيذ وإدارة حالة واجهة المستخدم.",
+    "explanationEn": "After saving a string using SharedPreferences, retrieving it with the same key returns the saved string value.",
+    "explanationAr": "بعد حفظ سلسلة نصية باستخدام التفضيلات المشتركة، فإن استردادها بنفس المفتاح يُرجع القيمة النصية المحفوظة.",
     "codeSnippet": null
   },
   {
@@ -11862,7 +11872,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: await prefs.remove(usernameKey); print(await prefs.containsKey(username Key)); After removing usernameKey, what does containsKey print?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: (await) prefs.remove(usernameKey); print(await prefs.containsKey(username Key)); After removing usernameKey, what does containsKey print?",
+    "questionAr": "If we have the following code fragment: (await) prefs.remove(usernameKey); print(await prefs.containsKey(username Key)); After removing usernameKey, what does containsKey print?",
     "options": [
       {
         "label": "A",
@@ -11905,7 +11915,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: final contents = await file.readAsString(); return int.parse(contents); If the text file contains 7, what integer is returned?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: final contents = (await) file.readAsString(); return int.parse(contents); If the text file contains 7, what integer is returned?",
+    "questionAr": "If we have the following code fragment: final contents = (await) file.readAsString(); return int.parse(contents); If the text file contains 7, what integer is returned?",
     "options": [
       {
         "label": "A",
@@ -11947,8 +11957,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "If we have the following code fragment: final counter = int.parse(await file.readAsString()); await file.writeAsString('${counter + 1}'); print(int.parse(await file.readAsString())); If the file contains 7, what is print ed after incrementing and overwriting it?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: final counter = int.parse(await file.readAsString()); (await) file.writeAsString('${counter + 1}'); print(int.parse(await file.readAsString())); If the file contains 7, what is print ed after incrementing and overwriting it?",
+    "questionEn": "If we have the following code fragment: final counter = int.parse(await file.readAsString()); await file.writeAsString('${counter + 1}'); print(int.parse(await file.readAsString())); If the file contains 7, what is printed after incrementing and overwriting it?",
+    "questionAr": "If we have the following code fragment: final counter = int.parse(await file.readAsString()); (await) file.writeAsString('${counter + 1}'); print(int.parse(await file.readAsString())); If the file contains 7, what is printed after incrementing and overwriting it?",
     "options": [
       {
         "label": "A",
@@ -11991,7 +12001,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: if (!await file.exists()) return null; If the JSON file does not exist, what first -run result is returned?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: if (!(await) file.exists()) return null; If the (JSON) file does not exist, what first -run result is returned?",
+    "questionAr": "If we have the following code fragment: if (!(await) file.exists()) return null; If the (JSON) file does not exist, what first -run result is returned?",
     "options": [
       {
         "label": "A",
@@ -12034,7 +12044,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: final decoded = jsonDecode(raw); if (decoded is! Map<String, dynamic>) { throw const FormatException('Expected a JSON object'); } If decoded JSON is not a map, which result follows the validation code?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: final decoded = jsonDecode(raw); if (decoded is! Map<String, dynamic>) { throw const FormatException('Expected a (JSON) object'); } If decoded (JSON) is not a map, which result follows the validation code?",
+    "questionAr": "If we have the following code fragment: final decoded = jsonDecode(raw); if (decoded is! Map<String, dynamic>) { throw const FormatException('Expected a (JSON) object'); } If decoded (JSON) is not a map, which result follows the validation code?",
     "options": [
       {
         "label": "A",
@@ -12178,7 +12188,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "The PUT method in a REST API is used to delete data from the server.",
-    "questionAr": "في فلاتر، تتيح لك حزمة http الرسمية إرسال طلبات الشبكة واستدعاء واجهات برمجة التطبيقات REST.",
+    "questionAr": "تُستخدم طريقة PUT في واجهة برمجة التطبيقات REST لحذف البيانات من الخادم.",
     "options": null,
     "correctAnswer": "False",
     "correctionEn": "PUT is used to update/replace existing data; DELETE is used to delete.",
@@ -12228,7 +12238,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "The FutureBuilder widget in Flutter is commo nly used to handle asynchronous HTTP requests.",
-    "questionAr": "سؤال متعلق بالمنهج: The (FutureBuilder) widget in Flutter is commo nly used to handle asynchronous (HTTP) requests.",
+    "questionAr": "يُستخدم عنصر واجهة المستخدم (FutureBuilder) في Flutter بشكل شائع للتعامل مع طلبات (HTTP) غير المتزامنة.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -12303,7 +12313,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "In Flutter, you need to manually parse the JSON response from an HTTP request.",
-    "questionAr": "سؤال متعلق بالمنهج: In Flutter, you need to manually parse the (JSON) response from an (HTTP) request.",
+    "questionAr": "في Flutter، تحتاج إلى تحليل استجابة (JSON) يدوياً من طلب (HTTP).",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -12328,7 +12338,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "The Content-Type: application/json header must be set when sending JSON data to a REST PHP API.",
-    "questionAr": "سؤال متعلق بالمنهج: The Content-Type: application/json header must be set when sending (JSON) data to a REST PHP (API).",
+    "questionAr": "يجب تعيين رأس Content-Type: application/json عند إرسال بيانات (JSON) إلى واجهة REST PHP (API).",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -12353,11 +12363,11 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "The http package in Dart pr ovides high -level functions and classes that allow developers to make HTTP requests to web servers. It is not a future -based library.",
-    "questionAr": "سؤال متعلق بالمنهج: The http package in Dart pr ovides high -level functions and classes that allow developers to make (HTTP) requests to web servers. It is not a future -based library.",
+    "questionAr": "توفر حزمة http في Dart دوال وفئات عالية المستوى تسمح للمطورين بإجراء طلبات (HTTP) لخوادم الويب. وهي ليست مكتبة تعتمد على Future.",
     "options": null,
-    "correctAnswer": "True",
-    "correctionEn": null,
-    "correctionAr": null,
+    "correctAnswer": "False",
+    "correctionEn": "The http package provides Future-based methods, as network requests are inherently asynchronous.",
+    "correctionAr": "توفر حزمة http دوال تعتمد على Future، لأن طلبات الشبكة غير متزامنة بطبيعتها.",
     "explanationEn": "The http package abstracts low-level socket connections, providing simple, future-based methods like get() and post() for REST interactions.",
     "explanationAr": "تلخص حزمة http اتصالات المقبس (socket) منخفضة المستوى، مما يوفر طرقاً بسيطة قائمة على future مثل get() و post() لتفاعلات REST.",
     "codeSnippet": null
@@ -12378,7 +12388,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "GET requests can be used to retrieve data from a server. You can use a GET request to fetch a list of us ers from a database or to retrieve the details of a specific user.",
-    "questionAr": "سؤال متعلق بالمنهج: (GET) requests can be used to retrieve data from a server. You can use a (GET) request to fetch a list of us ers from a database or to retrieve the details of a specific user.",
+    "questionAr": "يمكن استخدام طلبات (GET) لاسترداد البيانات من خادم. يمكنك استخدام طلب (GET) لجلب قائمة مستخدمين من قاعدة بيانات أو لاسترداد تفاصيل مستخدم معين.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -12405,9 +12415,9 @@ export const questionsData = [
     "questionEn": "Flutter, the popular open-source UI toolkit, does not provide developers with powerful tools to efficiently work with APIs.",
     "questionAr": "إطار عمل Flutter، وهو مجموعة أدوات واجهة المستخدم مفتوحة المصدر الشهيرة، لا يوفر للمطورين أدوات قوية للعمل بكفاءة مع الـ APIs.",
     "options": null,
-    "correctAnswer": "True",
-    "correctionEn": null,
-    "correctionAr": null,
+    "correctAnswer": "False",
+    "correctionEn": "Flutter, combined with packages like http or dio, provides very powerful tools to efficiently work with APIs.",
+    "correctionAr": "يوفر Flutter، إلى جانب حزم مثل http أو dio، أدوات قوية جداً للعمل بكفاءة مع واجهات برمجة التطبيقات (APIs).",
     "explanationEn": "Flutter focuses on being a reactive UI toolkit; it delegates network operations to dedicated Dart packages rather than reinventing heavy built-in API clients.",
     "explanationAr": "يركز Flutter على أن يكون مجموعة أدوات واجهة مستخدم تفاعلية؛ فهو يفوض عمليات الشبكة إلى حزم Dart مخصصة بدلاً من إعادة اختراع عملاء API مدمجين ثقيلين.",
     "codeSnippet": null
@@ -12428,11 +12438,11 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "When a Flutter app sends a GET request to an API endpoint, it receives a response containing the requested data, typically in XML format.",
-    "questionAr": "سؤال متعلق بالمنهج: When a Flutter app sends a (GET) request to an (API) endpoint, it receives a response containing the requested data, typically in XML format.",
+    "questionAr": "عندما يرسل تطبيق Flutter طلب (GET) إلى نقطة نهاية (API)، فإنه يتلقى استجابة تحتوي على البيانات المطلوبة، وعادة ما تكون بتنسيق XML.",
     "options": null,
-    "correctAnswer": "True",
-    "correctionEn": null,
-    "correctionAr": null,
+    "correctAnswer": "False",
+    "correctionEn": "APIs typically return data in JSON format, not XML.",
+    "correctionAr": "تعيد واجهات برمجة التطبيقات (APIs) عادةً البيانات بتنسيق JSON، وليس XML.",
     "explanationEn": "While JSON is ubiquitous, GET requests can technically return XML if the API endpoint is configured to serve legacy formats.",
     "explanationAr": "على الرغم من انتشار JSON، يمكن لطلبات GET أن تعيد XML من الناحية الفنية إذا تم تكوين نقطة نهاية API لتقديم تنسيقات قديمة.",
     "codeSnippet": null
@@ -12452,8 +12462,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "Flutter developers can make HTTP requests to APIs using various packages, with Da irt’s http package being one of the most popula r choices. ( ) Additional Conceptual and Code -Based Statements",
-    "questionAr": "سؤال متعلق بالمنهج: Flutter developers can make (HTTP) requests to APIs using various packages, with Da irt’s http package being one of the most popula r choices. ( ) Additional Conceptual and Code -Based Statements",
+    "questionEn": "Flutter developers can make HTTP requests to APIs using various packages, with Dart's http package being one of the most popular choices.",
+    "questionAr": "يمكن لمطوري Flutter إجراء طلبات (HTTP) لواجهات برمجة التطبيقات (APIs) باستخدام حزم مختلفة، وتعتبر حزمة http في Dart واحدة من الخيارات الأكثر شيوعاً.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -12478,7 +12488,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "An HTTP API request can be described using its method, endpoint, headers, body, status, and response.",
-    "questionAr": "سؤال متعلق بالمنهج: An (HTTP) (API) request can be described using its method, endpoint, headers, body, status, and response.",
+    "questionAr": "يمكن وصف طلب (HTTP) (API) باستخدام الطريقة (method)، ونقطة النهاية (endpoint)، والرؤوس (headers)، والجسم (body)، والحالة (status)، والاستجابة (response).",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -12503,13 +12513,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Suppose a Flutter app sends requests to a PHP API that accesses M ySQL. The Flutter client should store the MySQL username and password and connect directly to the database.",
-    "questionAr": "سؤال متعلق بالمنهج: Suppose a Flutter app sends requests to a PHP (API) that accesses M ySQL. The Flutter client should store the MySQL username and password and connect directly to the database.",
+    "questionAr": "افترض أن تطبيق Flutter يرسل طلبات إلى واجهة برمجة تطبيقات PHP تصل إلى MySQL. يجب على عميل Flutter تخزين اسم مستخدم MySQL وكلمة المرور والاتصال مباشرة بقاعدة البيانات.",
     "options": null,
-    "correctAnswer": "True",
-    "correctionEn": null,
-    "correctionAr": null,
-    "explanationEn": "Connecting directly to a database from a mobile app is a severe security risk. A backend API should always act as a secure intermediary layer.",
-    "explanationAr": "يعد الاتصال المباشر بقاعدة البيانات من تطبيق جوال مخاطرة أمنية خطيرة. يجب أن تعمل واجهة برمجة التطبيقات الخلفية (API) دائماً كطبقة وسيطة آمنة.",
+    "correctAnswer": "False",
+    "correctionEn": "Apps should communicate with a secure backend API, not directly with MySQL.",
+    "correctionAr": "يجب أن تتواصل التطبيقات مع واجهة برمجة تطبيقات (API) خلفية آمنة، وليس مباشرة مع MySQL.",
+    "explanationEn": "Directly connecting to a MySQL database from a mobile app requires embedding database credentials in the app code, which is a massive security risk. Apps should always communicate through a secure backend API.",
+    "explanationAr": "الاتصال المباشر بقاعدة بيانات MySQL من تطبيق الهاتف يتطلب تضمين بيانات الاعتماد في كود التطبيق، وهو ما يمثل خطرًا أمنيًا كبيرًا. يجب أن تتواصل التطبيقات دائمًا من خلال واجهة برمجة تطبيقات (API) خلفية آمنة.",
     "codeSnippet": null
   },
   {
@@ -12528,13 +12538,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "In a three-lay er design in which Flutter communicates with a PHP HTTP API and the API communicates with MySQL, Flutter should communicat e with the API rather than directly with MySQL.",
-    "questionAr": "سؤال متعلق بالمنهج: In a three-lay er design in which Flutter communicates with a PHP (HTTP) (API) and the (API) communicates with MySQL, Flutter should communicat e with the (API) rather than directly with MySQL.",
+    "questionAr": "في التصميم ثلاثي الطبقات الذي يتواصل فيه Flutter مع واجهة برمجة تطبيقات (HTTP) (API) بـ PHP وتتواصل واجهة (API) مع MySQL، يجب أن يتواصل Flutter مع (API) بدلاً من الاتصال المباشر بـ MySQL.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Connecting directly to a database from a mobile app is a severe security risk. A backend API should always act as a secure intermediary layer.",
-    "explanationAr": "يعد الاتصال المباشر بقاعدة البيانات من تطبيق جوال مخاطرة أمنية خطيرة. يجب أن تعمل واجهة برمجة التطبيقات الخلفية (API) دائماً كطبقة وسيطة آمنة.",
+    "explanationEn": "In a standard three-tier architecture, the Flutter mobile app acts as the presentation layer communicating with the business logic layer (PHP API), which then securely interacts with the data layer (MySQL).",
+    "explanationAr": "في بنية الطبقات الثلاث القياسية، يعمل تطبيق Flutter كطبقة العرض التي تتواصل مع طبقة منطق الأعمال (PHP API)، والتي بدورها تتفاعل بأمان مع طبقة البيانات (MySQL).",
     "codeSnippet": null
   },
   {
@@ -12578,11 +12588,11 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "PUT and PATCH have exactly the same semantic meaning in every API contract.",
-    "questionAr": "سؤال متعلق بالمنهج: (PUT) and PATCH have exactly the same semantic meaning in every (API) contract.",
+    "questionAr": "طريقتي (PUT) و PATCH لهما نفس المعنى الدلالي تماماً في كل عقد لواجهة برمجة التطبيقات (API contract).",
     "options": null,
-    "correctAnswer": "True",
-    "correctionEn": null,
-    "correctionAr": null,
+    "correctAnswer": "False",
+    "correctionEn": "PUT and PATCH have different semantic meanings: PUT is for full replacement, while PATCH is for partial updates.",
+    "correctionAr": "لكل من PUT و PATCH معاني دلالية مختلفة: PUT للاستبدال الكامل، بينما PATCH للتحديثات الجزئية.",
     "explanationEn": "Though REST semantics differ (PUT replaces, PATCH updates partially), many API implementations treat them identically for update operations.",
     "explanationAr": "على الرغم من اختلاف دلالات REST (يستبدل PUT، ويحدث PATCH جزئياً)، فإن العديد من تطبيقات API تعاملها بشكل متطابق لعمليات التحديث.",
     "codeSnippet": null
@@ -12603,7 +12613,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "DELETE is the HTTP method normally ass ociated with removing a resource.",
-    "questionAr": "سؤال متعلق بالمنهج: (DELETE) is the (HTTP) method normally ass ociated with removing a resource.",
+    "questionAr": "طريقة (DELETE) هي طريقة (HTTP) المرتبطة عادةً بإزالة مورد.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -12628,7 +12638,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A 201 status is a common success convention for a create operation, but the client must still follow the actual API contract.",
-    "questionAr": "سؤال متعلق بالمنهج: A 201 status is a common success convention for a create operation, but the client must still follow the actual (API) contract.",
+    "questionAr": "الحالة 201 هي اصطلاح نجاح شائع لعملية إنشاء، ولكن لا يزال يجب على العميل اتباع عقد (API) الفعلي.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -12653,11 +12663,11 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A client may safely parse any response body as JSON before checking the HTTP status code.",
-    "questionAr": "سؤال متعلق بالمنهج: A client may safely parse any response body as (JSON) before checking the (HTTP) status code.",
+    "questionAr": "يمكن للعميل تحليل أي نص استجابة بأمان كـ (JSON) قبل التحقق من رمز حالة (HTTP).",
     "options": null,
-    "correctAnswer": "True",
-    "correctionEn": null,
-    "correctionAr": null,
+    "correctAnswer": "False",
+    "correctionEn": "It is not always safe to parse any response as JSON before checking the status code or Content-Type, as some errors return HTML or plain text.",
+    "correctionAr": "ليس من الآمن دائماً تحليل أي استجابة كـ JSON قبل التحقق من رمز الحالة أو نوع المحتوى، حيث تعيد بعض الأخطاء HTML أو نصاً عادياً.",
     "explanationEn": "Even error responses (like 400 or 500) often return JSON bodies containing error details, which clients can parse before evaluating the status code.",
     "explanationAr": "حتى استجابات الخطأ (مثل 400 أو 500) غالباً ما تعيد أجسام JSON تحتوي على تفاصيل الخطأ، والتي يمكن للعملاء تحليلها قبل تقييم رمز الحالة.",
     "codeSnippet": null
@@ -12678,13 +12688,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A decoded JSON object maps naturally to a Dart Map -like structure.",
-    "questionAr": "سؤال متعلق بالمنهج: A decoded (JSON) object maps naturally to a Dart Map -like structure.",
+    "questionAr": "يتم تعيين كائن (JSON) الذي تم فك تشفيره بشكل طبيعي إلى هيكل يشبه Dart Map.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This concept highlights standard Flutter data flow and API integration logic, ensuring reliable parsing, execution, and UI state management.",
-    "explanationAr": "يسلط هذا المفهوم الضوء على تدفق بيانات Flutter القياسي ومنطق تكامل واجهة برمجة التطبيقات، مما يضمن تحليل موثوق وتنفيذ وإدارة حالة واجهة المستخدم.",
+    "explanationEn": "When jsonDecode processes a JSON object (enclosed in {}), it converts it directly into a Dart Map<String, dynamic>, allowing key-based access to the data.",
+    "explanationAr": "عندما يقوم (jsonDecode) بمعالجة كائن JSON (المحاط بأقواس {})، فإنه يحوله مباشرة إلى (Map<String, dynamic>) في Dart، مما يسمح بالوصول إلى البيانات بناءً على المفاتيح.",
     "codeSnippet": null
   },
   {
@@ -12703,13 +12713,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A decoded top -level JSON array maps naturally to a Dart List -like structure.",
-    "questionAr": "سؤال متعلق بالمنهج: A decoded top -level (JSON) array maps naturally to a Dart List -like structure.",
+    "questionAr": "يتم تعيين مصفوفة (JSON) ذات المستوى الأعلى التي تم فك تشفيرها بشكل طبيعي إلى هيكل يشبه Dart List.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This concept highlights standard Flutter data flow and API integration logic, ensuring reliable parsing, execution, and UI state management.",
-    "explanationAr": "يسلط هذا المفهوم الضوء على تدفق بيانات Flutter القياسي ومنطق تكامل واجهة برمجة التطبيقات، مما يضمن تحليل موثوق وتنفيذ وإدارة حالة واجهة المستخدم.",
+    "explanationEn": "When jsonDecode processes a JSON array (enclosed in []), it naturally parses it into a Dart List<dynamic>, which can then be iterated or mapped.",
+    "explanationAr": "عندما يقوم (jsonDecode) بمعالجة مصفوفة JSON (المحاطة بأقواس [])، فإنه يحللها بشكل طبيعي إلى (List<dynamic>) في Dart، والتي يمكن بعد ذلك المرور عليها أو عمل (mapping) لها.",
     "codeSnippet": null
   },
   {
@@ -12728,7 +12738,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "JSON can contain nested objects, arrays, primitive values, and null.",
-    "questionAr": "سؤال متعلق بالمنهج: (JSON) can contain nested objects, arrays, primitive values, and null.",
+    "questionAr": "يمكن أن يحتوي (JSON) على كائنات متداخلة ومصفوفات وقيم بدائية و null.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -12753,13 +12763,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A fromJson constructor can centralize the mapping between JSON keys and Dart fields.",
-    "questionAr": "سؤال متعلق بالمنهج: A fromJson constructor can centralize the mapping between (JSON) keys and Dart fields.",
+    "questionAr": "يمكن لمنشئ fromJson مركزة التعيين بين مفاتيح (JSON) وحقول Dart.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Implementing a fromJson factory constructor encapsulates the serialization logic, cleanly mapping raw JSON maps into strongly-typed model fields.",
-    "explanationAr": "يغلف تنفيذ منشئ مصنع fromJson منطق التسلسل، ويعين خرائط JSON الخام بشكل نظيف في حقول نماذج قوية النوع.",
+    "explanationEn": "Using a fromJson factory constructor is the best practice in Dart because it centralizes the logic for mapping dynamic JSON keys to strongly-typed class properties in one place.",
+    "explanationAr": "يعد استخدام (factory constructor) مثل fromJson أفضل ممارسة في Dart لأنه يركز منطق تحويل مفاتيح JSON الديناميكية إلى خصائص فئة (class) محددة النوع في مكان واحد.",
     "codeSnippet": null
   },
   {
@@ -12778,7 +12788,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final data = {'oldPrice': '699', 'price': '799'}; final String? oldPrice = data['oldPrice']; final String? price = data['price']; If the JSON values are quoted strings, oldPrice and price should be declared as nullable String fields.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final data = {'oldPrice': '699', 'price': '799'}; final String? oldPrice = data['oldPrice']; final String? price = data['price']; If the (JSON) values are quoted strings, oldPrice and price should be declared as nullable String fields.",
+    "questionAr": "إذا كان لدينا مقتطف الكود التالي: final data = {'oldPrice': '699', 'price': '799'}; final String? oldPrice = data['oldPrice']; final String? price = data['price']; إذا كانت قيم (JSON) عبارة عن سلاسل نصية مقتبسة، فيجب التصريح عن oldPrice و price كحقول String قابلة للقيم الخالية (nullable).",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -12803,7 +12813,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "jsonEncode converts a Dart -compatible structure into JSON text.",
-    "questionAr": "سؤال متعلق بالمنهج: jsonEncode converts a Dart -compatible structure into (JSON) text.",
+    "questionAr": "تحول jsonEncode بنية متوافقة مع Dart إلى نص (JSON).",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -12821,20 +12831,20 @@ export const questionsData = [
     "topic": "Image Upload API",
     "subtopic": "Multipart & XFile",
     "type": "tf",
-    "examRelevance": "included",
+    "examRelevance": "excluded",
     "exclusionReason": "EXCLUDED FROM FINAL EXAM per Professor announcement: API with Images is not in exam scope",
     "source": "Lab 10 (Q1.31)",
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code s nippet: class ProductDataModel { final String? imageURL; ProductDataModel.fromJson(Map<String, dynamic> json) : imageURL = json['imageUrl'] as String?; } The constructor maps the JSON key imageUrl to the Dart field imageURL.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code s nippet: class ProductDataModel { final String? imageURL; ProductDataModel.fromJson(Map<String, dynamic> json) : imageURL = json['imageUrl'] as String?; } The constructor maps the (JSON) key imageUrl to the Dart field imageURL.",
+    "questionAr": "إذا كان لدينا مقتطف الكود التالي: class ProductDataModel { final String? imageURL; ProductDataModel.fromJson(Map<String, dynamic> json) : imageURL = json['imageUrl'] as String?; } يقوم المنشئ بتعيين مفتاح (JSON) imageUrl إلى حقل Dart imageURL.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Implementing a fromJson factory constructor encapsulates the serialization logic, cleanly mapping raw JSON maps into strongly-typed model fields.",
-    "explanationAr": "يغلف تنفيذ منشئ مصنع fromJson منطق التسلسل، ويعين خرائط JSON الخام بشكل نظيف في حقول نماذج قوية النوع.",
+    "explanationEn": "The fromJson constructor explicitly takes a Map and extracts the value associated with the key \"imageUrl\", casting it to a String and assigning it to the imageURL field.",
+    "explanationAr": "تأخذ الدالة fromJson خريطة (Map) وتستخرج القيمة المرتبطة بالمفتاح \"imageUrl\"، ثم تحولها إلى سلسلة نصية (String) وتعينها لحقل imageURL.",
     "codeSnippet": null
   },
   {
@@ -12853,13 +12863,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "The keys read by a fromJson constructor must match the keys supplied by the JSON map.",
-    "questionAr": "سؤال متعلق بالمنهج: The keys read by a fromJson constructor must match the keys supplied by the (JSON) map.",
+    "questionAr": "يجب أن تتطابق المفاتيح التي يقرأها منشئ fromJson مع المفاتيح المقدمة بواسطة خريطة (JSON).",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Implementing a fromJson factory constructor encapsulates the serialization logic, cleanly mapping raw JSON maps into strongly-typed model fields.",
-    "explanationAr": "يغلف تنفيذ منشئ مصنع fromJson منطق التسلسل، ويعين خرائط JSON الخام بشكل نظيف في حقول نماذج قوية النوع.",
+    "explanationEn": "For successful serialization, the string keys used inside the fromJson method (e.g., json['price']) must exactly match the keys returned by the API in the JSON map.",
+    "explanationAr": "لنجاح عملية التحويل (serialization)، يجب أن تتطابق المفاتيح النصية المستخدمة داخل دالة fromJson تمامًا مع المفاتيح التي ترجعها الـ API في خريطة JSON.",
     "codeSnippet": null
   },
   {
@@ -12878,7 +12888,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final jsonText = await rootBundle.loadString('jsonfile/productlist.json'); The asset path must be declared in pubsp ec.yaml before rootBundle can load it.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final jsonText = (await) rootBundle.loadString('jsonfile/productlist.json'); The asset path must be declared in pubsp ec.yaml before rootBundle can load it.",
+    "questionAr": "إذا كان لدينا مقتطف الكود التالي: final jsonText = await rootBundle.loadString('jsonfile/productlist.json'); يجب التصريح عن مسار الأصل (asset path) في pubspec.yaml قبل أن يتمكن rootBundle من تحميله.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -12903,7 +12913,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "rootBundle.loadString reads a registered JSON asset as text.",
-    "questionAr": "سؤال متعلق بالمنهج: rootBundle.loadString reads a registered (JSON) asset as text.",
+    "questionAr": "تقرأ rootBundle.loadString أصل (JSON) المسجل كنص.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -12928,13 +12938,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final decoded = jsonDecode(jsonText) as List<dynamic>; final products = decoded .map((item) => ProductDataModel.fromJson(item)) .toList(); The decoded local JSON root is cast to List<dynamic> before its elements are mapped.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final decoded = jsonDecode(jsonText) as List<dynamic>; final products = decoded .map((item) => ProductDataModel.fromJson(item)) .toList(); The decoded local (JSON) root is cast to List<dynamic> before its elements are mapped.",
+    "questionAr": "إذا كان لدينا مقتطف الكود التالي: final decoded = jsonDecode(jsonText) as List<dynamic>; final products = decoded.map((item) => ProductDataModel.fromJson(item)).toList(); يتم تحويل جذر (JSON) المحلي الذي تم فك تشفيره إلى List<dynamic> قبل تعيين عناصره.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Implementing a fromJson factory constructor encapsulates the serialization logic, cleanly mapping raw JSON maps into strongly-typed model fields.",
-    "explanationAr": "يغلف تنفيذ منشئ مصنع fromJson منطق التسلسل، ويعين خرائط JSON الخام بشكل نظيف في حقول نماذج قوية النوع.",
+    "explanationEn": "Because the JSON data represents a list of products, jsonDecode returns a List<dynamic>. The code correctly casts it before calling .map() to convert each element into a ProductDataModel.",
+    "explanationAr": "نظرًا لأن بيانات JSON تمثل قائمة بالمنتجات، فإن (jsonDecode) يرجع (List<dynamic>). يقوم الكود بتحويل نوعه (casting) بشكل صحيح قبل استدعاء .map() لتحويل كل عنصر إلى نموذج ProductDataModel.",
     "codeSnippet": null
   },
   {
@@ -12953,7 +12963,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: FutureBuilder<List<ProductDataModel>>( future: readJsonData(), builder: (context, snapshot) => const SizedBox(), ); FutureBuilder receives readJsonData() through its future property.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: (FutureBuilder)<List<ProductDataModel>>( future: readJsonData(), builder: (context, snapshot) => const SizedBox(), ); (FutureBuilder) receives readJsonData() through its future property.",
+    "questionAr": "إذا كان لدينا مقتطف الكود التالي: FutureBuilder<List<ProductDataModel>>( future: readJsonData(), builder: (context, snapshot) => const SizedBox(), ); يتلقى (FutureBuilder) دالة readJsonData() من خلال خاصية future الخاصة به.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -12978,7 +12988,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A FutureBuilder for a local product list may disp lay an error branch, a data/ListView branch, or a loading branch.",
-    "questionAr": "سؤال متعلق بالمنهج: A (FutureBuilder) for a local product list may disp lay an error branch, a data/ListView branch, or a loading branch.",
+    "questionAr": "يمكن لـ (FutureBuilder) لقائمة منتجات محلية عرض فرع خطأ (error branch)، أو فرع بيانات/قائمة (data/ListView)، أو فرع تحميل (loading branch).",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -13003,7 +13013,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "An empty JSON array can be a valid UI state rather than an exception.",
-    "questionAr": "سؤال متعلق بالمنهج: An empty (JSON) array can be a valid UI state rather than an exception.",
+    "questionAr": "يمكن أن تكون مصفوفة (JSON) فارغة حالة صالحة لواجهة المستخدم (UI) بدلاً من كونها استثناء (exception).",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -13021,7 +13031,7 @@ export const questionsData = [
     "topic": "Image Upload API",
     "subtopic": "Multipart & XFile",
     "type": "tf",
-    "examRelevance": "included",
+    "examRelevance": "excluded",
     "exclusionReason": "EXCLUDED FROM FINAL EXAM per Professor announcement: API with Images is not in exam scope",
     "source": "Lab 10 (Q1.39)",
     "sourceType": "actual",
@@ -13053,7 +13063,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final response = await http.get( Uri.parse('https://randomuser.me/api/?results=20'), ); The request uses package:http to call the URL https://randomuser.me/api/?results=20.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = (await) http.get( Uri.parse('https://randomuser.me/api/?results=20'), ); The request uses package:http to call the URL https://randomuser.me/api/?results=20.",
+    "questionAr": "إذا كان لدينا مقتطف الكود التالي: final response = await http.get(Uri.parse('https://randomuser.me/api/?results=20')); يستخدم الطلب حزمة package:http لاستدعاء الرابط https://randomuser.me/api/?results=20.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -13103,13 +13113,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final response = await http.get(uri); if (response.statusCode != 200) throw Exception('Request failed'); final results = jsonDecode(response.body)['results'] as List<dynamic>; The response status is checked before the results array is decoded and mapped.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = (await) http.get(uri); if (response.statusCode != 200) throw Exception('Request failed'); final results = jsonDecode(response.body)['results'] as List<dynamic>; The response status is checked before the results array is decoded and mapped.",
+    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: final response = await http.get(uri); if (response.statusCode != 200) throw Exception('Request failed'); final results = jsonDecode(response.body)['results'] as List<dynamic>; يتم التحقق من حالة الاستجابة قبل فك تشفير مصفوفة النتائج وتعيينها.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Because jsonDecode returns dynamic, a top-level JSON array must be explicitly cast to List<dynamic> to enable iterable methods like map().",
-    "explanationAr": "نظراً لأن jsonDecode يُرجع قيمة ديناميكية، يجب تحويل مصفوفة JSON ذات المستوى الأعلى صراحةً إلى List<dynamic> لتمكين الطرق القابلة للتكرار مثل map().",
+    "explanationEn": "The code explicitly checks if response.statusCode != 200 before proceeding to call jsonDecode.",
+    "explanationAr": "يتحقق الكود صراحةً مما إذا كانت حالة الاستجابة لا تساوي 200 قبل المتابعة لاستدعاء jsonDecode.",
     "codeSnippet": null
   },
   {
@@ -13153,13 +13163,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A FutureBuilder can receive fetchUsers() through its future property.",
-    "questionAr": "سؤال متعلق بالمنهج: A (FutureBuilder) can receive fetchUsers() through its future property.",
+    "questionAr": "يمكن لـ FutureBuilder استقبال fetchUsers() من خلال خاصية future الخاصة به.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This concept highlights standard Flutter data flow and API integration logic, ensuring reliable parsing, execution, and UI state management.",
-    "explanationAr": "يسلط هذا المفهوم الضوء على تدفق بيانات Flutter القياسي ومنطق تكامل واجهة برمجة التطبيقات، مما يضمن تحليل موثوق وتنفيذ وإدارة حالة واجهة المستخدم.",
+    "explanationEn": "The future property of FutureBuilder expects a Future, which is precisely what asynchronous API functions like fetchUsers() return.",
+    "explanationAr": "تتوقع خاصية future في FutureBuilder كائن Future، وهو بالضبط ما تُرجعه دوال API غير المتزامنة مثل fetchUsers().",
     "codeSnippet": null
   },
   {
@@ -13183,8 +13193,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This concept highlights standard Flutter data flow and API integration logic, ensuring reliable parsing, execution, and UI state management.",
-    "explanationAr": "يسلط هذا المفهوم الضوء على تدفق بيانات Flutter القياسي ومنطق تكامل واجهة برمجة التطبيقات، مما يضمن تحليل موثوق وتنفيذ وإدارة حالة واجهة المستخدم.",
+    "explanationEn": "An API can return a 200 OK status with an empty JSON array if there are no items to display. The UI should check for this and show an appropriate empty state message.",
+    "explanationAr": "يمكن أن تُرجع واجهة برمجة التطبيقات حالة 200 OK مع مصفوفة JSON فارغة إذا لم تكن هناك عناصر لعرضها. يجب أن تتحقق واجهة المستخدم من ذلك وتعرض رسالة حالة فارغة مناسبة.",
     "codeSnippet": null
   },
   {
@@ -13203,13 +13213,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "GET usually sends no JSON request body in a basic CRUD request.",
-    "questionAr": "سؤال متعلق بالمنهج: (GET) usually sends no (JSON) request body in a basic (CRUD) request.",
+    "questionAr": "عادةً لا يرسل GET أي جسم طلب JSON في طلب CRUD أساسي.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This concept highlights standard Flutter data flow and API integration logic, ensuring reliable parsing, execution, and UI state management.",
-    "explanationAr": "يسلط هذا المفهوم الضوء على تدفق بيانات Flutter القياسي ومنطق تكامل واجهة برمجة التطبيقات، مما يضمن تحليل موثوق وتنفيذ وإدارة حالة واجهة المستخدم.",
+    "explanationEn": "In RESTful APIs, GET requests are used to retrieve data and parameters are typically sent in the URL or headers, not in the request body.",
+    "explanationAr": "في واجهات برمجة تطبيقات RESTful، تُستخدم طلبات GET لاسترداد البيانات وعادةً ما يتم إرسال المعلمات في عنوان URL أو الرؤوس، وليس في جسم الطلب.",
     "codeSnippet": null
   },
   {
@@ -13228,13 +13238,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A simple POST request may send a Dart Map body, while a form -based inventory request sends fields to its endpoint.",
-    "questionAr": "سؤال متعلق بالمنهج: A simple (POST) request may send a Dart Map body, while a form -based inventory request sends fields to its endpoint.",
+    "questionAr": "قد يرسل طلب POST البسيط جسم Dart Map، بينما يرسل طلب المخزون المستند إلى نموذج حقولاً إلى نقطة النهاية الخاصة به.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "A simple HTTP POST body using a Dart map is automatically encoded as x-www-form-urlencoded, allowing PHP backends to process it natively via .",
-    "explanationAr": "يتم تشفير جسم HTTP POST بسيط باستخدام خريطة Dart تلقائياً كـ x-www-form-urlencoded، مما يسمح لخلفيات PHP بمعالجته أصلياً عبر .",
+    "explanationEn": "Dart's http package allows sending a Map as the body of a POST request, which defaults to application/x-www-form-urlencoded.",
+    "explanationAr": "تسمح حزمة http في Dart بإرسال Map كجسم لطلب POST، والذي يتم تعيينه افتراضياً إلى application/x-www-form-urlencoded.",
     "codeSnippet": null
   },
   {
@@ -13253,7 +13263,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If an API contract accepts 200 and 204 for an update, both statuses may be treated as success.",
-    "questionAr": "سؤال متعلق بالمنهج: If an (API) contract accepts 200 and 204 for an update, both statuses may be treated as success.",
+    "questionAr": "إذا كان عقد API يقبل 200 و 204 لتحديث، فيمكن اعتبار كلتا الحالتين كنجاح.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -13280,11 +13290,11 @@ export const questionsData = [
     "questionEn": "The UI should change visible data before the server confirms a write so the app always feels faster.",
     "questionAr": "يجب أن تغير واجهة المستخدم (UI) البيانات المرئية قبل أن يؤكد الخادم عملية الكتابة حتى يبدو التطبيق دائماً أسرع.",
     "options": null,
-    "correctAnswer": "True",
-    "correctionEn": null,
-    "correctionAr": null,
-    "explanationEn": "This concept highlights standard Flutter data flow and API integration logic, ensuring reliable parsing, execution, and UI state management.",
-    "explanationAr": "يسلط هذا المفهوم الضوء على تدفق بيانات Flutter القياسي ومنطق تكامل واجهة برمجة التطبيقات، مما يضمن تحليل موثوق وتنفيذ وإدارة حالة واجهة المستخدم.",
+    "correctAnswer": "False",
+    "correctionEn": "Typically, the app should wait for server confirmation to ensure data consistency, unless optimistic UI updates are intentionally implemented.",
+    "correctionAr": "عادةً، يجب أن ينتظر التطبيق تأكيد الخادم لضمان تناسق البيانات، ما لم يتم تنفيذ تحديثات واجهة المستخدم المتفائلة عمداً.",
+    "explanationEn": "Waiting for server confirmation before updating the UI prevents inconsistencies if the network request fails.",
+    "explanationAr": "يؤدي انتظار تأكيد الخادم قبل تحديث واجهة المستخدم إلى منع عدم التناسق إذا فشل طلب الشبكة.",
     "codeSnippet": null
   },
   {
@@ -13303,13 +13313,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Dart’s package:http API exposes functions such as http. get and http.post for network requests.",
-    "questionAr": "سؤال متعلق بالمنهج: Dart’s package:http (API) exposes functions such as http. get and http.post for network requests.",
+    "questionAr": "تكشف واجهة برمجة تطبيقات package:http الخاصة بـ Dart عن وظائف مثل http.get و http.post لطلبات الشبكة.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This concept highlights standard Flutter data flow and API integration logic, ensuring reliable parsing, execution, and UI state management.",
-    "explanationAr": "يسلط هذا المفهوم الضوء على تدفق بيانات Flutter القياسي ومنطق تكامل واجهة برمجة التطبيقات، مما يضمن تحليل موثوق وتنفيذ وإدارة حالة واجهة المستخدم.",
+    "explanationEn": "The http package provides top-level functions like http.get, http.post, http.put, and http.delete to make standard HTTP requests.",
+    "explanationAr": "توفر حزمة http دوال عالية المستوى مثل http.get و http.post و http.put و http.delete لإجراء طلبات HTTP القياسية.",
     "codeSnippet": null
   },
   {
@@ -13328,7 +13338,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "After an awaited HTTP request, mounted or context.mounted may need to be checked before setState, Navigator, or SnackBar work.",
-    "questionAr": "سؤال متعلق بالمنهج: After an awaited (HTTP) request, mounted or (context).mounted may need to be checked before setState, (Navigator), or SnackBar work.",
+    "questionAr": "بعد طلب HTTP المنتظر، قد يلزم التحقق من mounted أو context.mounted قبل أن تعمل setState أو Navigator أو SnackBar.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -13352,14 +13362,14 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "In a three-lay er inventory system, the data flow is Flutter clien t → PHP API → MySQL.",
-    "questionAr": "سؤال متعلق بالمنهج: In a three-lay er inventory system, the data flow is Flutter clien t → PHP (API) → MySQL.",
+    "questionEn": "In a three-layer inventory system, the data flow is Flutter client -> PHP API -> MySQL.",
+    "questionAr": "في نظام مخزون ثلاثي الطبقات، يكون تدفق البيانات: عميل Flutter -> واجهة PHP API -> قاعدة بيانات MySQL.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This concept highlights standard Flutter data flow and API integration logic, ensuring reliable parsing, execution, and UI state management.",
-    "explanationAr": "يسلط هذا المفهوم الضوء على تدفق بيانات Flutter القياسي ومنطق تكامل واجهة برمجة التطبيقات، مما يضمن تحليل موثوق وتنفيذ وإدارة حالة واجهة المستخدم.",
+    "explanationEn": "This architecture ensures separation of concerns, where the client handles UI, the API handles business logic, and the database handles storage.",
+    "explanationAr": "تضمن هذه البنية فصل الاهتمامات، حيث يتعامل العميل مع واجهة المستخدم، وتتعامل واجهة برمجة التطبيقات مع منطق العمل، وتتعامل قاعدة البيانات مع التخزين.",
     "codeSnippet": null
   },
   {
@@ -13378,13 +13388,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A PHP API should perform server -side validation and use prepared SQL statements when it accesses the database.",
-    "questionAr": "سؤال متعلق بالمنهج: A PHP (API) should perform server -side validation and use prepared SQL statements when it accesses the database.",
+    "questionAr": "يجب أن تقوم واجهة PHP API بإجراء تحقق من جهة الخادم واستخدام عبارات SQL المجهزة عند وصولها إلى قاعدة البيانات.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "A stable database identifier is crucial for ensuring that operations like updates or deletes precisely target the correct row, regardless of its position in a visible list.",
-    "explanationAr": "يعد معرف قاعدة البيانات الثابت أمراً حاسماً لضمان أن العمليات مثل التحديثات أو الحذف تستهدف الصف الصحيح بدقة، بغض النظر عن موضعه في القائمة المرئية.",
+    "explanationEn": "Server-side validation ensures data integrity, while prepared statements protect against SQL injection vulnerabilities.",
+    "explanationAr": "يضمن التحقق من جهة الخادم سلامة البيانات، بينما تحمي العبارات المجهزة من ثغرات حقن SQL.",
     "codeSnippet": null
   },
   {
@@ -13402,14 +13412,14 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "MySQL should accept direct connections from the Flutter mobile app in a protected client –API–databas e architecture.",
-    "questionAr": "سؤال متعلق بالمنهج: MySQL should accept direct connections from the Flutter mobile app in a protected client –(API)–databas e architecture.",
+    "questionEn": "MySQL should accept direct connections from the Flutter mobile app in a protected client-API-database architecture.",
+    "questionAr": "يجب أن تقبل MySQL اتصالات مباشرة من تطبيق الهاتف المحمول Flutter في بنية محمية (عميل - API - قاعدة بيانات).",
     "options": null,
-    "correctAnswer": "True",
-    "correctionEn": null,
-    "correctionAr": null,
-    "explanationEn": "Connecting directly to a database from a mobile app is a severe security risk. A backend API should always act as a secure intermediary layer.",
-    "explanationAr": "يعد الاتصال المباشر بقاعدة البيانات من تطبيق جوال مخاطرة أمنية خطيرة. يجب أن تعمل واجهة برمجة التطبيقات الخلفية (API) دائماً كطبقة وسيطة آمنة.",
+    "correctAnswer": "False",
+    "correctionEn": "Mobile apps must use a secure backend API to access the database, not direct connections.",
+    "correctionAr": "يجب أن تستخدم تطبيقات الهواتف واجهة برمجة تطبيقات (API) آمنة للوصول إلى قاعدة البيانات، وليس الاتصال المباشر.",
+    "explanationEn": "A mobile app should never connect directly to a database like MySQL because it would expose database credentials to attackers. An intermediate API layer must be used for security.",
+    "explanationAr": "لا يجب أن يتصل تطبيق الهاتف مباشرة بقاعدة بيانات مثل MySQL لأن ذلك سيعرض بيانات اعتماد القاعدة للمهاجمين. يجب استخدام طبقة واجهة برمجة تطبيقات (API) وسيطة من أجل الأمان.",
     "codeSnippet": null
   },
   {
@@ -13428,7 +13438,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final response = await http.get( Uri.parse('$baseUrl/getdata.php'), ); getdata.php is called with GET to read the inventory list.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = (await) http.get( Uri.parse('$baseUrl/getdata.php'), ); getdata.php is called with (GET) to read the inventory list.",
+    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: final response = await http.get( Uri.parse('$baseUrl/getdata.php') ); يتم استدعاء getdata.php باستخدام GET لقراءة قائمة المخزون.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -13453,7 +13463,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final response = await http.post( Uri.parse('$baseUrl/adddata.php'), body: {'itemcode': 'A10', 'itemname': 'Mouse'}, ); adddata.php receives POST form fields to create an inventory item.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = (await) http.post( Uri.parse('$baseUrl/adddata.php'), body: {'itemcode': 'A10', 'itemname': 'Mouse'}, ); adddata.php receives (POST) form fields to create an inventory item.",
+    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: final response = await http.post( Uri.parse('$baseUrl/adddata.php'), body: {'itemcode': 'A10', 'itemname': 'Mouse'} ); يستقبل adddata.php حقول نموذج POST لإنشاء عنصر مخزون.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -13477,14 +13487,14 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "If we have the following code snippet: final response = await http.post( Uri.parse('$baseUrl/editdata.php'),",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = (await) http.post( Uri.parse('$baseUrl/editdata.php'),",
+    "questionEn": "If we have the following code snippet: final response = await http.post( Uri.parse('$baseUrl/editdata.php'), body: {'id': '1', 'name': 'Updated'} ); editdata.php is called to update a specific record.",
+    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: final response = await http.post( Uri.parse('$baseUrl/editdata.php'), body: {'id': '1', 'name': 'Updated'} ); يتم استدعاء editdata.php لتحديث سجل معين.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This concept highlights standard Flutter data flow and API integration logic, ensuring reliable parsing, execution, and UI state management.",
-    "explanationAr": "يسلط هذا المفهوم الضوء على تدفق بيانات Flutter القياسي ومنطق تكامل واجهة برمجة التطبيقات، مما يضمن تحليل موثوق وتنفيذ وإدارة حالة واجهة المستخدم.",
+    "explanationEn": "POST is commonly used to send update parameters, including the ID of the record, to the backend script.",
+    "explanationAr": "يُستخدم POST بشكل شائع لإرسال معلمات التحديث، بما في ذلك معرف السجل، إلى البرنامج النصي الخلفي.",
     "codeSnippet": null
   },
   {
@@ -13503,7 +13513,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final response = await http.post( Uri.parse('$baseUrl/deleteData.php'), body: {'id': id.toString()}, ); deleteData.php receives the selected id in a POST body rather than through HTTP DELETE.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final response = (await) http.post( Uri.parse('$baseUrl/deleteData.php'), body: {'id': id.toString()}, ); deleteData.php receives the selected id in a (POST) body rather than through (HTTP) (DELETE).",
+    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: final response = await http.post( Uri.parse('$baseUrl/deleteData.php'), body: {'id': id.toString()} ); يستقبل deleteData.php المعرف المحدد في جسم POST بدلاً من استخدام HTTP DELETE.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -13605,9 +13615,9 @@ export const questionsData = [
     "questionEn": "A login endpoint should return the stored password hash to Flutter so the app can compare passwords locally.",
     "questionAr": "يجب أن تُرجع نقطة نهاية تسجيل الدخول (login endpoint) تجزئة كلمة المرور (password hash) المخزنة إلى Flutter حتى يتمكن التطبيق من مقارنة كلمات المرور محلياً.",
     "options": null,
-    "correctAnswer": "True",
-    "correctionEn": null,
-    "correctionAr": null,
+    "correctAnswer": "False",
+    "correctionEn": "The backend should NEVER return password hashes. Authentication and comparison must happen securely on the server.",
+    "correctionAr": "يجب ألا يرسل الخادم أبداً تجزئات كلمات المرور. يجب أن تتم المصادقة والمقارنة بشكل آمن على الخادم.",
     "explanationEn": "For security, password verification must occur on the server. If a system incorrectly sends hashes to the client, it compromises the architecture.",
     "explanationAr": "لأسباب أمنية، يجب أن يتم التحقق من كلمة المرور على الخادم. إذا أرسل النظام التجزئات (hashes) بشكل غير صحيح إلى العميل، فإنه يضر بالبنية.",
     "codeSnippet": null
@@ -13633,8 +13643,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This concept highlights standard Flutter data flow and API integration logic, ensuring reliable parsing, execution, and UI state management.",
-    "explanationAr": "يسلط هذا المفهوم الضوء على تدفق بيانات Flutter القياسي ومنطق تكامل واجهة برمجة التطبيقات، مما يضمن تحليل موثوق وتنفيذ وإدارة حالة واجهة المستخدم.",
+    "explanationEn": "Passwords must be hashed using strong algorithms like bcrypt on the server side before storage to protect user accounts in case of a data breach.",
+    "explanationAr": "يجب تجزئة كلمات المرور باستخدام خوارزميات قوية مثل bcrypt من جهة الخادم قبل تخزينها لحماية حسابات المستخدمين في حالة اختراق البيانات.",
     "codeSnippet": null
   },
   {
@@ -13653,13 +13663,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "The inventory list decodes a JSON List and reads row keys such as item['item_name'].",
-    "questionAr": "سؤال متعلق بالمنهج: The inventory list decodes a (JSON) List and reads row keys such as item['item_name'].",
+    "questionAr": "تقوم قائمة المخزون بفك تشفير قائمة JSON وتقرأ مفاتيح الصفوف مثل item['item_name'].",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This concept highlights standard Flutter data flow and API integration logic, ensuring reliable parsing, execution, and UI state management.",
-    "explanationAr": "يسلط هذا المفهوم الضوء على تدفق بيانات Flutter القياسي ومنطق تكامل واجهة برمجة التطبيقات، مما يضمن تحليل موثوق وتنفيذ وإدارة حالة واجهة المستخدم.",
+    "explanationEn": "When decoding a JSON array, each element is typically a Map (representing a row), and fields are accessed using string keys.",
+    "explanationAr": "عند فك تشفير مصفوفة JSON، يكون كل عنصر عادةً عبارة عن Map (يمثل صفاً)، ويتم الوصول إلى الحقول باستخدام مفاتيح نصية.",
     "codeSnippet": null
   },
   {
@@ -13678,13 +13688,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "After a POS T create, update, or delete operation, a fresh GET is stronger evidence that the database persisted the change.",
-    "questionAr": "سؤال متعلق بالمنهج: After a POS T create, update, or delete operation, a fresh (GET) is stronger evidence that the database persisted the change.",
+    "questionAr": "بعد عملية إنشاء أو تحديث أو حذف باستخدام POST، يعتبر طلب GET جديد دليلاً أقوى على أن قاعدة البيانات قد حفظت التغيير.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "A stable database identifier is crucial for ensuring that operations like updates or deletes precisely target the correct row, regardless of its position in a visible list.",
-    "explanationAr": "يعد معرف قاعدة البيانات الثابت أمراً حاسماً لضمان أن العمليات مثل التحديثات أو الحذف تستهدف الصف الصحيح بدقة، بغض النظر عن موضعه في القائمة المرئية.",
+    "explanationEn": "Refreshing data from the server via a GET request after a modification verifies that the backend successfully applied the changes.",
+    "explanationAr": "التحقق من البيانات من الخادم عبر طلب GET بعد إجراء تعديل يؤكد أن الخلفية قد طبقت التغييرات بنجاح.",
     "codeSnippet": null
   },
   {
@@ -13703,13 +13713,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "The delete interaction asks for confirmation before sending POST to deleteData.php.",
-    "questionAr": "سؤال متعلق بالمنهج: The delete interaction asks for confirmation before sending (POST) to deleteData.php.",
+    "questionAr": "يطلب تفاعل الحذف التأكيد قبل إرسال POST إلى deleteData.php.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "While REST suggests using DELETE, many practical API implementations accept IDs via POST bodies to dedicated delete scripts.",
-    "explanationAr": "بينما يقترح REST استخدام DELETE، تقبل العديد من تطبيقات API العملية المعرفات عبر أجسام POST إلى نصوص الحذف المخصصة.",
+    "explanationEn": "Best practices require user confirmation before destructive operations like deletion to prevent accidental data loss.",
+    "explanationAr": "تتطلب أفضل الممارسات تأكيد المستخدم قبل العمليات المدمرة مثل الحذف لمنع فقدان البيانات العرضي.",
     "codeSnippet": null
   },
   {
@@ -13878,13 +13888,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final decoded = jsonDecode(response.body); A FormatException can indicate that the response body is not valid JSON for the expected API contract.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final decoded = jsonDecode(response.body); A FormatException can indicate that the response body is not valid (JSON) for the expected (API) contract.",
+    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: final decoded = jsonDecode(response.body); يمكن أن يشير FormatException إلى أن جسم الاستجابة ليس JSON صالحاً لعقد API المتوقع.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This concept highlights standard Flutter data flow and API integration logic, ensuring reliable parsing, execution, and UI state management.",
-    "explanationAr": "يسلط هذا المفهوم الضوء على تدفق بيانات Flutter القياسي ومنطق تكامل واجهة برمجة التطبيقات، مما يضمن تحليل موثوق وتنفيذ وإدارة حالة واجهة المستخدم.",
+    "explanationEn": "jsonDecode throws a FormatException if the string it tries to parse is not valid JSON.",
+    "explanationAr": "تطرح jsonDecode استثناء FormatException إذا كانت السلسلة التي تحاول تحليلها ليست JSON صالحاً.",
     "codeSnippet": null
   },
   {
@@ -13902,14 +13912,14 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "A network exercise should evaluate request, status, and JSON evidence together with the matching Flutter screen state. ( ) Code and Screen True / False Compare each code fragment with the disp layed target screen. Mark True or False.",
-    "questionAr": "سؤال متعلق بالمنهج: A network exercise should evaluate request, status, and (JSON) evidence together with the matching Flutter screen state. ( ) Code and Screen True / False Compare each code fragment with the disp layed target screen. Mark True or False.",
+    "questionEn": "A network exercise should evaluate request, status, and JSON evidence together with the matching Flutter screen state.",
+    "questionAr": "يجب أن يقيم تمرين الشبكة الطلب، والحالة، وأدلة JSON مع حالة شاشة Flutter المطابقة.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This concept highlights standard Flutter data flow and API integration logic, ensuring reliable parsing, execution, and UI state management.",
-    "explanationAr": "يسلط هذا المفهوم الضوء على تدفق بيانات Flutter القياسي ومنطق تكامل واجهة برمجة التطبيقات، مما يضمن تحليل موثوق وتنفيذ وإدارة حالة واجهة المستخدم.",
+    "explanationEn": "Validating a complete network request cycle involves checking the API call, response codes, data payload, and how the UI reflects this data.",
+    "explanationAr": "يتضمن التحقق من صحة دورة طلب الشبكة الكاملة التحقق من استدعاء API، ورموز الاستجابة، وحمولة البيانات، وكيفية عكس واجهة المستخدم لهذه البيانات.",
     "codeSnippet": null
   },
   {
@@ -13927,8 +13937,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "If we have the following code snippet: if (snapshot.connectionState == ConnectionState.waiting) { return const Center(child: CircularProgressIndicator()); }",
-    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: if (snapshot.connectionState == ConnectionState.waiting) { return const Center(child: CircularProgressIndicator()); }",
+    "questionEn": "If we have the following code snippet: if (snapshot.connectionState == ConnectionState.waiting) { return const Center(child: CircularProgressIndicator()); } This code correctly shows a loading indicator while the Future is still executing.",
+    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: if (snapshot.connectionState == ConnectionState.waiting) { return const Center(child: CircularProgressIndicator()); } يعرض هذا الكود بشكل صحيح مؤشر تحميل بينما لا يزال Future قيد التنفيذ.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -13953,13 +13963,13 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final jsonText = await rootBundle .loadString('jsonfile/productlist.json'); The following code is sufficient to produce the loaded product screen even when jsonfile/productlist.json was not declared in pu bspec.yaml.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final jsonText = (await) rootBundle .loadString('jsonfile/productlist.json'); The following code is sufficient to produce the loaded product screen even when jsonfile/productlist.json was not declared in pu bspec.yaml.",
+    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: final jsonText = await rootBundle.loadString('jsonfile/productlist.json'); يكون الكود كافياً لتحميل شاشة المنتجات حتى عندما لا يتم الإعلان عن jsonfile/productlist.json في pubspec.yaml.",
     "options": null,
-    "correctAnswer": "True",
-    "correctionEn": null,
-    "correctionAr": null,
-    "explanationEn": "The rootBundle.loadString method asynchronously reads registered bundled files into memory as String data.",
-    "explanationAr": "تقرأ طريقة rootBundle.loadString الملفات المجمعة المسجلة بشكل غير متزامن في الذاكرة كبيانات String.",
+    "correctAnswer": "False",
+    "correctionEn": "Assets must be explicitly declared in the pubspec.yaml file under the assets section; otherwise, rootBundle.loadString will fail.",
+    "correctionAr": "يجب الإعلان عن الأصول صراحةً في ملف pubspec.yaml تحت قسم assets؛ وإلا سيفشل rootBundle.loadString.",
+    "explanationEn": "Flutter requires all bundled assets to be registered in pubspec.yaml before they can be accessed at runtime.",
+    "explanationAr": "يتطلب Flutter تسجيل جميع الأصول المجمعة في pubspec.yaml قبل إمكانية الوصول إليها في وقت التشغيل.",
     "codeSnippet": null
   },
   {
@@ -13977,8 +13987,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "If we have the following code snippet: if (response.statusCode != 200) throw Exception(...); final results = jsonDecode(response.body)['results'] as List<dynamic>; return results;",
-    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: if (response.statusCode != 200) throw Exception(...); final results = jsonDecode(response.body)['results'] as List<dynamic>; return results;",
+    "questionEn": "If we have the following code snippet: if (response.statusCode != 200) throw Exception(); final results = jsonDecode(response.body)['results'] as List<dynamic>; return results; The code ensures that the response is successful before attempting to parse the JSON and returns a dynamic list.",
+    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: if (response.statusCode != 200) throw Exception(); final results = jsonDecode(response.body)['results'] as List<dynamic>; return results; يضمن الكود نجاح الاستجابة قبل محاولة تحليل JSON وإرجاع قائمة ديناميكية.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -14008,8 +14018,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "This concept highlights standard Flutter data flow and API integration logic, ensuring reliable parsing, execution, and UI state management.",
-    "explanationAr": "يسلط هذا المفهوم الضوء على تدفق بيانات Flutter القياسي ومنطق تكامل واجهة برمجة التطبيقات، مما يضمن تحليل موثوق وتنفيذ وإدارة حالة واجهة المستخدم.",
+    "explanationEn": "When snapshot.hasError is true, it indicates that the Future completed with an error, such as a network failure. Displaying the error message and optionally adding a retry button is a standard error handling pattern.",
+    "explanationAr": "عندما يكون snapshot.hasError صحيحًا (true)، فهذا يشير إلى أن الـ Future انتهى بخطأ، مثل فشل في الشبكة. عرض رسالة الخطأ وإضافة زر إعادة المحاولة اختياريًا هو نمط قياسي لمعالجة الأخطاء.",
     "codeSnippet": null
   },
   {
@@ -14027,8 +14037,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "If we have the following code snippet: await addData(); if (!mounted) return; Navigator.pop(context, true);",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: (await) addData(); if (!mounted) return; (Navigator).pop(context, true);",
+    "questionEn": "When using asynchronous operations in Flutter like `await addData();`, checking `if (!mounted) return;` before calling `Navigator.pop(context)` is required to prevent context-related errors.",
+    "questionAr": "عند استخدام عمليات غير متزامنة في Flutter مثل `await addData();`، يجب التحقق من `if (!mounted) return;` قبل استدعاء `Navigator.pop(context)` لمنع الأخطاء المتعلقة بالسياق (context).",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -14052,8 +14062,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "If we have the following code snippet: await http.post( Uri.parse('$baseUrl/deleteData.php'), body: {'id': id.toString()}, ); // Parent reloads with GET. A successful POST to delet eData.php should be followed by a fresh GET that can produce the after -delete list shown.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: (await) http.post( Uri.parse('$baseUrl/deleteData.php'), body: {'id': id.toString()}, ); // Parent reloads with (GET). A successful (POST) to delet eData.php should be followed by a fresh (GET) that can produce the after -delete list shown.",
+    "questionEn": "A successful POST request to a delete endpoint (like deleteData.php) should typically be followed by a fresh GET request to reload the data and reflect the updated list in the UI.",
+    "questionAr": "عادةً ما يجب أن يتبع طلب POST الناجح إلى نقطة نهاية الحذف (مثل deleteData.php) طلب GET جديد لإعادة تحميل البيانات وعكس القائمة المحدثة في واجهة المستخدم.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -14096,20 +14106,20 @@ export const questionsData = [
     "topic": "Image Upload API",
     "subtopic": "Multipart & XFile",
     "type": "tf",
-    "examRelevance": "included",
+    "examRelevance": "excluded",
     "exclusionReason": "EXCLUDED FROM FINAL EXAM per Professor announcement: API with Images is not in exam scope",
     "source": "Lab 10 (Q1.82)",
     "sourceType": "actual",
     "isGenerated": false,
-    "badge": "ACTUAL LAB QUESTION",
+    "badge": "EXCLUDED FROM FINAL EXAM",
     "questionEn": "If we have the following code snippet: if (response.statusCode != 200 && response.statusCode != 201) { throw Exception(...); } if (!mounted) return; await reloadImages(); After an upload response of 200 or 201 and reloadImages(), the refreshed server grid can disp lay the new image state.",
     "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (response.statusCode != 200 && response.statusCode != 201) { throw Exception(...); } if (!mounted) return; (await) reloadImages(); After an upload response of 200 or 201 and reloadImages(), the refreshed server grid can disp lay the new image state.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Because network operations take time, the http package relies on Dart's 'await' keyword and Futures to handle asynchronous execution without blocking the UI thread.",
-    "explanationAr": "لأن عمليات الشبكة تستغرق وقتًا، تعتمد حزمة http على الكلمة الرئيسية 'await' في Dart و Futures للتعامل مع التنفيذ غير المتزامن دون حظر خيط واجهة المستخدم.",
+    "explanationEn": "After a successful HTTP request (indicated by status 200 or 201), the app should refresh its local state by fetching the updated list from the server, provided the widget is still mounted.",
+    "explanationAr": "بعد طلب HTTP ناجح (المشار إليه بالحالة 200 أو 201)، يجب على التطبيق تحديث حالته المحلية عن طريق جلب القائمة المحدثة من الخادم، بشرط أن تكون واجهة المستخدم (widget) لا تزال نشطة (mounted).",
     "codeSnippet": null
   },
   {
@@ -14239,7 +14249,7 @@ export const questionsData = [
         "textAr": "403"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanationEn": "404 Not Found is the official HTTP standard code signifying that the target endpoint or record does not exist on the server.",
     "explanationAr": "رمز الحالة 404 Not Found هو الرمز القياسي الذي يعني أن المسار أو السجل المطلوب غير موجود على خادم الويب.",
     "codeSnippet": null
@@ -14283,7 +14293,7 @@ export const questionsData = [
         "textAr": "باستخدام decodeJson"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanationEn": "Using jsonDecode(response.body) from the dart:convert library converts the raw JSON string into a Dart Map or List.",
     "explanationAr": "باستخدام دالة jsonDecode(response.body) من مكتبة dart:convert لتحويل النص بصيغة (JSON) إلى قواميس Map أو قوائم List في دارت.",
     "codeSnippet": null
@@ -14327,7 +14337,7 @@ export const questionsData = [
         "textAr": "networking_flutter"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanationEn": "The official `http` package (package:http/http.dart) provides simple, robust methods (http.get, http.post, etc.) for communicating with REST backends.",
     "explanationAr": "حزمة `http` الرسمية (package:http/http.dart) هي الحزمة الأساسية المعتمدة في فلاتر لإجراء طلبات الشبكة (http.get, http.post).",
     "codeSnippet": null
@@ -14371,7 +14381,7 @@ export const questionsData = [
         "textAr": "OPTIONS"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanationEn": "In RESTful APIs, the PUT method is specifically designated for updating or replacing an existing resource.",
     "explanationAr": "في واجهات برمجة تطبيقات RESTful، تم تخصيص طريقة PUT خصيصًا لتحديث أو استبدال مورد موجود.",
     "codeSnippet": null
@@ -14415,7 +14425,7 @@ export const questionsData = [
         "textAr": "تم تحديث البيانات بنجاح."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanationEn": "A 500 status code is a standard HTTP response indicating an unexpected condition on the server side prevented it from fulfilling the request.",
     "explanationAr": "رمز الحالة 500 هو استجابة HTTP قياسية تشير إلى حالة غير متوقعة على جانب الخادم (server) منعته من تلبية الطلب.",
     "codeSnippet": null
@@ -14459,9 +14469,9 @@ export const questionsData = [
         "textAr": "Accept -Encoding: gzip"
       }
     ],
-    "correctAnswer": "A",
-    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
-    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
+    "correctAnswer": "C",
+    "explanationEn": "When sending JSON data to an API, the 'Content-Type: application/json' header informs the server that the request body contains JSON formatted data.",
+    "explanationAr": "عند إرسال بيانات JSON إلى API، تُعلم ترويسة 'Content-Type: application/json' الخادم بأن جسم الطلب يحتوي على بيانات بتنسيق JSON.",
     "codeSnippet": null
   },
   {
@@ -14503,7 +14513,7 @@ export const questionsData = [
         "textAr": "AsyncDataBuilder"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanationEn": "FutureBuilder is the standard Flutter widget designed to build UI reactively based on the state of a Future, which is returned by HTTP requests.",
     "explanationAr": "FutureBuilder هي ويدجت Flutter القياسية المصممة لبناء واجهة المستخدم بشكل تفاعلي بناءً على حالة Future، والتي يتم إرجاعها بواسطة طلبات HTTP.",
     "codeSnippet": null
@@ -14547,7 +14557,7 @@ export const questionsData = [
         "textAr": "http .put"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanationEn": "To send URL-encoded form data, the application/x-www-form-urlencoded header must be specified in the POST request.",
     "explanationAr": "لإرسال بيانات نموذج مشفرة عبر URL، يجب تحديد ترويسة application/x-www-form-urlencoded في طلب POST.",
     "codeSnippet": null
@@ -14567,8 +14577,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "APIs enable seamless communication between different software applications, allowing them to exchange data and functionality.",
-    "questionAr": "تتيح الـ APIs اتصالاً سلساً بين تطبيقات البرامج المختلفة، مما يسمح لها بتبادل البيانات والوظائف.",
+    "questionEn": "Which of the following enables seamless communication between different software applications, allowing them to exchange data and functionality?",
+    "questionAr": "أي مما يلي يتيح اتصالاً سلساً بين تطبيقات البرامج المختلفة، مما يسمح لها بتبادل البيانات والوظائف؟",
     "options": [
       {
         "label": "A",
@@ -14591,7 +14601,7 @@ export const questionsData = [
         "textAr": "firebase"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanationEn": "APIs (Application Programming Interfaces) act as intermediaries that allow independent software systems to communicate and share data.",
     "explanationAr": "تعمل واجهات برمجة التطبيقات (APIs) كوسطاء تسمح لأنظمة البرامج المستقلة بالتواصل ومشاركة البيانات.",
     "codeSnippet": null
@@ -14636,8 +14646,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
-    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
+    "explanationEn": "In mobile development, APIs are the standard method for clients (like a Flutter app) to fetch data securely from a backend server over the internet.",
+    "explanationAr": "في تطوير الهواتف المحمولة، تعد واجهات برمجة التطبيقات (APIs) الطريقة القياسية للعملاء (مثل تطبيق Flutter) لجلب البيانات بأمان من خادم خلفي عبر الإنترنت.",
     "codeSnippet": null
   },
   {
@@ -14680,8 +14690,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
-    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
+    "explanationEn": "The `http` package is the official and most common Dart package used for executing HTTP requests like GET and POST in Flutter applications.",
+    "explanationAr": "حزمة `http` هي الحزمة الرسمية والأكثر شيوعًا في Dart المستخدمة لتنفيذ طلبات HTTP مثل GET و POST في تطبيقات Flutter.",
     "codeSnippet": null
   },
   {
@@ -14724,8 +14734,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
-    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
+    "explanationEn": "JSON (JavaScript Object Notation) is the universal, lightweight standard format used by REST APIs to send and receive structured data over HTTP.",
+    "explanationAr": "يعتبر JSON هو التنسيق القياسي العالمي الخفيف المستخدم من قبل واجهات REST API لإرسال واستقبال البيانات المهيكلة عبر HTTP.",
     "codeSnippet": null
   },
   {
@@ -14743,8 +14753,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "By understanding the concepts of APIs, developers can fetch and display data from various sources, enabling the creation of dynamic and responsive mobile applications.",
-    "questionAr": "من خلال فهم مفاهيم الـ APIs، يمكن للمطورين جلب البيانات وعرضها من مصادر مختلفة، مما يتيح إنشاء تطبيقات هواتف ذكية ديناميكية ومتجاوبة.",
+    "questionEn": "To fetch and display data from various sources dynamically in a mobile app, developers need to understand the concepts of:",
+    "questionAr": "لجلب البيانات وعرضها من مصادر مختلفة ديناميكيًا في تطبيق الهاتف، يحتاج المطورون إلى فهم مفاهيم:",
     "options": [
       {
         "label": "A",
@@ -14768,8 +14778,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "D",
-    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
-    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
+    "explanationEn": "To build dynamic apps, a developer must understand APIs to fetch data, HTTP requests to communicate, and data parsing to convert the responses into usable models.",
+    "explanationAr": "لبناء تطبيقات ديناميكية، يجب على المطور فهم واجهات (APIs) لجلب البيانات، وطلبات HTTP للتواصل، وتحليل البيانات (parsing) لتحويل الاستجابات إلى نماذج قابلة للاستخدام.",
     "codeSnippet": null
   },
   {
@@ -14787,8 +14797,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "…………………………: After receiving data from the API, you’ll need to parse the JSON response into Dart objects for use in your app.",
-    "questionAr": "سؤال متعلق بالمنهج: …………………………: After receiving data from the (API), you’ll need to parse the (JSON) response into Dart objects for use in your app.",
+    "questionEn": "What is the process of converting a JSON string response into Dart objects for use in your app called?",
+    "questionAr": "ماذا تسمى عملية تحويل استجابة نصية بصيغة JSON إلى كائنات Dart لاستخدامها في تطبيقك؟",
     "options": [
       {
         "label": "A",
@@ -14811,7 +14821,7 @@ export const questionsData = [
         "textAr": "لا شيء مما ذُكر"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanationEn": "Parsing JSON is the essential process of converting raw string data received from an API into structured Dart objects for easy manipulation.",
     "explanationAr": "تحليل JSON هو العملية الأساسية لتحويل البيانات النصية الخام المستلمة من واجهة برمجة التطبيقات إلى كائنات Dart منظمة لسهولة التعامل معها.",
     "codeSnippet": null
@@ -14943,7 +14953,7 @@ export const questionsData = [
         "textAr": "لا شيء مما ذُكر"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanationEn": "In JSON syntax, curly brackets {} denote an object, which is a collection of key-value pairs representing data.",
     "explanationAr": "في بناء جملة JSON، تشير الأقواس المتعرجة {} إلى كائن (object)، وهو مجموعة من أزواج المفتاح والقيمة التي تمثل البيانات.",
     "codeSnippet": null
@@ -14963,8 +14973,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "In Flutter, you can decide between manually parsing strings, using facilities from import dart:convert, or using automatic code generation, which does most of the work automatically.",
-    "questionAr": "في Flutter، يمكنك الاختيار بين تحليل النصوص يدوياً (manually parsing)، أو استخدام التسهيلات من استيراد dart:convert، أو استخدام توليد الشيفرة التلقائي (automatic code generation)، والذي يقوم بمعظم العمل تلقائياً.",
+    "questionEn": "Which built-in Dart library provides facilities for manually parsing strings like JSON?",
+    "questionAr": "أي مكتبة Dart مدمجة توفر تسهيلات لتحليل النصوص يدوياً مثل JSON؟",
     "options": [
       {
         "label": "A",
@@ -15007,8 +15017,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "Flutter provides the http package to use HTTP resources. The http package uses Future features and provides many high-level methods.",
-    "questionAr": "يوفر Flutter حزمة http لاستخدام موارد (HTTP). تستخدم حزمة http ميزات الـ (Future) وتوفر العديد من الدوال عالية المستوى.",
+    "questionEn": "Because `http.get` returns a `Future`, which keyword is placed directly before it to pause execution until the network request finishes?",
+    "questionAr": "لأن `http.get` تعيد `Future`، ما هي الكلمة المفتاحية التي توضع قبلها مباشرة لإيقاف التنفيذ مؤقتاً حتى ينتهي طلب الشبكة؟",
     "options": [
       {
         "label": "A",
@@ -15022,13 +15032,13 @@ export const questionsData = [
       },
       {
         "label": "C",
-        "textEn": "A and B",
-        "textAr": "أ و ب معاً"
+        "textEn": "yield",
+        "textAr": "yield"
       },
       {
         "label": "D",
-        "textEn": "None of the mentioned",
-        "textAr": "لا شيء مما ذُكر"
+        "textEn": "then",
+        "textAr": "then"
       }
     ],
     "correctAnswer": "A",
@@ -15051,8 +15061,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "What is inside curly brackets is called:",
-    "questionAr": "ما يوجد داخل الأقواس المعقوفة يُسمى:",
+    "questionEn": "In JSON syntax, what is represented by curly brackets {}?",
+    "questionAr": "في بناء جملة JSON، ماذا تمثل الأقواس المعقوفة {}؟",
     "options": [
       {
         "label": "A",
@@ -15075,9 +15085,9 @@ export const questionsData = [
         "textAr": "جميع ما ذُكر"
       }
     ],
-    "correctAnswer": "D",
-    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
-    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
+    "correctAnswer": "A",
+    "explanationEn": "In standard JSON syntax, curly brackets {} define a JSON Object, which contains key-value pairs, whereas square brackets [] define a JSON array.",
+    "explanationAr": "في بناء جملة JSON القياسي، تحدد الأقواس المتعرجة {} كائن JSON (Object) الذي يحتوي على أزواج من المفاتيح والقيم، بينما تحدد الأقواس المربعة [] مصفوفة JSON.",
     "codeSnippet": null
   },
   {
@@ -15120,8 +15130,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "D",
-    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
-    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
+    "explanationEn": "While `http` is the most common package, developers can also use `dio` for advanced features or `chopper` for code-generation based HTTP clients.",
+    "explanationAr": "بينما تعد حزمة `http` هي الأكثر شيوعًا، يمكن للمطورين أيضًا استخدام `dio` للميزات المتقدمة أو `chopper` لعملاء HTTP المعتمدين على توليد الكود.",
     "codeSnippet": null
   },
   {
@@ -15164,8 +15174,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
-    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
+    "explanationEn": "The http.get() method is specifically designed to retrieve data from a specified URI, making it the correct choice for fetching server data.",
+    "explanationAr": "تم تصميم دالة http.get() خصيصًا لاسترداد البيانات من URI محدد، مما يجعلها الخيار الصحيح لجلب بيانات الخادم.",
     "codeSnippet": null
   },
   {
@@ -15188,18 +15198,18 @@ export const questionsData = [
     "options": [
       {
         "label": "A",
-        "textEn": "httproq.post(Uri.parse('https://my_store/addDataRoq.php'));",
-        "textAr": "httproq.post(Uri.parse('https://my_store/addDataRoq.php'));"
+        "textEn": "httproq.post(Uri.parse('https://my_store/addDataRoq.php'), body: item);",
+        "textAr": "httproq.post(Uri.parse('https://my_store/addDataRoq.php'), body: item);"
       },
       {
         "label": "B",
-        "textEn": "httproq.post(Uri.parse('https://my_store/addDataRoq.php'), body : { \"itemcode\": controllerCode.text, \"itemname\": controllerName.text, \"price\": controllerPrice.text, \"stock\": controllerStock.text });",
-        "textAr": "httproq.post(Uri.parse('https://my_store/addDataRoq.php'), body : { \"itemcode\": controllerCode.text, \"itemname\": controllerName.text, \"price\": controllerPrice.text, \"stock\": controllerStock.text });"
+        "textEn": "httproq.get(Uri.parse('https://my_store/addDataRoq.php'), body: item);",
+        "textAr": "httproq.get(Uri.parse('https://my_store/addDataRoq.php'), body: item);"
       },
       {
         "label": "C",
-        "textEn": "post(Uri.parse('https://my_store/getDataRoq.php'));",
-        "textAr": "post(Uri.parse('https://my_store/getDataRoq.php'));"
+        "textEn": "httproq.post(Uri.parse('https://my_store/addDataRoq.php'));",
+        "textAr": "httproq.post(Uri.parse('https://my_store/addDataRoq.php'));"
       },
       {
         "label": "D",
@@ -15208,8 +15218,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
-    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
+    "explanationEn": "The http.post() method is used to send (or create) data on the server. The data payload is passed into the `body` parameter.",
+    "explanationAr": "تُستخدم دالة http.post() لإرسال (أو إنشاء) بيانات على الخادم. يتم تمرير حمولة البيانات في معامل `body`.",
     "codeSnippet": null
   },
   {
@@ -15251,7 +15261,7 @@ export const questionsData = [
         "textAr": "حالة (Status)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanationEn": "API interactions involve network protocols and payloads; Flutter-specific concepts like 'Widget tree depth' are unrelated to the network layer.",
     "explanationAr": "تتضمن تفاعلات API بروتوكولات الشبكة وحمولاتها؛ مفاهيم Flutter الخاصة مثل 'عمق شجرة الـ Widget' لا علاقة لها بطبقة الشبكة.",
     "codeSnippet": null
@@ -15265,12 +15275,12 @@ export const questionsData = [
     "topic": "Image Upload API",
     "subtopic": "Multipart & XFile",
     "type": "mcq",
-    "examRelevance": "included",
+    "examRelevance": "excluded",
     "exclusionReason": "EXCLUDED FROM FINAL EXAM per Professor announcement: API with Images is not in exam scope",
     "source": "Lab 10 (Q2.27)",
     "sourceType": "actual",
     "isGenerated": false,
-    "badge": "ACTUAL LAB QUESTION",
+    "badge": "EXCLUDED FROM FINAL EXAM",
     "questionEn": "Suppose a Flutter client sends HTTP requests to a PHP API , and the PHP API executes SQL against MySQL. Which boundary should own raw SQL and database credentials?",
     "questionAr": "سؤال متعلق بالمنهج: Suppose a Flutter client sends (HTTP) requests to a PHP (API) , and the PHP (API) executes SQL against MySQL. Which boundary should own raw SQL and database credentials?",
     "options": [
@@ -15428,8 +15438,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Checking the response.statusCode is a necessary validation step to ensure the API call returned a success code before processing the payload.",
-    "explanationAr": "يعد التحقق من response.statusCode خطوة تحقق ضرورية لضمان إرجاع مكالمة API لرمز نجاح قبل معالجة البيانات.",
+    "explanationEn": "Checking the response.statusCode against 200 (OK) and 201 (Created) is essential to validate that the API successfully processed the request before proceeding.",
+    "explanationAr": "يعد التحقق من response.statusCode مقابل 200 (OK) و 201 (Created) أمرًا ضروريًا للتحقق من أن واجهة API عالجت الطلب بنجاح قبل المتابعة.",
     "codeSnippet": null
   },
   {
@@ -15472,8 +15482,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
-    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
+    "explanationEn": "Since the JSON string represents an array (enclosed in []), jsonDecode will naturally parse it into a standard Dart List.",
+    "explanationAr": "نظرًا لأن السلسلة النصية JSON تمثل مصفوفة (محاطة بـ [])، فإن (jsonDecode) سيحللها بشكل طبيعي إلى قائمة (List) قياسية في Dart.",
     "codeSnippet": null
   },
   {
@@ -15516,8 +15526,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
-    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
+    "explanationEn": "When decoding JSON in Dart using jsonDecode, the resulting Dart values can be a Map, List, String, int, double, \bool, or \null. Therefore, \null is a valid decoded value.",
+    "explanationAr": "عند فك تشفير JSON في Dart باستخدام jsonDecode، يمكن أن تكون قيم Dart الناتجة Map أو List أو String أو int أو double أو \bool أو \null. لذلك، \null هي قيمة صالحة.",
     "codeSnippet": null
   },
   {
@@ -15617,7 +15627,7 @@ export const questionsData = [
     "topic": "Image Upload API",
     "subtopic": "Multipart & XFile",
     "type": "mcq",
-    "examRelevance": "included",
+    "examRelevance": "excluded",
     "exclusionReason": "EXCLUDED FROM FINAL EXAM per Professor announcement: API with Images is not in exam scope",
     "source": "Lab 10 (Q2.35)",
     "sourceType": "actual",
@@ -15648,8 +15658,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
-    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
+    "explanationEn": "The fromJson constructor is mapping the JSON key \"imageUrl\" (from the raw map) directly to the Dart class property \"imageURL\".",
+    "explanationAr": "يقوم الباني fromJson بربط مفتاح JSON المسمى \"imageUrl\" (من الخريطة الخام) مباشرة بخصيصة الفئة في Dart والمسماة \"imageURL\".",
     "codeSnippet": null
   },
   {
@@ -15692,8 +15702,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Because network operations take time, the http package relies on Dart's 'await' keyword and Futures to handle asynchronous execution without blocking the UI thread.",
-    "explanationAr": "لأن عمليات الشبكة تستغرق وقتًا، تعتمد حزمة http على الكلمة الرئيسية 'await' في Dart و Futures للتعامل مع التنفيذ غير المتزامن دون حظر خيط واجهة المستخدم.",
+    "explanationEn": "To load a local asset using \nootBundle.loadString, the exact path used in the code must be declared in the \u0007ssets section of the pubspec.yaml file.",
+    "explanationAr": "لتحميل أصل محلي باستخدام \nootBundle.loadString، يجب الإعلان عن المسار الدقيق في قسم \u0007ssets من ملف pubspec.yaml.",
     "codeSnippet": null
   },
   {
@@ -15736,8 +15746,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Because network operations take time, the http package relies on Dart's 'await' keyword and Futures to handle asynchronous execution without blocking the UI thread.",
-    "explanationAr": "لأن عمليات الشبكة تستغرق وقتًا، تعتمد حزمة http على الكلمة الرئيسية 'await' في Dart و Futures للتعامل مع التنفيذ غير المتزامن دون حظر خيط واجهة المستخدم.",
+    "explanationEn": "The \nootBundle.loadString function is used to read text assets bundled with the application at runtime, such as local JSON files.",
+    "explanationAr": "تُستخدم الدالة \nootBundle.loadString لقراءة الأصول النصية المجمعة مع التطبيق في وقت التشغيل، مثل ملفات JSON المحلية.",
     "codeSnippet": null
   },
   {
@@ -15824,8 +15834,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
-    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
+    "explanationEn": "The \future property of a FutureBuilder expects an asynchronous operation (a Future). In this snippet, the function call \neadJsonData() is provided to fetch the data.",
+    "explanationAr": "تتوقع خاصية \future في FutureBuilder عملية غير متزامنة (Future). في هذا المقتطف، يتم توفير استدعاء الدالة \neadJsonData() لجلب البيانات.",
     "codeSnippet": null
   },
   {
@@ -15881,7 +15891,7 @@ export const questionsData = [
     "topic": "Image Upload API",
     "subtopic": "Multipart & XFile",
     "type": "mcq",
-    "examRelevance": "included",
+    "examRelevance": "excluded",
     "exclusionReason": "EXCLUDED FROM FINAL EXAM per Professor announcement: API with Images is not in exam scope",
     "source": "Lab 10 (Q2.41)",
     "sourceType": "actual",
@@ -15912,8 +15922,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
-    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
+    "explanationEn": "The provided code snippet explicitly checks if the list is empty, and if so, returns a Center widget containing a Text widget displaying \"No products found\".",
+    "explanationAr": "يتحقق الكود المقدم بوضوح مما إذا كانت القائمة فارغة، وإذا كان الأمر كذلك، فإنه يرجع واجهة (Center) تحتوي على نص يعرض \"No products found\".",
     "codeSnippet": null
   },
   {
@@ -15931,8 +15941,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "If we have the following code snippet: ListView.builder( itemCount: products.length,",
-    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: ListView.builder( itemCount: products.length,",
+    "questionEn": "Which Flutter widget is used to render a scrollable list of items dynamically on demand, such as rendering a list of products?",
+    "questionAr": "أي ويدجت في Flutter يُستخدم لعرض قائمة قابلة للتمرير من العناصر ديناميكيًا عند الطلب، مثل عرض قائمة المنتجات؟",
     "options": [
       {
         "label": "A",
@@ -16000,8 +16010,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Because network operations take time, the http package relies on Dart's 'await' keyword and Futures to handle asynchronous execution without blocking the UI thread.",
-    "explanationAr": "لأن عمليات الشبكة تستغرق وقتًا، تعتمد حزمة http على الكلمة الرئيسية 'await' في Dart و Futures للتعامل مع التنفيذ غير المتزامن دون حظر خيط واجهة المستخدم.",
+    "explanationEn": "The http.get method expects a Uri object containing the target endpoint. Here, the exact URL provided to Uri.parse is the one used for the request.",
+    "explanationAr": "تتوقع طريقة http.get كائن Uri يحتوي على نقطة النهاية المستهدفة. هنا، الرابط الدقيق المقدم إلى Uri.parse هو المستخدم للطلب.",
     "codeSnippet": null
   },
   {
@@ -16088,8 +16098,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Because network operations take time, the http package relies on Dart's 'await' keyword and Futures to handle asynchronous execution without blocking the UI thread.",
-    "explanationAr": "لأن عمليات الشبكة تستغرق وقتًا، تعتمد حزمة http على الكلمة الرئيسية 'await' في Dart و Futures للتعامل مع التنفيذ غير المتزامن دون حظر خيط واجهة المستخدم.",
+    "explanationEn": "After making an HTTP request, the statusCode of the response is checked to verify if the request was successful (e.g., 200 OK).",
+    "explanationAr": "بعد إجراء طلب HTTP، يتم التحقق من statusCode للاستجابة للتحقق مما إذا كان الطلب ناجحًا (مثل 200 OK).",
     "codeSnippet": null
   },
   {
@@ -16239,8 +16249,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "If we have the following code snip pet: final response = await http.post( uri,",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snip pet: final response = (await) http.post( uri,",
+    "questionEn": "When using http.post to create a new product, which of the following represents a typical JSON-like Map passed as the request body?",
+    "questionAr": "عند استخدام http.post لإنشاء منتج جديد، أي مما يلي يمثل خريطة تشبه JSON يتم تمريرها كجسم للطلب؟",
     "options": [
       {
         "label": "A",
@@ -16264,8 +16274,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Because network operations take time, the http package relies on Dart's 'await' keyword and Futures to handle asynchronous execution without blocking the UI thread.",
-    "explanationAr": "لأن عمليات الشبكة تستغرق وقتًا، تعتمد حزمة http على الكلمة الرئيسية 'await' في Dart و Futures للتعامل مع التنفيذ غير المتزامن دون حظر خيط واجهة المستخدم.",
+    "explanationEn": "The body of an HTTP POST request in Dart often contains a Map that represents the data to be sent and saved on the server.",
+    "explanationAr": "غالبًا ما يحتوي جسم طلب HTTP POST في Dart على خريطة (Map) تمثل البيانات المراد إرسالها وحفظها على الخادم.",
     "codeSnippet": null
   },
   {
@@ -16308,8 +16318,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Checking the response.statusCode is a necessary validation step to ensure the API call returned a success code before processing the payload.",
-    "explanationAr": "يعد التحقق من response.statusCode خطوة تحقق ضرورية لضمان إرجاع مكالمة API لرمز نجاح قبل معالجة البيانات.",
+    "explanationEn": "The condition `!= 200 && != 204` means that if the status is either 200 (OK) or 204 (No Content), the exception will not be thrown, meaning both are accepted as success for a PUT request.",
+    "explanationAr": "الشرط `!= 200 && != 204` يعني أنه إذا كانت الحالة 200 أو 204، فلن يتم إلقاء الاستثناء، مما يعني أن كليهما مقبول كنجاح لطلب PUT.",
     "codeSnippet": null
   },
   {
@@ -16352,8 +16362,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Checking the response.statusCode is a necessary validation step to ensure the API call returned a success code before processing the payload.",
-    "explanationAr": "يعد التحقق من response.statusCode خطوة تحقق ضرورية لضمان إرجاع مكالمة API لرمز نجاح قبل معالجة البيانات.",
+    "explanationEn": "Similar to PUT, a DELETE request often returns 200 (OK) if it includes a response body, or 204 (No Content) if successful but empty, so both are validated as success.",
+    "explanationAr": "على غرار طلب PUT، غالبًا ما يُرجع طلب DELETE الحالة 200 إذا كان يتضمن جسم استجابة، أو 204 إذا كان ناجحًا ولكنه فارغ، لذلك يتم التحقق من كليهما كنجاح.",
     "codeSnippet": null
   },
   {
@@ -16396,8 +16406,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
-    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
+    "explanationEn": "The Flutter client application acts as the presentation layer, responsible for collecting user input and updating the user interface based on the state.",
+    "explanationAr": "يعمل تطبيق عميل Flutter كطبقة العرض، وهو مسؤول عن جمع مدخلات المستخدم وتحديث واجهة المستخدم بناءً على الحالة.",
     "codeSnippet": null
   },
   {
@@ -16440,8 +16450,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
-    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
+    "explanationEn": "The API backend layer, written in server-side languages like PHP, bridges the client and database by processing logic, validating requests, and executing secure SQL queries.",
+    "explanationAr": "تربط طبقة واجهة برمجة التطبيقات الخلفية، المكتوبة بلغات الخادم مثل PHP، العميل بقاعدة البيانات من خلال معالجة المنطق والتحقق من الطلبات وتنفيذ استعلامات SQL الآمنة.",
     "codeSnippet": null
   },
   {
@@ -16484,8 +16494,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Because network operations take time, the http package relies on Dart's 'await' keyword and Futures to handle asynchronous execution without blocking the UI thread.",
-    "explanationAr": "لأن عمليات الشبكة تستغرق وقتًا، تعتمد حزمة http على الكلمة الرئيسية 'await' في Dart و Futures للتعامل مع التنفيذ غير المتزامن دون حظر خيط واجهة المستخدم.",
+    "explanationEn": "The URL specifies getdata.php as the endpoint, which is typical for a backend script designed to retrieve data using a GET request.",
+    "explanationAr": "يحدد الرابط getdata.php كنقطة النهاية، وهو أمر نموذجي لبرنامج نصي خلفي مصمم لاسترداد البيانات باستخدام طلب GET.",
     "codeSnippet": null
   },
   {
@@ -16528,8 +16538,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Because network operations take time, the http package relies on Dart's 'await' keyword and Futures to handle asynchronous execution without blocking the UI thread.",
-    "explanationAr": "لأن عمليات الشبكة تستغرق وقتًا، تعتمد حزمة http على الكلمة الرئيسية 'await' في Dart و Futures للتعامل مع التنفيذ غير المتزامن دون حظر خيط واجهة المستخدم.",
+    "explanationEn": "The \u0007dddata.php endpoint is invoked using an HTTP POST request to securely transmit new data to the server for insertion into the database.",
+    "explanationAr": "يتم استدعاء نقطة النهاية \u0007dddata.php باستخدام طلب HTTP POST لنقل البيانات الجديدة بأمان إلى الخادم لإدراجها في قاعدة البيانات.",
     "codeSnippet": null
   },
   {
@@ -16572,8 +16582,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Because network operations take time, the http package relies on Dart's 'await' keyword and Futures to handle asynchronous execution without blocking the UI thread.",
-    "explanationAr": "لأن عمليات الشبكة تستغرق وقتًا، تعتمد حزمة http على الكلمة الرئيسية 'await' في Dart و Futures للتعامل مع التنفيذ غير المتزامن دون حظر خيط واجهة المستخدم.",
+    "explanationEn": "The http.post method calls editdata.php, passing an item ID and updated details in the body to modify an existing record.",
+    "explanationAr": "تستدعي طريقة http.post editdata.php، ممررة معرف العنصر والتفاصيل المحدثة في الجسم لتعديل سجل موجود.",
     "codeSnippet": null
   },
   {
@@ -16616,8 +16626,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Because network operations take time, the http package relies on Dart's 'await' keyword and Futures to handle asynchronous execution without blocking the UI thread.",
-    "explanationAr": "لأن عمليات الشبكة تستغرق وقتًا، تعتمد حزمة http على الكلمة الرئيسية 'await' في Dart و Futures للتعامل مع التنفيذ غير المتزامن دون حظر خيط واجهة المستخدم.",
+    "explanationEn": "To securely delete a specific record, the client sends a POST request to deleteData.php containing the unique identifier of the item in the request body.",
+    "explanationAr": "لحذف سجل معين بأمان، يرسل العميل طلب POST إلى deleteData.php يحتوي على المعرف الفريد للعنصر في جسم الطلب.",
     "codeSnippet": null
   },
   {
@@ -16761,7 +16771,7 @@ export const questionsData = [
     "topic": "Image Upload API",
     "subtopic": "Multipart & XFile",
     "type": "mcq",
-    "examRelevance": "included",
+    "examRelevance": "excluded",
     "exclusionReason": "EXCLUDED FROM FINAL EXAM per Professor announcement: API with Images is not in exam scope",
     "source": "Lab 10 (Q2.61)",
     "sourceType": "actual",
@@ -16811,8 +16821,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "If we have the following code snippet: http_response_code(400); echo json_encode(['error' => 'Invalid item']);",
-    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: http_response_code(400); echo json_encode(['error' => 'Invalid item']);",
+    "questionEn": "If we have the following code snippet: http_response_code(400); echo json_encode(['error' => 'Invalid item']); What does this output represent?",
+    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: http_response_code(400); echo json_encode(['error' => 'Invalid item']); ماذا يمثل هذا المخرج؟",
     "options": [
       {
         "label": "A",
@@ -16836,8 +16846,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
-    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
+    "explanationEn": "Setting the HTTP response code to 400 (Bad Request) and outputting a structured JSON error message allows the Flutter client to handle the failure properly.",
+    "explanationAr": "يتيح تعيين رمز استجابة HTTP إلى 400 وإخراج رسالة خطأ JSON منظمة لعميل Flutter معالجة الفشل بشكل صحيح.",
     "codeSnippet": null
   },
   {
@@ -16849,7 +16859,7 @@ export const questionsData = [
     "topic": "Image Upload API",
     "subtopic": "Multipart & XFile",
     "type": "mcq",
-    "examRelevance": "included",
+    "examRelevance": "excluded",
     "exclusionReason": "EXCLUDED FROM FINAL EXAM per Professor announcement: API with Images is not in exam scope",
     "source": "Lab 10 (Q2.63)",
     "sourceType": "actual",
@@ -16893,7 +16903,7 @@ export const questionsData = [
     "topic": "Image Upload API",
     "subtopic": "Multipart & XFile",
     "type": "mcq",
-    "examRelevance": "included",
+    "examRelevance": "excluded",
     "exclusionReason": "EXCLUDED FROM FINAL EXAM per Professor announcement: API with Images is not in exam scope",
     "source": "Lab 10 (Q2.64)",
     "sourceType": "actual",
@@ -17031,8 +17041,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "If we have the following code snippet: await Navigator.push( context, MaterialPageRoute(builder: (_) => const AddData_Roq()),",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: (await) (Navigator).push( (context), (MaterialPageRoute)(builder: (_) => const AddData_Roq()),",
+    "questionEn": "When using \u0007wait Navigator.push to navigate to an 'Add Data' screen, what is a common pattern executed immediately after the \u0007wait completes to ensure the UI reflects any new data?",
+    "questionAr": "عند استخدام \u0007wait Navigator.push للانتقال إلى شاشة 'Add Data'، ما هو النمط الشائع الذي يتم تنفيذه فور اكتمال الـ \u0007wait للتأكد من أن واجهة المستخدم تعكس أي بيانات جديدة؟",
     "options": [
       {
         "label": "A",
@@ -17056,8 +17066,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Because network operations take time, the http package relies on Dart's 'await' keyword and Futures to handle asynchronous execution without blocking the UI thread.",
-    "explanationAr": "لأن عمليات الشبكة تستغرق وقتًا، تعتمد حزمة http على الكلمة الرئيسية 'await' في Dart و Futures للتعامل مع التنفيذ غير المتزامن دون حظر خيط واجهة المستخدم.",
+    "explanationEn": "By awaiting Navigator.push, the code pauses until the user returns from the new screen. At that point, fetching the updated data from the server ensures the list is accurate.",
+    "explanationAr": "من خلال انتظار Navigator.push، يتوقف الكود مؤقتًا حتى يعود المستخدم من الشاشة الجديدة. في تلك اللحظة، يضمن جلب البيانات المحدثة من الخادم دقة القائمة.",
     "codeSnippet": null
   },
   {
@@ -17085,7 +17095,7 @@ export const questionsData = [
       },
       {
         "label": "B",
-        "textEn": "The TextField change d locally",
+        "textEn": "The TextField changed locally",
         "textAr": "تغير TextField محلياً"
       },
       {
@@ -17100,8 +17110,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Because network operations take time, the http package relies on Dart's 'await' keyword and Futures to handle asynchronous execution without blocking the UI thread.",
-    "explanationAr": "لأن عمليات الشبكة تستغرق وقتًا، تعتمد حزمة http على الكلمة الرئيسية 'await' في Dart و Futures للتعامل مع التنفيذ غير المتزامن دون حظر خيط واجهة المستخدم.",
+    "explanationEn": "A fresh GET request retrieves the actual data stored on the server. If it returns the updated values, it is the strongest evidence that the update was persisted on the server side, rather than just locally in the app.",
+    "explanationAr": "طلب GET جديد يسترد البيانات الفعلية المخزنة على الخادم. إذا أرجع القيم المحدثة، فهذا هو أقوى دليل على أن التحديث تم حفظه على جانب الخادم، وليس فقط محلياً في التطبيق.",
     "codeSnippet": null
   },
   {
@@ -17113,7 +17123,7 @@ export const questionsData = [
     "topic": "Image Upload API",
     "subtopic": "Multipart & XFile",
     "type": "mcq",
-    "examRelevance": "included",
+    "examRelevance": "excluded",
     "exclusionReason": "EXCLUDED FROM FINAL EXAM per Professor announcement: API with Images is not in exam scope",
     "source": "Lab 10 (Q2.69)",
     "sourceType": "actual",
@@ -17144,8 +17154,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Because network operations take time, the http package relies on Dart's 'await' keyword and Futures to handle asynchronous execution without blocking the UI thread.",
-    "explanationAr": "لأن عمليات الشبكة تستغرق وقتًا، تعتمد حزمة http على الكلمة الرئيسية 'await' في Dart و Futures للتعامل مع التنفيذ غير المتزامن دون حظر خيط واجهة المستخدم.",
+    "explanationEn": "The code snippet uses showDialog to display an AlertDialog, which asks the user for confirmation.",
+    "explanationAr": "يستخدم مقطع الكود showDialog لعرض AlertDialog، والذي يطلب من المستخدم التأكيد.",
     "codeSnippet": null
   },
   {
@@ -17364,8 +17374,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
-    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
+    "explanationEn": "The PHP code explicitly sets the response code using `http_response_code(201)`, meaning the client will receive HTTP 201 (Created).",
+    "explanationAr": "يحدد كود PHP بشكل صريح كود الاستجابة باستخدام `http_response_code(201)`، مما يعني أن العميل سيتلقى HTTP 201 (Created).",
     "codeSnippet": null
   },
   {
@@ -17408,8 +17418,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Because network operations take time, the http package relies on Dart's 'await' keyword and Futures to handle asynchronous execution without blocking the UI thread.",
-    "explanationAr": "لأن عمليات الشبكة تستغرق وقتًا، تعتمد حزمة http على الكلمة الرئيسية 'await' في Dart و Futures للتعامل مع التنفيذ غير المتزامن دون حظر خيط واجهة المستخدم.",
+    "explanationEn": "When an upload returns a 201 success status, the UI should invoke `reloadImages()` to fetch the updated state from the server and display the new item.",
+    "explanationAr": "عندما يُرجع الرفع حالة نجاح 201، يجب على واجهة المستخدم استدعاء `reloadImages()` لجلب الحالة المحدثة من الخادم وعرض العنصر الجديد.",
     "codeSnippet": null
   },
   {
@@ -17452,8 +17462,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Because network operations take time, the http package relies on Dart's 'await' keyword and Futures to handle asynchronous execution without blocking the UI thread.",
-    "explanationAr": "لأن عمليات الشبكة تستغرق وقتًا، تعتمد حزمة http على الكلمة الرئيسية 'await' في Dart و Futures للتعامل مع التنفيذ غير المتزامن دون حظر خيط واجهة المستخدم.",
+    "explanationEn": "A SocketException typically indicates a network-level failure, such as the server being down, unreachable due to firewall settings, or an incorrect Base URL preventing the connection from being established.",
+    "explanationAr": "يشير SocketException عادةً إلى فشل على مستوى الشبكة، مثل توقف الخادم، أو تعذر الوصول إليه بسبب إعدادات جدار الحماية، أو عنوان URL أساسي غير صحيح يمنع إنشاء الاتصال.",
     "codeSnippet": null
   },
   {
@@ -17465,7 +17475,7 @@ export const questionsData = [
     "topic": "Image Upload API",
     "subtopic": "Multipart & XFile",
     "type": "mcq",
-    "examRelevance": "included",
+    "examRelevance": "excluded",
     "exclusionReason": "EXCLUDED FROM FINAL EXAM per Professor announcement: API with Images is not in exam scope",
     "source": "Lab 10 (Q2.77)",
     "sourceType": "actual",
@@ -17540,8 +17550,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
-    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
+    "explanationEn": "The value \"799\" is mapped from the JSON map directly to the item.price property as a string, so printing it outputs 799.",
+    "explanationAr": "يتم تعيين القيمة \"799\" من خريطة JSON مباشرة إلى خاصية item.price كسلسلة، لذلك تؤدي طباعتها إلى إخراج 799.",
     "codeSnippet": null
   },
   {
@@ -17584,8 +17594,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
-    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
+    "explanationEn": "CircularProgressIndicator is a standard Flutter widget used to show a loading spinner while waiting for a Future to complete, which corresponds to ConnectionState.waiting.",
+    "explanationAr": "CircularProgressIndicator هي أداة Flutter قياسية تُستخدم لإظهار مؤشر تحميل أثناء انتظار اكتمال Future، وهو ما يتوافق مع ConnectionState.waiting.",
     "codeSnippet": null
   },
   {
@@ -17597,7 +17607,7 @@ export const questionsData = [
     "topic": "Image Upload API",
     "subtopic": "Multipart & XFile",
     "type": "mcq",
-    "examRelevance": "included",
+    "examRelevance": "excluded",
     "exclusionReason": "EXCLUDED FROM FINAL EXAM per Professor announcement: API with Images is not in exam scope",
     "source": "Lab 10 (Q2.80)",
     "sourceType": "actual",
@@ -17628,8 +17638,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
-    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
+    "explanationEn": "The code logic explicitly states that if `items.isEmpty` is true, it returns the text \"No products found\" to inform the user that the list is empty.",
+    "explanationAr": "ينص منطق الكود بوضوح على أنه إذا كان `items.isEmpty` صحيحًا (true)، فإنه يرجع النص \"No products found\" لإعلام المستخدم بأن القائمة فارغة.",
     "codeSnippet": null
   },
   {
@@ -17672,8 +17682,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Checking the response.statusCode is a necessary validation step to ensure the API call returned a success code before processing the payload.",
-    "explanationAr": "يعد التحقق من response.statusCode خطوة تحقق ضرورية لضمان إرجاع مكالمة API لرمز نجاح قبل معالجة البيانات.",
+    "explanationEn": "The status 500 represents an Internal Server Error, which is not 200. Thus, the condition `!= 200` evaluates to true, and an Exception is thrown.",
+    "explanationAr": "تمثل الحالة 500 خطأ خادم داخلي، وهي ليست 200. وبالتالي، يتم تقييم الشرط `!= 200` على أنه صحيح (true)، ويتم إلقاء استثناء (Exception).",
     "codeSnippet": null
   },
   {
@@ -17716,8 +17726,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Because network operations take time, the http package relies on Dart's 'await' keyword and Futures to handle asynchronous execution without blocking the UI thread.",
-    "explanationAr": "لأن عمليات الشبكة تستغرق وقتًا، تعتمد حزمة http على الكلمة الرئيسية 'await' في Dart و Futures للتعامل مع التنفيذ غير المتزامن دون حظر خيط واجهة المستخدم.",
+    "explanationEn": "Since the request asked for results=20, a successful fetch will parse and return a list of 20 users, making users.length equal to 20.",
+    "explanationAr": "نظرًا لأن الطلب طلب 20 نتيجة (results=20)، فإن الجلب الناجح سيقوم بتحليل وإرجاع قائمة مكونة من 20 مستخدمًا، مما يجعل طول قائمة المستخدمين (users.length) يساوي 20.",
     "codeSnippet": null
   },
   {
@@ -17760,8 +17770,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Because network operations take time, the http package relies on Dart's 'await' keyword and Futures to handle asynchronous execution without blocking the UI thread.",
-    "explanationAr": "لأن عمليات الشبكة تستغرق وقتًا، تعتمد حزمة http على الكلمة الرئيسية 'await' في Dart و Futures للتعامل مع التنفيذ غير المتزامن دون حظر خيط واجهة المستخدم.",
+    "explanationEn": "The http.post method is explicitly called on the URI pointing to adddata.php, so a POST request is sent.",
+    "explanationAr": "يتم استدعاء طريقة http.post بشكل صريح على الرابط الذي يشير إلى adddata.php، لذلك يتم إرسال طلب POST.",
     "codeSnippet": null
   },
   {
@@ -17804,8 +17814,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Checking the response.statusCode is a necessary validation step to ensure the API call returned a success code before processing the payload.",
-    "explanationAr": "يعد التحقق من response.statusCode خطوة تحقق ضرورية لضمان إرجاع مكالمة API لرمز نجاح قبل معالجة البيانات.",
+    "explanationEn": "The if statement checks if the status is NOT 200 and NOT 201. Since 200 matches one of the excluded failure conditions, it bypasses the exception and is treated as a success.",
+    "explanationAr": "تتحقق عبارة (if) مما إذا كانت الحالة ليست 200 وليست 201. ولأن 200 هي إحدى الحالات المقبولة، فإنه يتجاوز الاستثناء ويتم التعامل معها كنجاح.",
     "codeSnippet": null
   },
   {
@@ -17848,8 +17858,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Because network operations take time, the http package relies on Dart's 'await' keyword and Futures to handle asynchronous execution without blocking the UI thread.",
-    "explanationAr": "لأن عمليات الشبكة تستغرق وقتًا، تعتمد حزمة http على الكلمة الرئيسية 'await' في Dart و Futures للتعامل مع التنفيذ غير المتزامن دون حظر خيط واجهة المستخدم.",
+    "explanationEn": "The http.post method is used, targeting deleteData.php, and the body map contains {\"id\": \"7\"}, which sends a POST request with id=7 in the body.",
+    "explanationAr": "يتم استخدام طريقة http.post، وتستهدف deleteData.php، وتحتوي خريطة الجسم على {\"id\": \"7\"}، والتي ترسل طلب POST مع id=7 في الجسم.",
     "codeSnippet": null
   },
   {
@@ -17936,8 +17946,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Because network operations take time, the http package relies on Dart's 'await' keyword and Futures to handle asynchronous execution without blocking the UI thread.",
-    "explanationAr": "لأن عمليات الشبكة تستغرق وقتًا، تعتمد حزمة http على الكلمة الرئيسية 'await' في Dart و Futures للتعامل مع التنفيذ غير المتزامن دون حظر خيط واجهة المستخدم.",
+    "explanationEn": "After confirming the successful 200/201 status and ensuring the widget is still mounted, the code proceeds to await `reloadImages()` to refresh the view.",
+    "explanationAr": "بعد تأكيد حالة النجاح 200/201 والتأكد من أن الواجهة (widget) لا تزال نشطة، يتابع الكود لانتظار `reloadImages()` لتحديث العرض.",
     "codeSnippet": null
   },
   {
