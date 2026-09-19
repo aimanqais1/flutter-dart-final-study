@@ -590,7 +590,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Hero tags should be unique enough within each participating route to identify the intended shared element.",
-    "questionAr": "سؤال متعلق بالمنهج: Hero tags should be unique enough within each participating route to identify the intended shared element.",
+    "questionAr": "يجب أن تكون علامات Hero فريدة بدرجة كافية داخل كل مسار مشارك لتحديد العنصر المشترك المقصود.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -661,8 +661,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "A TabBar and TabBarView s hould have matching lengths when they are controlled by the same tab controller.",
-    "questionAr": "سؤال متعلق بالمنهج: A TabBar and TabBarView s hould have matching lengths when they are controlled by the same tab controller.",
+    "questionEn": "A TabBar and TabBarView should have matching lengths when they are controlled by the same tab controller.",
+    "questionAr": "يجب أن يكون لـ TabBar و TabBarView أطوال متطابقة عندما يتم التحكم فيهما بواسطة نفس الـ tab controller.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -686,7 +686,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "An IndexedStack can keep the state of inactive pages while changing which child is visible.",
-    "questionAr": "سؤال متعلق بالمنهج: An IndexedStack can keep the state of inactive pages while changing which child is visible.",
+    "questionAr": "يمكن لـ IndexedStack الاحتفاظ بحالة الصفحات غير النشطة أثناء تغيير العنصر الفرعي المرئي.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -709,8 +709,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "A NavigationBar shell normally stores the sel ected destination index in State so a selection rebuilds the body.",
-    "questionAr": "سؤال متعلق بالمنهج: A NavigationBar shell normally stores the sel ected destination index in State so a selection rebuilds the body.",
+    "questionEn": "A NavigationBar shell normally stores the selected destination index in State so a selection rebuilds the body.",
+    "questionAr": "عادةً ما يقوم غلاف NavigationBar بتخزين فهرس الوجهة المحددة في الـ State، بحيث تؤدي عملية التحديد إلى إعادة بناء المحتوى (body).",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -734,7 +734,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A TextEditingController owned by a State object should be disposed when that State is disposed.",
-    "questionAr": "سؤال متعلق بالمنهج: A TextEditingController owned by a State object should be disposed when that State is disposed.",
+    "questionAr": "يجب التخلص من (dispose) الـ TextEditingController المملوك لكائن State عندما يتم التخلص من حالة هذا الكائن.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -758,7 +758,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "AlertDialog can return a nullable Boolean so the caller can distinguish confirm from cancel or dismissal.",
-    "questionAr": "سؤال متعلق بالمنهج: AlertDialog can return a nullable Boolean so the caller can distinguish confirm from cancel or dismissal.",
+    "questionAr": "يمكن لـ AlertDialog أن يرجع قيمة Boolean قابلة للترك كفارغة (nullable)، بحيث يتمكن المستدعي من التمييز بين التأكيد والإلغاء أو التجاهل.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -782,7 +782,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "SimpleDialog can return a nullable selection value when the user chooses an option or dismisses the dialog.",
-    "questionAr": "سؤال متعلق بالمنهج: SimpleDialog can return a nullable selection value when the user chooses an option or dismisses the dialog.",
+    "questionAr": "يمكن لـ SimpleDialog أن يرجع قيمة تحديد قابلة للترك كفارغة (nullable) عندما يختار المستخدم خياراً أو يتجاهل مربع الحوار.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -830,7 +830,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "The caller should handle null after awaiting a dialog or bottom sheet because dismissal is a valid outcome.",
-    "questionAr": "سؤال متعلق بالمنهج: The caller should handle null after awaiting a dialog or bottom sheet because dismissal is a valid outcome.",
+    "questionAr": "يجب على المستدعي التعامل مع القيمة null بعد انتظار مربع حوار (dialog) أو bottom sheet، لأن تجاهلهما يعد نتيجة صالحة.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -854,7 +854,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "showDatePicker returns a nullable DateTime because the user can cancel the picker.",
-    "questionAr": "سؤال متعلق بالمنهج: showDatePicker returns a nullable DateTime because the user can cancel the picker.",
+    "questionAr": "تُرجع الدالة showDatePicker قيمة DateTime قابلة للترك كفارغة (nullable) لأن المستخدم يمكنه إلغاء أداة الاختيار.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -878,7 +878,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "showTimePicker returns a nullable TimeOfDay because cancellation does not create a selected time.",
-    "questionAr": "سؤال متعلق بالمنهج: showTimePicker returns a nullable TimeOfDay because cancellation does not create a selected time.",
+    "questionAr": "تُرجع الدالة showTimePicker قيمة TimeOfDay قابلة للترك كفارغة (nullable) لأن الإلغاء لا ينشئ وقتاً محدداً.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -902,7 +902,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A date picker should receive a legal firstDate, lastDate, and initialDate relationship.",
-    "questionAr": "سؤال متعلق بالمنهج: A date picker should receive a legal firstDate, lastDate, and initialDate relationship.",
+    "questionAr": "يجب أن تتلقى أداة اختيار التاريخ (date picker) علاقة صحيحة بين firstDate و lastDate و initialDate.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -974,7 +974,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Android activity recreation can cause a picker result to need explicit lost-data recovery.",
-    "questionAr": "سؤال متعلق بالمنهج: Android activity recreation can cause a picker result to need explicit lost-data recovery.",
+    "questionAr": "يمكن أن تتسبب إعادة إنشاء النشاط (activity recreation) في Android في أن تحتاج نتيجة أداة الاختيار إلى استرداد صريح للبيانات المفقودة.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -998,7 +998,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A NavigatorObserver can record push, pop, replace, and remove events without rendering the screens itself.",
-    "questionAr": "سؤال متعلق بالمنهج: A NavigatorObserver can record push, pop, replace, and remove events without rendering the screens itself.",
+    "questionAr": "يمكن لـ NavigatorObserver تسجيل أحداث push و pop و replace و remove دون الحاجة إلى عرض الشاشات بنفسه.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -1045,8 +1045,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "A widget test can use pumpAndSettle after navigation and asynchronous work before checking the final screen. ( ) Lab6 |",
-    "questionAr": "سؤال متعلق بالمنهج: A widget test can use pumpAndSettle after navigation and asynchronous work before checking the final screen. ( ) Lab6 |",
+    "questionEn": "A widget test can use pumpAndSettle after navigation and asynchronous work before checking the final screen.",
+    "questionAr": "يمكن لاختبار الواجهة (widget test) استخدام pumpAndSettle بعد التنقل والعمليات غير المتزامنة قبل التحقق من الشاشة النهائية.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -1070,7 +1070,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "BuildContext identifies a location in the widget tree; it is not a suitable data model for a Course.",
-    "questionAr": "سؤال متعلق بالمنهج: BuildContext identifies a location in the widget tree; it is not a suitable data model for a Course.",
+    "questionAr": "يحدد BuildContext موقعاً في شجرة الواجهات (widget tree)؛ وهو ليس نموذج بيانات مناسب لـ Course.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -1166,7 +1166,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Named and anonymous routes can coexist, but the application should keep their contracts understandable.",
-    "questionAr": "سؤال متعلق بالمنهج: Named and anonymous routes can coexist, but the application should keep their contracts understandable.",
+    "questionAr": "يمكن أن تتواجد المسارات المسماة والمجهولة (named and anonymous routes) معاً، ولكن يجب على التطبيق إبقاء عقودها مفهومة.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -1190,7 +1190,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A caller awaiting a typed result should handle both a returned value and a null cancellation path.",
-    "questionAr": "سؤال متعلق بالمنهج: A caller awaiting a typed result should handle both a returned value and a null cancellation path.",
+    "questionAr": "يجب على المستدعي الذي ينتظر نتيجة مكتوبة (typed result) التعامل مع كل من القيمة المُرجعة ومسار الإلغاء الذي يُرجع null.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -1238,7 +1238,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A Hero transition changes the animation between routes; it does not merge the two routes into one route.",
-    "questionAr": "سؤال متعلق بالمنهج: A Hero transition changes the animation between routes; it does not merge the two routes into one route.",
+    "questionAr": "يغير انتقال Hero الرسوم المتحركة (animation) بين المسارات؛ ولكنه لا يدمج المسارين في مسار واحد.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -1261,8 +1261,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "A modal dialog or bottom sheet is presented above the current content and n ormally completes with a nullable result.",
-    "questionAr": "سؤال متعلق بالمنهج: A modal dialog or bottom sheet is presented above the current content and n ormally completes with a nullable result.",
+    "questionEn": "A modal dialog or bottom sheet is presented above the current content and normally completes with a nullable result.",
+    "questionAr": "يتم عرض الـ modal dialog أو الـ bottom sheet فوق المحتوى الحالي، وعادةً ما تكتمل بنتيجة قابلة للترك كفارغة (nullable).",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -1286,7 +1286,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "maybePop is not guaranteed to remove a route, so code must not assume that its call always changes the stack.",
-    "questionAr": "سؤال متعلق بالمنهج: maybePop is not guaranteed to remove a route, so code must not assume that its call always changes the stack.",
+    "questionAr": "لا يضمن maybePop إزالة المسار، لذلك يجب ألا يفترض الكود البرمجي أن استدعاءه يؤدي دائماً إلى تغيير المكدس (stack).",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -1310,7 +1310,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Preserving tab state requires an ownership strategy such as IndexedStack or a suitable state-preserving navigation shell.",
-    "questionAr": "سؤال متعلق بالمنهج: Preserving tab state requires an ownership strategy such as IndexedStack or a suitable state-preserving navigation shell.",
+    "questionAr": "يتطلب الحفاظ على حالة علامة التبويب (tab state) استراتيجية ملكية مثل IndexedStack أو غلاف تنقل (navigation shell) مناسب يحافظ على الحالة.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -1334,7 +1334,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A picker or date dialog should preserve the previous value when the user cancels rather than replacing it with an invented value.",
-    "questionAr": "سؤال متعلق بالمنهج: A picker or date dialog should preserve the previous value when the user cancels rather than replacing it with an invented value.",
+    "questionAr": "يجب أن تحتفظ أداة الاختيار أو مربع حوار التاريخ بالقيمة السابقة عند إلغاء المستخدم بدلاً من استبدالها بقيمة وهمية.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -1382,7 +1382,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A test that checks only colors cannot prove that a typed route result returned to the correct caller.",
-    "questionAr": "سؤال متعلق بالمنهج: A test that checks only colors cannot prove that a typed route result returned to the correct caller.",
+    "questionAr": "لا يمكن للاختبار الذي يتحقق من الألوان فقط أن يثبت أن نتيجة المسار المكتوبة (typed route result) قد تم إرجاعها إلى المستدعي الصحيح.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -1405,8 +1405,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "A strong navigation explanation names the action, the route-stack effect, the result type, and the lifecycle guard when one is needed. ( ) Lab6 |",
-    "questionAr": "سؤال متعلق بالمنهج: A strong navigation explanation names the action, the route-stack effect, the result type, and the lifecycle guard when one is needed. ( ) Lab6 |",
+    "questionEn": "A strong navigation explanation names the action, the route-stack effect, the result type, and the lifecycle guard when one is needed.",
+    "questionAr": "يحدد التفسير القوي للتنقل الإجراء، وتأثير مكدس المسار (route-stack)، ونوع النتيجة، وحارس دورة الحياة (lifecycle guard) عند الحاجة إليه.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -1429,8 +1429,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "A navigation diagram is incomplete if it shows only the final screen and omits the route-stack or result changes that produced it. ( ) Lab6 |",
-    "questionAr": "سؤال متعلق بالمنهج: A navigation diagram is incomplete if it shows only the final screen and omits the route-stack or result changes that produced it. ( ) Lab6 |",
+    "questionEn": "A navigation diagram is incomplete if it shows only the final screen and omits the route-stack or result changes that produced it.",
+    "questionAr": "يعتبر مخطط التنقل غير مكتمل إذا كان يعرض الشاشة النهائية فقط ويتجاهل مكدس المسار (route-stack) أو التغييرات في النتائج التي أنتجتها.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -2185,7 +2185,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A sort bottom sheet offers enum values and may be dismissed. What is a clear contract?",
-    "questionAr": "سؤال متعلق بالمنهج: A sort bottom sheet offers enum values and may be dismissed. What is a clear contract?",
+    "questionAr": "يقدم الـ bottom sheet الخاص بالفرز قيماً من نوع enum ويمكن تجاهله (dismissed). ما هو العقد الواضح (clear contract) في هذه الحالة؟",
     "options": [
       {
         "label": "A",
@@ -2228,7 +2228,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What is the safest handling after awaiting a picker or dialog in a State object?",
-    "questionAr": "سؤال متعلق بالمنهج: What is the safest handling after awaiting a picker or dialog in a State object?",
+    "questionAr": "ما هي الطريقة الأكثر أماناً للتعامل مع البيانات بعد انتظار أداة اختيار (picker) أو مربع حوار (dialog) في كائن State؟",
     "options": [
       {
         "label": "A",
@@ -2271,7 +2271,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A date picker accepts an initial date outside its legal range. What should be fixed?",
-    "questionAr": "سؤال متعلق بالمنهج: A date picker accepts an initial date outside its legal range. What should be fixed?",
+    "questionAr": "تقبل أداة اختيار التاريخ تاريخاً مبدئياً خارج نطاقها المسموح. ما الذي يجب إصلاحه؟",
     "options": [
       {
         "label": "A",
@@ -2314,7 +2314,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "The user cancels time selection. What should the screen display?",
-    "questionAr": "سؤال متعلق بالمنهج: The user cancels time selection. What should the screen display?",
+    "questionAr": "يقوم المستخدم بإلغاء تحديد الوقت. ماذا يجب أن تعرض الشاشة؟",
     "options": [
       {
         "label": "A",
@@ -2357,7 +2357,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "EXCLUDED FROM FINAL EXAM",
     "questionEn": "A modern image picker returns XFile?. What does null most directly indicate?",
-    "questionAr": "سؤال رفع الصور (مستبعد من الاختبار): A modern image picker returns XFile?. What does null most directly indicate?",
+    "questionAr": "تُرجع أداة اختيار الصور الحديثة XFile?. إلى ماذا تشير القيمة null بشكل مباشر؟",
     "options": [
       {
         "label": "A",
@@ -2400,7 +2400,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "EXCLUDED FROM FINAL EXAM",
     "questionEn": "An XFile is selected and a preview is shown. What evidence is still needed to claim server persistence?",
-    "questionAr": "سؤال رفع الصور (مستبعد من الاختبار): An XFile is selected and a preview is shown. What evidence is still needed to claim server persistence?",
+    "questionAr": "تم تحديد XFile وعرض معاينة له. ما الدليل الذي لا يزال مطلوباً لإثبات الحفظ الدائم (persistence) على الخادم؟",
     "options": [
       {
         "label": "A",
@@ -2443,7 +2443,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "An Android picker flow can lose its result after activity recreation. Which additional handling is relevant?",
-    "questionAr": "سؤال متعلق بالمنهج: An Android picker flow can lose its result after activity recreation. Which additional handling is relevant?",
+    "questionAr": "يمكن أن يفقد سير عمل أداة الاختيار في Android نتيجته بعد إعادة إنشاء النشاط (activity recreation). أي معالجة إضافية تعتبر ذات صلة؟",
     "options": [
       {
         "label": "A",
@@ -2486,7 +2486,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What can a NavigatorObserver prove in a widget test?",
-    "questionAr": "سؤال متعلق بالمنهج: What can a NavigatorObserver prove in a widget test?",
+    "questionAr": "ما الذي يمكن لـ NavigatorObserver إثباته في اختبار الواجهة (widget test)؟",
     "options": [
       {
         "label": "A",
@@ -2529,7 +2529,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "After tapping a route and waiting for animations and Futures, which test step is commonly needed before finding the final widget?",
-    "questionAr": "سؤال متعلق بالمنهج: After tapping a route and waiting for animations and Futures, which test step is commonly needed before finding the final widget?",
+    "questionAr": "بعد النقر على مسار (route) وانتظار الرسوم المتحركة و (Future)، ما هي خطوة الاختبار التي تشتد الحاجة إليها عادةً قبل العثور على الواجهة (widget) النهائية؟",
     "options": [
       {
         "label": "A",
@@ -2572,7 +2572,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which value is most appropriate to pass through a destination constructor?",
-    "questionAr": "سؤال متعلق بالمنهج: Which value is most appropriate to pass through a destination constructor?",
+    "questionAr": "أي قيمة هي الأنسب لتمريرها عبر مُنشئ الوجهة (destination constructor)؟",
     "options": [
       {
         "label": "A",
@@ -2701,7 +2701,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A caller needs to know whether a destination selected Ocean. Which design is strongest?",
-    "questionAr": "سؤال متعلق بالمنهج: A caller needs to know whether a destination selected Ocean. Which design is strongest?",
+    "questionAr": "يحتاج المستدعي إلى معرفة ما إذا كانت الوجهة قد حددت Ocean. أي تصميم هو الأقوى؟",
     "options": [
       {
         "label": "A",
@@ -2744,7 +2744,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A route receives arguments = 42 but expects a Course object. What should the destination do?",
-    "questionAr": "سؤال متعلق بالمنهج: A route receives arguments = 42 but expects a Course object. What should the destination do?",
+    "questionAr": "يتلقى المسار معاملات (arguments) تساوي 42 ولكنه يتوقع كائناً من نوع Course. ماذا يجب أن تفعل الوجهة؟",
     "options": [
       {
         "label": "A",
@@ -2787,7 +2787,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which condition indicates that the current route is not the root route?",
-    "questionAr": "سؤال متعلق بالمنهج: Which condition indicates that the current route is not the root route?",
+    "questionAr": "أي شرط يشير إلى أن المسار الحالي ليس هو المسار الجذري (root route)؟",
     "options": [
       {
         "label": "A",
@@ -2830,7 +2830,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Why can maybePop be preferable to an unconditional pop in a back action?",
-    "questionAr": "سؤال متعلق بالمنهج: Why can maybePop be preferable to an unconditional pop in a back action?",
+    "questionAr": "لماذا يمكن أن يكون maybePop مفضلاً على pop غير المشروط في إجراء العودة (back action)؟",
     "options": [
       {
         "label": "A",
@@ -2873,7 +2873,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A dirty edit screen shows a Stay/Discard dialog. What should Stay do?",
-    "questionAr": "سؤال متعلق بالمنهج: A dirty edit screen shows a Stay/Discard dialog. What should Stay do?",
+    "questionAr": "تعرض شاشة التعديل التي تحتوي على تغييرات غير محفوظة (dirty edit screen) مربع حوار البقاء/التجاهل (Stay/Discard). ماذا يجب أن يفعل خيار البقاء (Stay)؟",
     "options": [
       {
         "label": "A",
@@ -2916,7 +2916,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What should Discard do after the user confirms?",
-    "questionAr": "سؤال متعلق بالمنهج: What should Discard do after the user confirms?",
+    "questionAr": "ماذا يجب أن يفعل خيار التجاهل (Discard) بعد تأكيد المستخدم؟",
     "options": [
       {
         "label": "A",
@@ -2959,7 +2959,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which widget is the natural destination for a Material 3 three-destination shell?",
-    "questionAr": "سؤال متعلق بالمنهج: Which widget is the natural destination for a Material 3 three-destination shell?",
+    "questionAr": "أي واجهة (widget) تعتبر الوجهة الطبيعية لغلاف من ثلاث وجهات (three-destination shell) في Material 3؟",
     "options": [
       {
         "label": "A",
@@ -3002,7 +3002,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which statement about IndexedStack is correct?",
-    "questionAr": "سؤال متعلق بالمنهج: Which statement about IndexedStack is correct?",
+    "questionAr": "أي عبارة حول IndexedStack تعتبر صحيحة؟",
     "options": [
       {
         "label": "A",
@@ -3088,7 +3088,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A modal bottom sheet is dismissed by tapping outside. What result should the caller expect if its generic type is SortType?",
-    "questionAr": "سؤال متعلق بالمنهج: A modal bottom sheet is dismissed by tapping outside. What result should the caller expect if its generic type is SortType?",
+    "questionAr": "يتم تجاهل modal bottom sheet بالنقر خارجه. ما هي النتيجة التي يجب أن يتوقعها المستدعي إذا كان نوعه العام (generic type) هو SortType؟",
     "options": [
       {
         "label": "A",
@@ -3174,7 +3174,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which test most directly checks the complete result flow Home → Details → choose Ocean → Home feedback?",
-    "questionAr": "سؤال متعلق بالمنهج: Which test most directly checks the complete result flow Home → Details → choose Ocean → Home feedback?",
+    "questionAr": "أي اختبار يتحقق بشكل مباشر من التدفق الكامل للنتيجة: Home → Details → اختيار Ocean → استجابة Home؟",
     "options": [
       {
         "label": "A",
@@ -3217,7 +3217,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A route has a name but receives a missing argument. What is a robust UI outcome?",
-    "questionAr": "سؤال متعلق بالمنهج: A route has a name but receives a missing argument. What is a robust UI outcome?",
+    "questionAr": "مسار له اسم ولكنه يتلقى معامل (argument) مفقود. ما هي النتيجة القوية المتوقعة لواجهة المستخدم (UI outcome)؟",
     "options": [
       {
         "label": "A",
@@ -3260,7 +3260,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which statement about Hero tags is most accurate?",
-    "questionAr": "سؤال متعلق بالمنهج: Which statement about Hero tags is most accurate?",
+    "questionAr": "أي عبارة حول علامات Hero هي الأكثر دقة؟",
     "options": [
       {
         "label": "A",
@@ -3303,7 +3303,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A date range picker returns a nullable DateTimeRange. How should cancellation be treated?",
-    "questionAr": "سؤال متعلق بالمنهج: A date range picker returns a nullable DateTimeRange. How should cancellation be treated?",
+    "questionAr": "تُرجع أداة اختيار نطاق التاريخ قيمة DateTimeRange قابلة للترك كفارغة (nullable). كيف يجب التعامل مع الإلغاء؟",
     "options": [
       {
         "label": "A",
@@ -3346,7 +3346,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What does a named route provide that a constructor route does not automatically provide?",
-    "questionAr": "سؤال متعلق بالمنهج: What does a named route provide that a constructor route does not automatically provide?",
+    "questionAr": "ما الذي يوفره المسار المسمى (named route) ولا يوفره مسار المُنشئ (constructor route) تلقائياً؟",
     "options": [
       {
         "label": "A",
@@ -3389,7 +3389,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A destination needs an immutable course title and summary. Which constructor design is best?",
-    "questionAr": "سؤال متعلق بالمنهج: A destination needs an immutable course title and summary. Which constructor design is best?",
+    "questionAr": "تحتاج وجهة ما إلى عنوان وملخص ثابتين (immutable) للدورة التدريبية. أي تصميم للمُنشئ (constructor design) هو الأفضل؟",
     "options": [
       {
         "label": "A",
@@ -3432,7 +3432,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A navigation test checks that Login is absent after entering Home. Which evidence is relevant?",
-    "questionAr": "سؤال متعلق بالمنهج: A navigation test checks that Login is absent after entering Home. Which evidence is relevant?",
+    "questionAr": "يتحقق اختبار التنقل من غياب شاشة Login بعد الدخول إلى Home. أي دليل يعتبر ذا صلة؟",
     "options": [
       {
         "label": "A",
@@ -3475,7 +3475,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A user taps a picker button twice while the first dialog is open. Which design concern is most relevant?",
-    "questionAr": "سؤال متعلق بالمنهج: A user taps a picker button twice while the first dialog is open. Which design concern is most relevant?",
+    "questionAr": "ينقر المستخدم على زر أداة الاختيار مرتين بينما يكون مربع الحوار الأول مفتوحاً. أي مشكلة تتعلق بالتصميم هي الأكثر صلة؟",
     "options": [
       {
         "label": "A",
@@ -3518,7 +3518,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which approach keeps a search query when the user changes tabs?",
-    "questionAr": "سؤال متعلق بالمنهج: Which approach keeps a search query when the user changes tabs?",
+    "questionAr": "أي نهج يحافظ على استعلام البحث (search query) عندما يغير المستخدم علامات التبويب؟",
     "options": [
       {
         "label": "A",
@@ -3561,7 +3561,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A route result is nullable because dismissal is legal. Which condition shows a selected value?",
-    "questionAr": "سؤال متعلق بالمنهج: A route result is nullable because dismissal is legal. Which condition shows a selected value?",
+    "questionAr": "نتيجة المسار قابلة للترك كفارغة (nullable) لأن التجاهل يعتبر إجراءً مسموحاً. أي شرط يعرض قيمة محددة؟",
     "options": [
       {
         "label": "A",
@@ -3647,7 +3647,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which statement best separates navigation data from persistent data?",
-    "questionAr": "سؤال متعلق بالمنهج: Which statement best separates navigation data from persistent data?",
+    "questionAr": "أي عبارة تفصل بشكل أفضل بين بيانات التنقل (navigation data) والبيانات الدائمة (persistent data)؟",
     "options": [
       {
         "label": "A",
@@ -3733,7 +3733,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What does a successful pop with a value do to the caller?",
-    "questionAr": "سؤال متعلق بالمنهج: What does a successful pop with a value do to the caller?",
+    "questionAr": "ماذا يفعل الـ pop الناجح مع قيمة (value) للمستدعي؟",
     "options": [
       {
         "label": "A",
@@ -3776,7 +3776,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which statement about modal routes is correct?",
-    "questionAr": "سؤال متعلق بالمنهج: Which statement about modal routes is correct?",
+    "questionAr": "أي عبارة حول المسارات المشروطة (modal routes) تعتبر صحيحة؟",
     "options": [
       {
         "label": "A",
@@ -3819,7 +3819,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A screen must keep its previous date if the user cancels a picker. What implementation rule follows?",
-    "questionAr": "سؤال متعلق بالمنهج: A screen must keep its previous date if the user cancels a picker. What implementation rule follows?",
+    "questionAr": "يجب أن تحتفظ الشاشة بتاريخها السابق إذا قام المستخدم بإلغاء أداة الاختيار. ما هي قاعدة التنفيذ التي تترتب على ذلك؟",
     "options": [
       {
         "label": "A",
@@ -3862,7 +3862,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A strong answer to a navigation tracing task should identify what?",
-    "questionAr": "سؤال متعلق بالمنهج: A strong answer to a navigation tracing task should identify what?",
+    "questionAr": "ما الذي يجب أن تحدده الإجابة القوية على مهمة تتبع التنقل (navigation tracing)؟",
     "options": [
       {
         "label": "A",
@@ -3905,7 +3905,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A screen opens a modal choice and then updates only when a non-null value returns. What does this design preserve?",
-    "questionAr": "سؤال متعلق بالمنهج: A screen opens a modal choice and then updates only when a non-null value returns. What does this design preserve?",
+    "questionAr": "تفتح شاشة خياراً مشروطاً (modal choice) ثم تُحدَّث فقط عندما تعود قيمة غير فارغة (non-null value). ما الذي يحافظ عليه هذا التصميم؟",
     "options": [
       {
         "label": "A",
@@ -3948,7 +3948,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which navigation trace is most useful when diagnosing an unexpected Back destination?",
-    "questionAr": "سؤال متعلق بالمنهج: Which navigation trace is most useful when diagnosing an unexpected Back destination?",
+    "questionAr": "أي تتبع للتنقل (navigation trace) هو الأكثر فائدة عند تشخيص وجهة عودة (Back destination) غير متوقعة؟",
     "options": [
       {
         "label": "A",
@@ -3991,7 +3991,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A details route needs to return a saved item id to its caller. Which contract is clearest?",
-    "questionAr": "سؤال متعلق بالمنهج: A details route needs to return a saved item id to its caller. Which contract is clearest?",
+    "questionAr": "يحتاج مسار التفاصيل إلى إرجاع معرف عنصر (item id) محفوظ إلى مستدعيه. أي عقد هو الأوضح؟",
     "options": [
       {
         "label": "A",
@@ -5770,8 +5770,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "A directory for the app to store files that only it can ac cess. The system clears the directory only when the app is deleted. On iOS, this corresponds to the NSDocumentDirectory. On Android, this is the AppData directory.",
-    "questionAr": "سؤال متعلق بالمنهج: A directory for the app to store files that only it can ac cess. The system clears the directory only when the app is deleted. On iOS, this corresponds to the NSDocumentDirectory. On Android, this is the AppData directory.",
+    "questionEn": "A directory for the app to store files that only it can access. The system clears the directory only when the app is deleted. On iOS, this corresponds to the NSDocumentDirectory. On Android, this is the AppData directory.",
+    "questionAr": "دليل للتطبيق لتخزين الملفات التي يمكنه فقط الوصول إليها. يقوم النظام بمسح الدليل فقط عند حذف التطبيق. في نظام iOS، يتوافق هذا مع NSDocumentDirectory. وفي نظام Android، هذا هو دليل AppData.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -5938,8 +5938,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "To retrieve or read data from sharedpreferences in flutter we have to use setter methods of sharedpreferences class.",
-    "questionAr": "سؤال التفضيلات المشتركة (SharedPreferences): To retrieve or read data from sharedpreferences in flutter we have to use setter methods of sharedpreferences class.",
+    "questionEn": "To retrieve or read data from SharedPreferences in Flutter, we have to use the setter methods of the SharedPreferences class.",
+    "questionAr": "لاسترداد أو قراءة البيانات من (SharedPreferences) في Flutter، يجب علينا استخدام دوال التعيين (setter methods) الخاصة بفئة (SharedPreferences).",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -5962,8 +5962,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "To delete or remove data from sharedpreferences in flutter we have to use remove() method. We have to provide only the key to delete the record (both the key and the value corresponding to that key). This method can delete all four types of data by simply taking the key.",
-    "questionAr": "سؤال التفضيلات المشتركة (SharedPreferences): To delete or remove data from sharedpreferences in flutter we have to use remove() method. We have to provide only the key to delete the record (both the key and the value corresponding to that key). This method can delete all four types of data by simply taking the key.",
+    "questionEn": "To delete or remove data from SharedPreferences in Flutter, we must use the remove() method. We have to provide only the key to delete the record (both the key and the value corresponding to that key). This method can delete all four types of data by simply taking the key.",
+    "questionAr": "لحذف أو إزالة البيانات من (SharedPreferences) في Flutter، يجب استخدام الدالة remove(). نحتاج فقط إلى توفير المفتاح لحذف السجل (كل من المفتاح والقيمة المقابلة لذلك المفتاح). يمكن لهذه الدالة حذف جميع أنواع البيانات الأربعة ببساطة عن طريق أخذ المفتاح.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -5986,8 +5986,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "containsKey() method takes key as value and checks if the key is present in sharedpreferences. If the key is present it will return false else it will return true.",
-    "questionAr": "سؤال التفضيلات المشتركة (SharedPreferences): containsKey() method takes key as value and checks if the key is present in sharedpreferences. If the key is present it will return false else it will return true.",
+    "questionEn": "The containsKey() method takes a key as an argument and checks if the key is present in SharedPreferences. If the key is present, it will return false; otherwise, it will return true.",
+    "questionAr": "تأخذ الدالة containsKey() مفتاحاً كمعامل وتتحقق مما إذا كان المفتاح موجوداً في (SharedPreferences). إذا كان المفتاح موجوداً، فسوف تُرجع false؛ وإلا، فإنها سترجع true.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6034,8 +6034,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "If you are writing an app that needs to persist and query large amounts of data on the local device, consider using a key - value store instead of a local file or database.",
-    "questionAr": "سؤال متعلق بالمنهج: If you are writing an app that needs to persist and query large amounts of data on the local device, consider using a key - value store instead of a local file or database.",
+    "questionEn": "If you are writing an app that needs to persist and query large amounts of data on the local device, consider using a key-value store instead of a local file or database.",
+    "questionAr": "إذا كنت تكتب تطبيقاً يحتاج إلى حفظ البيانات والاستعلام عن كميات كبيرة منها على الجهاز المحلي، ففكر في استخدام مخزن مفتاح وقيمة (key-value store) بدلاً من ملف محلي أو قاعدة بيانات.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6058,8 +6058,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "In general, databases provide faster inserts, updates, and queries compared to other local persiste nce solutions.",
-    "questionAr": "سؤال متعلق بالمنهج: In general, databases provide faster inserts, updates, and queries compared to other local persiste nce solutions.",
+    "questionEn": "In general, databases provide faster inserts, updates, and queries compared to other local persistence solutions.",
+    "questionAr": "بشكل عام، توفر قواعد البيانات عمليات إدراج وتحديث واستعلام أسرع مقارنة بحلول التخزين الدائم (persistence) المحلية الأخرى.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6130,8 +6130,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "Always use whereArgs to pass arguments to a where statement. This helps safeguard against SQL injection attacks. ( ) Additional Lecture Based Statements Mark each statement True or False. These additional items are taken from the concepts, APIs, code patterns, and engineering rules taught in Lecture 9.",
-    "questionAr": "سؤال متعلق بالمنهج: Always use whereArgs to pass arguments to a where statement. This helps safeguard against SQL injection attacks. ( ) Additional Lecture Based Statements Mark each statement True or False. These additional items are taken from the concepts, APIs, code patterns, and engineering rules taught in Lecture 9.",
+    "questionEn": "Always use whereArgs to pass arguments to a where statement. This helps safeguard against SQL injection attacks.",
+    "questionAr": "استخدم دائماً whereArgs لتمرير المعاملات إلى عبارة where. يساعد هذا في الحماية من هجمات حقن SQL (SQL injection).",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6179,7 +6179,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A State field can survive ordinary rebuilds while its State object remains mounted.",
-    "questionAr": "سؤال متعلق بالمنهج: A State field can survive ordinary rebuilds while its State object remains mounted.",
+    "questionAr": "يمكن لحقل State أن ينجو من عمليات إعادة البناء (rebuilds) العادية طالما ظل كائن State الخاص به مثبتاً (mounted).",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6202,8 +6202,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "Process termination can remove in -memory values even when the last screen looked correct.",
-    "questionAr": "سؤال متعلق بالمنهج: Process termination can remove in -memory values even when the last screen looked correct.",
+    "questionEn": "Process termination can remove in-memory values even when the last screen looked correct.",
+    "questionAr": "يمكن أن يؤدي إنهاء العملية (process termination) إلى إزالة القيم الموجودة في الذاكرة حتى عندما تبدو الشاشة الأخيرة صحيحة.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6227,7 +6227,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Persistent storage is selected when a value must be reconstructed after a later app launch.",
-    "questionAr": "سؤال متعلق بالمنهج: Persistent storage is selected when a value must be reconstructed after a later app launch.",
+    "questionAr": "يتم تحديد التخزين الدائم (persistent storage) عندما يجب إعادة بناء قيمة بعد تشغيل التطبيق في وقت لاحق.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6251,7 +6251,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Uninstalling an application commonly removes its private local storage unless an external backup restores it.",
-    "questionAr": "سؤال متعلق بالمنهج: Uninstalling an application commonly removes its private local storage unless an external backup restores it.",
+    "questionAr": "تؤدي إزالة تثبيت التطبيق عادةً إلى إزالة التخزين المحلي الخاص به ما لم تقم نسخة احتياطية خارجية باستعادته.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6274,8 +6274,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "A cache can be useful without being authorita tive; its freshness and invalidation policy must be understood.",
-    "questionAr": "سؤال متعلق بالمنهج: A cache can be useful without being authorita tive; its freshness and invalidation policy must be understood.",
+    "questionEn": "A cache can be useful without being authoritative; its freshness and invalidation policy must be understood.",
+    "questionAr": "يمكن أن تكون ذاكرة التخزين المؤقت (cache) مفيدة دون أن تكون موثوقة (authoritative) بالكامل؛ يجب فهم سياستها المتعلقة بالتحديث وإبطال الصلاحية.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6323,7 +6323,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A Boolean can be serialized as a Boolean value or as a documented representation such as 0/1, but the read path must agree.",
-    "questionAr": "سؤال متعلق بالمنهج: A Boolean can be serialized as a Boolean value or as a documented representation such as 0/1, but the read path must agree.",
+    "questionAr": "يمكن تسلسل القيمة المنطقية (Boolean) كقيمة Boolean أو كتمثيل موثق مثل 0/1، ولكن يجب أن يتطابق مسار القراءة (read path) مع ذلك.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6347,7 +6347,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "An absent preference key and a stored zero value are different states when zero is a valid value.",
-    "questionAr": "سؤال متعلق بالمنهج: An absent preference key and a stored zero value are different states when zero is a valid value.",
+    "questionAr": "يعد غياب مفتاح التفضيل والقيمة المخزنة التي تساوي صفراً حالتين مختلفتين عندما يكون الصفر قيمة صالحة.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6394,8 +6394,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "A missing local file can represent first launch when the feature defines that meaning explicitly.",
-    "questionAr": "سؤال متعلق بالمنهج: A missing local file can represent first launch when the feature defines that meaning explicitly.",
+    "questionEn": "A missing local file can represent a first launch when the feature defines that meaning explicitly.",
+    "questionAr": "يمكن أن يمثل غياب ملف محلي التشغيل الأول للتطبيق عندما تحدد الميزة هذا المعنى صراحةً.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6443,7 +6443,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A State object can be unmounted while an asynchronous storage read is suspended.",
-    "questionAr": "سؤال متعلق بالمنهج: A State object can be unmounted while an asynchronous storage read is suspended.",
+    "questionAr": "يمكن إلغاء تثبيت كائن State أثناء تعليق قراءة التخزين غير المتزامنة.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6467,7 +6467,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A mounted check is appropriate before applying an awaited persistence result to the UI.",
-    "questionAr": "سؤال متعلق بالمنهج: A mounted check is appropriate before applying an awaited persistence result to the UI.",
+    "questionAr": "يعد التحقق من حالة mounted مناسبًا قبل تطبيق نتيجة التخزين الدائم المنتظرة على واجهة المستخدم (UI).",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6586,8 +6586,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "Preferences are appropriate for small key -value settings rather than arbitrary relational queries.",
-    "questionAr": "سؤال متعلق بالمنهج: Preferences are appropriate for small key -value settings rather than arbitrary relational queries.",
+    "questionEn": "Preferences are appropriate for small key-value settings rather than arbitrary relational queries.",
+    "questionAr": "تعد التفضيلات (Preferences) مناسبة لإعدادات المفتاح والقيمة (key-value) الصغيرة بدلاً من الاستعلامات العلائقية العشوائية.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6610,8 +6610,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "A Flutter client should not store server database credentials in preferences merely becau se preferences persist.",
-    "questionAr": "سؤال متعلق بالمنهج: A Flutter client should not store server database credentials in preferences merely becau se preferences persist.",
+    "questionEn": "A Flutter client should not store server database credentials in preferences merely because preferences persist.",
+    "questionAr": "لا ينبغي لتطبيق Flutter تخزين بيانات اعتماد قاعدة بيانات الخادم في التفضيلات (Preferences) لمجرد أنها تدعم التخزين الدائم.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6707,7 +6707,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Widgets should not need to know SQL syntax in order to render a list of domain objects.",
-    "questionAr": "سؤال متعلق بالمنهج: Widgets should not need to know SQL syntax in order to render a list of domain objects.",
+    "questionAr": "لا ينبغي أن تحتاج عناصر واجهة المستخدم (Widgets) إلى معرفة صيغة SQL من أجل عرض قائمة من كائنات النطاق (domain objects).",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6755,7 +6755,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A fromMap or fromJson method should validate required fields and normalize values at the serialization boundary.",
-    "questionAr": "سؤال متعلق بالمنهج: A fromMap or fromJson method should validate required fields and normalize values at the serialization boundary.",
+    "questionAr": "يجب أن تقوم الدالة fromMap أو fromJson بالتحقق من الحقول المطلوبة وتسوية القيم عند حدود التسلسل (serialization boundary).",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6778,8 +6778,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "A SQL where clause should bind user values through whereArgs rather than concatenate them into SQL text.",
-    "questionAr": "سؤال متعلق بالمنهج: A SQL where clause should bind user values through whereArgs rather than concatenate them into SQL text.",
+    "questionEn": "A SQL where clause should bind user values through whereArgs rather than concatenating them into the SQL text.",
+    "questionAr": "يجب أن تربط جملة where في SQL قيم المستخدم من خلال whereArgs بدلاً من دمجها في نص SQL.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6803,7 +6803,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Using whereArgs separates a value such as an id from the SQL structure and reduces injection risk.",
-    "questionAr": "سؤال متعلق بالمنهج: Using whereArgs separates a value such as an id from the SQL structure and reduces injection risk.",
+    "questionAr": "يؤدي استخدام whereArgs إلى فصل قيمة مثل المعرف (id) عن بنية SQL ويقلل من مخاطر الحقن (injection risk).",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6826,8 +6826,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "An update that omits its where clause can modify every row, so the target boundary must be expl icit.",
-    "questionAr": "سؤال متعلق بالمنهج: An update that omits its where clause can modify every row, so the target boundary must be expl icit.",
+    "questionEn": "An update that omits its where clause can modify every row, so the target boundary must be explicit.",
+    "questionAr": "يمكن لعملية التحديث التي تحذف جملة where الخاصة بها تعديل كل صف، لذا يجب أن تكون حدود الهدف واضحة.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6851,7 +6851,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A delete operation should identify the intended row with a stable key and a matching bound argument.",
-    "questionAr": "سؤال متعلق بالمنهج: A delete operation should identify the intended row with a stable key and a matching bound argument.",
+    "questionAr": "يجب أن تحدد عملية الحذف الصف المقصود باستخدام مفتاح ثابت ومعامل مرتبط مطابق.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6874,8 +6874,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "ConflictAlgorithm.replace is a policy decision and can overwrite a conflicting row; it is not a universal safest default.",
-    "questionAr": "سؤال متعلق بالمنهج: ConflictAlgorithm.replace is a policy decision and can overwrite a conflicting row; it is not a universal safest default.",
+    "questionEn": "ConflictAlgorithm.replace is a policy decision and can overwrite a conflicting row; it is not a universally safe default.",
+    "questionAr": "تعتبر ConflictAlgorithm.replace قراراً سياسياً ويمكن أن تستبدل صفاً متعارضاً؛ وهي ليست الخيار الافتراضي الأكثر أماناً في كل الحالات.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6898,8 +6898,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "A transaction i s appropriate when several database changes must succeed or fail as one logical unit.",
-    "questionAr": "سؤال متعلق بالمنهج: A transaction i s appropriate when several database changes must succeed or fail as one logical unit.",
+    "questionEn": "A transaction is appropriate when several database changes must succeed or fail as one logical unit.",
+    "questionAr": "تعد المعاملة (transaction) مناسبة عندما يجب أن تنجح أو تفشل عدة تغييرات في قاعدة البيانات كوحدة منطقية واحدة.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6946,8 +6946,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "A fresh query after a writ e gives stronger evidence of stored data than changing a local list optimistically and stopping there.",
-    "questionAr": "سؤال متعلق بالمنهج: A fresh query after a writ e gives stronger evidence of stored data than changing a local list optimistically and stopping there.",
+    "questionEn": "A fresh query after a write gives stronger evidence of stored data than changing a local list optimistically and stopping there.",
+    "questionAr": "يوفر الاستعلام الجديد بعد عملية الكتابة دليلاً أقوى على البيانات المخزنة مقارنة بتغيير قائمة محلية بشكل متفائل والتوقف عند هذا الحد.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -6971,7 +6971,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A controller used by a form is a resource owned by the State object and should be disposed there.",
-    "questionAr": "سؤال متعلق بالمنهج: A controller used by a form is a resource owned by the State object and should be disposed there.",
+    "questionAr": "وحدة التحكم (controller) التي يستخدمها النموذج هي مورد يمتلكه كائن State ويجب التخلص منها (disposed) هناك.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7019,7 +7019,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Schema validation should distinguish a missing required field from an optional field whose value is null.",
-    "questionAr": "سؤال متعلق بالمنهج: Schema validation should distinguish a missing required field from an optional field whose value is null.",
+    "questionAr": "يجب أن يميز التحقق من صحة المخطط (Schema validation) بين الحقل المطلوب المفقود والحقل الاختياري الذي قيمته null.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7042,8 +7042,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "A local -only feature and an offline -first feature have different synchronization and conflict r esponsibilities.",
-    "questionAr": "سؤال متعلق بالمنهج: A local -only feature and an offline -first feature have different synchronization and conflict r esponsibilities.",
+    "questionEn": "A local-only feature and an offline-first feature have different synchronization and conflict responsibilities.",
+    "questionAr": "تتميز الميزة المحلية فقط (local-only) والميزة التي تعمل دون اتصال بالإنترنت أولاً (offline-first) بمسؤوليات مختلفة تتعلق بالمزامنة والتعارض.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7066,8 +7066,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "Offline -first design needs a policy for stale data, pending writes, conflicts, and later synchronization.",
-    "questionAr": "سؤال متعلق بالمنهج: Offline -first design needs a policy for stale data, pending writes, conflicts, and later synchronization.",
+    "questionEn": "An offline-first design needs a policy for stale data, pending writes, conflicts, and later synchronization.",
+    "questionAr": "يحتاج التصميم الذي يعمل دون اتصال بالإنترنت أولاً (offline-first) إلى سياسة للبيانات القديمة، والكتابات المعلقة، والتعارضات، والمزامنة اللاحقة.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7090,8 +7090,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "A directory path should be joined with a filename rather than assembled with platform -specific separators by hand.",
-    "questionAr": "سؤال متعلق بالمنهج: A directory path should be joined with a filename rather than assembled with platform -specific separators by hand.",
+    "questionEn": "A directory path should be joined with a filename rather than assembled with platform-specific separators by hand.",
+    "questionAr": "يجب ربط مسار الدليل باسم ملف بدلاً من تجميعه يدويًا باستخدام الفواصل الخاصة بكل منصة.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7114,8 +7114,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "A path provider gives a platform -appropriate directory, but the application still decides which file belongs there.",
-    "questionAr": "سؤال متعلق بالمنهج: A path provider gives a platform -appropriate directory, but the application still decides which file belongs there.",
+    "questionEn": "A path provider gives a platform-appropriate directory, but the application still decides which file belongs there.",
+    "questionAr": "يوفر path provider دليلاً مناسباً للمنصة، لكن التطبيق يظل هو الذي يقرر أي ملف ينتمي إلى هناك.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7138,8 +7138,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "Temporary files are not automatically suitable as long -term application records.",
-    "questionAr": "سؤال متعلق بالمنهج: Temporary files are not automatically suitable as long -term application records.",
+    "questionEn": "Temporary files are not automatically suitable as long-term application records.",
+    "questionAr": "لا تعتبر الملفات المؤقتة مناسبة بشكل تلقائي كسجلات تطبيق طويلة المدى.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7163,7 +7163,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A missing counter file can be mapped to a defined initial value before the next write.",
-    "questionAr": "سؤال متعلق بالمنهج: A missing counter file can be mapped to a defined initial value before the next write.",
+    "questionAr": "يمكن تعيين ملف العداد المفقود إلى قيمة أولية محددة قبل عملية الكتابة التالية.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7187,7 +7187,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Parsing persisted text should handle malformed input as a controlled error or recovery path.",
-    "questionAr": "سؤال متعلق بالمنهج: Parsing persisted text should handle malformed input as a controlled error or recovery path.",
+    "questionAr": "يجب أن يتعامل تحليل النص المحفوظ مع الإدخال المشوه كخطأ يتم التحكم فيه أو كمسار استرداد.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7211,7 +7211,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A restart test is stronger evidence of persistence than seeing the value immediately after setState.",
-    "questionAr": "سؤال متعلق بالمنهج: A restart test is stronger evidence of persistence than seeing the value immediately after setState.",
+    "questionAr": "يعد اختبار إعادة التشغيل دليلاً أقوى على استمرارية البيانات من رؤية القيمة فوراً بعد استخدام setState.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7234,8 +7234,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "SharedPreferencesAsy nc can store supported primitive types, but the read type should match the write contract.",
-    "questionAr": "سؤال التفضيلات المشتركة (SharedPreferences): SharedPreferencesAsy nc can store supported primitive types, but the read type should match the write contract.",
+    "questionEn": "SharedPreferencesAsync can store supported primitive types, but the read type should match the write contract.",
+    "questionAr": "يمكن لـ (SharedPreferencesAsync) تخزين الأنواع الأساسية المدعومة، ولكن يجب أن يتطابق نوع القراءة مع عقد الكتابة.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7282,8 +7282,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "A clear operatio n should be used with awareness of its scope because it can remove more keys than a targeted remove.",
-    "questionAr": "سؤال متعلق بالمنهج: A clear operatio n should be used with awareness of its scope because it can remove more keys than a targeted remove.",
+    "questionEn": "A clear operation should be used with awareness of its scope because it can remove more keys than a targeted remove.",
+    "questionAr": "يجب استخدام عملية clear بوعي بنطاقها لأنها يمكن أن تزيل مفاتيح أكثر من عملية الحذف (remove) المستهدفة.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7306,8 +7306,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "A cached preference instance may need reload or recreation before it can observe an external update.",
-    "questionAr": "سؤال متعلق بالمنهج: A cached preference instance may need reload or recreation before it can observe an external update.",
+    "questionEn": "A cached preference instance may need a reload or recreation before it can observe an external update.",
+    "questionAr": "قد تحتاج نسخة التفضيلات المخزنة مؤقتًا إلى إعادة تحميل أو إعادة إنشاء قبل أن تتمكن من ملاحظة تحديث خارجي.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7330,8 +7330,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "A database schema version gives an upgrade pat h when the structure changes between app releases.",
-    "questionAr": "سؤال متعلق بالمنهج: A database schema version gives an upgrade pat h when the structure changes between app releases.",
+    "questionEn": "A database schema version gives an upgrade path when the structure changes between app releases.",
+    "questionAr": "يوفر إصدار مخطط قاعدة البيانات مسار ترقية عندما تتغير البنية بين إصدارات التطبيق.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7355,7 +7355,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "onUpgrade is the place to apply the documented migration from an older schema to a newer one.",
-    "questionAr": "سؤال متعلق بالمنهج: onUpgrade is the place to apply the documented migration from an older schema to a newer one.",
+    "questionAr": "تعتبر onUpgrade المكان المناسب لتطبيق الترحيل الموثق من مخطط قديم إلى مخطط أحدث.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7379,7 +7379,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A migration should preserve or transform existing user data deliberately rather than silently dropping columns.",
-    "questionAr": "سؤال متعلق بالمنهج: A migration should preserve or transform existing user data deliberately rather than silently dropping columns.",
+    "questionAr": "يجب أن يحافظ الترحيل (migration) على بيانات المستخدم الحالية أو يحولها بشكل متعمد بدلاً من إسقاط الأعمدة بصمت.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7403,7 +7403,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "UI loading, empty, error, and data states should reflect storage evidence rather than one generic blank screen.",
-    "questionAr": "سؤال متعلق بالمنهج: UI loading, empty, error, and data states should reflect storage evidence rather than one generic blank screen.",
+    "questionAr": "يجب أن تعكس حالات واجهة المستخدم للتحميل والفراغ والخطأ والبيانات أدلة التخزين بدلاً من شاشة فارغة عامة واحدة.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7427,7 +7427,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A persistence layer should report failure instead of showing a success message before an awaited write completes.",
-    "questionAr": "سؤال متعلق بالمنهج: A persistence layer should report failure instead of showing a success message before an awaited write completes.",
+    "questionAr": "يجب أن تُبلغ طبقة الاستمرارية (persistence layer) عن الفشل بدلاً من إظهار رسالة نجاح قبل اكتمال عملية كتابة منتظرة.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7451,7 +7451,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Deleting a row from a local database does not imply that a remote copy has also been deleted.",
-    "questionAr": "سؤال متعلق بالمنهج: Deleting a row from a local database does not imply that a remote copy has also been deleted.",
+    "questionAr": "حذف صف من قاعدة بيانات محلية لا يعني أنه تم حذف نسخة بعيدة (remote copy) أيضًا.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7474,8 +7474,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "An offline -first repository may need both a local authoritative view and a remote synchronization status.",
-    "questionAr": "سؤال متعلق بالمنهج: An offline -first repository may need both a local authoritative view and a remote synchronization status.",
+    "questionEn": "An offline-first repository may need both a local authoritative view and a remote synchronization status.",
+    "questionAr": "قد يحتاج المستودع الذي يعمل دون اتصال بالإنترنت أولاً (offline-first repository) إلى كل من عرض محلي موثوق وحالة مزامنة عن بُعد.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7499,7 +7499,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A storage decision should consider lifetime, query shape, data size, security, platform support, and recovery needs.",
-    "questionAr": "سؤال متعلق بالمنهج: A storage decision should consider lifetime, query shape, data size, security, platform support, and recovery needs.",
+    "questionAr": "يجب أن يراعي قرار التخزين عمر البيانات، وشكل الاستعلام، وحجم البيانات، والأمان، ودعم المنصة، واحتياجات الاسترداد.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7523,7 +7523,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A persistence test should verify the restored value after a new startup path, not only immediately after the write callback.",
-    "questionAr": "سؤال متعلق بالمنهج: A persistence test should verify the restored value after a new startup path, not only immediately after the write callback.",
+    "questionAr": "يجب أن يتحقق اختبار الاستمرارية من القيمة المستردة بعد مسار بدء تشغيل جديد، وليس فقط فورًا بعد عملية رد نداء الكتابة (write callback).",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7571,7 +7571,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If the UI cannot distinguish loading, empty, error, and data, it may report a misleading persistence result even when the storage layer is correct.",
-    "questionAr": "سؤال متعلق بالمنهج: If the UI cannot distinguish loading, empty, error, and data, it may report a misleading persistence result even when the storage layer is correct.",
+    "questionAr": "إذا لم تستطع واجهة المستخدم (UI) التمييز بين حالات التحميل والفراغ والخطأ والبيانات، فقد تبلغ عن نتيجة استمرارية مضللة حتى عندما تكون طبقة التخزين صحيحة.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -7958,8 +7958,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "A ______..that the system can clear at any time.",
-    "questionAr": "سؤال متعلق بالمنهج: A ______..that the system can clear at any time.",
+    "questionEn": "A ______ that the system can clear at any time.",
+    "questionAr": "______ يمكن للنظام مسحه في أي وقت.",
     "options": [
       {
         "label": "A",
@@ -8044,8 +8044,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "A temp orary directory (cache) that the system can clear at any time. On iOS, this corresponds to the ______.. On Android, this is the value that ______.. returns.",
-    "questionAr": "سؤال متعلق بالمنهج: A temp orary directory (cache) that the system can clear at any time. On iOS, this corresponds to the ______.. On Android, this is the value that ______.. returns.",
+    "questionEn": "A temporary directory (cache) that the system can clear at any time. On iOS, this corresponds to the ______. On Android, this is the value that ______ returns.",
+    "questionAr": "دليل مؤقت (ذاكرة التخزين المؤقت) يمكن للنظام مسحه في أي وقت. في نظام iOS، يتوافق هذا مع ______. أما في نظام Android، فهذه هي القيمة التي ترجعها ______.",
     "options": [
       {
         "label": "A",
@@ -8130,8 +8130,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "To write some data to the file. The counter is an integer, but is written to the file as a string usi ng the '$counter' syntax.",
-    "questionAr": "سؤال قراءة وكتابة العداد على القرص: To write some data to the file. The counter is an integer, but is written to the file as a string usi ng the '$counter' syntax.",
+    "questionEn": "To write some data to the file. The counter is an integer, but is written to the file as a string using the '$counter' syntax.",
+    "questionAr": "لكتابة بعض البيانات إلى الملف. العداد هو عدد صحيح، ولكنه يُكتب إلى الملف كسلسلة نصية (string) باستخدام صيغة '$counter'.",
     "options": [
       {
         "label": "A",
@@ -8173,8 +8173,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "If you have some data on disk (The counter is an integer) , you can read it. Once again, use the File class and use ______.. function.",
-    "questionAr": "سؤال قراءة وكتابة العداد على القرص: If you have some data on disk (The counter is an integer) , you can read it. Once again, use the File class and use ______.. function.",
+    "questionEn": "If you have some data on disk (the counter is an integer), you can read it. Once again, use the File class and use the ______ function.",
+    "questionAr": "إذا كان لديك بعض البيانات على القرص (العداد عبارة عن عدد صحيح)، يمكنك قراءتها. مرة أخرى، استخدم فئة File واستخدم دالة ______.",
     "options": [
       {
         "label": "A",
@@ -8216,8 +8216,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "______in flutter are used to store data locally in key -value pairs in android and ios apps. We might have to save data locally while developing applications. Data like login credentials or a flag etc.",
-    "questionAr": "سؤال متعلق بالمنهج: ______in flutter are used to store data locally in key -value pairs in android and ios apps. We might have to save data locally while developing applications. Data like login credentials or a flag etc.",
+    "questionEn": "______ in Flutter are used to store data locally in key-value pairs in Android and iOS apps. We might have to save data locally while developing applications, such as login credentials or a flag.",
+    "questionAr": "تُستخدم ______ في Flutter لتخزين البيانات محليًا في أزواج المفتاح والقيمة (key-value) في تطبيقات Android و iOS. قد نضطر إلى حفظ البيانات محليًا أثناء تطوير التطبيقات، مثل بيانات اعتماد تسجيل الدخول أو علامة (flag).",
     "options": [
       {
         "label": "A",
@@ -8259,8 +8259,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "Using sharedpreferences we can save multi types of values such as .",
-    "questionAr": "سؤال التفضيلات المشتركة (SharedPreferences): Using sharedpreferences we can save multi types of values such as .",
+    "questionEn": "Using SharedPreferences, we can save multiple types of values, such as ______.",
+    "questionAr": "باستخدام (SharedPreferences)، يمكننا حفظ أنواع متعددة من القيم، مثل ______.",
     "options": [
       {
         "label": "A",
@@ -8302,8 +8302,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "To implement and use sharedpreferences in flutter follow the steps below",
-    "questionAr": "سؤال التفضيلات المشتركة (SharedPreferences): To implement and use sharedpreferences in flutter follow the steps below",
+    "questionEn": "To implement and use SharedPreferences in Flutter, follow the steps below:",
+    "questionAr": "لتنفيذ واستخدام (SharedPreferences) في Flutter، اتبع الخطوات أدناه:",
     "options": [
       {
         "label": "A",
@@ -8345,8 +8345,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "To save string value in sharedprefer ences call the ______ method and provide the key and value.",
-    "questionAr": "سؤال متعلق بالمنهج: To save string value in sharedprefer ences call the ______ method and provide the key and value.",
+    "questionEn": "To save a string value in SharedPreferences, call the ______ method and provide the key and value.",
+    "questionAr": "لحفظ قيمة نصية (string) في (SharedPreferences)، قم باستدعاء الدالة ______ وقم بتوفير المفتاح والقيمة.",
     "options": [
       {
         "label": "A",
@@ -8388,8 +8388,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "To save the boolean value in sharedpreferences call the ______ method and provide the key and value.",
-    "questionAr": "سؤال التفضيلات المشتركة (SharedPreferences): To save the boolean value in sharedpreferences call the ______ method and provide the key and value.",
+    "questionEn": "To save a boolean value in SharedPreferences, call the ______ method and provide the key and value.",
+    "questionAr": "لحفظ قيمة منطقية (boolean) في (SharedPreferences)، قم باستدعاء الدالة ______ وقم بتوفير المفتاح والقيمة.",
     "options": [
       {
         "label": "A",
@@ -8431,8 +8431,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "To save a string list value in sharedpreferences call the setStringList() method and provide the key and value. The next code snippet will add list( [“pizza”, “burger”, “sandwich”] ) as a value to the key foodList",
-    "questionAr": "سؤال التفضيلات المشتركة (SharedPreferences): To save a string list value in sharedpreferences call the setStringList() method and provide the key and value. The next code snippet will add list( [“pizza”, “burger”, “sandwich”] ) as a value to the key foodList",
+    "questionEn": "To save a string list value in SharedPreferences, call the setStringList() method and provide the key and value. The following code snippet will add a list ([\"pizza\", \"burger\", \"sandwich\"]) as a value to the key foodList:",
+    "questionAr": "لحفظ قيمة قائمة نصية (string list) في (SharedPreferences)، قم باستدعاء الدالة setStringList() وقم بتوفير المفتاح والقيمة. سيضيف مقتطف الشفرة التالي القائمة ([\"pizza\", \"burger\", \"sandwich\"]) كقيمة للمفتاح foodList:",
     "options": [
       {
         "label": "A",
@@ -8474,8 +8474,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "To retrieve or read int value from sharedpreferences call ______.. method and provide the key.",
-    "questionAr": "سؤال التفضيلات المشتركة (SharedPreferences): To retrieve or read int value from sharedpreferences call ______.. method and provide the key.",
+    "questionEn": "To retrieve or read an int value from SharedPreferences, call the ______ method and provide the key.",
+    "questionAr": "لاسترداد أو قراءة قيمة عدد صحيح (int) من (SharedPreferences)، قم باستدعاء الدالة ______ وقم بتوفير المفتاح.",
     "options": [
       {
         "label": "A",
@@ -8517,8 +8517,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "To retrieve or read double value from sharedpreferences call ______.. method and provide the key.",
-    "questionAr": "سؤال التفضيلات المشتركة (SharedPreferences): To retrieve or read double value from sharedpreferences call ______.. method and provide the key.",
+    "questionEn": "To retrieve or read a double value from SharedPreferences, call the ______ method and provide the key.",
+    "questionAr": "لاسترداد أو قراءة قيمة عشرية مزدوجة (double) من (SharedPreferences)، قم باستدعاء الدالة ______ وقم بتوفير المفتاح.",
     "options": [
       {
         "label": "A",
@@ -8560,8 +8560,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "To retrieve or read string list value from sharedpreferences call ______ method and provide the key.",
-    "questionAr": "سؤال التفضيلات المشتركة (SharedPreferences): To retrieve or read string list value from sharedpreferences call ______ method and provide the key.",
+    "questionEn": "To retrieve or read a string list value from SharedPreferences, call the ______ method and provide the key.",
+    "questionAr": "لاسترداد أو قراءة قيمة قائمة نصية (string list) من (SharedPreferences)، قم باستدعاء الدالة ______ وقم بتوفير المفتاح.",
     "options": [
       {
         "label": "A",
@@ -8603,8 +8603,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "To check if a key or record is present in shared preferences we have to use ______ method. This methods takes key as value and checks if the key is present in sharedpreferences.",
-    "questionAr": "سؤال التفضيلات المشتركة (SharedPreferences): To check if a key or record is present in shared preferences we have to use ______ method. This methods takes key as value and checks if the key is present in sharedpreferences.",
+    "questionEn": "To check if a key or record is present in SharedPreferences, we have to use the ______ method. This method takes a key as an argument and checks if the key is present in SharedPreferences.",
+    "questionAr": "للتحقق مما إذا كان المفتاح أو السجل موجودًا في (SharedPreferences)، يتعين علينا استخدام الدالة ______. تأخذ هذه الدالة مفتاحًا كمعامل وتتحقق مما إذا كان المفتاح موجودًا في (SharedPreferences).",
     "options": [
       {
         "label": "A",
@@ -8646,8 +8646,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "To reset and rem ove any saved data in sharedpreferences call the ______ method without provide the key and value",
-    "questionAr": "سؤال التفضيلات المشتركة (SharedPreferences): To reset and rem ove any saved data in sharedpreferences call the ______ method without provide the key and value",
+    "questionEn": "To reset and remove any saved data in SharedPreferences, call the ______ method without providing the key and value.",
+    "questionAr": "لإعادة تعيين وإزالة أي بيانات محفوظة في (SharedPreferences)، قم باستدعاء الدالة ______ دون توفير المفتاح والقيمة.",
     "options": [
       {
         "label": "A",
@@ -8775,8 +8775,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "The ______. package provides functions to define the location for storing the database on disk.",
-    "questionAr": "سؤال متعلق بالمنهج: The ______. package provides functions to define the location for storing the database on disk.",
+    "questionEn": "The ______ package provides functions to define the location for storing the database on disk.",
+    "questionAr": "توفر الحزمة ______ دوالًا لتحديد الموقع المخصص لتخزين قاعدة البيانات على القرص.",
     "options": [
       {
         "label": "A",
@@ -8947,8 +8947,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "In addition to inserting and updating information about Dogs, you can also remove dogs from the database. To delete data, use the ______.. method from the ______ library.",
-    "questionAr": "سؤال متعلق بالمنهج: In addition to inserting and updating information about Dogs, you can also remove dogs from the database. To delete data, use the ______.. method from the ______ library.",
+    "questionEn": "In addition to inserting and updating information about Dogs, you can also remove dogs from the database. To delete data, use the ______ method from the ______ library.",
+    "questionAr": "بالإضافة إلى إدخال وتحديث معلومات حول Dogs، يمكنك أيضًا إزالة الكلاب من قاعدة البيانات. لحذف البيانات، استخدم الدالة ______ من مكتبة ______.",
     "options": [
       {
         "label": "A",
@@ -8990,8 +8990,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "______.is a fast relational database that can be used to store data offline for mobile applications.",
-    "questionAr": "سؤال متعلق بالمنهج: ______.is a fast relational database that can be used to store data offline for mobile applications.",
+    "questionEn": "______ is a fast relational database that can be used to store data offline for mobile applications.",
+    "questionAr": "تُعد ______ قاعدة بيانات علائقية سريعة يمكن استخدامها لتخزين البيانات دون اتصال بالإنترنت لتطبيقات الهاتف المحمول.",
     "options": [
       {
         "label": "A",
@@ -9033,8 +9033,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "In flutter is used to store data locally in android and ios apps",
-    "questionAr": "سؤال متعلق بالمنهج: In flutter is used to store data locally in android and ios apps",
+    "questionEn": "______ in Flutter is used to store data locally in Android and iOS apps.",
+    "questionAr": "تُستخدم ______ في Flutter لتخزين البيانات محليًا في تطبيقات Android و iOS.",
     "options": [
       {
         "label": "A",
@@ -9077,7 +9077,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A counter appears correct until the app process is terminated and relaunched. What storage is missing?",
-    "questionAr": "سؤال متعلق بالمنهج: A counter appears correct until the app process is terminated and relaunched. What storage is missing?",
+    "questionAr": "يظهر العداد بشكل صحيح حتى يتم إنهاء عملية التطبيق وإعادة تشغيلها. ما هو التخزين المفقود؟",
     "options": [
       {
         "label": "A",
@@ -9135,7 +9135,7 @@ export const questionsData = [
       {
         "label": "C",
         "textEn": "It is stored in SQLite",
-        "textAr": "يتم تخزينه في SQLite"
+        "textAr": "يتم تخزينه في (SQLite)"
       },
       {
         "label": "D",
@@ -9162,8 +9162,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "Which value is a n atural candidate for a small key -value preference?",
-    "questionAr": "سؤال متعلق بالمنهج: Which value is a n atural candidate for a small key -value preference?",
+    "questionEn": "Which value is a natural candidate for a small key-value preference?",
+    "questionAr": "أي قيمة تُعد مرشحًا طبيعيًا لتفضيل مفتاح وقيمة (key-value preference) صغير؟",
     "options": [
       {
         "label": "A",
@@ -9205,8 +9205,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "A journal app needs filtering, ordering, and updating individual rows by id. Which st ore fits best?",
-    "questionAr": "سؤال متعلق بالمنهج: A journal app needs filtering, ordering, and updating individual rows by id. Which st ore fits best?",
+    "questionEn": "A journal app needs filtering, ordering, and updating individual rows by id. Which store fits best?",
+    "questionAr": "يحتاج تطبيق اليوميات إلى التصفية والترتيب وتحديث الصفوف الفردية حسب المعرف (id). ما هو التخزين الأنسب؟",
     "options": [
       {
         "label": "A",
@@ -9292,7 +9292,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A user preference must be read after a process restart. Which design is required?",
-    "questionAr": "سؤال متعلق بالمنهج: A user preference must be read after a process restart. Which design is required?",
+    "questionAr": "يجب قراءة تفضيلات المستخدم بعد إعادة تشغيل العملية. ما هو التصميم المطلوب؟",
     "options": [
       {
         "label": "A",
@@ -9335,7 +9335,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A stored username is absent on first launch. What is a robust interpretation?",
-    "questionAr": "سؤال متعلق بالمنهج: A stored username is absent on first launch. What is a robust interpretation?",
+    "questionAr": "اسم المستخدم المخزن غير موجود عند التشغيل الأول. ما هو التفسير القوي لذلك؟",
     "options": [
       {
         "label": "A",
@@ -9436,7 +9436,7 @@ export const questionsData = [
       {
         "label": "C",
         "textEn": "Assume the file contains valid JSON",
-        "textAr": "افتراض أن الملف يحتوي على JSON صالح"
+        "textAr": "افتراض أن الملف يحتوي على (JSON) صالح"
       },
       {
         "label": "D",
@@ -9507,7 +9507,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A preference value changed outside a cached reader, but the UI still shows the old value. What is likely?",
-    "questionAr": "سؤال متعلق بالمنهج: A preference value changed outside a cached reader, but the UI still shows the old value. What is likely?",
+    "questionAr": "تغيرت قيمة التفضيل خارج قارئ مخزن مؤقتًا، لكن واجهة المستخدم (UI) لا تزال تعرض القيمة القديمة. ما هو السبب المحتمل؟",
     "options": [
       {
         "label": "A",
@@ -9517,7 +9517,7 @@ export const questionsData = [
       {
         "label": "B",
         "textEn": "SQLite has no rows",
-        "textAr": "SQLite لا تحتوي على أي صفوف"
+        "textAr": "(SQLite) لا تحتوي على أي صفوف"
       },
       {
         "label": "C",
@@ -9550,7 +9550,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which boundary best isolates a Flutter screen from storage implementation details?",
-    "questionAr": "سؤال متعلق بالمنهج: Which boundary best isolates a Flutter screen from storage implementation details?",
+    "questionAr": "أي حدود تعزل شاشة Flutter بشكل أفضل عن تفاصيل تنفيذ التخزين؟",
     "options": [
       {
         "label": "A",
@@ -9560,7 +9560,7 @@ export const questionsData = [
       {
         "label": "B",
         "textEn": "SQL strings embedded in every build method",
-        "textAr": "سلاسل SQL (SQL strings) مضمنة في كل دالة build"
+        "textAr": "سلاسل SQL (SQL strings) مضمنة في كل دالة (build)"
       },
       {
         "label": "C",
@@ -9613,7 +9613,7 @@ export const questionsData = [
       {
         "label": "D",
         "textEn": "An HTTP status only",
-        "textAr": "حالة HTTP فقط"
+        "textAr": "حالة (HTTP) فقط"
       }
     ],
     "correctAnswer": "A",
@@ -9635,8 +9635,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "Which query is safer for a use r-provided id?",
-    "questionAr": "سؤال متعلق بالمنهج: Which query is safer for a use r-provided id?",
+    "questionEn": "Which query is safer for a user-provided id?",
+    "questionAr": "أي استعلام أكثر أمانًا لمعرف (id) مقدم من المستخدم؟",
     "options": [
       {
         "label": "A",
@@ -9679,7 +9679,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Why is string concatenation unsafe in SQL conditions?",
-    "questionAr": "سؤال متعلق بالمنهج: Why is string concatenation unsafe in SQL conditions?",
+    "questionAr": "لماذا يُعد دمج السلاسل النصية (string concatenation) غير آمن في شروط SQL؟",
     "options": [
       {
         "label": "A",
@@ -9699,7 +9699,7 @@ export const questionsData = [
       {
         "label": "D",
         "textEn": "It changes a Future into a Stream",
-        "textAr": "تقوم بتغيير Future إلى Stream"
+        "textAr": "تقوم بتغيير (Future) إلى (Stream)"
       }
     ],
     "correctAnswer": "A",
@@ -9722,7 +9722,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "An update must affect exactly one journal row. Which detail is essential?",
-    "questionAr": "سؤال متعلق بالمنهج: An update must affect exactly one journal row. Which detail is essential?",
+    "questionAr": "يجب أن يؤثر التحديث على صف يوميات واحد بالضبط. ما هي التفصيلة الأساسية لذلك؟",
     "options": [
       {
         "label": "A",
@@ -9765,7 +9765,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "When are transactions most appropriate?",
-    "questionAr": "سؤال متعلق بالمنهج: When are transactions most appropriate?",
+    "questionAr": "متى تكون المعاملات (transactions) هي الأنسب؟",
     "options": [
       {
         "label": "A",
@@ -9808,7 +9808,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What is a cautious interpretation of ConflictAlgorithm.replace?",
-    "questionAr": "سؤال متعلق بالمنهج: What is a cautious interpretation of ConflictAlgorithm.replace?",
+    "questionAr": "ما هو التفسير الحذر لـ ConflictAlgorithm.replace؟",
     "options": [
       {
         "label": "A",
@@ -9823,7 +9823,7 @@ export const questionsData = [
       {
         "label": "C",
         "textEn": "A JSON validation method",
-        "textAr": "طريقة للتحقق من صحة JSON"
+        "textAr": "طريقة للتحقق من صحة (JSON)"
       },
       {
         "label": "D",
@@ -9850,8 +9850,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "A list is updated locally after insert without reading the database. What evidence is missing?",
-    "questionAr": "سؤال متعلق بالمنهج: A list is updated locally after insert without reading the database. What evidence is missing?",
+    "questionEn": "A list is updated locally after an insert without reading the database. What evidence is missing?",
+    "questionAr": "يتم تحديث القائمة محليًا بعد عملية الإدراج دون قراءة قاعدة البيانات. ما هو الدليل المفقود؟",
     "options": [
       {
         "label": "A",
@@ -9904,7 +9904,7 @@ export const questionsData = [
       {
         "label": "B",
         "textEn": "The SQLite table",
-        "textAr": "جدول SQLite"
+        "textAr": "جدول (SQLite)"
       },
       {
         "label": "C",
@@ -9914,7 +9914,7 @@ export const questionsData = [
       {
         "label": "D",
         "textEn": "The JSON decoder",
-        "textAr": "مفكك الـ JSON (JSON decoder)"
+        "textAr": "مفكك الـ (JSON) (JSON decoder)"
       }
     ],
     "correctAnswer": "A",
@@ -9980,7 +9980,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which serialization rule is safest for an optional date?",
-    "questionAr": "سؤال متعلق بالمنهج: Which serialization rule is safest for an optional date?",
+    "questionAr": "أي قاعدة تسلسل (serialization) هي الأكثر أمانًا لتاريخ اختياري؟",
     "options": [
       {
         "label": "A",
@@ -10023,7 +10023,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What does a schema version enable?",
-    "questionAr": "سؤال متعلق بالمنهج: What does a schema version enable?",
+    "questionAr": "ما الذي يتيحه إصدار المخطط (schema version)؟",
     "options": [
       {
         "label": "A",
@@ -10065,8 +10065,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "Where should an older d atabase be upgraded when the app opens a newer schema?",
-    "questionAr": "سؤال متعلق بالمنهج: Where should an older d atabase be upgraded when the app opens a newer schema?",
+    "questionEn": "Where should an older database be upgraded when the app opens a newer schema?",
+    "questionAr": "أين يجب ترقية قاعدة بيانات أقدم عندما يفتح التطبيق مخططًا أحدث؟",
     "options": [
       {
         "label": "A",
@@ -10109,7 +10109,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A new column is added to an existing database. What is a responsible migration concern?",
-    "questionAr": "سؤال متعلق بالمنهج: A new column is added to an existing database. What is a responsible migration concern?",
+    "questionAr": "تمت إضافة عمود جديد إلى قاعدة بيانات موجودة. ما هو الاهتمام المسؤول بالترحيل؟",
     "options": [
       {
         "label": "A",
@@ -10152,7 +10152,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which lifecycle best describes a value held in State but not persisted?",
-    "questionAr": "سؤال متعلق بالمنهج: Which lifecycle best describes a value held in State but not persisted?",
+    "questionAr": "أي دورة حياة تصف بشكل أفضل قيمة محفوظة في State ولكنها ليست مخزنة بشكل دائم؟",
     "options": [
       {
         "label": "A",
@@ -10167,7 +10167,7 @@ export const questionsData = [
       {
         "label": "C",
         "textEn": "It is always shared with SQLite",
-        "textAr": "تتم مشاركتها دائمًا مع SQLite"
+        "textAr": "تتم مشاركتها دائمًا مع (SQLite)"
       },
       {
         "label": "D",
@@ -10195,7 +10195,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A file path should be built for Android and iOS. Which approach is strongest?",
-    "questionAr": "سؤال متعلق بالمنهج: A file path should be built for Android and iOS. Which approach is strongest?",
+    "questionAr": "يجب بناء مسار ملف لأنظمة Android و iOS. ما هو النهج الأقوى؟",
     "options": [
       {
         "label": "A",
@@ -10237,8 +10237,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "Why is a temporary image/file path a poor long -term database value?",
-    "questionAr": "سؤال متعلق بالمنهج: Why is a temporary image/file path a poor long -term database value?",
+    "questionEn": "Why is a temporary image or file path a poor long-term database value?",
+    "questionAr": "لماذا يعد مسار الصورة أو الملف المؤقت قيمة سيئة لقاعدة بيانات طويلة المدى؟",
     "options": [
       {
         "label": "A",
@@ -10258,7 +10258,7 @@ export const questionsData = [
       {
         "label": "D",
         "textEn": "JSON cannot contain paths",
-        "textAr": "الـ JSON لا يمكن أن يحتوي على مسارات (paths)"
+        "textAr": "الـ (JSON) لا يمكن أن يحتوي على مسارات (paths)"
       }
     ],
     "correctAnswer": "A",
@@ -10280,8 +10280,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "A persistence read throws because the stored text is malformed. What should the UI normally receive?",
-    "questionAr": "سؤال متعلق بالمنهج: A persistence read throws because the stored text is malformed. What should the UI normally receive?",
+    "questionEn": "A persistence read throws an exception because the stored text is malformed. What should the UI normally receive?",
+    "questionAr": "قراءة البيانات الدائمة ترمي استثناء لأن النص المخزن مشوه. ماذا يجب أن تتلقى واجهة المستخدم عادةً؟",
     "options": [
       {
         "label": "A",
@@ -10324,7 +10324,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which test best demonstrates persistence?",
-    "questionAr": "سؤال متعلق بالمنهج: Which test best demonstrates persistence?",
+    "questionAr": "أي اختبار يوضح الديمومة (persistence) بشكل أفضل؟",
     "options": [
       {
         "label": "A",
@@ -10382,7 +10382,7 @@ export const questionsData = [
       {
         "label": "C",
         "textEn": "SQLite delete without a table",
-        "textAr": "عملية حذف في SQLite بدون جدول"
+        "textAr": "عملية حذف في (SQLite) بدون جدول"
       },
       {
         "label": "D",
@@ -10410,7 +10410,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Why should clear be used carefully?",
-    "questionAr": "سؤال متعلق بالمنهج: Why should clear be used carefully?",
+    "questionAr": "لماذا يجب استخدام clear بحذر؟",
     "options": [
       {
         "label": "A",
@@ -10452,13 +10452,13 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "A cache -backed preference reader must observe external changes. What operation may be required?",
-    "questionAr": "سؤال متعلق بالمنهج: A cache -backed preference reader must observe external changes. What operation may be required?",
+    "questionEn": "A cache-backed preference reader must observe external changes. What operation may be required?",
+    "questionAr": "يجب على قارئ التفضيلات المدعوم بذاكرة التخزين المؤقت (cache) مراقبة التغييرات الخارجية. ما هي العملية التي قد تكون مطلوبة؟",
     "options": [
       {
         "label": "A",
         "textEn": "Reload the cache or read through a non -cached API",
-        "textAr": "أعد تحميل الذاكرة المخبئية (cache) أو اقرأ من خلال API غير مخبأة (non-cached)"
+        "textAr": "أعد تحميل الذاكرة المخبئية (cache) أو اقرأ من خلال (API) غير مخبأة (non-cached)"
       },
       {
         "label": "B",
@@ -10473,7 +10473,7 @@ export const questionsData = [
       {
         "label": "D",
         "textEn": "Drop the SQLite database",
-        "textAr": "إسقاط (Drop) قاعدة بيانات SQLite"
+        "textAr": "إسقاط (Drop) قاعدة بيانات (SQLite)"
       }
     ],
     "correctAnswer": "A",
@@ -10495,13 +10495,13 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "Which data belongs in server -side configuration rather than local preferences?",
-    "questionAr": "سؤال متعلق بالمنهج: Which data belongs in server -side configuration rather than local preferences?",
+    "questionEn": "Which data belongs in server-side configuration rather than local preferences?",
+    "questionAr": "أي البيانات تنتمي إلى إعدادات الخادم (server-side configuration) بدلاً من التفضيلات المحلية (local preferences)؟",
     "options": [
       {
         "label": "A",
         "textEn": "Credentials used by an API to access a database",
-        "textAr": "بيانات الاعتماد (Credentials) المستخدمة بواسطة API للوصول إلى قاعدة بيانات"
+        "textAr": "بيانات الاعتماد (Credentials) المستخدمة بواسطة (API) للوصول إلى قاعدة بيانات"
       },
       {
         "label": "B",
@@ -10538,8 +10538,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "Which architecture supports later remote synchronization for an offline -first feature?",
-    "questionAr": "سؤال متعلق بالمنهج: Which architecture supports later remote synchronization for an offline -first feature?",
+    "questionEn": "Which architecture supports later remote synchronization for an offline-first feature?",
+    "questionAr": "أي معمارية تدعم المزامنة عن بُعد لاحقاً لميزة العمل بدون إنترنت أولاً (offline-first)؟",
     "options": [
       {
         "label": "A",
@@ -10581,8 +10581,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "What is the main difference between local -only and offline -first?",
-    "questionAr": "سؤال متعلق بالمنهج: What is the main difference between local -only and offline -first?",
+    "questionEn": "What is the main difference between local-only and offline-first?",
+    "questionAr": "ما هو الفرق الرئيسي بين محلي فقط (local-only) والعمل بدون إنترنت أولاً (offline-first)؟",
     "options": [
       {
         "label": "A",
@@ -10597,7 +10597,7 @@ export const questionsData = [
       {
         "label": "C",
         "textEn": "Offline-first cannot use SQLite",
-        "textAr": "التطبيقات التي تعمل دون اتصال أولاً (Offline-first) لا يمكنها استخدام SQLite"
+        "textAr": "التطبيقات التي تعمل دون اتصال أولاً (Offline-first) لا يمكنها استخدام (SQLite)"
       },
       {
         "label": "D",
@@ -10630,7 +10630,7 @@ export const questionsData = [
       {
         "label": "A",
         "textEn": "mounted before the post -await update",
-        "textAr": "mounted قبل التحديث الذي يلي await (post-await update)"
+        "textAr": "mounted قبل التحديث الذي يلي (await) (post-(await) update)"
       },
       {
         "label": "B",
@@ -10711,7 +10711,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Why keep SQL out of widgets?",
-    "questionAr": "سؤال متعلق بالمنهج: Why keep SQL out of widgets?",
+    "questionAr": "لماذا يجب إبقاء أوامر SQL خارج الـ widgets؟",
     "options": [
       {
         "label": "A",
@@ -10721,7 +10721,7 @@ export const questionsData = [
       {
         "label": "B",
         "textEn": "SQL can only run in initState",
-        "textAr": "يمكن تشغيل SQL فقط في initState"
+        "textAr": "يمكن تشغيل SQL فقط في (initState)"
       },
       {
         "label": "C",
@@ -10753,8 +10753,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "A query returns rows as maps. Where should map -to-model conversion normally h appen?",
-    "questionAr": "سؤال متعلق بالمنهج: A query returns rows as maps. Where should map -to-model conversion normally h appen?",
+    "questionEn": "A query returns rows as maps. Where should map-to-model conversion normally happen?",
+    "questionAr": "يُرجع الاستعلام (query) الصفوف في شكل خرائط (maps). أين يجب أن تحدث عملية التحويل من خريطة إلى نموذج (map-to-model) عادةً؟",
     "options": [
       {
         "label": "A",
@@ -10840,7 +10840,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A delete confirmation is cancelled. What should happen to persistent data?",
-    "questionAr": "سؤال متعلق بالمنهج: A delete confirmation is cancelled. What should happen to persistent data?",
+    "questionAr": "تم إلغاء تأكيد الحذف. ماذا يجب أن يحدث للبيانات الدائمة؟",
     "options": [
       {
         "label": "A",
@@ -10925,8 +10925,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "Which choice bes t handles a stored integer that may be absent?",
-    "questionAr": "سؤال متعلق بالمنهج: Which choice bes t handles a stored integer that may be absent?",
+    "questionEn": "Which choice best handles a stored integer that may be absent?",
+    "questionAr": "أي خيار يتعامل بشكل أفضل مع عدد صحيح مخزن قد يكون غير موجود؟",
     "options": [
       {
         "label": "A",
@@ -10989,7 +10989,7 @@ export const questionsData = [
       {
         "label": "D",
         "textEn": "SQLite always returns one fake row",
-        "textAr": "SQLite تعيد دائماً صفاً وهمياً واحداً"
+        "textAr": "(SQLite) تعيد دائماً صفاً وهمياً واحداً"
       }
     ],
     "correctAnswer": "A",
@@ -11011,8 +11011,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "Which database operation matches “update the row whose id is 4”?",
-    "questionAr": "سؤال متعلق بالمنهج: Which database operation matches “update the row whose id is 4”?",
+    "questionEn": "Which database operation matches \"update the row whose id is 4\"?",
+    "questionAr": "أي عملية في قاعدة البيانات تتطابق مع \"تحديث الصف الذي يحمل المعرف id يساوي 4\"؟",
     "options": [
       {
         "label": "A",
@@ -11055,7 +11055,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which operation is appropriate for a new journal row?",
-    "questionAr": "سؤال متعلق بالمنهج: Which operation is appropriate for a new journal row?",
+    "questionAr": "ما هي العملية المناسبة لصف جديد في السجل (journal row)؟",
     "options": [
       {
         "label": "A",
@@ -11098,7 +11098,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A schema migration drops a column containing user notes without backup. What is the primary problem?",
-    "questionAr": "سؤال متعلق بالمنهج: A schema migration drops a column containing user notes without backup. What is the primary problem?",
+    "questionAr": "تقوم عملية ترحيل المخطط (schema migration) بإسقاط عمود يحتوي على ملاحظات المستخدم دون وجود نسخة احتياطية. ما هي المشكلة الأساسية؟",
     "options": [
       {
         "label": "A",
@@ -11140,8 +11140,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "A local s uccess SnackBar appears before an awaited write completes. What is wrong?",
-    "questionAr": "سؤال متعلق بالمنهج: A local s uccess SnackBar appears before an awaited write completes. What is wrong?",
+    "questionEn": "A local success SnackBar appears before an awaited write completes. What is wrong?",
+    "questionAr": "تظهر رسالة نجاح محلية من نوع SnackBar قبل اكتمال عملية الكتابة المنتظرة. ما هو الخطأ؟",
     "options": [
       {
         "label": "A",
@@ -11151,7 +11151,7 @@ export const questionsData = [
       {
         "label": "B",
         "textEn": "SnackBars cannot be used with SQLite",
-        "textAr": "لا يمكن استخدام SnackBars مع SQLite"
+        "textAr": "لا يمكن استخدام SnackBars مع (SQLite)"
       },
       {
         "label": "C",
@@ -11183,8 +11183,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "What is a useful test se am for persistence?",
-    "questionAr": "سؤال متعلق بالمنهج: What is a useful test se am for persistence?",
+    "questionEn": "What is a useful test seam for persistence?",
+    "questionAr": "ما هي نقطة الفصل الاختبارية (test seam) المفيدة للديمومة (persistence)؟",
     "options": [
       {
         "label": "A",
@@ -11227,7 +11227,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A stored timestamp is read on a device with a different locale. What should the model use?",
-    "questionAr": "سؤال متعلق بالمنهج: A stored timestamp is read on a device with a different locale. What should the model use?",
+    "questionAr": "يتم قراءة طابع زمني مخزن (timestamp) على جهاز ذي إعدادات إقليمية (locale) مختلفة. ماذا يجب أن يستخدم النموذج (model)؟",
     "options": [
       {
         "label": "A",
@@ -11313,7 +11313,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A list is refreshed after a delete. What should the UI do if the fresh query returns zero rows?",
-    "questionAr": "سؤال متعلق بالمنهج: A list is refreshed after a delete. What should the UI do if the fresh query returns zero rows?",
+    "questionAr": "تم تحديث القائمة بعد عملية حذف. ماذا يجب أن تفعل واجهة المستخدم (UI) إذا أرجع الاستعلام الجديد صفر صفوف؟",
     "options": [
       {
         "label": "A",
@@ -11333,7 +11333,7 @@ export const questionsData = [
       {
         "label": "D",
         "textEn": "Insert a placeholder into SQLite",
-        "textAr": "إدراج عنصر نائب (placeholder) في SQLite"
+        "textAr": "إدراج عنصر نائب (placeholder) في (SQLite)"
       }
     ],
     "correctAnswer": "A",
@@ -11356,7 +11356,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Why should an app name its authoritative home for each data item?",
-    "questionAr": "سؤال متعلق بالمنهج: Why should an app name its authoritative home for each data item?",
+    "questionAr": "لماذا يجب على التطبيق تسمية المصدر الموثوق (authoritative home) لكل عنصر بيانات؟",
     "options": [
       {
         "label": "A",
@@ -11399,7 +11399,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What is the strongest overall storage decision criterion?",
-    "questionAr": "سؤال متعلق بالمنهج: What is the strongest overall storage decision criterion?",
+    "questionAr": "ما هو أقوى معيار شامل لاتخاذ قرارات التخزين؟",
     "options": [
       {
         "label": "A",
@@ -11485,7 +11485,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which statement about a database id is safest?",
-    "questionAr": "سؤال متعلق بالمنهج: Which statement about a database id is safest?",
+    "questionAr": "أي عبارة حول معرف قاعدة البيانات (database id) هي الأكثر أماناً؟",
     "options": [
       {
         "label": "A",
@@ -11528,7 +11528,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A repository catches malformed storage data. What should it provide to the UI?",
-    "questionAr": "سؤال متعلق بالمنهج: A repository catches malformed storage data. What should it provide to the UI?",
+    "questionAr": "يلتقط المستودع (repository) بيانات تخزين مشوهة. ماذا يجب أن يقدم لواجهة المستخدم (UI)؟",
     "options": [
       {
         "label": "A",
@@ -11571,7 +11571,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A process restart restores a value from storage. Which layer performed the restoration?",
-    "questionAr": "سؤال متعلق بالمنهج: A process restart restores a value from storage. Which layer performed the restoration?",
+    "questionAr": "إعادة تشغيل العملية (process restart) تستعيد قيمة من التخزين. أي طبقة قامت بعملية الاستعادة؟",
     "options": [
       {
         "label": "A",
@@ -11614,7 +11614,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which design avoids binding persistence behavior to a particular screen?",
-    "questionAr": "سؤال متعلق بالمنهج: Which design avoids binding persistence behavior to a particular screen?",
+    "questionAr": "أي تصميم يتجنب ربط سلوك الديمومة (persistence behavior) بشاشة معينة؟",
     "options": [
       {
         "label": "A",
@@ -11824,7 +11824,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code fragment: print(await prefs.getString('username')); After saving the username, what does the following read print?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code fragment: print(await prefs.getString('username')); After saving the username, what does the following read print?",
+    "questionAr": "إذا كان لدينا جزء الشيفرة التالي: print(await prefs.getString('username')); بعد حفظ اسم المستخدم، ماذا تطبع عملية القراءة التالية؟",
     "options": [
       {
         "label": "B",
@@ -12011,7 +12011,7 @@ export const questionsData = [
       {
         "label": "D",
         "textEn": "A SQLite row",
-        "textAr": "صف (row) SQLite"
+        "textAr": "صف (row) (SQLite)"
       }
     ],
     "correctAnswer": "A",
@@ -12049,7 +12049,7 @@ export const questionsData = [
       {
         "label": "C",
         "textEn": "SQLite migration",
-        "textAr": "ترحيل SQLite (SQLite migration)"
+        "textAr": "ترحيل (SQLite) (SQLite migration)"
       },
       {
         "label": "D",
@@ -12278,7 +12278,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "REST APIs are always stateless, meaning each request from a client must contain all necessary information.",
-    "questionAr": "سؤال متعلق بالمنهج: REST APIs are always stateless, meaning each request from a client must contain all necessary information.",
+    "questionAr": "واجهات REST APIs تكون دائماً عديمة الحالة (stateless)، مما يعني أن كل طلب من العميل يجب أن يحتوي على جميع المعلومات الضرورية.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -12402,8 +12402,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "Flutter, the popular open -source UI toolkit, does not provide developers with powerful tools to efficiently work with APIs.",
-    "questionAr": "سؤال متعلق بالمنهج: Flutter, the popular open -source UI toolkit, does not provide developers with powerful tools to efficiently work with APIs.",
+    "questionEn": "Flutter, the popular open-source UI toolkit, does not provide developers with powerful tools to efficiently work with APIs.",
+    "questionAr": "إطار عمل Flutter، وهو مجموعة أدوات واجهة المستخدم مفتوحة المصدر الشهيرة، لا يوفر للمطورين أدوات قوية للعمل بكفاءة مع الـ APIs.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -13027,8 +13027,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "A product row can use Image.network with an image URL and disp lay the product name, category, and price.",
-    "questionAr": "سؤال متعلق بالمنهج: A product row can use Image.network with an image URL and disp lay the product name, category, and price.",
+    "questionEn": "A product row can use Image.network with an image URL and display the product name, category, and price.",
+    "questionAr": "يمكن لصف المنتج استخدام Image.network مع رابط الصورة (URL) وعرض اسم المنتج، فئته، وسعره.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -13077,8 +13077,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "If we have the following code snippet: <uses-permission android:name=\"android.permi ssion.INTERNET\" /> The Android application needs the INTERNET permission for this request.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: <uses-permission android:name=\"android.permi ssion.INTERNET\" /> The Android application needs the INTERNET permission for this request.",
+    "questionEn": "If we have the following code snippet: <uses-permission android:name=\"android.permission.INTERNET\" /> The Android application needs the INTERNET permission for this request.",
+    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: <uses-permission android:name=\"android.permission.INTERNET\" /> يحتاج تطبيق Android إلى إذن الـ INTERNET لهذا الطلب.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -13128,7 +13128,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final avatarUrl = user['picture']['large']; final age = user['dob']['age']; The ListTile reads the avatar from picture.large and the age from dob.age.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final avatarUrl = user['picture']['large']; final age = user['dob']['age']; The ListTile reads the avatar from picture.large and the age from dob.age.",
+    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: final avatarUrl = user['picture']['large']; final age = user['dob']['age']; يقرأ الـ ListTile الصورة الرمزية من picture.large والعمر من dob.age.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -13177,8 +13177,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "A successful response may still contain an empty list, so the UI should h andle an empty state.",
-    "questionAr": "سؤال متعلق بالمنهج: A successful response may still contain an empty list, so the UI should h andle an empty state.",
+    "questionEn": "A successful response may still contain an empty list, so the UI should handle an empty state.",
+    "questionAr": "الاستجابة الناجحة قد لا تزال تحتوي على قائمة فارغة، لذا يجب أن تتعامل واجهة المستخدم (UI) مع حالة الفراغ (empty state).",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -13278,7 +13278,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "The UI should change visible data before the server confirms a write so the app always feels faster.",
-    "questionAr": "سؤال متعلق بالمنهج: The UI should change visible data before the server confirms a write so the app always feels faster.",
+    "questionAr": "يجب أن تغير واجهة المستخدم (UI) البيانات المرئية قبل أن يؤكد الخادم عملية الكتابة حتى يبدو التطبيق دائماً أسرع.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -13528,7 +13528,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final uri = Uri.parse('http://10.0.2.2/my_store/getdata.php'); The address 10.0.2.2 is the Android Emulator alias for the development host loopback.",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final uri = Uri.parse('http://10.0.2.2/my_store/getdata.php'); The address 10.0.2.2 is the Android Emulator alias for the development host loopback.",
+    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: final uri = Uri.parse('http://10.0.2.2/my_store/getdata.php'); العنوان 10.0.2.2 هو الاسم المستعار في Android Emulator للاسترجاع المحلي لمضيف التطوير (development host loopback).",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -13553,7 +13553,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A physical phone cannot automatically use the Android Emulator loopback alias to reach a development server on another computer.",
-    "questionAr": "سؤال متعلق بالمنهج: A physical phone cannot automatically use the Android Emulator loopback alias to reach a development server on another computer.",
+    "questionAr": "لا يمكن للهاتف الفعلي استخدام الاسم المستعار للاسترجاع المحلي في Android Emulator تلقائياً للوصول إلى خادم تطوير على كمبيوتر آخر.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -13603,7 +13603,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A login endpoint should return the stored password hash to Flutter so the app can compare passwords locally.",
-    "questionAr": "سؤال متعلق بالمنهج: A login endpoint should return the stored password hash to Flutter so the app can compare passwords locally.",
+    "questionAr": "يجب أن تُرجع نقطة نهاية تسجيل الدخول (login endpoint) تجزئة كلمة المرور (password hash) المخزنة إلى Flutter حتى يتمكن التطبيق من مقارنة كلمات المرور محلياً.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -13628,7 +13628,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "A registration handler should hash the password on the server before inserting it into the users table.",
-    "questionAr": "سؤال متعلق بالمنهج: A registration handler should hash the password on the server before inserting it into the users table.",
+    "questionAr": "يجب أن يقوم معالج التسجيل (registration handler) بتجزئة كلمة المرور (hash the password) على الخادم قبل إدراجها في جدول المستخدمين.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -13778,7 +13778,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "EXCLUDED FROM FINAL EXAM",
     "questionEn": "An image upload is not complete when the phone receives an XFile; the server response must also be handled.",
-    "questionAr": "سؤال رفع الصور (مستبعد من الاختبار): An image upload is not complete when the phone receives an XFile; the server response must also be handled.",
+    "questionAr": "لا يكتمل رفع الصورة عندما يتلقى الهاتف كائن XFile؛ بل يجب أيضاً التعامل مع استجابة الخادم.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -13802,8 +13802,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "A database should store a server -side image path or URL rather than the phone’s temporary file path.",
-    "questionAr": "سؤال متعلق بالمنهج: A database should store a server -side image path or URL rather than the phone’s temporary file path.",
+    "questionEn": "A database should store a server-side image path or URL rather than the phone’s temporary file path.",
+    "questionAr": "يجب أن تخزن قاعدة البيانات مسار الصورة على الخادم أو الـ URL بدلاً من مسار الملف المؤقت الخاص بالهاتف.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -13828,7 +13828,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "EXCLUDED FROM FINAL EXAM",
     "questionEn": "If we have the following code snippet: if ($_FILES['image']['error'] !== UPLOAD_ERR_OK) { exit; } $finfo = new finfo(FILEINFO_MIME_TYPE); $mime = $finfo->file($_FILES['image']['tmp_name']); The upload endpoint validates upload status, size, MIME type, and the generated server filename before inserting the path.",
-    "questionAr": "سؤال رفع الصور (مستبعد من الاختبار): If we have the following code snippet: if ($_FILES['image']['error'] !== UPLOAD_ERR_OK) { exit; } $finfo = new finfo(FILEINFO_MIME_TYPE); $mime = $finfo->file($_FILES['image']['tmp_name']); The upload endpoint validates upload status, size, MIME type, and the generated server filename before inserting the path.",
+    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: if ($_FILES['image']['error'] !== UPLOAD_ERR_OK) { exit; } $finfo = new finfo(FILEINFO_MIME_TYPE); $mime = $finfo->file($_FILES['image']['tmp_name']); تقوم نقطة نهاية الرفع بالتحقق من حالة الرفع، الحجم، نوع MIME، واسم ملف الخادم الذي تم إنشاؤه قبل إدراج المسار.",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -13928,7 +13928,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: if (snapshot.connectionState == ConnectionState.waiting) { return const Center(child: CircularProgressIndicator()); }",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (snapshot.connectionState == ConnectionState.waiting) { return const Center(child: CircularProgressIndicator()); }",
+    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: if (snapshot.connectionState == ConnectionState.waiting) { return const Center(child: CircularProgressIndicator()); }",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -13978,7 +13978,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: if (response.statusCode != 200) throw Exception(...); final results = jsonDecode(response.body)['results'] as List<dynamic>; return results;",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (response.statusCode != 200) throw Exception(...); final results = jsonDecode(response.body)['results'] as List<dynamic>; return results;",
+    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: if (response.statusCode != 200) throw Exception(...); final results = jsonDecode(response.body)['results'] as List<dynamic>; return results;",
     "options": null,
     "correctAnswer": "True",
     "correctionEn": null,
@@ -14523,8 +14523,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "Which function would you use to send data in a URL -encoded format in Flutter?",
-    "questionAr": "سؤال متعلق بالمنهج: Which function would you use to send data in a URL -encoded format in Flutter?",
+    "questionEn": "Which function would you use to send data in a URL-encoded format in Flutter?",
+    "questionAr": "أي دالة ستستخدمها لإرسال البيانات بتنسيق مشفر عبر الرابط (URL-encoded) في Flutter؟",
     "options": [
       {
         "label": "A",
@@ -14567,8 +14567,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "………………………….enable seamless communication between different software applications, allowing them to exchange data and functionality.",
-    "questionAr": "سؤال متعلق بالمنهج: ………………………….enable seamless communication between different software applications, allowing them to exchange data and functionality.",
+    "questionEn": "APIs enable seamless communication between different software applications, allowing them to exchange data and functionality.",
+    "questionAr": "تتيح الـ APIs اتصالاً سلساً بين تطبيقات البرامج المختلفة، مما يسمح لها بتبادل البيانات والوظائف.",
     "options": [
       {
         "label": "A",
@@ -14743,8 +14743,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "By understanding the concepts of……………………………………………………, developers can fetch and disp lay data from various sources, enabling the creation of dynamic and responsive mobile applications.",
-    "questionAr": "سؤال متعلق بالمنهج: By understanding the concepts of……………………………………………………, developers can fetch and disp lay data from various sources, enabling the creation of dynamic and responsive mobile applications.",
+    "questionEn": "By understanding the concepts of APIs, developers can fetch and display data from various sources, enabling the creation of dynamic and responsive mobile applications.",
+    "questionAr": "من خلال فهم مفاهيم الـ APIs، يمكن للمطورين جلب البيانات وعرضها من مصادر مختلفة، مما يتيح إنشاء تطبيقات هواتف ذكية ديناميكية ومتجاوبة.",
     "options": [
       {
         "label": "A",
@@ -14754,7 +14754,7 @@ export const questionsData = [
       {
         "label": "B",
         "textEn": "HTTP requests",
-        "textAr": "طلبات HTTP"
+        "textAr": "طلبات (HTTP)"
       },
       {
         "label": "C",
@@ -14793,17 +14793,17 @@ export const questionsData = [
       {
         "label": "A",
         "textEn": "UnParsing JSON",
-        "textAr": "عكس تحليل JSON (UnParsing JSON)"
+        "textAr": "عكس تحليل (JSON) (UnParsing JSON)"
       },
       {
         "label": "B",
         "textEn": "Convert JSON",
-        "textAr": "تحويل JSON"
+        "textAr": "تحويل (JSON)"
       },
       {
         "label": "C",
         "textEn": "Parsing JSON",
-        "textAr": "تحليل JSON"
+        "textAr": "تحليل (JSON)"
       },
       {
         "label": "D",
@@ -14886,7 +14886,7 @@ export const questionsData = [
       {
         "label": "B",
         "textEn": "an HTTP method (GET, POST, PUT, PATCH, or DELETE)",
-        "textAr": "طريقة HTTP (GET, POST, PUT, PATCH, أو DELETE)"
+        "textAr": "طريقة (HTTP) (GET, (POST), (PUT), PATCH, أو DELETE)"
       },
       {
         "label": "C",
@@ -14919,8 +14919,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "What’s inside curly brackets is called ……………………….and it’s always made up of a string, which is the key of the field, and a value which can be a string, a number, a Boolean, a list, null or another object.",
-    "questionAr": "سؤال متعلق بالمنهج: What’s inside curly brackets is called ……………………….and it’s always made up of a string, which is the key of the field, and a value which can be a string, a number, a Boolean, a list, null or another object.",
+    "questionEn": "What is inside curly brackets is called a JSON object, and it is always made up of a string, which is the key of the field, and a value which can be a string, a number, a Boolean, a list, null, or another object.",
+    "questionAr": "ما يوجد داخل الأقواس المعقوفة يُسمى كائن (JSON) (JSON object)، وهو يتكون دائماً من نص وهو مفتاح الحقل، وقيمة يمكن أن تكون نصاً، أو رقماً، أو قيمة منطقية (Boolean)، أو قائمة (list)، أو null، أو كائناً آخر.",
     "options": [
       {
         "label": "A",
@@ -14963,8 +14963,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "In Flutter you can decide betwee n manually parsing strings, using facilities from import …………………or usi ng automatic code generation, which does most of the work automatically.",
-    "questionAr": "سؤال متعلق بالمنهج: In Flutter you can decide betwee n manually parsing strings, using facilities from import …………………or usi ng automatic code generation, which does most of the work automatically.",
+    "questionEn": "In Flutter, you can decide between manually parsing strings, using facilities from import dart:convert, or using automatic code generation, which does most of the work automatically.",
+    "questionAr": "في Flutter، يمكنك الاختيار بين تحليل النصوص يدوياً (manually parsing)، أو استخدام التسهيلات من استيراد dart:convert، أو استخدام توليد الشيفرة التلقائي (automatic code generation)، والذي يقوم بمعظم العمل تلقائياً.",
     "options": [
       {
         "label": "A",
@@ -15007,8 +15007,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "Flutter provides http pack age to use http resources. The http package uses …………………………. features and provides many high -level methods.",
-    "questionAr": "سؤال متعلق بالمنهج: Flutter provides http pack age to use http resources. The http package uses …………………………. features and provides many high -level methods.",
+    "questionEn": "Flutter provides the http package to use HTTP resources. The http package uses Future features and provides many high-level methods.",
+    "questionAr": "يوفر Flutter حزمة http لاستخدام موارد (HTTP). تستخدم حزمة http ميزات الـ (Future) وتوفر العديد من الدوال عالية المستوى.",
     "options": [
       {
         "label": "A",
@@ -15051,8 +15051,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "What’s inside curly brackets is called:",
-    "questionAr": "سؤال متعلق بالمنهج: What’s inside curly brackets is called:",
+    "questionEn": "What is inside curly brackets is called:",
+    "questionAr": "ما يوجد داخل الأقواس المعقوفة يُسمى:",
     "options": [
       {
         "label": "A",
@@ -15095,8 +15095,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "Fetching data from APIs is a common requirement in Flutter apps. To interact with APIs, you can use packages like ………………",
-    "questionAr": "سؤال متعلق بالمنهج: Fetching data from APIs is a common requirement in Flutter apps. To interact with APIs, you can use packages like ………………",
+    "questionEn": "Fetching data from APIs is a common requirement in Flutter apps. To interact with APIs, you can use packages like the http package.",
+    "questionAr": "جلب البيانات من الـ APIs هو متطلب شائع في تطبيقات Flutter. للتفاعل مع الـ APIs، يمكنك استخدام حزم مثل حزمة http.",
     "options": [
       {
         "label": "A",
@@ -15140,7 +15140,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: import 'package:http/http.dart' as httproq; Which line correctly retrieves data from the server?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: import 'package:http/http.dart' as httproq; Which line correctly retrieves data from the server?",
+    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: import 'package:http/http.dart' as httproq; أي سطر يسترجع البيانات من الخادم بشكل صحيح؟",
     "options": [
       {
         "label": "A",
@@ -15184,7 +15184,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: import 'package:http/http.dart' as httproq; final item = {'itemcode': code, 'itemname': name, 'price': price, 'stock': stock}; Which line correctly sends the item fields to the server?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: import 'package:http/http.dart' as httproq; final item = {'itemcode': code, 'itemname': name, 'price': price, 'stock': stock}; Which line correctly sends the item fields to the server?",
+    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: import 'package:http/http.dart' as httproq; final item = {'itemcode': code, 'itemname': name, 'price': price, 'stock': stock}; أي سطر يرسل حقول العنصر إلى الخادم بشكل صحيح؟",
     "options": [
       {
         "label": "A",
@@ -15282,7 +15282,7 @@ export const questionsData = [
       {
         "label": "B",
         "textEn": "PHP API/server boundary",
-        "textAr": "حدود PHP API/server"
+        "textAr": "حدود PHP (API)/server"
       },
       {
         "label": "C",
@@ -15360,7 +15360,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "Which status code is commonly used to indicate that a create operation succeeded?",
-    "questionAr": "سؤال متعلق بالمنهج: Which status code is commonly used to indicate that a create operation succeeded?",
+    "questionAr": "أي رمز حالة (status code) يُستخدم عادةً للإشارة إلى أن عملية الإنشاء (create) نجحت؟",
     "options": [
       {
         "label": "A",
@@ -15403,13 +15403,13 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "If we have the following code snippet: if (response.statusCode != 200 && response.statusCode != 201) { throw Exception('Request failed');",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (response.statusCode != 200 && response.statusCode != 201) { throw Exception('Request failed');",
+    "questionEn": "If we have the following code snippet: if (response.statusCode != 200 && response.statusCode != 201) { throw Exception('Request failed'); }",
+    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: if (response.statusCode != 200 && response.statusCode != 201) { throw Exception('Request failed'); }",
     "options": [
       {
         "label": "A",
         "textEn": "Validate the API -defined success status",
-        "textAr": "التحقق من حالة النجاح المحددة بواسطة API"
+        "textAr": "التحقق من حالة النجاح المحددة بواسطة (API)"
       },
       {
         "label": "B",
@@ -15536,12 +15536,12 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: class ProductDataModel { final String? oldPrice; final String? price; ProductDataModel.fromJson(Map<String, dynamic> json) : oldPrice = json['oldPrice'] as String?,",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: class ProductDataModel { final String? oldPrice; final String? price; ProductDataModel.fromJson(Map<String, dynamic> json) : oldPrice = json['oldPrice'] as String?,",
+    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: class ProductDataModel { final String? oldPrice; final String? price; ProductDataModel.fromJson(Map<String, dynamic> json) : oldPrice = json['oldPrice'] as String?,",
     "options": [
       {
         "label": "A",
         "textEn": "The JSON values are stored as strings",
-        "textAr": "يتم تخزين قيم JSON كسلاسل نصية (strings)"
+        "textAr": "يتم تخزين قيم (JSON) كسلاسل نصية (strings)"
       },
       {
         "label": "B",
@@ -15551,7 +15551,7 @@ export const questionsData = [
       {
         "label": "C",
         "textEn": "JSON forbids numeric values",
-        "textAr": "JSON يمنع القيم الرقمية"
+        "textAr": "(JSON) يمنع القيم الرقمية"
       },
       {
         "label": "D",
@@ -15624,7 +15624,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: class ProductDataModel { final String? imageURL; ProductDataModel.fromJson(Map<String, dynamic> json)",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: class ProductDataModel { final String? imageURL; ProductDataModel.fromJson(Map<String, dynamic> json)",
+    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: class ProductDataModel { final String? imageURL; ProductDataModel.fromJson(Map<String, dynamic> json)",
     "options": [
       {
         "label": "A",
@@ -15854,7 +15854,7 @@ export const questionsData = [
       {
         "label": "B",
         "textEn": "A DELETE button",
-        "textAr": "زر DELETE"
+        "textAr": "زر (DELETE)"
       },
       {
         "label": "C",
@@ -15888,7 +15888,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final items = snapshot.data ?? const <ProductDataModel>[]; if (items.isEmpty) { return const Center(child: Text('No products found')); } What is the intended UI when the decoded product list is empty?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final items = snapshot.data ?? const <ProductDataModel>[]; if (items.isEmpty) { return const Center(child: Text('No products found')); } What is the intended UI when the decoded product list is empty?",
+    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: final items = snapshot.data ?? const <ProductDataModel>[]; if (items.isEmpty) { return const Center(child: Text('No products found')); } ما هي واجهة المستخدم (UI) المقصودة عندما تكون قائمة المنتجات التي تم فك تشفيرها فارغة؟",
     "options": [
       {
         "label": "A",
@@ -15932,7 +15932,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: ListView.builder( itemCount: products.length,",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: ListView.builder( itemCount: products.length,",
+    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: ListView.builder( itemCount: products.length,",
     "options": [
       {
         "label": "A",
@@ -16020,7 +16020,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: <uses-permission android:name=\"android.permission.INTERNET\" /> Which Android permission is required for the network request?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: <uses-permission android:name=\"android.permission.INTERNET\" /> Which Android permission is required for the network request?",
+    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: <uses-permission android:name=\"android.permission.INTERNET\" /> أي إذن من أذونات Android مطلوب لطلب الشبكة؟",
     "options": [
       {
         "label": "A",
@@ -16035,7 +16035,7 @@ export const questionsData = [
       {
         "label": "C",
         "textEn": "A SQLite schema",
-        "textAr": "مخطط (schema) SQLite"
+        "textAr": "مخطط (schema) (SQLite)"
       },
       {
         "label": "D",
@@ -16079,7 +16079,7 @@ export const questionsData = [
       {
         "label": "C",
         "textEn": "SharedPreferences key",
-        "textAr": "مفتاح SharedPreferences"
+        "textAr": "مفتاح (SharedPreferences)"
       },
       {
         "label": "D",
@@ -16107,8 +16107,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "If we have the following code snippet: final decoded = jsonDecode(response.body ); final results = decoded['results'] as List<dynamic>; What type does the parser expect under the top -level key results?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final decoded = jsonDecode(response.body ); final results = decoded['results'] as List<dynamic>; What type does the parser expect under the top -level key results?",
+    "questionEn": "If we have the following code snippet: final decoded = jsonDecode(response.body); final results = decoded['results'] as List<dynamic>; What type does the parser expect under the top-level key results?",
+    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: final decoded = jsonDecode(response.body); final results = decoded['results'] as List<dynamic>; ما هو النوع الذي يتوقعه المحلل (parser) تحت المفتاح ذي المستوى الأعلى results؟",
     "options": [
       {
         "label": "A",
@@ -16151,8 +16151,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "If we have the following code snippet: final age = user['dob']['age']; final avatar = user['picture']['large']; Which nested value is disp layed as the trailing age?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final age = user['dob']['age']; final avatar = user['picture']['large']; Which nested value is disp layed as the trailing age?",
+    "questionEn": "If we have the following code snippet: final age = user['dob']['age']; final avatar = user['picture']['large']; Which nested value is displayed as the trailing age?",
+    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: final age = user['dob']['age']; final avatar = user['picture']['large']; أي قيمة متداخلة (nested value) يتم عرضها كعمر تالي (trailing)؟",
     "options": [
       {
         "label": "A",
@@ -16216,7 +16216,7 @@ export const questionsData = [
       {
         "label": "D",
         "textEn": "A DELETE dialog",
-        "textAr": "مربع حوار DELETE"
+        "textAr": "مربع حوار (DELETE)"
       }
     ],
     "correctAnswer": "A",
@@ -16372,7 +16372,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "In an inventory application, which layer collects user input and renders the Flutter UI states?",
-    "questionAr": "سؤال متعلق بالمنهج: In an inventory application, which layer collects user input and renders the Flutter UI states?",
+    "questionAr": "في تطبيق المخزون، أي طبقة تجمع مدخلات المستخدم وتعرض حالات واجهة مستخدم (UI states) في Flutter؟",
     "options": [
       {
         "label": "A",
@@ -16597,12 +16597,12 @@ export const questionsData = [
       {
         "label": "A",
         "textEn": "deleteData.php with POST body {'id': ...}",
-        "textAr": "deleteData.php مع جسم POST (POST body) {'id': ...}"
+        "textAr": "deleteData.php مع جسم (POST) (POST body) {'id': ...}"
       },
       {
         "label": "B",
         "textEn": "getdata.php with GET",
-        "textAr": "getdata.php باستخدام GET"
+        "textAr": "getdata.php باستخدام (GET)"
       },
       {
         "label": "C",
@@ -16636,7 +16636,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final uri = Uri.parse('http://10.0.2.2/my_store/getdata.php'); What does 10.0.2.2 represent in this Android Emulator URL?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final uri = Uri.parse('http://10.0.2.2/my_store/getdata.php'); What does 10.0.2.2 represent in this Android Emulator URL?",
+    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: final uri = Uri.parse('http://10.0.2.2/my_store/getdata.php'); ماذا يمثل 10.0.2.2 في رابط الـ Android Emulator هذا؟",
     "options": [
       {
         "label": "A",
@@ -16680,7 +16680,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "What should a physical device use instead of assuming the Android Emulator loopback alias?",
-    "questionAr": "سؤال متعلق بالمنهج: What should a physical device use instead of assuming the Android Emulator loopback alias?",
+    "questionAr": "ماذا يجب أن يستخدم الجهاز الفعلي بدلاً من افتراض الاسم المستعار للاسترجاع المحلي لـ Android Emulator؟",
     "options": [
       {
         "label": "A",
@@ -16768,7 +16768,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: // connect.php require_once __DIR__ . '/conn.php'; Why is connect.php kept as a short compatibility alias in this file structure?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: // connect.php require_once __DIR__ . '/conn.php'; Why is connect.php kept as a short compatibility alias in this file structure?",
+    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: // connect.php require_once __DIR__ . '/conn.php'; لماذا يُحتفظ بـ connect.php كاسم مستعار قصير للتوافقية (compatibility alias) في هيكل الملف هذا؟",
     "options": [
       {
         "label": "A",
@@ -16778,7 +16778,7 @@ export const questionsData = [
       {
         "label": "B",
         "textEn": "To replace MySQL with SQLite",
-        "textAr": "لاستبدال MySQL بـ SQLite"
+        "textAr": "لاستبدال MySQL بـ (SQLite)"
       },
       {
         "label": "C",
@@ -16812,12 +16812,12 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: http_response_code(400); echo json_encode(['error' => 'Invalid item']);",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: http_response_code(400); echo json_encode(['error' => 'Invalid item']);",
+    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: http_response_code(400); echo json_encode(['error' => 'Invalid item']);",
     "options": [
       {
         "label": "A",
         "textEn": "Stable JSON with a suitable error status",
-        "textAr": "JSON مستقر مع حالة خطأ مناسبة"
+        "textAr": "(JSON) مستقر مع حالة خطأ مناسبة"
       },
       {
         "label": "B",
@@ -16855,8 +16855,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "If we have the following code snippet: if (password_verify($password, $storedHash)) { echo 'Login accepted'; } Which function verifie s a submitted password against the stored hash?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (password_verify($password, $storedHash)) { echo 'Login accepted'; } Which function verifie s a submitted password against the stored hash?",
+    "questionEn": "If we have the following code snippet: if (password_verify($password, $storedHash)) { echo 'Login accepted'; } Which function verifies a submitted password against the stored hash?",
+    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: if (password_verify($password, $storedHash)) { echo 'Login accepted'; } أي دالة تتحقق من كلمة المرور المُرسلة مقابل التجزئة (hash) المخزنة؟",
     "options": [
       {
         "label": "A",
@@ -16900,7 +16900,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: $hash = password_hash($password, PASSWORD_DEFAULT); Which function creates the password hash during registration?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: $hash = password_hash($password, PASSWORD_DEFAULT); Which function creates the password hash during registration?",
+    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: $hash = password_hash($password, PASSWORD_DEFAULT); أي دالة تنشئ تجزئة كلمة المرور (password hash) أثناء التسجيل؟",
     "options": [
       {
         "label": "A",
@@ -16943,8 +16943,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "If we have the following code snippet: echo json_encode([ 'uid' => $uid, 'uname' => $uname, 'upass' => $storedHash]); Which server field must not be returned to Flut ter after login?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: echo json_encode([ 'uid' => $uid, 'uname' => $uname, 'upass' => $storedHash]); Which server field must not be returned to Flut ter after login?",
+    "questionEn": "If we have the following code snippet: echo json_encode([ 'uid' => $uid, 'uname' => $uname, 'upass' => $storedHash]); Which server field must not be returned to Flutter after login?",
+    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: echo json_encode([ 'uid' => $uid, 'uname' => $uname, 'upass' => $storedHash]); أي حقل خادم (server field) يجب ألا يتم إرجاعه إلى Flutter بعد تسجيل الدخول؟",
     "options": [
       {
         "label": "A",
@@ -16987,8 +16987,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "If we have the following code snippet: final rows = jsonDecode(response.body) as List<dynamic>; final itemName = rows[index]['item_name']; How does the Flutter code access each decoded ser ver row?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final rows = jsonDecode(response.body) as List<dynamic>; final itemName = rows[index]['item_name']; How does the Flutter code access each decoded ser ver row?",
+    "questionEn": "If we have the following code snippet: final rows = jsonDecode(response.body) as List<dynamic>; final itemName = rows[index]['item_name']; How does the Flutter code access each decoded server row?",
+    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: final rows = jsonDecode(response.body) as List<dynamic>; final itemName = rows[index]['item_name']; كيف يصل كود Flutter إلى كل صف خادم تم فك تشفيره؟",
     "options": [
       {
         "label": "A",
@@ -17003,7 +17003,7 @@ export const questionsData = [
       {
         "label": "C",
         "textEn": "Through a local SQLite table",
-        "textAr": "من خلال جدول SQLite محلي"
+        "textAr": "من خلال جدول (SQLite) محلي"
       },
       {
         "label": "D",
@@ -17037,7 +17037,7 @@ export const questionsData = [
       {
         "label": "A",
         "textEn": "A fresh GET reloads the server list",
-        "textAr": "طلب GET جديد يعيد تحميل قائمة الخادم"
+        "textAr": "طلب (GET) جديد يعيد تحميل قائمة الخادم"
       },
       {
         "label": "B",
@@ -17052,7 +17052,7 @@ export const questionsData = [
       {
         "label": "D",
         "textEn": "The HTTP client is ignored",
-        "textAr": "يتم تجاهل عميل HTTP"
+        "textAr": "يتم تجاهل عميل (HTTP)"
       }
     ],
     "correctAnswer": "A",
@@ -17081,7 +17081,7 @@ export const questionsData = [
       {
         "label": "A",
         "textEn": "Fresh GET shows the changed values",
-        "textAr": "طلب GET جديد يظهر القيم المتغيرة"
+        "textAr": "طلب (GET) جديد يظهر القيم المتغيرة"
       },
       {
         "label": "B",
@@ -17208,7 +17208,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "EXCLUDED FROM FINAL EXAM",
     "questionEn": "If we have the following code snippet: final request = http.MultipartRequest('POST', uri) ..files.add(await http.MultipartFile.fromPath('image', image.path)); Which request type sends the selected image file to PHP?",
-    "questionAr": "سؤال رفع الصور (مستبعد من الاختبار): If we have the following code snippet: final request = http.MultipartRequest('POST', uri) ..files.add(await http.MultipartFile.fromPath('image', image.path)); Which request type sends the selected image file to PHP?",
+    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: final request = http.MultipartRequest('POST', uri) ..files.add(await http.MultipartFile.fromPath('image', image.path)); أي نوع طلب يرسل ملف الصورة المحدد إلى PHP؟",
     "options": [
       {
         "label": "A",
@@ -17252,7 +17252,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "EXCLUDED FROM FINAL EXAM",
     "questionEn": "If we have the following code snippet: $serverPath = 'uploads/' . $safeName; // Store $serverPath in the database, not image.path from the phone. What should the server store for an uploaded image?",
-    "questionAr": "سؤال رفع الصور (مستبعد من الاختبار): If we have the following code snippet: $serverPath = 'uploads/' . $safeName; // Store $serverPath in the database, not image.path from the phone. What should the server store for an uploaded image?",
+    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: $serverPath = 'uploads/' . $safeName; // Store $serverPath in the database, not image.path from the phone. ماذا يجب أن يخزن الخادم لصورة تم رفعها؟",
     "options": [
       {
         "label": "A",
@@ -17296,7 +17296,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: $finfo = new finfo(FILEINFO_MIME_TYPE); $mime = $finfo->file($_FILES['image']['tmp_name']); Which upload validation must not be skipped?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: $finfo = new finfo(FILEINFO_MIME_TYPE); $mime = $finfo->file($_FILES['image']['tmp_name']); Which upload validation must not be skipped?",
+    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: $finfo = new finfo(FILEINFO_MIME_TYPE); $mime = $finfo->file($_FILES['image']['tmp_name']); أي تحقق من صحة الرفع (upload validation) يجب ألا يتم تخطيه؟",
     "options": [
       {
         "label": "A",
@@ -17340,7 +17340,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: http_response_code(201); echo json_encode(['message' => 'Upload complete']); Which status code is returned by this successful upload response?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: http_response_code(201); echo json_encode(['message' => 'Upload complete']); Which status code is returned by this successful upload response?",
+    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: http_response_code(201); echo json_encode(['message' => 'Upload complete']); ما هو رمز الحالة (status code) الذي تُرجعه استجابة الرفع الناجحة هذه؟",
     "options": [
       {
         "label": "A",
@@ -17438,12 +17438,12 @@ export const questionsData = [
       {
         "label": "B",
         "textEn": "JSON model field order only",
-        "textAr": "ترتيب حقول نموذج JSON فقط"
+        "textAr": "ترتيب حقول نموذج (JSON) فقط"
       },
       {
         "label": "C",
         "textEn": "SQLite version",
-        "textAr": "إصدار SQLite"
+        "textAr": "إصدار (SQLite)"
       },
       {
         "label": "D",
@@ -17477,7 +17477,7 @@ export const questionsData = [
       {
         "label": "A",
         "textEn": "HTTP status/body and PHP warnings/contract",
-        "textAr": "حالة/جسم HTTP وتحذيرات/عقد PHP"
+        "textAr": "حالة/جسم (HTTP) وتحذيرات/عقد PHP"
       },
       {
         "label": "B",
@@ -17492,7 +17492,7 @@ export const questionsData = [
       {
         "label": "D",
         "textEn": "Database password in Flutter Practical Code and Expected Output Read each code fragment and choose the exact console result, HTTP behavior, or UI state that follows.",
-        "textAr": "كلمة مرور قاعدة البيانات في الكود العملي لـ Flutter والنتيجة المتوقعة: اقرأ كل مقطع كود واختر النتيجة الدقيقة لوحدة التحكم (console)، سلوك HTTP، أو حالة واجهة المستخدم (UI state) التي تليه."
+        "textAr": "كلمة مرور قاعدة البيانات في الكود العملي لـ Flutter والنتيجة المتوقعة: اقرأ كل مقطع كود واختر النتيجة الدقيقة لوحدة التحكم (console)، سلوك (HTTP)، أو حالة واجهة المستخدم (UI state) التي تليه."
       }
     ],
     "correctAnswer": "A",
@@ -17516,7 +17516,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: final item = ProductDataModel.fromJson({ 'price': '799'}); print(item.price); What is printed for the mapped product price?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final item = ProductDataModel.fromJson({ 'price': '799'}); print(item.price); What is printed for the mapped product price?",
+    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: final item = ProductDataModel.fromJson({ 'price': '799'}); print(item.price); ماذا يتم طباعته لسعر المنتج المعين (mapped product price)؟",
     "options": [
       {
         "label": "A",
@@ -17603,8 +17603,8 @@ export const questionsData = [
     "sourceType": "actual",
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
-    "questionEn": "If we have the following code snippet: final items = snapshot.data ?? const <ProductDataModel>[]; if (items.isEmpty) { return const Cent er(child: Text('No products found')); } What result is expected when products is empty?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: final items = snapshot.data ?? const <ProductDataModel>[]; if (items.isEmpty) { return const Cent er(child: Text('No products found')); } What result is expected when products is empty?",
+    "questionEn": "If we have the following code snippet: final items = snapshot.data ?? const <ProductDataModel>[]; if (items.isEmpty) { return const Center(child: Text('No products found')); } What result is expected when products is empty?",
+    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: final items = snapshot.data ?? const <ProductDataModel>[]; if (items.isEmpty) { return const Center(child: Text('No products found')); } ما النتيجة المتوقعة عندما تكون قائمة المنتجات (products) فارغة؟",
     "options": [
       {
         "label": "A",
@@ -17780,7 +17780,7 @@ export const questionsData = [
     "isGenerated": false,
     "badge": "ACTUAL LAB QUESTION",
     "questionEn": "If we have the following code snippet: if (r.statusCode != 200 && r.statusCode != 201) { throw Exception('Create failed: ${r.statusCode}'); } What does the success check do when create returns status 200?",
-    "questionAr": "سؤال متعلق بالمنهج: If we have the following code snippet: if (r.statusCode != 200 && r.statusCode != 201) { throw Exception('Create failed: ${r.statusCode}'); } What does the success check do when create returns status 200?",
+    "questionAr": "إذا كان لدينا مقتطف الشيفرة التالي: if (r.statusCode != 200 && r.statusCode != 201) { throw Exception('Create failed: ${r.statusCode}'); } ماذا يفعل فحص النجاح عندما ترجع عملية الإنشاء (create) رمز الحالة 200؟",
     "options": [
       {
         "label": "A",
@@ -17829,7 +17829,7 @@ export const questionsData = [
       {
         "label": "A",
         "textEn": "POST deleteData.php with id=7 in the body",
-        "textAr": "POST deleteData.php مع id=7 في الجسم (body)"
+        "textAr": "(POST) deleteData.php مع id=7 في الجسم (body)"
       },
       {
         "label": "B",
