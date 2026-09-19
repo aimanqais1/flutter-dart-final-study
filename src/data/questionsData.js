@@ -1735,7 +1735,7 @@ export const questionsData = [
         "textAr": "جميع ما ذُكر"
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanationEn": "The Navigator widget manages a stack of Route objects according to the LIFO discipline.",
     "explanationAr": "الغرض الأساسي لويدجت (Navigator) هو إدارة مكدس (Stack) من كائنات المسارات (Route) وفق مبدأ (LIFO).",
     "codeSnippet": null
@@ -5776,8 +5776,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "The application directory provides a private storage space for the app. On iOS, it maps to NSDocumentDirectory, and on Android, it maps to the AppData directory, ensuring data is cleared only when the app is uninstalled.",
+    "explanationAr": "يوفر دليل التطبيق مساحة تخزين خاصة. في نظام iOS، يتوافق هذا مع NSDocumentDirectory، وفي Android يتوافق مع دليل AppData، مما يضمن مسح البيانات فقط عند إلغاء تثبيت التطبيق.",
     "codeSnippet": null
   },
   {
@@ -5800,8 +5800,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "The path_provider package provides APIs like getApplicationDocumentsDirectory() to find the path, and the File class from the dart:io library (not path_provider) is used to create a reference to the file. (Note: The statement in the question incorrectly attributes the File class to path_provider, but the core concept is creating a file reference).",
+    "explanationAr": "توفر حزمة path_provider واجهات برمجية للعثور على المسار، وتُستخدم فئة File من مكتبة dart:io لإنشاء مرجع للملف.",
     "codeSnippet": null
   },
   {
@@ -5824,8 +5824,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "To access files bundled with the application during the build process (like assets), Flutter provides the rootBundle object from the package:flutter/services.dart library.",
+    "explanationAr": "للوصول إلى الملفات المجمعة مع التطبيق أثناء عملية البناء (مثل الأصول)، يوفر Flutter كائن rootBundle من مكتبة services.dart.",
     "codeSnippet": null
   },
   {
@@ -5896,8 +5896,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "SharedPreferences uses setter methods (like setString, setInt) to save data, not getter methods. However, initializing an instance of SharedPreferences is the first required step.",
+    "explanationAr": "تستخدم SharedPreferences طرق التعيين (setter) لحفظ البيانات. التهيئة هي الخطوة الأولى المطلوبة.",
     "codeSnippet": null
   },
   {
@@ -5944,8 +5944,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "To read data, you use getter methods (like getString, getInt), not setter methods. The statement is conceptually testing the difference between read (get) and write (set) operations.",
+    "explanationAr": "لقراءة البيانات، يتم استخدام طرق الجلب (getter)، وليس التعيين (setter). يختبر هذا السؤال الفرق بين عمليات القراءة والكتابة.",
     "codeSnippet": null
   },
   {
@@ -5968,8 +5968,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "The remove() method in SharedPreferences takes a specific key and deletes the corresponding key-value pair from the persistent storage.",
+    "explanationAr": "تأخذ طريقة remove() في SharedPreferences مفتاحًا محددًا وتحذف الزوج (المفتاح والقيمة) المقابل من التخزين الدائم.",
     "codeSnippet": null
   },
   {
@@ -5992,8 +5992,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "The containsKey() method actually returns true if the key exists, and false if it does not. The statement tests the knowledge of checking key existence in the preferences dictionary.",
+    "explanationAr": "تُرجع طريقة containsKey() القيمة المنطقية true إذا كان المفتاح موجودًا، و false إذا لم يكن كذلك.",
     "codeSnippet": null
   },
   {
@@ -6016,8 +6016,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "SharedPreferences is designed for storing simple, unencrypted key-value pairs persistently. Because disk I/O operations take time, it relies on asynchronous programming using Future, async, and await.",
+    "explanationAr": "تم تصميم SharedPreferences لتخزين أزواج (مفتاح-قيمة) بسيطة بشكل دائم. نظرًا لأن عمليات الإدخال والإخراج تستغرق وقتًا، فإنها تعتمد على البرمجة غير المتزامنة.",
     "codeSnippet": null
   },
   {
@@ -6040,8 +6040,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "For large amounts of structured or relational data, a local database (like SQLite) is recommended over simple key-value stores or flat files, as it allows for efficient querying.",
+    "explanationAr": "لكميات كبيرة من البيانات المهيكلة، يُوصى باستخدام قاعدة بيانات محلية (مثل SQLite) بدلاً من مخازن (مفتاح-قيمة) البسيطة، حيث تتيح الاستعلام الفعال.",
     "codeSnippet": null
   },
   {
@@ -6064,8 +6064,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Databases are optimized with indexes and query engines, making operations like inserts, updates, and targeted queries much faster than parsing and rewriting entire local files.",
+    "explanationAr": "تم تحسين قواعد البيانات باستخدام الفهارس ومحركات الاستعلام، مما يجعل عمليات الإدراج والتحديث أسرع بكثير من معالجة الملفات المحلية بأكملها.",
     "codeSnippet": null
   },
   {
@@ -6088,8 +6088,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "To safely define the database path across different platforms, you retrieve the default database directory using getDatabasesPath() and append the file name using join() to handle platform-specific separators.",
+    "explanationAr": "لتحديد مسار قاعدة البيانات بأمان عبر منصات مختلفة، يتم استرداد الدليل الافتراضي باستخدام getDatabasesPath() ودمجه باستخدام وظيفة join().",
     "codeSnippet": null
   },
   {
@@ -6112,8 +6112,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Inserting data into SQLite via the sqflite package requires representing the data model as a Map<String, dynamic> and passing it to the database's insert() method.",
+    "explanationAr": "إدراج البيانات في SQLite يتطلب تمثيل نموذج البيانات كـ Map وتمريره إلى طريقة insert() الخاصة بقاعدة البيانات.",
     "codeSnippet": null
   },
   {
@@ -6136,8 +6136,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Using whereArgs prevents SQL injection by treating the input as parameterized data rather than executable SQL code, which safely escapes special characters.",
+    "explanationAr": "استخدام whereArgs يمنع حقن SQL عن طريق التعامل مع الإدخال كبيانات ذات معلمات بدلاً من كود SQL قابل للتنفيذ.",
     "codeSnippet": null
   },
   {
@@ -6160,8 +6160,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "The build method can be called multiple times per frame. Local variables declared inside it are recreated on every rebuild, so they cannot preserve state.",
+    "explanationAr": "يمكن استدعاء طريقة build عدة مرات. يتم إعادة إنشاء المتغيرات المحلية المصرح عنها بداخلها في كل إعادة بناء، لذا لا يمكنها الحفاظ على الحالة.",
     "codeSnippet": null
   },
   {
@@ -6184,8 +6184,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "In a StatefulWidget, the State object is decoupled from the widget itself and persists in the element tree across rebuilds as long as it remains mounted.",
+    "explanationAr": "في الـ StatefulWidget، يتم فصل كائن State عن واجهة المستخدم ويستمر في شجرة العناصر عبر عمليات إعادة البناء طالما ظل مرتبطًا.",
     "codeSnippet": null
   },
   {
@@ -6208,8 +6208,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "When the operating system kills the app process to free up resources, all data stored in RAM is lost. Only data saved to persistent storage survives.",
+    "explanationAr": "عندما ينهي نظام التشغيل التطبيق لتحرير الموارد، تُفقد جميع البيانات المخزنة في الذاكرة العشوائية. فقط البيانات المحفوظة في التخزين الدائم تبقى.",
     "codeSnippet": null
   },
   {
@@ -6232,8 +6232,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Persistent storage (like SharedPreferences or SQLite) saves data to the device's disk, allowing the application to restore state even after being fully closed and relaunched.",
+    "explanationAr": "يحفظ التخزين الدائم (مثل SharedPreferences) البيانات على قرص الجهاز، مما يسمح للتطبيق باستعادة الحالة حتى بعد إغلاقه وإعادة تشغيله.",
     "codeSnippet": null
   },
   {
@@ -6256,8 +6256,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Mobile operating systems sandbox app data. When an app is uninstalled, the OS deletes its sandboxed directories, erasing all local files and databases.",
+    "explanationAr": "تقوم أنظمة تشغيل الهواتف المحمولة بعزل بيانات التطبيق. عند إلغاء التثبيت، يحذف النظام هذه الأدلة، مما يمحو جميع الملفات المحلية.",
     "codeSnippet": null
   },
   {
@@ -6280,8 +6280,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "A cache stores temporary copies of data for performance but isn't the single source of truth. Developers must manage policies to refresh the cache when the primary data changes.",
+    "explanationAr": "تخزن ذاكرة التخزين المؤقت (Cache) نسخًا مؤقتة للأداء ولكنها ليست المصدر الموثوق الوحيد. يجب إدارة السياسات لتحديثها عند تغير البيانات.",
     "codeSnippet": null
   },
   {
@@ -6304,8 +6304,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Complex objects like DateTime cannot be stored directly in plain text or JSON; they must be converted to a serialized string (like ISO 8601) or an integer timestamp.",
+    "explanationAr": "لا يمكن تخزين كائنات معقدة مثل DateTime مباشرة في نص عادي أو JSON؛ يجب تحويلها إلى سلسلة متسلسلة أو طابع زمني رقمي.",
     "codeSnippet": null
   },
   {
@@ -6328,8 +6328,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "While booleans can be stored inherently in some databases, they are often serialized as integers (0 and 1). The reading and writing logic must consistently interpret this format.",
+    "explanationAr": "على الرغم من إمكانية تخزين القيم المنطقية في بعض قواعد البيانات، إلا أنها غالبًا ما تُسلسل كأرقام (0 و 1). يجب أن تتوافق منطق القراءة والكتابة.",
     "codeSnippet": null
   },
   {
@@ -6352,8 +6352,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "An absent key (null) implies the preference was never set, whereas an explicit zero value means the preference was actively set to zero. These distinct states must be handled properly.",
+    "explanationAr": "المفتاح المفقود (null) يعني أنه لم يتم تعيين التفضيل مطلقًا، بينما القيمة الصفرية الصريحة تعني أنه تم تعيينه إلى الصفر بنشاط.",
     "codeSnippet": null
   },
   {
@@ -6376,8 +6376,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "A query returning an empty result set (zero rows) simply means no data matched the criteria. It is a successful execution, not an error or exception.",
+    "explanationAr": "الاستعلام الذي يُرجع مجموعة نتائج فارغة (صفر صفوف) يعني ببساطة عدم وجود بيانات مطابقة. إنه تنفيذ ناجح وليس خطأ.",
     "codeSnippet": null
   },
   {
@@ -6400,8 +6400,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "When an app attempts to read a local file that does not exist, it often indicates the user has just installed the app and opened it for the very first time.",
+    "explanationAr": "عندما يحاول التطبيق قراءة ملف محلي غير موجود، يشير ذلك غالبًا إلى أن المستخدم قد قام للتو بتثبيت التطبيق وفتحه للمرة الأولى.",
     "codeSnippet": null
   },
   {
@@ -6424,8 +6424,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "The initState() lifecycle method runs exactly once when a StatefulWidget is created, making it the ideal place to trigger asynchronous loads of persistent data.",
+    "explanationAr": "تعمل طريقة initState() مرة واحدة فقط عند إنشاء StatefulWidget، مما يجعلها المكان المثالي لبدء تحميل البيانات الدائمة بشكل غير متزامن.",
     "codeSnippet": null
   },
   {
@@ -6448,8 +6448,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Because storage operations take time (async), the user might navigate away from the screen before the read finishes, causing the State object to be disposed (unmounted).",
+    "explanationAr": "نظرًا لأن عمليات التخزين تستغرق وقتًا، فقد ينتقل المستخدم من الشاشة قبل انتهاء القراءة، مما يؤدي إلى التخلص من كائن State (unmounted).",
     "codeSnippet": null
   },
   {
@@ -6472,8 +6472,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Calling setState() after an async gap on an unmounted widget throws an error. Checking the 'mounted' property ensures the widget is still in the tree before updating the UI.",
+    "explanationAr": "استدعاء setState() بعد فجوة زمنية على واجهة مستخدم غير مرتبطة يُلقي خطأ. التحقق من خاصية 'mounted' يضمن وجودها في الشجرة قبل تحديث الواجهة.",
     "codeSnippet": null
   },
   {
@@ -6496,8 +6496,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "SharedPreferencesAsync reads directly from the platform's underlying preferences system asynchronously, ensuring data is up-to-date rather than relying on a potentially stale memory cache.",
+    "explanationAr": "تقرأ SharedPreferencesAsync مباشرة من نظام تفضيلات المنصة الأساسي بشكل غير متزامن، مما يضمن تحديث البيانات بدلاً من الاعتماد على ذاكرة تخزين مؤقت.",
     "codeSnippet": null
   },
   {
@@ -6520,8 +6520,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "If multiple processes or instances modify the preferences, an in-memory cached instance won't automatically reflect those changes until it is explicitly reloaded.",
+    "explanationAr": "إذا قامت عمليات متعددة بتعديل التفضيلات، فلن تعكس النسخة المخبأة في الذاكرة تلك التغييرات تلقائيًا حتى يتم إعادة تحميلها صراحةً.",
     "codeSnippet": null
   },
   {
@@ -6544,8 +6544,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "SQLite is a relational database management system. It excels when data requires rigid schema, complex filtering, sorting, and joins between multiple tables.",
+    "explanationAr": "SQLite هو نظام إدارة قواعد بيانات علائقية. يتفوق عندما تتطلب البيانات مخططًا صارمًا وتصفية معقدة وفرزًا وروابط بين جداول متعددة.",
     "codeSnippet": null
   },
   {
@@ -6568,8 +6568,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Plain files are the most efficient way to store unstructured or semi-structured data like media, long plain text strings, or large JSON responses.",
+    "explanationAr": "الملفات العادية هي الطريقة الأكثر كفاءة لتخزين البيانات غير المهيكلة أو شبه المهيكلة مثل الوسائط والنصوص العادية الطويلة.",
     "codeSnippet": null
   },
   {
@@ -6592,8 +6592,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "SharedPreferences is designed exclusively for simple state properties (e.g., user theme, onboarding status). It lacks the query capabilities needed for complex datasets.",
+    "explanationAr": "تم تصميم SharedPreferences حصريًا لخصائص الحالة البسيطة (مثل سمة المستخدم). تفتقر إلى قدرات الاستعلام المطلوبة لمجموعات البيانات المعقدة.",
     "codeSnippet": null
   },
   {
@@ -6616,8 +6616,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "SharedPreferences saves data in plain text XML/JSON on the device. Storing sensitive information like credentials poses a massive security vulnerability; secure storage should be used instead.",
+    "explanationAr": "تحفظ SharedPreferences البيانات بنص عادي على الجهاز. يشكل تخزين المعلومات الحساسة مثل بيانات الاعتماد ثغرة أمنية كبيرة؛ يجب استخدام التخزين الآمن بدلاً من ذلك.",
     "codeSnippet": null
   },
   {
@@ -6640,8 +6640,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "The sqflite package utilizes the native SQLite implementations of iOS and Android, storing the database file securely within the app's sandboxed data directory.",
+    "explanationAr": "تستخدم حزمة sqflite تطبيقات SQLite الأصلية لنظامي iOS و Android، وتخزن ملف قاعدة البيانات بشكل آمن داخل دليل البيانات المعزول للتطبيق.",
     "codeSnippet": null
   },
   {
@@ -6664,8 +6664,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Flutter Web runs in a browser environment where direct file system and SQLite access are restricted. Web relies on IndexedDB or local storage, requiring platform-specific storage strategies.",
+    "explanationAr": "يعمل Flutter Web في بيئة متصفح حيث يتم تقييد الوصول المباشر إلى نظام الملفات و SQLite. يعتمد الويب على IndexedDB، مما يتطلب استراتيجيات تخزين خاصة بالمنصة.",
     "codeSnippet": null
   },
   {
@@ -6688,8 +6688,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "The Repository pattern abstracts data access. The UI only interacts with the repository, allowing developers to swap underlying storage engines without breaking the UI code.",
+    "explanationAr": "يقوم نمط المستودع (Repository) بتجريد الوصول إلى البيانات. تتفاعل واجهة المستخدم فقط مع المستودع، مما يسمح بتبديل محركات التخزين دون كسر كود واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -6712,8 +6712,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Separation of concerns dictates that UI components (Widgets) should handle presentation only. They should consume domain objects, leaving SQL syntax to the data access layer.",
+    "explanationAr": "يملي فصل الاهتمامات أن مكونات واجهة المستخدم (Widgets) يجب أن تتعامل مع العرض فقط، وترك بناء جملة SQL لطبقة الوصول إلى البيانات.",
     "codeSnippet": null
   },
   {
@@ -6736,8 +6736,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "The toMap() method acts as a serializer, converting a Dart object into a Map structure where keys represent column names or JSON fields exactly as expected by the storage schema.",
+    "explanationAr": "تعمل طريقة toMap() كمحول تسلسلي، حيث تحول كائن Dart إلى بنية Map حيث تمثل المفاتيح أسماء الأعمدة أو حقول JSON تمامًا كما هو متوقع.",
     "codeSnippet": null
   },
   {
@@ -6760,8 +6760,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "The fromMap() method deserializes incoming data. It serves as a defensive boundary, handling null checks, missing fields, and type conversions to safely construct a valid Dart object.",
+    "explanationAr": "تقوم طريقة fromMap() بفك تسلسل البيانات الواردة. تعمل كحد دفاعي للتعامل مع القيم الفارغة والحقول المفقودة وتحويلات النوع بأمان.",
     "codeSnippet": null
   },
   {
@@ -6784,8 +6784,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Concatenating user inputs directly into SQL strings exposes the database to SQL injection attacks. Parameterized queries via whereArgs ensure inputs are treated strictly as data.",
+    "explanationAr": "يؤدي دمج إدخالات المستخدم مباشرة في سلاسل SQL إلى تعريض قاعدة البيانات لهجمات الحقن. تضمن الاستعلامات ذات المعلمات عبر whereArgs التعامل مع المدخلات كبيانات بحتة.",
     "codeSnippet": null
   },
   {
@@ -6808,8 +6808,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "By separating the value (like an ID) from the structural SQL command, whereArgs prevents malicious actors from altering the intent of the query through clever text input.",
+    "explanationAr": "من خلال فصل القيمة (مثل المعرف) عن أمر SQL الهيكلي، يمنع whereArgs الجهات الخبيثة من تغيير القصد من الاستعلام من خلال إدخال نصي ذكي.",
     "codeSnippet": null
   },
   {
@@ -6832,8 +6832,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "In SQL, an UPDATE statement without a WHERE clause applies the new values to every single row in the table. Providing a specific condition is critical to target specific records.",
+    "explanationAr": "في SQL، تؤدي عبارة UPDATE بدون شرط WHERE إلى تطبيق القيم الجديدة على كل صف في الجدول. توفير شرط محدد أمر بالغ الأهمية لاستهداف سجلات معينة.",
     "codeSnippet": null
   },
   {
@@ -6856,8 +6856,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "A safe deletion requires identifying the target record unambiguously using a primary key (like an ID) supplied securely through parameterized bound arguments.",
+    "explanationAr": "يتطلب الحذف الآمن تحديد السجل المستهدف بشكل لا لبس فيه باستخدام مفتاح أساسي (مثل ID) يتم توفيره بأمان من خلال وسيطات مقيدة بمعلمات.",
     "codeSnippet": null
   },
   {
@@ -6880,8 +6880,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Using ConflictAlgorithm.replace automatically overwrites existing rows that share the same unique key. This behavior can lead to unintended data loss if not carefully chosen.",
+    "explanationAr": "يؤدي استخدام ConflictAlgorithm.replace إلى الكتابة فوق الصفوف الحالية التي تشترك في نفس المفتاح الفريد تلقائيًا، مما قد يؤدي إلى فقدان بيانات غير مقصود.",
     "codeSnippet": null
   },
   {
@@ -6904,8 +6904,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Database transactions enforce the ACID property of Atomicity. If any single operation in a block of database operations fails, all changes are rolled back completely.",
+    "explanationAr": "تفرض معاملات قاعدة البيانات (Transactions) خاصية الذرية. إذا فشلت أي عملية داخل المعاملة، يتم التراجع عن جميع التغييرات بالكامل.",
     "codeSnippet": null
   },
   {
@@ -6928,8 +6928,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "A batch executes multiple SQL commands sequentially to reduce overhead, but depending on the exact API method used, it might not automatically wrap them in an atomic rollback transaction.",
+    "explanationAr": "تنفذ الدفعة (Batch) أوامر SQL متعددة بشكل متسلسل لتقليل العبء، ولكنها قد لا تضعها تلقائيًا في معاملة تراجع ذرية بناءً على واجهة برمجة التطبيقات المستخدمة.",
     "codeSnippet": null
   },
   {
@@ -6952,8 +6952,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Modifying a local state variable only assumes the database write succeeded. Querying the database explicitly afterward confirms the data was truly committed to disk.",
+    "explanationAr": "تعديل متغير حالة محلي يفترض فقط نجاح الكتابة. الاستعلام عن قاعدة البيانات لاحقًا يؤكد أن البيانات تم الالتزام بها فعليًا على القرص.",
     "codeSnippet": null
   },
   {
@@ -6976,8 +6976,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "TextEditingController consumes system resources (listeners, memory). To prevent memory leaks, it must be explicitly freed in the dispose() method of the StatefulWidget.",
+    "explanationAr": "يستهلك TextEditingController موارد النظام. لمنع تسرب الذاكرة، يجب تحريره صراحةً في طريقة dispose() الخاصة بـ StatefulWidget.",
     "codeSnippet": null
   },
   {
@@ -7000,8 +7000,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "The jsonDecode function only checks if the string is correctly formatted JSON. It does not verify if the resulting map contains the keys or data types your app's domain model requires.",
+    "explanationAr": "تتحقق وظيفة jsonDecode فقط مما إذا كانت السلسلة منسقة بشكل صحيح. لا تتحقق مما إذا كانت الخريطة الناتجة تحتوي على المفاتيح التي يتطلبها نموذج تطبيقك.",
     "codeSnippet": null
   },
   {
@@ -7024,8 +7024,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "In Dart, a Map might not contain a key at all, or it might contain the key mapped to an explicit null value. Schema validation logic should handle these nuances properly.",
+    "explanationAr": "في Dart، قد لا تحتوي الخريطة على مفتاح على الإطلاق، أو قد تحتوي على مفتاح معين بقيمة null صريحة. يجب أن يعالج التحقق من المخطط هذه الفروق الدقيقة.",
     "codeSnippet": null
   },
   {
@@ -7048,8 +7048,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "A local-only app simply saves to device storage. An offline-first app treats local storage as a cache and must actively synchronize changes with a remote server, handling potential merge conflicts.",
+    "explanationAr": "يحفظ التطبيق المحلي فقط البيانات على الجهاز. أما التطبيق الذي يعمل دون اتصال أولاً (Offline-first)، فيتعامل مع التخزين المحلي كذاكرة مؤقتة ويجب عليه مزامنة التغييرات مع الخادم.",
     "codeSnippet": null
   },
   {
@@ -7072,8 +7072,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Building robust offline-first architectures requires designing mechanisms to retry failed uploads, resolve server vs. client data discrepancies, and indicate sync status to users.",
+    "explanationAr": "يتطلب بناء هياكل قوية تعمل دون اتصال أولاً تصميم آليات لإعادة محاولة التحميلات الفاشلة، وحل التناقضات بين الخادم والعميل، وتوضيح حالة المزامنة.",
     "codeSnippet": null
   },
   {
@@ -7096,8 +7096,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Different operating systems use different path separators (e.g., '\\' on Windows, '/' on Unix). Using the path package's join() function guarantees correct formatting across all platforms.",
+    "explanationAr": "تستخدم أنظمة التشغيل فواصل مسارات مختلفة. يضمن استخدام وظيفة join() من حزمة path التنسيق الصحيح عبر جميع المنصات.",
     "codeSnippet": null
   },
   {
@@ -7120,8 +7120,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "While getApplicationDocumentsDirectory() provides the root folder path, the developer is fully responsible for determining the structure, file naming, and file creation within that folder.",
+    "explanationAr": "بينما يوفر getApplicationDocumentsDirectory() مسار المجلد الجذر، يكون المطور مسؤولاً مسؤولية كاملة عن تحديد الهيكل وتسمية الملفات داخل ذلك المجلد.",
     "codeSnippet": null
   },
   {
@@ -7144,8 +7144,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Temporary directories (e.g., getTemporaryDirectory()) can be cleared by the OS at any time to free up space, making them highly unreliable for storing permanent user data.",
+    "explanationAr": "يمكن لنظام التشغيل مسح الأدلة المؤقتة في أي وقت لتحرير المساحة، مما يجعلها غير موثوقة لتخزين بيانات المستخدم الدائمة.",
     "codeSnippet": null
   },
   {
@@ -7168,8 +7168,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "When reading a persistent file fails (like a missing counter file), the app should catch the exception and default to a sensible initial state (e.g., 0) instead of crashing.",
+    "explanationAr": "عند فشل قراءة ملف دائم، يجب أن يلتقط التطبيق الاستثناء ويعود إلى حالة أولية منطقية (مثل 0) بدلاً من الانهيار.",
     "codeSnippet": null
   },
   {
@@ -7192,8 +7192,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Persisted data might become corrupted. The parsing logic must use try-catch blocks to safely recover or reset the data when formats like JSON are unexpectedly invalid.",
+    "explanationAr": "قد تتلف البيانات المحفوظة. يجب أن يستخدم منطق التحليل كتل try-catch للتعافي بأمان أو إعادة تعيين البيانات عندما تكون التنسيقات مثل JSON غير صالحة.",
     "codeSnippet": null
   },
   {
@@ -7216,8 +7216,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "setState updates the UI based on variables in RAM. A true test of persistent storage involves fully terminating the app and verifying the data successfully loads upon restart.",
+    "explanationAr": "يحدث setState الواجهة بناءً على المتغيرات في الذاكرة العشوائية. الاختبار الحقيقي للتخزين الدائم يتضمن إنهاء التطبيق بالكامل والتحقق من تحميل البيانات بنجاح عند إعادة التشغيل.",
     "codeSnippet": null
   },
   {
@@ -7240,8 +7240,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "If a value is saved as a Double using setDouble, it must be retrieved using getDouble. Type mismatches between the write and read contracts will result in runtime errors.",
+    "explanationAr": "إذا تم حفظ قيمة كعدد عشري مزدوج باستخدام setDouble، فيجب استردادها باستخدام getDouble. سيؤدي عدم تطابق النوع إلى حدوث أخطاء في وقت التشغيل.",
     "codeSnippet": null
   },
   {
@@ -7264,8 +7264,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "The remove(key) method targets only a single specific item in SharedPreferences, leaving all other stored preferences intact.",
+    "explanationAr": "تستهدف طريقة remove(key) عنصرًا واحدًا محددًا فقط في SharedPreferences، مع ترك جميع التفضيلات المخزنة الأخرى سليمة.",
     "codeSnippet": null
   },
   {
@@ -7288,8 +7288,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "The clear() method entirely wipes out all keys and values in the SharedPreferences instance. It should be used cautiously, such as during user logout or a hard reset.",
+    "explanationAr": "تمسح طريقة clear() تمامًا جميع المفاتيح والقيم في نسخة SharedPreferences. يجب استخدامها بحذر، مثل أثناء تسجيل خروج المستخدم أو إعادة الضبط.",
     "codeSnippet": null
   },
   {
@@ -7312,8 +7312,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Because standard SharedPreferences creates an initial cache during instantiation, changes made by other processes or async isolates aren't visible until the cache is explicitly refreshed using reload().",
+    "explanationAr": "نظرًا لأن SharedPreferences القياسي ينشئ ذاكرة تخزين مؤقت أولية، فإن التغييرات التي تجريها العمليات الأخرى لا تكون مرئية حتى يتم تحديث الذاكرة صراحةً باستخدام reload().",
     "codeSnippet": null
   },
   {
@@ -7336,8 +7336,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "SQLite uses version integers to track schema changes. When deploying an app update with a new database structure, incrementing the version number triggers the migration mechanism.",
+    "explanationAr": "يستخدم SQLite أرقام الإصدارات لتتبع تغييرات المخطط. عند نشر تحديث لتطبيق بهيكل قاعدة بيانات جديد، فإن زيادة رقم الإصدار تؤدي إلى تشغيل آلية الترحيل.",
     "codeSnippet": null
   },
   {
@@ -7360,8 +7360,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "The onUpgrade callback in sqflite executes when the requested schema version is higher than the currently installed database version, allowing you to run ALTER TABLE commands.",
+    "explanationAr": "يتم تنفيذ onUpgrade في sqflite عندما يكون إصدار المخطط المطلوب أعلى من الإصدار المثبت حاليًا، مما يسمح لك بتشغيل أوامر ALTER TABLE.",
     "codeSnippet": null
   },
   {
@@ -7384,8 +7384,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Database migrations must be non-destructive whenever possible. Rather than dropping entire tables and losing user data, scripts should carefully map existing data to the new schema.",
+    "explanationAr": "يجب أن تكون عمليات ترحيل قواعد البيانات غير مدمرة كلما أمكن ذلك. بدلاً من إسقاط الجداول بالكامل، يجب تعيين البيانات الحالية بعناية إلى المخطط الجديد.",
     "codeSnippet": null
   },
   {
@@ -7408,8 +7408,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "A robust UX maps the asynchronous nature of storage to distinct UI states: a spinner while loading, a message if no data exists, an error alert on failure, and the actual content when successful.",
+    "explanationAr": "تقوم تجربة المستخدم القوية بربط طبيعة التخزين غير المتزامنة بحالات واجهة مميزة: مؤشر أثناء التحميل، ورسالة لعدم وجود بيانات، وتنبيه عند الفشل، والمحتوى الفعلي عند النجاح.",
     "codeSnippet": null
   },
   {
@@ -7432,8 +7432,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Awaiting the storage write operation ensures that the UI only displays a success notification (like a SnackBar) if the data was definitively saved without throwing an exception.",
+    "explanationAr": "يضمن انتظار عملية الكتابة في التخزين أن الواجهة تعرض إشعار النجاح فقط إذا تم حفظ البيانات بشكل نهائي دون إلقاء استثناء.",
     "codeSnippet": null
   },
   {
@@ -7456,8 +7456,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "In distributed architectures, modifying local SQLite data doesn't instantly replicate to a backend server. The app must independently implement logic to fire a DELETE request to the remote API.",
+    "explanationAr": "في الهياكل الموزعة، لا يتم نسخ تعديل بيانات SQLite المحلية فورًا إلى خادم الواجهة الخلفية. يجب أن ينفذ التطبيق منطقًا مستقلاً لإرسال طلب DELETE.",
     "codeSnippet": null
   },
   {
@@ -7480,8 +7480,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Offline-first databases often need internal tracking columns, such as 'is_synced' flags, to distinguish between data that only exists locally and data confirmed by the cloud server.",
+    "explanationAr": "غالبًا ما تحتاج قواعد البيانات التي تعمل دون اتصال أولاً إلى أعمدة تتبع داخلية، مثل علامات 'is_synced'، للتمييز بين البيانات المحلية والبيانات المؤكدة من الخادم.",
     "codeSnippet": null
   },
   {
@@ -7504,8 +7504,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Selecting a storage engine depends on use-cases: simple preferences for quick tokens, SQLite for structured search, and files for large blobs, considering the security and platform constraints of each.",
+    "explanationAr": "يعتمد اختيار محرك التخزين على حالات الاستخدام: التفضيلات البسيطة للرموز السريعة، SQLite للبحث المنظم، والملفات للبيانات الكبيرة، مع مراعاة قيود الأمان والمنصة.",
     "codeSnippet": null
   },
   {
@@ -7528,8 +7528,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Verifying data persistence in automated tests requires simulating a fresh launch sequence, proving the data is truly read from disk, not just held in leftover memory from a prior step.",
+    "explanationAr": "يتطلب التحقق من استمرار البيانات في الاختبارات الآلية محاكاة تسلسل تشغيل جديد، لإثبات أن البيانات تُقرأ فعليًا من القرص.",
     "codeSnippet": null
   },
   {
@@ -7552,8 +7552,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "A well-designed Repository interface exposes business methods (like getUser()) without revealing if the data is fetched from SQLite, SharedPreferences, or Firebase, enforcing architectural boundaries.",
+    "explanationAr": "تكشف واجهة المستودع (Repository) المصممة جيدًا عن أساليب العمل دون الكشف عما إذا كان يتم جلب البيانات من SQLite أو SharedPreferences، مما يفرض حدودًا معمارية.",
     "codeSnippet": null
   },
   {
@@ -7576,8 +7576,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "If a UI indiscriminately shows an 'Empty' screen when an exception occurs, the user receives a false indication that their data is gone, whereas it might merely be a temporary read failure.",
+    "explanationAr": "إذا أظهرت الواجهة شاشة 'فارغة' بشكل عشوائي عند حدوث استثناء، يتلقى المستخدم إشارة خاطئة بأن بياناته قد اختفت، بينما قد يكون مجرد فشل قراءة مؤقت.",
     "codeSnippet": null
   },
   {
@@ -7600,8 +7600,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "An empty SQLite list simply means the database has no records matching the query. It is a valid state that the UI should represent (e.g., 'No items yet'), distinct from a database error state.",
+    "explanationAr": "قائمة SQLite الفارغة تعني ببساطة أن قاعدة البيانات لا تحتوي على سجلات مطابقة. إنها حالة صالحة يجب أن تمثلها الواجهة بشكل مميز عن حالة خطأ قاعدة البيانات.",
     "codeSnippet": null
   },
   {
@@ -7624,8 +7624,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Pushing a new route for a form using a FloatingActionButton allows the user to submit data, pop back to the previous screen, and instantly refresh the parent list without losing navigation context.",
+    "explanationAr": "يسمح دفع مسار جديد لنموذج باستخدام FAB للمستخدم بإرسال البيانات، والعودة إلى الشاشة السابقة، وتحديث القائمة الأصلية على الفور دون فقد سياق التنقل.",
     "codeSnippet": null
   },
   {
@@ -7648,8 +7648,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Executing a fresh SELECT query against the database immediately after an INSERT guarantees that the data read back into the app matches the definitive state stored on the disk.",
+    "explanationAr": "يضمن تنفيذ استعلام SELECT جديد ضد قاعدة البيانات فورًا بعد عملية INSERT أن البيانات التي يتم قراءتها مرة أخرى تتطابق مع الحالة النهائية المخزنة على القرص.",
     "codeSnippet": null
   },
   {
@@ -7672,8 +7672,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Reloading the targeted record from persistent storage after a form update prevents desynchronization between what the database saved and what the local application memory holds.",
+    "explanationAr": "تمنع إعادة تحميل السجل المستهدف من التخزين الدائم بعد تحديث النموذج عدم التزامن بين ما حفظته قاعدة البيانات وما تحتفظ به ذاكرة التطبيق المحلية.",
     "codeSnippet": null
   },
   {
@@ -7696,8 +7696,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Awaiting operations guarantees synchronous-like behavior in asynchronous code. The success logic and messages execute strictly after the IO operation guarantees completion.",
+    "explanationAr": "يضمن انتظار العمليات سلوكًا يشبه التزامن. يتم تنفيذ منطق النجاح والرسائل بشكل صارم بعد أن تضمن عملية الإدخال والإخراج الاكتمال.",
     "codeSnippet": null
   },
   {
@@ -7720,8 +7720,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "When an app relaunches, all UI State resets. Preferences must be explicitly read from storage and mapped back into State variables (e.g., in initState) for the UI to reflect previously saved values.",
+    "explanationAr": "عند إعادة تشغيل التطبيق، تتم إعادة تعيين جميع حالات الواجهة. يجب قراءة التفضيلات صراحةً من التخزين وتعيينها مرة أخرى في متغيرات State لتعكس الواجهة القيم المحفوظة.",
     "codeSnippet": null
   },
   {
@@ -7744,8 +7744,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "If startup code points to an incorrect database name, file path, or preference key, the persistent data will fail to restore, appearing to the user as if the data was completely lost.",
+    "explanationAr": "إذا أشار كود بدء التشغيل إلى مسار أو مفتاح خاطئ، فسيفشل استعادة البيانات الدائمة، مما يظهر للمستخدم وكأن البيانات قد فُقدت تمامًا.",
     "codeSnippet": null
   },
   {
@@ -7768,8 +7768,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "When an application runs for the first time, it is normal for local files to be missing. Mapping this absence to a defined first-run state prevents false errors and ensures a smooth user onboarding experience.",
+    "explanationAr": "عند تشغيل التطبيق للمرة الأولى، من الطبيعي أن تكون الملفات المحلية مفقودة. تعيين هذا الغياب إلى حالة 'التشغيل الأول' المحددة يمنع الأخطاء الوهمية ويضمن تجربة إعداد سلسة للمستخدم.",
     "codeSnippet": null
   },
   {
@@ -7892,8 +7892,8 @@ export const questionsData = [
       },
       {
         "label": "D",
-        "textEn": "All of the mentioned",
-        "textAr": "جميع ما ذُكر"
+        "textEn": "dart:math",
+        "textAr": "dart:math"
       }
     ],
     "correctAnswer": "A",
@@ -7940,8 +7940,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "The path_provider plugin gives Flutter applications access to commonly used locations on the device file system, specifically the temporary directory and the documents directory.",
+    "explanationAr": "توفر إضافة path_provider لتطبيقات Flutter إمكانية الوصول إلى المواقع شائعة الاستخدام في نظام ملفات الجهاز، وتحديداً الدليل المؤقت ودليل المستندات.",
     "codeSnippet": null
   },
   {
@@ -7983,8 +7983,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "The temporary directory is used as a cache that the operating system can clear at any time to free up space. It is not meant for persistent, long-term storage.",
+    "explanationAr": "يتم استخدام الدليل المؤقت (Temporary directory) كذاكرة تخزين مؤقت (cache) يمكن لنظام التشغيل مسحها في أي وقت لتوفير المساحة. وهو ليس مخصصاً للتخزين الدائم طويل الأمد.",
     "codeSnippet": null
   },
   {
@@ -8069,8 +8069,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "On iOS, the temporary cache directory corresponds to NSCachesDirectory. On Android, it maps to the value returned by getCacheDir().",
+    "explanationAr": "في نظام iOS، يتوافق دليل الذاكرة المخبئية المؤقت مع NSCachesDirectory. أما في نظام Android، فهو يقابل القيمة التي ترجعها دالة getCacheDir().",
     "codeSnippet": null
   },
   {
@@ -8112,8 +8112,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "The File class from the dart:io library is used to create a reference to a file's physical location on the device, allowing read and write operations.",
+    "explanationAr": "تُستخدم فئة File من مكتبة dart:io لإنشاء مرجع للموقع الفعلي للملف على الجهاز، مما يسمح بعمليات القراءة والكتابة.",
     "codeSnippet": null
   },
   {
@@ -8241,8 +8241,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "SharedPreferences is a mechanism used in Flutter to persistently store simple data, like settings and flags, locally in key-value pairs on both Android and iOS.",
+    "explanationAr": "تُعد SharedPreferences آلية تُستخدم في Flutter لتخزين البيانات البسيطة بشكل دائم، مثل الإعدادات والعلامات، محلياً في أزواج مفتاح-قيمة (key-value) على كل من Android وiOS.",
     "codeSnippet": null
   },
   {
@@ -8283,9 +8283,9 @@ export const questionsData = [
         "textAr": "جميع ما ذُكر"
       }
     ],
-    "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "correctAnswer": "D",
+    "explanationEn": "SharedPreferences supports storing multiple primitive data types, including integers, doubles, booleans, strings, and lists of strings (stringList).",
+    "explanationAr": "تدعم SharedPreferences تخزين عدة أنواع من البيانات الأولية، بما في ذلك الأعداد الصحيحة (int)، الأعداد العشرية (double)، القيم المنطقية (bool)، السلاسل النصية (string)، وقوائم السلاسل (stringList).",
     "codeSnippet": null
   },
   {
@@ -8326,9 +8326,9 @@ export const questionsData = [
         "textAr": "جميع ما ذُكر"
       }
     ],
-    "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "correctAnswer": "D",
+    "explanationEn": "Using SharedPreferences involves adding the dependency to pubspec.yaml, importing the package into your Dart file, and writing code to perform read/write operations.",
+    "explanationAr": "يتضمن استخدام SharedPreferences إضافة الاعتمادية إلى pubspec.yaml، استيراد الحزمة إلى ملف Dart الخاص بك، وكتابة الكود لتنفيذ عمليات القراءة والكتابة.",
     "codeSnippet": null
   },
   {
@@ -8370,8 +8370,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "To store a string value in SharedPreferences, you must use the setString method, passing the chosen key and the string value as arguments.",
+    "explanationAr": "لتخزين قيمة نصية في SharedPreferences، يجب عليك استخدام دالة setString، وتمرير المفتاح المختار والقيمة النصية كمعاملات.",
     "codeSnippet": null
   },
   {
@@ -8413,8 +8413,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "The setBool method is specifically designed to persist boolean values (true or false) under a designated key within SharedPreferences.",
+    "explanationAr": "صُممت دالة setBool خصيصاً لحفظ القيم المنطقية (true أو false) تحت مفتاح محدد داخل SharedPreferences.",
     "codeSnippet": null
   },
   {
@@ -8456,8 +8456,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "After getting an instance of SharedPreferences, you use setStringList() passing the key and a Dart List of Strings (enclosed in square brackets) to save the list.",
+    "explanationAr": "بعد الحصول على نسخة من SharedPreferences، تستخدم دالة setStringList() ممرراً المفتاح وقائمة Dart من السلاسل النصية (مغلفة بأقواس مربعة) لحفظ القائمة.",
     "codeSnippet": null
   },
   {
@@ -8499,8 +8499,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "The getInt method reads an integer value associated with a specific key from SharedPreferences. It returns null if the key does not exist.",
+    "explanationAr": "تقوم دالة getInt بقراءة قيمة عدد صحيح مرتبطة بمفتاح معين من SharedPreferences. وترجع null إذا لم يكن المفتاح موجوداً.",
     "codeSnippet": null
   },
   {
@@ -8542,8 +8542,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "To read a stored floating-point number, the getDouble method is called on the SharedPreferences instance with the corresponding key.",
+    "explanationAr": "لقراءة رقم عشري مخزن، يتم استدعاء دالة getDouble على نسخة SharedPreferences مع المفتاح المقابل.",
     "codeSnippet": null
   },
   {
@@ -8585,8 +8585,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "The getStringList method fetches a list of strings previously stored in SharedPreferences under a given key.",
+    "explanationAr": "تقوم دالة getStringList بجلب قائمة من السلاسل النصية التي تم تخزينها مسبقاً في SharedPreferences تحت مفتاح معين.",
     "codeSnippet": null
   },
   {
@@ -8628,8 +8628,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "The containsKey method checks if a specific key exists within SharedPreferences, returning true if it does and false otherwise.",
+    "explanationAr": "تتحقق دالة containsKey مما إذا كان مفتاح معين موجوداً داخل SharedPreferences، وترجع true إذا كان كذلك و false في حال العكس.",
     "codeSnippet": null
   },
   {
@@ -8671,8 +8671,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "The remove method deletes a single entry based on its key. To completely clear all data within the SharedPreferences instance, the clear method is used.",
+    "explanationAr": "تقوم دالة remove بحذف إدخال واحد بناءً على مفتاحه. لمسح جميع البيانات بالكامل داخل نسخة SharedPreferences، يتم استخدام دالة clear.",
     "codeSnippet": null
   },
   {
@@ -8714,8 +8714,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "The sqflite plugin on pub.dev provides the necessary tools and wrappers to seamlessly interact with SQLite databases within Flutter applications.",
+    "explanationAr": "توفر إضافة sqflite على pub.dev الأدوات والأغلفة اللازمة للتفاعل بسلاسة مع قواعد بيانات SQLite داخل تطبيقات Flutter.",
     "codeSnippet": null
   },
   {
@@ -8757,8 +8757,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "The sqflite package is the core library that exposes the classes and functions required for SQLite database operations in Dart.",
+    "explanationAr": "حزمة sqflite هي المكتبة الأساسية التي توفر الفئات والدوال المطلوبة لعمليات قاعدة بيانات SQLite في لغة Dart.",
     "codeSnippet": null
   },
   {
@@ -8800,8 +8800,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "The sqflite package includes functions like getDatabasesPath() which help define and locate where the database file should reside on the physical disk.",
+    "explanationAr": "تتضمن حزمة sqflite دوال مثل getDatabasesPath() التي تساعد في تحديد وتحديد موقع تخزين ملف قاعدة البيانات على القرص الفعلي.",
     "codeSnippet": null
   },
   {
@@ -8843,8 +8843,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "To safely build a database file path across different platforms, you combine getDatabasesPath() from sqflite with the join function from the path package.",
+    "explanationAr": "لبناء مسار ملف قاعدة بيانات بأمان عبر منصات مختلفة، تقوم بدمج getDatabasesPath() من حزمة sqflite مع دالة join من حزمة path.",
     "codeSnippet": null
   },
   {
@@ -8886,8 +8886,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "The openDatabase function from the sqflite package is responsible for opening a connection to the SQLite database, creating it if it doesn't exist.",
+    "explanationAr": "تعتبر دالة openDatabase من حزمة sqflite مسؤولة عن فتح اتصال بقاعدة بيانات SQLite، وإنشائها إذا لم تكن موجودة.",
     "codeSnippet": null
   },
   {
@@ -8929,8 +8929,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Inserting data into a sqflite table requires converting your Dart objects into a Map format, which is then passed to the insert() method.",
+    "explanationAr": "يتطلب إدراج البيانات في جدول sqflite تحويل كائنات Dart الخاصة بك إلى صيغة Map، والتي يتم تمريرها بعد ذلك إلى دالة insert().",
     "codeSnippet": null
   },
   {
@@ -8972,8 +8972,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "To remove records from a SQLite database, you use the delete() method provided by the sqflite library, specifying the table and conditions.",
+    "explanationAr": "لإزالة السجلات من قاعدة بيانات SQLite، تستخدم دالة delete() التي توفرها مكتبة sqflite، مع تحديد الجدول والشروط.",
     "codeSnippet": null
   },
   {
@@ -9015,8 +9015,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "SQLite is a robust, lightweight relational database engine widely used in mobile development for offline data storage.",
+    "explanationAr": "SQLite هو محرك قاعدة بيانات علائقية قوي وخفيف الوزن يُستخدم على نطاق واسع في تطوير تطبيقات الهواتف المحمولة لتخزين البيانات دون اتصال بالإنترنت.",
     "codeSnippet": null
   },
   {
@@ -9057,9 +9057,9 @@ export const questionsData = [
         "textAr": "جميع ما ذُكر"
       }
     ],
-    "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "correctAnswer": "D",
+    "explanationEn": "Flutter developers commonly rely on both SharedPreferences for simple key-value pairs and SQLite for structured relational data to achieve local persistence.",
+    "explanationAr": "يعتمد مطورو Flutter عادةً على كل من SharedPreferences للأزواج البسيطة (key-value) و SQLite للبيانات العلائقية المهيكلة لتحقيق الاستمرارية المحلية للبيانات.",
     "codeSnippet": null
   },
   {
@@ -9101,8 +9101,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "If a counter resets after the app restarts, it indicates that the state was only stored in memory. Persistent storage and logic to restore it on startup are missing.",
+    "explanationAr": "إذا تمت إعادة تعيين العداد بعد إعادة تشغيل التطبيق، فهذا يشير إلى أن الحالة تم تخزينها في الذاكرة فقط. التخزين الدائم والمنطق لاستعادته عند بدء التشغيل مفقودان.",
     "codeSnippet": null
   },
   {
@@ -9144,8 +9144,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Variables declared locally inside a build method are inherently volatile. They are lost and recreated every time the widget is rebuilt by the framework.",
+    "explanationAr": "المتغيرات المعلنة محلياً داخل دالة build هي متقلبة بطبيعتها. تُفقد ويُعاد إنشاؤها في كل مرة يتم فيها إعادة بناء الـ widget بواسطة إطار العمل.",
     "codeSnippet": null
   },
   {
@@ -9187,8 +9187,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "A user-selected theme mode is a simple, singular setting. Small configuration values like this are the ideal use case for a key-value store like SharedPreferences.",
+    "explanationAr": "وضع السمة الذي يختاره المستخدم هو إعداد بسيط ومفرد. قيم التكوين الصغيرة كهذه هي حالة الاستخدام المثالية لمخزن مفتاح-قيمة مثل SharedPreferences.",
     "codeSnippet": null
   },
   {
@@ -9230,8 +9230,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "When an application requires structured data capable of advanced queries, sorting, and row-level updates, a relational database like SQLite is the best fit.",
+    "explanationAr": "عندما يتطلب التطبيق بيانات مهيكلة قادرة على الاستعلامات المتقدمة والفرز وتحديثات على مستوى الصفوف، فإن قاعدة بيانات علائقية مثل SQLite هي الأنسب.",
     "codeSnippet": null
   },
   {
@@ -9273,8 +9273,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Reading and writing whole blocks of structured text, such as a complete JSON document without needing relational queries, naturally maps to standard file I/O operations.",
+    "explanationAr": "قراءة وكتابة كتل كاملة من النصوص المهيكلة، مثل مستند JSON كامل دون الحاجة إلى استعلامات علائقية، يتوافق بشكل طبيعي مع عمليات الإدخال والإخراج (I/O) القياسية للملفات.",
     "codeSnippet": null
   },
   {
@@ -9316,8 +9316,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "For a preference to persist across app restarts, it must be explicitly written to a persistent store and then explicitly read back during the app's startup sequence.",
+    "explanationAr": "لكي يستمر التفضيل عبر عمليات إعادة تشغيل التطبيق، يجب كتابته صراحةً في مخزن دائم ثم قراءته صراحةً أثناء تسلسل بدء تشغيل التطبيق.",
     "codeSnippet": null
   },
   {
@@ -9359,8 +9359,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "When a value like a username is absent on the first launch, it implies the user hasn't set it yet. The robust approach is to render a first-run UI.",
+    "explanationAr": "عندما تغيب قيمة مثل اسم المستخدم في أول تشغيل، فهذا يعني أن المستخدم لم يقم بتعيينها بعد. النهج القوي هو عرض واجهة مستخدم خاصة بالتشغيل الأول.",
     "codeSnippet": null
   },
   {
@@ -9402,8 +9402,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "A successful query returning zero rows means the database is functioning but empty. The UI should reflect this reality with a clear empty state message.",
+    "explanationAr": "استعلام ناجح يرجع صفر صفوف يعني أن قاعدة البيانات تعمل ولكنها فارغة. يجب أن تعكس واجهة المستخدم هذا الواقع برسالة واضحة تشير إلى الحالة الفارغة.",
     "codeSnippet": null
   },
   {
@@ -9445,8 +9445,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "If a file doesn't exist and the app logic allows for a first-run scenario, the repository should catch this and return a valid, predefined empty state instead of throwing an error.",
+    "explanationAr": "إذا لم يكن الملف موجوداً وكان منطق التطبيق يسمح بسيناريو التشغيل الأول، يجب على المستودع التقاط هذا وإرجاع حالة فارغة صالحة ومحددة مسبقاً بدلاً من إلقاء خطأ.",
     "codeSnippet": null
   },
   {
@@ -9488,8 +9488,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Because database reads are asynchronous (await), the user might navigate away before the read finishes. Checking 'mounted' ensures the widget is still in the tree before updating the UI.",
+    "explanationAr": "نظراً لأن قراءات قاعدة البيانات غير متزامنة (await)، فقد يغادر المستخدم الشاشة قبل اكتمال القراءة. يضمن التحقق من 'mounted' أن الـ widget لا يزال في الشجرة قبل تحديث واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -9531,8 +9531,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "If external changes aren't reflected in the UI, the reader logic is likely relying on stale, cached data instead of reacting to or reloading the fresh values from storage.",
+    "explanationAr": "إذا لم تنعكس التغييرات الخارجية في واجهة المستخدم، فمن المحتمل أن منطق القارئ يعتمد على بيانات مخبأة قديمة بدلاً من التفاعل مع أو إعادة تحميل القيم الحديثة من التخزين.",
     "codeSnippet": null
   },
   {
@@ -9574,8 +9574,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "The Repository pattern abstracts data access. By providing a service interface that returns domain models, the UI remains cleanly isolated from whether data comes from SQLite or a file.",
+    "explanationAr": "يجرد نمط المستودع (Repository pattern) الوصول إلى البيانات. من خلال توفير واجهة خدمة ترجع نماذج النطاق، تظل واجهة المستخدم معزولة تماماً عما إذا كانت البيانات تأتي من SQLite أو ملف.",
     "codeSnippet": null
   },
   {
@@ -9617,8 +9617,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "The toMap method acts as a serializer, mapping the model's properties to keys (column names) and values that the SQLite plugin understands and can write to the table.",
+    "explanationAr": "تعمل دالة toMap كمُسلسل (serializer)، حيث تقوم بتعيين خصائص النموذج إلى مفاتيح (أسماء الأعمدة) وقيم يمكن لإضافة SQLite فهمها وكتابتها في الجدول.",
     "codeSnippet": null
   },
   {
@@ -9660,8 +9660,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Using parameterized queries (where: 'id = ?', whereArgs: [id]) is fundamentally safer because the database driver escapes the input, preventing SQL injection vulnerabilities.",
+    "explanationAr": "يُعد استخدام الاستعلامات ذات المعلمات (where: 'id = ?', whereArgs: [id]) أكثر أماناً بشكل أساسي لأن مشغل قاعدة البيانات يقوم بتأمين الإدخال، مما يمنع ثغرات حقن SQL.",
     "codeSnippet": null
   },
   {
@@ -9703,8 +9703,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Direct string concatenation with user input allows malicious or malformed text to alter the intended SQL syntax, opening the door to catastrophic SQL injection attacks.",
+    "explanationAr": "يسمح الربط النصي المباشر مع إدخال المستخدم للنصوص الخبيثة أو المشوهة بتغيير بناء جملة SQL المقصود، مما يفتح الباب أمام هجمات حقن SQL الكارثية.",
     "codeSnippet": null
   },
   {
@@ -9746,8 +9746,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "To guarantee an update targets exactly one specific record, the SQL query must include a strict 'where' clause matching the record's unique, stable identifier.",
+    "explanationAr": "لضمان استهداف التحديث لسجل واحد محدد بالضبط، يجب أن يتضمن استعلام SQL جملة 'where' صارمة تطابق المعرف الفريد والمستقر للسجل.",
     "codeSnippet": null
   },
   {
@@ -9789,8 +9789,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Transactions ensure atomicity. They should be used when multiple related database changes must succeed or fail together as a single, cohesive unit of work.",
+    "explanationAr": "تضمن المعاملات (Transactions) الذرية (atomicity). يجب استخدامها عندما يجب أن تنجح العديد من تغييرات قاعدة البيانات ذات الصلة أو تفشل معاً كوحدة عمل واحدة متماسكة.",
     "codeSnippet": null
   },
   {
@@ -9832,8 +9832,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "ConflictAlgorithm.replace instructs the database to silently overwrite existing data if a constraint violation (like a duplicate primary key) occurs during an insert.",
+    "explanationAr": "توجه ConflictAlgorithm.replace قاعدة البيانات للكتابة فوق البيانات الموجودة بصمت في حال حدوث انتهاك لأحد القيود (مثل تكرار المفتاح الأساسي) أثناء عملية الإدراج.",
     "codeSnippet": null
   },
   {
@@ -9875,8 +9875,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "If UI state is updated optimistically without verifying the database, you lack empirical evidence that the data was actually persisted to disk successfully.",
+    "explanationAr": "إذا تم تحديث حالة واجهة المستخدم بتفاؤل دون التحقق من قاعدة البيانات، فإنك تفتقر إلى دليل تجريبي يثبت أن البيانات قد تم حفظها بنجاح على القرص.",
     "codeSnippet": null
   },
   {
@@ -9918,8 +9918,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Controllers, like TextEditingController, manage active memory and event listeners. The State object that instantiates them is responsible for managing their lifecycle, including calling dispose().",
+    "explanationAr": "تقوم المتحكمات، مثل TextEditingController، بإدارة الذاكرة النشطة ومستمعي الأحداث. كائن الـ State الذي يقوم بإنشائها هو المسؤول عن إدارة دورة حياتها، بما في ذلك استدعاء dispose().",
     "codeSnippet": null
   },
   {
@@ -9961,8 +9961,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "When raw JSON violates domain rules (e.g., missing mandatory fields), the model boundary must intercept and reject it with a validated error rather than passing bad data to the UI.",
+    "explanationAr": "عندما ينتهك JSON الخام قواعد النطاق (مثل غياب حقول إلزامية)، يجب على حدود النموذج اعتراضه ورفضه بخطأ متحقق منه بدلاً من تمرير بيانات سيئة إلى واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -10004,8 +10004,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Optional fields must be serialized predictably. Using a documented nullable representation ensures parsers know how to reliably decode or skip absent values.",
+    "explanationAr": "يجب تسلسل החقول الاختيارية بشكل يمكن التنبؤ به. استخدام تمثيل موثق يقبل القيم الفارغة (nullable) يضمن معرفة المحللات لكيفية فك تشفير القيم الغائبة أو تخطيها بشكل موثوق.",
     "codeSnippet": null
   },
   {
@@ -10047,8 +10047,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Tracking the database schema version allows the app to detect when a user updates to a newer app version and provides a safe migration path to alter tables without losing data.",
+    "explanationAr": "يتيح تتبع إصدار مخطط قاعدة البيانات للتطبيق اكتشاف متى يقوم المستخدم بالتحديث إلى إصدار أحدث من التطبيق ويوفر مسار ترحيل آمن لتعديل الجداول دون فقدان البيانات.",
     "codeSnippet": null
   },
   {
@@ -10090,8 +10090,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "The onUpgrade callback is specifically provided by the SQLite API to execute alter table commands or scripts to transition older schemas into newer ones safely.",
+    "explanationAr": "يتم توفير رد الاتصال onUpgrade خصيصاً بواسطة واجهة برمجة تطبيقات SQLite لتنفيذ أوامر تعديل الجداول أو البرامج النصية لنقل المخططات القديمة إلى أخرى أحدث بأمان.",
     "codeSnippet": null
   },
   {
@@ -10133,8 +10133,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "When altering schemas by adding columns, a responsible migration must protect existing user records while injecting safe default values into the newly added column.",
+    "explanationAr": "عند تعديل المخططات بإضافة أعمدة، يجب أن يحمي الترحيل المسؤول سجلات المستخدمين الحالية مع إدراج قيم افتراضية آمنة في العمود المضاف حديثاً.",
     "codeSnippet": null
   },
   {
@@ -10176,8 +10176,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "State held entirely in a StatefulWidget's memory persists across hot reloads or normal widget rebuilds, but disappears completely when the operating system kills the process.",
+    "explanationAr": "الحالة المحفوظة بالكامل في ذاكرة StatefulWidget تستمر عبر عمليات إعادة التحميل السريع (hot reloads) أو إعادة بناء الـ widget العادية، ولكنها تختفي تماماً عندما يقوم نظام التشغيل بإنهاء العملية.",
     "codeSnippet": null
   },
   {
@@ -10219,8 +10219,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "File systems vary between iOS and Android. Path_provider abstracts the platform roots, and path.join safely constructs cross-platform slash delimiters.",
+    "explanationAr": "تختلف أنظمة الملفات بين iOS و Android. تقوم path_provider بتجريد الجذور الخاصة بالمنصة، وتقوم دالة path.join ببناء فواصل مسارات (slashes) آمنة عبر المنصات.",
     "codeSnippet": null
   },
   {
@@ -10262,8 +10262,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Operating systems purge temporary directories unpredictably. Storing a path to a temporary file as a permanent database value guarantees broken links eventually.",
+    "explanationAr": "تقوم أنظمة التشغيل بحذف الأدلة المؤقتة بشكل غير متوقع. تخزين مسار لملف مؤقت كقيمة دائمة في قاعدة البيانات يضمن وجود روابط معطلة في نهاية المطاف.",
     "codeSnippet": null
   },
   {
@@ -10305,8 +10305,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "When underlying storage is corrupted or malformed, the UI shouldn't crash; it should receive a controlled error state allowing the user to retry or reset.",
+    "explanationAr": "عندما يكون التخزين الأساسي تالفاً أو مشوهاً، لا ينبغي أن ينهار التطبيق؛ بل يجب أن يتلقى حالة خطأ متحكم بها تتيح للمستخدم إعادة المحاولة أو إعادة التعيين.",
     "codeSnippet": null
   },
   {
@@ -10348,8 +10348,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "True persistence is proven by writing data, completely killing the application process, and verifying the exact data is retrieved properly upon fresh initialization.",
+    "explanationAr": "يتم إثبات الاستمرارية الحقيقية عن طريق كتابة البيانات، وإنهاء عملية التطبيق بالكامل، والتحقق من استرداد البيانات الدقيقة بشكل صحيح عند التهيئة الجديدة.",
     "codeSnippet": null
   },
   {
@@ -10391,8 +10391,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "The specific operation to delete exactly one isolated preference key without impacting sibling configuration data is the remove() method with that key.",
+    "explanationAr": "العملية المحددة لحذف مفتاح تفضيل واحد معزول دون التأثير على بيانات التكوين الشقيقة هي دالة remove() باستخدام ذلك المفتاح.",
     "codeSnippet": null
   },
   {
@@ -10434,8 +10434,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "The clear() method is destructive across the entire preference scope. It should be used cautiously to avoid accidentally wiping out unrelated user settings.",
+    "explanationAr": "دالة clear() هي دالة مدمرة عبر نطاق التفضيلات بأكمله. يجب استخدامها بحذر لتجنب مسح إعدادات المستخدم غير ذات الصلة عن طريق الخطأ.",
     "codeSnippet": null
   },
   {
@@ -10477,8 +10477,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "If preferences change externally (e.g., via background sync), an active reader relying on a stale cache must explicitly reload or query a non-cached source to see updates.",
+    "explanationAr": "إذا تغيرت التفضيلات خارجياً (مثل المزامنة في الخلفية)، يجب على القارئ النشط الذي يعتمد على ذاكرة مخبأة قديمة إعادة تحميلها صراحةً أو الاستعلام عن مصدر غير مخبأ لرؤية التحديثات.",
     "codeSnippet": null
   },
   {
@@ -10520,8 +10520,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Local preferences are insecure and highly visible to users. Sensitive server-side secrets or credentials must never reside in SharedPreferences.",
+    "explanationAr": "التفضيلات المحلية غير آمنة ومرئية بوضوح للمستخدمين. يجب ألا تتواجد الأسرار أو بيانات الاعتماد الحساسة الخاصة بالخادم أبداً في SharedPreferences.",
     "codeSnippet": null
   },
   {
@@ -10563,8 +10563,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "An offline-first architecture requires a sophisticated repository that orchestrates local writes, monitors network availability, manages sync queues, and handles remote conflicts.",
+    "explanationAr": "تتطلب بنية (Offline-first) مستودعاً معقداً ينسق عمليات الكتابة المحلية، ويراقب توفر الشبكة، ويدير طوابير المزامنة، ويتعامل مع التعارضات عن بُعد.",
     "codeSnippet": null
   },
   {
@@ -10606,8 +10606,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Local-only apps treat the device as the sole source of truth. Offline-first apps treat the device as an authoritative cache but anticipate inevitable synchronization and conflict resolution with a backend.",
+    "explanationAr": "تطبيقات (Local-only) تعتبر الجهاز كمصدر وحيد للحقيقة. تطبيقات (Offline-first) تعتبر الجهاز كذاكرة مخبأة موثوقة ولكنها تتوقع حتمية التزامن وحل التعارضات مع الخادم الخلفي.",
     "codeSnippet": null
   },
   {
@@ -10649,8 +10649,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Because initState cannot be asynchronous, an awaited call inside it creates a race condition. The 'mounted' property must be checked to ensure the widget hasn't been disposed during the await.",
+    "explanationAr": "نظراً لأن initState لا يمكن أن يكون غير متزامن، فإن استدعاءً بانتظار (await) داخله يخلق حالة سباق (race condition). يجب التحقق من خاصية 'mounted' لضمان عدم التخلص من الـ widget أثناء فترة الانتظار.",
     "codeSnippet": null
   },
   {
@@ -10692,8 +10692,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "If a missing file represents a normal first-run state according to business rules, the repository must intercept the filesystem exception and return a clean, empty model outcome.",
+    "explanationAr": "إذا كان الملف المفقود يمثل حالة تشغيل أول طبيعية وفقاً لقواعد العمل، يجب على المستودع اعتراض استثناء نظام الملفات وإرجاع نتيجة نموذج نظيفة وفارغة.",
     "codeSnippet": null
   },
   {
@@ -10735,8 +10735,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Hardcoding SQL within UI widgets violates separation of concerns. Abstracting it enables modular testing of storage logic and keeps the UI code focused solely on rendering.",
+    "explanationAr": "تضمين استعلامات SQL بصلابة داخل عناصر واجهة المستخدم ينتهك مبدأ فصل الاهتمامات (separation of concerns). تجريدها يتيح الاختبار المعياري لمنطق التخزين ويبقي كود واجهة المستخدم مركزاً فقط على العرض.",
     "codeSnippet": null
   },
   {
@@ -10778,8 +10778,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "The repository is the architectural boundary responsible for translating raw database output (Maps) into strongly typed Dart domain objects that the rest of the application can safely use.",
+    "explanationAr": "المستودع (repository) هو الحد المعماري المسؤول عن ترجمة مخرجات قاعدة البيانات الخام (Maps) إلى كائنات نطاق Dart قوية النوع (strongly typed) يمكن لبقية التطبيق استخدامها بأمان.",
     "codeSnippet": null
   },
   {
@@ -10821,8 +10821,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Fetching data back from the server explicitly confirms that the write transaction successfully traversed the network and was persisted on the remote database.",
+    "explanationAr": "إن جلب البيانات مرة أخرى من الخادم يؤكد صراحةً أن معاملة الكتابة قد عبرت الشبكة بنجاح وتم حفظها في قاعدة البيانات البعيدة.",
     "codeSnippet": null
   },
   {
@@ -10864,8 +10864,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "If a user cancels a destructive action, the foundational rule of UI development is to respect that cancellation by immediately aborting any underlying persistence modification requests.",
+    "explanationAr": "إذا قام المستخدم بإلغاء إجراء مدمر، فإن القاعدة الأساسية لتطوير واجهة المستخدم هي احترام هذا الإلغاء عن طريق إحباط أي طلبات تعديل على الاستمرارية الأساسية (persistence) فوراً.",
     "codeSnippet": null
   },
   {
@@ -10907,8 +10907,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Decoding JSON is just the parsing phase. The resulting Map must then be strictly validated against domain requirements (required fields, expected types) before instantiating a model.",
+    "explanationAr": "فك تشفير JSON هو مجرد مرحلة التحليل. يجب بعد ذلك التحقق من صحة ה-Map الناتجة بصرامة مقابل متطلبات النطاق (الحقول المطلوبة، الأنواع المتوقعة) قبل إنشاء النموذج.",
     "codeSnippet": null
   },
   {
@@ -10950,8 +10950,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Blindly returning zeros for absent data can mask semantic issues. You should only return a default value if the domain logic specifically defines that absence means that default.",
+    "explanationAr": "إن الإرجاع الأعمى للأصفار للبيانات الغائبة يمكن أن يخفي مشكلات دلالية. يجب عليك إرجاع قيمة افتراضية فقط إذا كان منطق النطاق يحدد تحديداً أن الغياب يعني ذلك الافتراضي.",
     "codeSnippet": null
   },
   {
@@ -10993,8 +10993,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "An empty result is a valid state indicating successful execution with no matches. An error indicates execution failure. The UI handles these drastically different contexts distinctly.",
+    "explanationAr": "النتيجة الفارغة هي حالة صالحة تشير إلى التنفيذ الناجح دون وجود تطابقات. بينما يشير الخطأ إلى فشل التنفيذ. وتتعامل واجهة المستخدم مع هذه السياقات المختلفة جذرياً بشكل مميز.",
     "codeSnippet": null
   },
   {
@@ -11036,8 +11036,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "To target row 4 specifically, the update command demands a specific where clause matching the 'id' column to the passed argument via parameterized query logic.",
+    "explanationAr": "لاستهداف الصف 4 تحديداً، يتطلب أمر التحديث جملة where محددة تطابق عمود 'id' مع المعامل الممرر عبر منطق الاستعلام ذي المعلمات (parameterized).",
     "codeSnippet": null
   },
   {
@@ -11079,8 +11079,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Creating a new record translates directly to an insert command, provided the data payload is formatted as a validated Map corresponding to the database schema.",
+    "explanationAr": "يُترجم إنشاء سجل جديد مباشرة إلى أمر إدراج (insert)، شريطة أن تكون حمولة البيانات منسقة كـ Map متحقق من صحته يتوافق مع مخطط قاعدة البيانات.",
     "codeSnippet": null
   },
   {
@@ -11122,8 +11122,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Destructive schema migrations without safeguards or backups permanently obliterate user-generated data, directly causing data loss.",
+    "explanationAr": "عمليات ترحيل المخططات المدمرة دون ضمانات أو نسخ احتياطية تمحو البيانات التي أنشأها المستخدم نهائياً، مما يتسبب بشكل مباشر في فقدان البيانات.",
     "codeSnippet": null
   },
   {
@@ -11165,8 +11165,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Displaying a success message before an asynchronous I/O operation (await) completes creates a race condition where the UI lies to the user if the underlying write subsequently fails.",
+    "explanationAr": "عرض رسالة نجاح قبل اكتمال عملية الإدخال/الإخراج غير المتزامنة (await) يخلق حالة سباق (race condition) حيث تكذب واجهة المستخدم على المستخدم إذا فشلت الكتابة الأساسية لاحقاً.",
     "codeSnippet": null
   },
   {
@@ -11208,8 +11208,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Isolating persistence logic behind abstract Repository interfaces creates 'seams'. This allows developers to swap real databases with mock services during unit testing.",
+    "explanationAr": "عزل منطق الاستمرارية خلف واجهات المستودع (Repository) المجردة يخلق 'طبقات' (seams). وهذا يتيح للمطورين استبدال قواعد البيانات الحقيقية بخدمات وهمية (mock) أثناء اختبار الوحدة.",
     "codeSnippet": null
   },
   {
@@ -11251,8 +11251,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Timezones are notoriously complex. Storing timestamps globally requires a stable, standardized format (like UTC ISO8601) to accurately render localized times on any device worldwide.",
+    "explanationAr": "المناطق الزمنية معقدة بشكل معروف. يتطلب تخزين الطوابع الزمنية عالمياً تنسيقاً مستقراً وموحداً (مثل UTC ISO8601) لعرض الأوقات المحلية بدقة على أي جهاز في جميع أنحاء العالم.",
     "codeSnippet": null
   },
   {
@@ -11294,8 +11294,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "The modern SharedPreferencesAsync API bypasses the constraints of a purely synchronous local cache, allowing more resilient interaction with the underlying operating system persistence APIs.",
+    "explanationAr": "تتجاوز واجهة برمجة تطبيقات SharedPreferencesAsync الحديثة قيود الذاكرة المخبأة المحلية المتزامنة بحتة، مما يتيح تفاعلاً أكثر مرونة مع واجهات برمجة تطبيقات الاستمرارية الخاصة بنظام التشغيل الأساسي.",
     "codeSnippet": null
   },
   {
@@ -11337,8 +11337,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "If a deletion succeeds and leaves the dataset empty, the subsequent read will return zero rows. The interface must correctly react by showing its designated empty state UI.",
+    "explanationAr": "إذا نجح الحذف وترك مجموعة البيانات فارغة، فإن القراءة اللاحقة سترجع صفر صفوف. يجب أن تتفاعل الواجهة بشكل صحيح من خلال عرض واجهة المستخدم الخاصة بالحالة الفارغة المعينة لها.",
     "codeSnippet": null
   },
   {
@@ -11380,8 +11380,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Explicitly establishing a Single Source of Truth prevents synchronization chaos. It dictates clearly whether the local cache or the remote server wins in the event of a conflict.",
+    "explanationAr": "إن إنشاء 'مصدر وحيد للحقيقة' (Single Source of Truth) بوضوح يمنع فوضى التزامن. فهو يحدد بوضوح ما إذا كانت الذاكرة المخبأة المحلية أو الخادم البعيد هو الذي يفوز في حالة حدوث تعارض.",
     "codeSnippet": null
   },
   {
@@ -11423,8 +11423,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Choosing a persistence strategy isn't about the easiest API. It demands a holistic evaluation of data lifecycle, relational complexity, security posture, cross-platform needs, and synchronization resilience.",
+    "explanationAr": "لا يتعلق اختيار استراتيجية الاستمرارية (persistence strategy) بأسهل واجهة برمجة تطبيقات (API). بل يتطلب تقييماً شاملاً لدورة حياة البيانات، والتعقيد العلائقي، وموقف الأمان، والاحتياجات عبر المنصات، ومرونة التزامن.",
     "codeSnippet": null
   },
   {
@@ -11466,8 +11466,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "When a data schema changes by adding a required field, existing local data will fail to parse unless a migration or default versioning strategy is implemented.",
+    "explanationAr": "عندما يتغير مخطط البيانات بإضافة حقل مطلوب، ستفشل البيانات المحلية الموجودة في التحليل ما لم يتم تنفيذ استراتيجية ترحيل أو إصدار افتراضي.",
     "codeSnippet": null
   },
   {
@@ -11509,8 +11509,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "A stable database identifier is crucial for ensuring that operations like updates or deletes precisely target the correct row, regardless of its position in a visible list.",
+    "explanationAr": "يعد معرف قاعدة البيانات الثابت أمراً حاسماً لضمان أن العمليات مثل التحديثات أو الحذف تستهدف الصف الصحيح بدقة، بغض النظر عن موضعه في القائمة المرئية.",
     "codeSnippet": null
   },
   {
@@ -11552,8 +11552,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "This concept highlights standard Flutter data flow and API integration logic, ensuring reliable parsing, execution, and UI state management.",
+    "explanationAr": "يسلط هذا المفهوم الضوء على تدفق بيانات Flutter القياسي ومنطق تكامل واجهة برمجة التطبيقات، مما يضمن تحليل موثوق وتنفيذ وإدارة حالة واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -11595,8 +11595,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "When an app restarts, its volatile state is lost. Startup logic must read from persistent storage to reconstruct the application State.",
+    "explanationAr": "عند إعادة تشغيل التطبيق، تُفقد حالته المتطايرة. يجب أن يقرأ منطق بدء التشغيل من التخزين الدائم لإعادة بناء حالة التطبيق.",
     "codeSnippet": null
   },
   {
@@ -11638,8 +11638,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Decoupling persistence logic from specific screens via a reusable repository or service ensures better maintainability and testability in Flutter apps.",
+    "explanationAr": "يضمن فصل منطق الاستمرارية عن شاشات محددة عبر مستودع أو خدمة قابلة لإعادة الاستخدام إمكانية صيانة واختبار أفضل في تطبيقات Flutter.",
     "codeSnippet": null
   },
   {
@@ -11681,8 +11681,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Inserting an object into the database makes it part of the persistent dataset, so querying it immediately after returns a list containing the exact inserted object.",
+    "explanationAr": "إدراج كائن في قاعدة البيانات يجعله جزءاً من مجموعة البيانات الدائمة، لذا فإن الاستعلام عنه مباشرة بعد ذلك يعيد قائمة تحتوي على الكائن الذي تم إدراجه بالضبط.",
     "codeSnippet": null
   },
   {
@@ -11724,8 +11724,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Updating an entity modifies its persistent state in the database, causing subsequent queries to reflect the newly updated property values.",
+    "explanationAr": "يعدل تحديث كيان حالته الدائمة في قاعدة البيانات، مما يتسبب في أن تعكس الاستعلامات اللاحقة قيم الخصائص المحدثة حديثاً.",
     "codeSnippet": null
   },
   {
@@ -11767,8 +11767,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Deleting an entity removes it from the data store entirely, resulting in an empty list when querying if it was the only record.",
+    "explanationAr": "يؤدي حذف كيان إلى إزالته من مخزن البيانات تماماً، مما يؤدي إلى قائمة فارغة عند الاستعلام إذا كان السجل الوحيد.",
     "codeSnippet": null
   },
   {
@@ -11805,8 +11805,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "SharedPreferences returns null when attempting to retrieve a key that does not exist, signaling the absence of a value.",
+    "explanationAr": "ترجع SharedPreferences قيمة null عند محاولة استرداد مفتاح غير موجود، مما يشير إلى غياب القيمة.",
     "codeSnippet": null
   },
   {
@@ -11843,8 +11843,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "This concept highlights standard Flutter data flow and API integration logic, ensuring reliable parsing, execution, and UI state management.",
+    "explanationAr": "يسلط هذا المفهوم الضوء على تدفق بيانات Flutter القياسي ومنطق تكامل واجهة برمجة التطبيقات، مما يضمن تحليل موثوق وتنفيذ وإدارة حالة واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -11886,8 +11886,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "The remove function clears the key-value pair from storage, causing containsKey to return false since the key is no longer present.",
+    "explanationAr": "تمسح وظيفة remove زوج المفتاح والقيمة من التخزين، مما يجعل containsKey ترجع false لأن المفتاح لم يعد موجوداً.",
     "codeSnippet": null
   },
   {
@@ -11929,8 +11929,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Reading a file as a string returns its raw textual content, which must be parsed via int.parse to convert it into a usable integer format.",
+    "explanationAr": "تؤدي قراءة ملف كسلسلة إلى إرجاع محتواه النصي الخام، والذي يجب تحليله عبر int.parse لتحويله إلى تنسيق عدد صحيح قابل للاستخدام.",
     "codeSnippet": null
   },
   {
@@ -11972,8 +11972,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Incrementing a parsed integer and writing it back using writeAsString overwrites the old content, persisting the new calculation.",
+    "explanationAr": "تؤدي زيادة عدد صحيح تم تحليله وكتابته مرة أخرى باستخدام writeAsString إلى الكتابة فوق المحتوى القديم، مع الاحتفاظ بالحساب الجديد.",
     "codeSnippet": null
   },
   {
@@ -12015,8 +12015,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Checking for file existence before attempting to read prevents FileSystemException and allows the app to gracefully initialize defaults.",
+    "explanationAr": "يمنع التحقق من وجود الملف قبل محاولة القراءة استثناء FileSystemException ويسمح للتطبيق بتهيئة الإعدادات الافتراضية بسلاسة.",
     "codeSnippet": null
   },
   {
@@ -12058,8 +12058,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 9 covers local persistence options: primitive key-value storage (SharedPreferences / SharedPreferencesAsync), filesystem I/O (path_provider & dart:io), and relational tables (sqflite SQLite with Dog CRUD model).",
-    "explanationAr": "تغطي المحاضرة التاسعة خيارات التخزين المحلي: تخزين مفتاح-قيمة للبيانات البسيطة (SharedPreferences)، وتخزين الملفات (path_provider و dart:io)، وقواعد البيانات العلائقية (sqflite مع نموذج Dog CRUD).",
+    "explanationEn": "Validating the dynamic result of jsonDecode ensures it matches the expected Map structure. Failing this validation rightly throws a FormatException to prevent subsequent mapping errors.",
+    "explanationAr": "يضمن التحقق من النتيجة الديناميكية لـ jsonDecode تطابقها مع بنية Map المتوقعة. الفشل في هذا التحقق يطرح بحق FormatException لمنع أخطاء التعيين اللاحقة.",
     "codeSnippet": null
   },
   {
@@ -12233,8 +12233,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "FutureBuilder is the quintessential Flutter widget for building UI that reacts to the asynchronous lifecycle of HTTP requests (waiting, error, data).",
+    "explanationAr": "FutureBuilder هو عنصر واجهة المستخدم (widget) المثالي في Flutter لبناء واجهة مستخدم تتفاعل مع دورة الحياة غير المتزامنة لطلبات HTTP (انتظار، خطأ، بيانات).",
     "codeSnippet": null
   },
   {
@@ -12283,8 +12283,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "REST APIs are inherently stateless; they do not maintain client sessions, requiring every request to independently carry all data needed for the server to process it.",
+    "explanationAr": "واجهات REST API عديمة الحالة بطبيعتها؛ فهي لا تحتفظ بجلسات العميل، مما يتطلب من كل طلب أن يحمل بشكل مستقل كل البيانات اللازمة للخادم لمعالجته.",
     "codeSnippet": null
   },
   {
@@ -12308,8 +12308,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Unlike some frameworks, Flutter requires explicit deserialization using jsonDecode and factory constructors to convert raw JSON strings into strongly typed Dart objects.",
+    "explanationAr": "على عكس بعض أطر العمل، يتطلب Flutter إلغاء تسلسل صريح باستخدام jsonDecode ومنشئات المصنع (factory constructors) لتحويل سلاسل JSON الأولية إلى كائنات Dart قوية النوع.",
     "codeSnippet": null
   },
   {
@@ -12333,8 +12333,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "The Content-Type header informs the receiving web server how to interpret the request body. application/json is mandatory when sending JSON payloads.",
+    "explanationAr": "يعلم رأس Content-Type خادم الويب المستلم بكيفية تفسير نص الطلب. يعد application/json إلزامياً عند إرسال حمولات JSON.",
     "codeSnippet": null
   },
   {
@@ -12358,8 +12358,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "The http package abstracts low-level socket connections, providing simple, future-based methods like get() and post() for REST interactions.",
+    "explanationAr": "تلخص حزمة http اتصالات المقبس (socket) منخفضة المستوى، مما يوفر طرقاً بسيطة قائمة على future مثل get() و post() لتفاعلات REST.",
     "codeSnippet": null
   },
   {
@@ -12383,8 +12383,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "The HTTP GET method is strictly defined in the REST specification for retrieving data without causing side effects or modifications on the server.",
+    "explanationAr": "يتم تعريف طريقة HTTP GET بصرامة في مواصفات REST لاسترداد البيانات دون التسبب في آثار جانبية أو تعديلات على الخادم.",
     "codeSnippet": null
   },
   {
@@ -12408,8 +12408,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Flutter focuses on being a reactive UI toolkit; it delegates network operations to dedicated Dart packages rather than reinventing heavy built-in API clients.",
+    "explanationAr": "يركز Flutter على أن يكون مجموعة أدوات واجهة مستخدم تفاعلية؛ فهو يفوض عمليات الشبكة إلى حزم Dart مخصصة بدلاً من إعادة اختراع عملاء API مدمجين ثقيلين.",
     "codeSnippet": null
   },
   {
@@ -12433,8 +12433,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "While JSON is ubiquitous, GET requests can technically return XML if the API endpoint is configured to serve legacy formats.",
+    "explanationAr": "على الرغم من انتشار JSON، يمكن لطلبات GET أن تعيد XML من الناحية الفنية إذا تم تكوين نقطة نهاية API لتقديم تنسيقات قديمة.",
     "codeSnippet": null
   },
   {
@@ -12458,8 +12458,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "The http package abstracts low-level socket connections, providing simple, future-based methods like get() and post() for REST interactions.",
+    "explanationAr": "تلخص حزمة http اتصالات المقبس (socket) منخفضة المستوى، مما يوفر طرقاً بسيطة قائمة على future مثل get() و post() لتفاعلات REST.",
     "codeSnippet": null
   },
   {
@@ -12483,8 +12483,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "An HTTP request is comprehensively defined by its target URL (endpoint), action verb (method), metadata (headers), and optional payload (body).",
+    "explanationAr": "يتم تعريف طلب HTTP بشكل شامل من خلال عنوان URL المستهدف (نقطة النهاية)، وفعل الإجراء (الطريقة)، والبيانات الوصفية (الرؤوس)، والحمولة الاختيارية (النص).",
     "codeSnippet": null
   },
   {
@@ -12508,8 +12508,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Connecting directly to a database from a mobile app is a severe security risk. A backend API should always act as a secure intermediary layer.",
+    "explanationAr": "يعد الاتصال المباشر بقاعدة البيانات من تطبيق جوال مخاطرة أمنية خطيرة. يجب أن تعمل واجهة برمجة التطبيقات الخلفية (API) دائماً كطبقة وسيطة آمنة.",
     "codeSnippet": null
   },
   {
@@ -12533,8 +12533,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Connecting directly to a database from a mobile app is a severe security risk. A backend API should always act as a secure intermediary layer.",
+    "explanationAr": "يعد الاتصال المباشر بقاعدة البيانات من تطبيق جوال مخاطرة أمنية خطيرة. يجب أن تعمل واجهة برمجة التطبيقات الخلفية (API) دائماً كطبقة وسيطة آمنة.",
     "codeSnippet": null
   },
   {
@@ -12583,8 +12583,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Though REST semantics differ (PUT replaces, PATCH updates partially), many API implementations treat them identically for update operations.",
+    "explanationAr": "على الرغم من اختلاف دلالات REST (يستبدل PUT، ويحدث PATCH جزئياً)، فإن العديد من تطبيقات API تعاملها بشكل متطابق لعمليات التحديث.",
     "codeSnippet": null
   },
   {
@@ -12608,8 +12608,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "The HTTP DELETE verb is semantically purposed specifically for deleting resources on the backend system.",
+    "explanationAr": "تم تخصيص فعل HTTP DELETE دلالياً خصيصاً لحذف الموارد في النظام الخلفي.",
     "codeSnippet": null
   },
   {
@@ -12633,8 +12633,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "The 201 Created status code explicitly indicates that a POST request successfully resulted in the generation of a new resource.",
+    "explanationAr": "يشير رمز الحالة 201 Created صراحةً إلى أن طلب POST نتج عنه بنجاح إنشاء مورد جديد.",
     "codeSnippet": null
   },
   {
@@ -12658,8 +12658,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Even error responses (like 400 or 500) often return JSON bodies containing error details, which clients can parse before evaluating the status code.",
+    "explanationAr": "حتى استجابات الخطأ (مثل 400 أو 500) غالباً ما تعيد أجسام JSON تحتوي على تفاصيل الخطأ، والتي يمكن للعملاء تحليلها قبل تقييم رمز الحالة.",
     "codeSnippet": null
   },
   {
@@ -12683,8 +12683,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "This concept highlights standard Flutter data flow and API integration logic, ensuring reliable parsing, execution, and UI state management.",
+    "explanationAr": "يسلط هذا المفهوم الضوء على تدفق بيانات Flutter القياسي ومنطق تكامل واجهة برمجة التطبيقات، مما يضمن تحليل موثوق وتنفيذ وإدارة حالة واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -12708,8 +12708,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "This concept highlights standard Flutter data flow and API integration logic, ensuring reliable parsing, execution, and UI state management.",
+    "explanationAr": "يسلط هذا المفهوم الضوء على تدفق بيانات Flutter القياسي ومنطق تكامل واجهة برمجة التطبيقات، مما يضمن تحليل موثوق وتنفيذ وإدارة حالة واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -12733,8 +12733,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "JSON is structurally flexible, fully supporting nested objects, arrays, and primitive data types to represent complex data models.",
+    "explanationAr": "يتسم JSON بالمرونة الهيكلية، ويدعم بشكل كامل الكائنات المتداخلة والمصفوفات وأنواع البيانات البدائية لتمثيل نماذج البيانات المعقدة.",
     "codeSnippet": null
   },
   {
@@ -12758,8 +12758,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Implementing a fromJson factory constructor encapsulates the serialization logic, cleanly mapping raw JSON maps into strongly-typed model fields.",
+    "explanationAr": "يغلف تنفيذ منشئ مصنع fromJson منطق التسلسل، ويعين خرائط JSON الخام بشكل نظيف في حقول نماذج قوية النوع.",
     "codeSnippet": null
   },
   {
@@ -12783,8 +12783,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "When JSON properties are unreliable or represented as strings, marking Dart fields as nullable String prevents runtime null reference exceptions.",
+    "explanationAr": "عندما تكون خصائص JSON غير موثوقة أو ممثلة كسلاسل، فإن وضع علامة على حقول Dart كسلسلة قابلة للقيم الخالية (nullable String) يمنع استثناءات مرجع فارغ في وقت التشغيل.",
     "codeSnippet": null
   },
   {
@@ -12808,8 +12808,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "The jsonEncode function takes structured Dart objects (like Maps and Lists) and serializes them into valid JSON text for network transmission.",
+    "explanationAr": "تأخذ وظيفة jsonEncode كائنات Dart المهيكلة (مثل Maps و Lists) وتقوم بتسلسلها إلى نص JSON صالح لنقل الشبكة.",
     "codeSnippet": null
   },
   {
@@ -12833,8 +12833,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Implementing a fromJson factory constructor encapsulates the serialization logic, cleanly mapping raw JSON maps into strongly-typed model fields.",
+    "explanationAr": "يغلف تنفيذ منشئ مصنع fromJson منطق التسلسل، ويعين خرائط JSON الخام بشكل نظيف في حقول نماذج قوية النوع.",
     "codeSnippet": null
   },
   {
@@ -12858,8 +12858,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Implementing a fromJson factory constructor encapsulates the serialization logic, cleanly mapping raw JSON maps into strongly-typed model fields.",
+    "explanationAr": "يغلف تنفيذ منشئ مصنع fromJson منطق التسلسل، ويعين خرائط JSON الخام بشكل نظيف في حقول نماذج قوية النوع.",
     "codeSnippet": null
   },
   {
@@ -12883,8 +12883,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "The rootBundle.loadString method asynchronously reads registered bundled files into memory as String data.",
+    "explanationAr": "تقرأ طريقة rootBundle.loadString الملفات المجمعة المسجلة بشكل غير متزامن في الذاكرة كبيانات String.",
     "codeSnippet": null
   },
   {
@@ -12908,8 +12908,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "The rootBundle.loadString method asynchronously reads registered bundled files into memory as String data.",
+    "explanationAr": "تقرأ طريقة rootBundle.loadString الملفات المجمعة المسجلة بشكل غير متزامن في الذاكرة كبيانات String.",
     "codeSnippet": null
   },
   {
@@ -12933,8 +12933,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Implementing a fromJson factory constructor encapsulates the serialization logic, cleanly mapping raw JSON maps into strongly-typed model fields.",
+    "explanationAr": "يغلف تنفيذ منشئ مصنع fromJson منطق التسلسل، ويعين خرائط JSON الخام بشكل نظيف في حقول نماذج قوية النوع.",
     "codeSnippet": null
   },
   {
@@ -12958,8 +12958,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "The future parameter of FutureBuilder actively listens to the provided asynchronous function, driving the builder to update as the task progresses.",
+    "explanationAr": "تستمع معلمة المستقبل (future parameter) في FutureBuilder بنشاط إلى الوظيفة غير المتزامنة المقدمة، مما يدفع البناء (builder) للتحديث مع تقدم المهمة.",
     "codeSnippet": null
   },
   {
@@ -12983,8 +12983,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "A well-designed FutureBuilder accounts for multiple states: waiting (loading), hasError (error branch), and hasData (success branch).",
+    "explanationAr": "يفسر FutureBuilder المصمم جيداً حالات متعددة: الانتظار (التحميل)، hasError (فرع الخطأ)، و hasData (فرع النجاح).",
     "codeSnippet": null
   },
   {
@@ -13008,8 +13008,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "An empty JSON array [] is a perfectly valid response indicating zero records, not an error. The UI should display an empty state gracefully.",
+    "explanationAr": "مصفوفة JSON الفارغة [] هي استجابة صالحة تماماً تشير إلى صفر سجلات، وليست خطأ. يجب أن تعرض واجهة المستخدم حالة فارغة بسلاسة.",
     "codeSnippet": null
   },
   {
@@ -13033,8 +13033,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Image.network dynamically downloads and renders remote images via URL, commonly used in lists representing products or profiles.",
+    "explanationAr": "يقوم Image.network بتنزيل وعرض الصور عن بُعد ديناميكياً عبر URL، ويستخدم عادةً في القوائم التي تمثل المنتجات أو الملفات الشخصية.",
     "codeSnippet": null
   },
   {
@@ -13058,8 +13058,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "The http.get call utilizes a Uri.parse method to construct a valid URL object targeting the specific endpoint and query parameters.",
+    "explanationAr": "يستخدم استدعاء http.get طريقة Uri.parse لإنشاء كائن URL صالح يستهدف نقطة النهاية المحددة ومعلمات الاستعلام.",
     "codeSnippet": null
   },
   {
@@ -13083,8 +13083,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Android apps must explicitly declare the INTERNET permission in their manifest file to be granted OS-level access to make external network calls.",
+    "explanationAr": "يجب أن تعلن تطبيقات Android صراحةً عن إذن INTERNET في ملف البيان الخاص بها لمنحها وصولاً على مستوى نظام التشغيل لإجراء مكالمات الشبكة الخارجية.",
     "codeSnippet": null
   },
   {
@@ -13108,8 +13108,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Because jsonDecode returns dynamic, a top-level JSON array must be explicitly cast to List<dynamic> to enable iterable methods like map().",
+    "explanationAr": "نظراً لأن jsonDecode يُرجع قيمة ديناميكية، يجب تحويل مصفوفة JSON ذات المستوى الأعلى صراحةً إلى List<dynamic> لتمكين الطرق القابلة للتكرار مثل map().",
     "codeSnippet": null
   },
   {
@@ -13133,8 +13133,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Extracting data from deeply nested JSON requires chaining bracket notation to traverse down the specific keys defined by the API contract.",
+    "explanationAr": "يتطلب استخراج البيانات من JSON المتداخل بعمق ربط تدوين الأقواس لاجتياز المفاتيح المحددة المحددة بواسطة عقد API.",
     "codeSnippet": null
   },
   {
@@ -13158,8 +13158,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "This concept highlights standard Flutter data flow and API integration logic, ensuring reliable parsing, execution, and UI state management.",
+    "explanationAr": "يسلط هذا المفهوم الضوء على تدفق بيانات Flutter القياسي ومنطق تكامل واجهة برمجة التطبيقات، مما يضمن تحليل موثوق وتنفيذ وإدارة حالة واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -13183,8 +13183,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "This concept highlights standard Flutter data flow and API integration logic, ensuring reliable parsing, execution, and UI state management.",
+    "explanationAr": "يسلط هذا المفهوم الضوء على تدفق بيانات Flutter القياسي ومنطق تكامل واجهة برمجة التطبيقات، مما يضمن تحليل موثوق وتنفيذ وإدارة حالة واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -13208,8 +13208,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "This concept highlights standard Flutter data flow and API integration logic, ensuring reliable parsing, execution, and UI state management.",
+    "explanationAr": "يسلط هذا المفهوم الضوء على تدفق بيانات Flutter القياسي ومنطق تكامل واجهة برمجة التطبيقات، مما يضمن تحليل موثوق وتنفيذ وإدارة حالة واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -13233,8 +13233,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "A simple HTTP POST body using a Dart map is automatically encoded as x-www-form-urlencoded, allowing PHP backends to process it natively via .",
+    "explanationAr": "يتم تشفير جسم HTTP POST بسيط باستخدام خريطة Dart تلقائياً كـ x-www-form-urlencoded، مما يسمح لخلفيات PHP بمعالجته أصلياً عبر .",
     "codeSnippet": null
   },
   {
@@ -13258,8 +13258,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Both 200 (OK) and 204 (No Content) are standardized success codes indicating that the server successfully processed the modification request.",
+    "explanationAr": "كلا من 200 (OK) و 204 (No Content) عبارة عن رموز نجاح موحدة تشير إلى أن الخادم عالج طلب التعديل بنجاح.",
     "codeSnippet": null
   },
   {
@@ -13283,8 +13283,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "This concept highlights standard Flutter data flow and API integration logic, ensuring reliable parsing, execution, and UI state management.",
+    "explanationAr": "يسلط هذا المفهوم الضوء على تدفق بيانات Flutter القياسي ومنطق تكامل واجهة برمجة التطبيقات، مما يضمن تحليل موثوق وتنفيذ وإدارة حالة واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -13308,8 +13308,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "This concept highlights standard Flutter data flow and API integration logic, ensuring reliable parsing, execution, and UI state management.",
+    "explanationAr": "يسلط هذا المفهوم الضوء على تدفق بيانات Flutter القياسي ومنطق تكامل واجهة برمجة التطبيقات، مما يضمن تحليل موثوق وتنفيذ وإدارة حالة واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -13333,8 +13333,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Checking context.mounted is crucial after awaits to ensure the widget hasn't been disposed, preventing context-related crashes.",
+    "explanationAr": "يعد التحقق من context.mounted أمراً حاسماً بعد awaits لضمان عدم التخلص من الويدجت (widget)، مما يمنع الانهيارات المتعلقة بالسياق.",
     "codeSnippet": null
   },
   {
@@ -13358,8 +13358,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "This concept highlights standard Flutter data flow and API integration logic, ensuring reliable parsing, execution, and UI state management.",
+    "explanationAr": "يسلط هذا المفهوم الضوء على تدفق بيانات Flutter القياسي ومنطق تكامل واجهة برمجة التطبيقات، مما يضمن تحليل موثوق وتنفيذ وإدارة حالة واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -13383,8 +13383,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "A stable database identifier is crucial for ensuring that operations like updates or deletes precisely target the correct row, regardless of its position in a visible list.",
+    "explanationAr": "يعد معرف قاعدة البيانات الثابت أمراً حاسماً لضمان أن العمليات مثل التحديثات أو الحذف تستهدف الصف الصحيح بدقة، بغض النظر عن موضعه في القائمة المرئية.",
     "codeSnippet": null
   },
   {
@@ -13408,8 +13408,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Connecting directly to a database from a mobile app is a severe security risk. A backend API should always act as a secure intermediary layer.",
+    "explanationAr": "يعد الاتصال المباشر بقاعدة البيانات من تطبيق جوال مخاطرة أمنية خطيرة. يجب أن تعمل واجهة برمجة التطبيقات الخلفية (API) دائماً كطبقة وسيطة آمنة.",
     "codeSnippet": null
   },
   {
@@ -13433,8 +13433,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Targeting a script like getdata.php with HTTP GET is a standard pattern for fetching structured inventory lists from a server.",
+    "explanationAr": "يعد استهداف برنامج نصي مثل getdata.php باستخدام HTTP GET نمطاً قياسياً لجلب قوائم المخزون المهيكلة من الخادم.",
     "codeSnippet": null
   },
   {
@@ -13458,8 +13458,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "A simple HTTP POST body using a Dart map is automatically encoded as x-www-form-urlencoded, allowing PHP backends to process it natively via .",
+    "explanationAr": "يتم تشفير جسم HTTP POST بسيط باستخدام خريطة Dart تلقائياً كـ x-www-form-urlencoded، مما يسمح لخلفيات PHP بمعالجته أصلياً عبر .",
     "codeSnippet": null
   },
   {
@@ -13483,8 +13483,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "This concept highlights standard Flutter data flow and API integration logic, ensuring reliable parsing, execution, and UI state management.",
+    "explanationAr": "يسلط هذا المفهوم الضوء على تدفق بيانات Flutter القياسي ومنطق تكامل واجهة برمجة التطبيقات، مما يضمن تحليل موثوق وتنفيذ وإدارة حالة واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -13508,8 +13508,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "While REST suggests using DELETE, many practical API implementations accept IDs via POST bodies to dedicated delete scripts.",
+    "explanationAr": "بينما يقترح REST استخدام DELETE، تقبل العديد من تطبيقات API العملية المعرفات عبر أجسام POST إلى نصوص الحذف المخصصة.",
     "codeSnippet": null
   },
   {
@@ -13558,8 +13558,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "The Android 10.0.2.2 alias exclusively maps to the local dev machine. A physical phone requires real IP addresses to connect over Wi-Fi.",
+    "explanationAr": "يعين الاسم المستعار لـ Android 10.0.2.2 حصرياً لجهاز التطوير المحلي. يتطلب الهاتف المادي عناوين IP حقيقية للاتصال عبر Wi-Fi.",
     "codeSnippet": null
   },
   {
@@ -13608,8 +13608,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "For security, password verification must occur on the server. If a system incorrectly sends hashes to the client, it compromises the architecture.",
+    "explanationAr": "لأسباب أمنية، يجب أن يتم التحقق من كلمة المرور على الخادم. إذا أرسل النظام التجزئات (hashes) بشكل غير صحيح إلى العميل، فإنه يضر بالبنية.",
     "codeSnippet": null
   },
   {
@@ -13633,8 +13633,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "This concept highlights standard Flutter data flow and API integration logic, ensuring reliable parsing, execution, and UI state management.",
+    "explanationAr": "يسلط هذا المفهوم الضوء على تدفق بيانات Flutter القياسي ومنطق تكامل واجهة برمجة التطبيقات، مما يضمن تحليل موثوق وتنفيذ وإدارة حالة واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -13658,8 +13658,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "This concept highlights standard Flutter data flow and API integration logic, ensuring reliable parsing, execution, and UI state management.",
+    "explanationAr": "يسلط هذا المفهوم الضوء على تدفق بيانات Flutter القياسي ومنطق تكامل واجهة برمجة التطبيقات، مما يضمن تحليل موثوق وتنفيذ وإدارة حالة واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -13683,8 +13683,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "A stable database identifier is crucial for ensuring that operations like updates or deletes precisely target the correct row, regardless of its position in a visible list.",
+    "explanationAr": "يعد معرف قاعدة البيانات الثابت أمراً حاسماً لضمان أن العمليات مثل التحديثات أو الحذف تستهدف الصف الصحيح بدقة، بغض النظر عن موضعه في القائمة المرئية.",
     "codeSnippet": null
   },
   {
@@ -13708,8 +13708,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "While REST suggests using DELETE, many practical API implementations accept IDs via POST bodies to dedicated delete scripts.",
+    "explanationAr": "بينما يقترح REST استخدام DELETE، تقبل العديد من تطبيقات API العملية المعرفات عبر أجسام POST إلى نصوص الحذف المخصصة.",
     "codeSnippet": null
   },
   {
@@ -13808,8 +13808,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "A stable database identifier is crucial for ensuring that operations like updates or deletes precisely target the correct row, regardless of its position in a visible list.",
+    "explanationAr": "يعد معرف قاعدة البيانات الثابت أمراً حاسماً لضمان أن العمليات مثل التحديثات أو الحذف تستهدف الصف الصحيح بدقة، بغض النظر عن موضعه في القائمة المرئية.",
     "codeSnippet": null
   },
   {
@@ -13883,8 +13883,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "This concept highlights standard Flutter data flow and API integration logic, ensuring reliable parsing, execution, and UI state management.",
+    "explanationAr": "يسلط هذا المفهوم الضوء على تدفق بيانات Flutter القياسي ومنطق تكامل واجهة برمجة التطبيقات، مما يضمن تحليل موثوق وتنفيذ وإدارة حالة واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -13908,8 +13908,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "This concept highlights standard Flutter data flow and API integration logic, ensuring reliable parsing, execution, and UI state management.",
+    "explanationAr": "يسلط هذا المفهوم الضوء على تدفق بيانات Flutter القياسي ومنطق تكامل واجهة برمجة التطبيقات، مما يضمن تحليل موثوق وتنفيذ وإدارة حالة واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -13933,8 +13933,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "By checking ConnectionState.waiting, the UI cleanly presents a loading indicator (like CircularProgressIndicator) while the Future executes.",
+    "explanationAr": "من خلال التحقق من ConnectionState.waiting، تقدم واجهة المستخدم بشكل نظيف مؤشر تحميل (مثل CircularProgressIndicator) أثناء تنفيذ Future.",
     "codeSnippet": null
   },
   {
@@ -13958,8 +13958,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "The rootBundle.loadString method asynchronously reads registered bundled files into memory as String data.",
+    "explanationAr": "تقرأ طريقة rootBundle.loadString الملفات المجمعة المسجلة بشكل غير متزامن في الذاكرة كبيانات String.",
     "codeSnippet": null
   },
   {
@@ -13983,8 +13983,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Because jsonDecode returns dynamic, a top-level JSON array must be explicitly cast to List<dynamic> to enable iterable methods like map().",
+    "explanationAr": "نظراً لأن jsonDecode يُرجع قيمة ديناميكية، يجب تحويل مصفوفة JSON ذات المستوى الأعلى صراحةً إلى List<dynamic> لتمكين الطرق القابلة للتكرار مثل map().",
     "codeSnippet": null
   },
   {
@@ -14008,8 +14008,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "This concept highlights standard Flutter data flow and API integration logic, ensuring reliable parsing, execution, and UI state management.",
+    "explanationAr": "يسلط هذا المفهوم الضوء على تدفق بيانات Flutter القياسي ومنطق تكامل واجهة برمجة التطبيقات، مما يضمن تحليل موثوق وتنفيذ وإدارة حالة واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -14033,8 +14033,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Checking context.mounted is crucial after awaits to ensure the widget hasn't been disposed, preventing context-related crashes.",
+    "explanationAr": "يعد التحقق من context.mounted أمراً حاسماً بعد awaits لضمان عدم التخلص من الويدجت (widget)، مما يمنع الانهيارات المتعلقة بالسياق.",
     "codeSnippet": null
   },
   {
@@ -14058,8 +14058,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "While REST suggests using DELETE, many practical API implementations accept IDs via POST bodies to dedicated delete scripts.",
+    "explanationAr": "بينما يقترح REST استخدام DELETE، تقبل العديد من تطبيقات API العملية المعرفات عبر أجسام POST إلى نصوص الحذف المخصصة.",
     "codeSnippet": null
   },
   {
@@ -14108,8 +14108,8 @@ export const questionsData = [
     "correctAnswer": "True",
     "correctionEn": null,
     "correctionAr": null,
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Because network operations take time, the http package relies on Dart's 'await' keyword and Futures to handle asynchronous execution without blocking the UI thread.",
+    "explanationAr": "لأن عمليات الشبكة تستغرق وقتًا، تعتمد حزمة http على الكلمة الرئيسية 'await' في Dart و Futures للتعامل مع التنفيذ غير المتزامن دون حظر خيط واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -14372,8 +14372,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "In RESTful APIs, the PUT method is specifically designated for updating or replacing an existing resource.",
+    "explanationAr": "في واجهات برمجة تطبيقات RESTful، تم تخصيص طريقة PUT خصيصًا لتحديث أو استبدال مورد موجود.",
     "codeSnippet": null
   },
   {
@@ -14416,8 +14416,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "A 500 status code is a standard HTTP response indicating an unexpected condition on the server side prevented it from fulfilling the request.",
+    "explanationAr": "رمز الحالة 500 هو استجابة HTTP قياسية تشير إلى حالة غير متوقعة على جانب الخادم (server) منعته من تلبية الطلب.",
     "codeSnippet": null
   },
   {
@@ -14460,8 +14460,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
+    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -14504,8 +14504,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "FutureBuilder is the standard Flutter widget designed to build UI reactively based on the state of a Future, which is returned by HTTP requests.",
+    "explanationAr": "FutureBuilder هي ويدجت Flutter القياسية المصممة لبناء واجهة المستخدم بشكل تفاعلي بناءً على حالة Future، والتي يتم إرجاعها بواسطة طلبات HTTP.",
     "codeSnippet": null
   },
   {
@@ -14548,8 +14548,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "To send URL-encoded form data, the application/x-www-form-urlencoded header must be specified in the POST request.",
+    "explanationAr": "لإرسال بيانات نموذج مشفرة عبر URL، يجب تحديد ترويسة application/x-www-form-urlencoded في طلب POST.",
     "codeSnippet": null
   },
   {
@@ -14592,8 +14592,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "APIs (Application Programming Interfaces) act as intermediaries that allow independent software systems to communicate and share data.",
+    "explanationAr": "تعمل واجهات برمجة التطبيقات (APIs) كوسطاء تسمح لأنظمة البرامج المستقلة بالتواصل ومشاركة البيانات.",
     "codeSnippet": null
   },
   {
@@ -14636,8 +14636,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
+    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -14680,8 +14680,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
+    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -14724,8 +14724,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
+    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -14767,9 +14767,9 @@ export const questionsData = [
         "textAr": "جميع ما ذُكر"
       }
     ],
-    "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "correctAnswer": "D",
+    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
+    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -14812,8 +14812,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Parsing JSON is the essential process of converting raw string data received from an API into structured Dart objects for easy manipulation.",
+    "explanationAr": "تحليل JSON هو العملية الأساسية لتحويل البيانات النصية الخام المستلمة من واجهة برمجة التطبيقات إلى كائنات Dart منظمة لسهولة التعامل معها.",
     "codeSnippet": null
   },
   {
@@ -14855,9 +14855,9 @@ export const questionsData = [
         "textAr": "جميع ما ذُكر"
       }
     ],
-    "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "correctAnswer": "D",
+    "explanationEn": "APIs abstract backend logic, allowing developers to access external data securely and scale mobile applications efficiently.",
+    "explanationAr": "تقوم APIs بتجريد منطق الواجهة الخلفية، مما يسمح للمطورين بالوصول إلى البيانات الخارجية بشكل آمن وتوسيع نطاق تطبيقات الهاتف المحمول بكفاءة.",
     "codeSnippet": null
   },
   {
@@ -14899,9 +14899,9 @@ export const questionsData = [
         "textAr": "جميع ما ذُكر"
       }
     ],
-    "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "correctAnswer": "D",
+    "explanationEn": "A complete HTTP API request structurally consists of a URL endpoint, an HTTP method, headers, and occasionally a request body or parameters.",
+    "explanationAr": "يتكون طلب واجهة برمجة تطبيقات HTTP المكتمل هيكليًا من نقطة نهاية URL وطريقة HTTP وترويسات وأحيانًا جسم الطلب أو محدداته.",
     "codeSnippet": null
   },
   {
@@ -14944,8 +14944,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "In JSON syntax, curly brackets {} denote an object, which is a collection of key-value pairs representing data.",
+    "explanationAr": "في بناء جملة JSON، تشير الأقواس المتعرجة {} إلى كائن (object)، وهو مجموعة من أزواج المفتاح والقيمة التي تمثل البيانات.",
     "codeSnippet": null
   },
   {
@@ -14988,8 +14988,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "The 'dart:convert' library provides built-in encoders and decoders for converting between JSON strings and Dart data structures.",
+    "explanationAr": "توفر مكتبة 'dart:convert' أدوات تشفير وفك تشفير مدمجة للتحويل بين سلاسل JSON وهياكل بيانات Dart.",
     "codeSnippet": null
   },
   {
@@ -15032,8 +15032,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "The 'http' package is the most common Dart package used in Flutter for making network requests and interacting with REST APIs.",
+    "explanationAr": "حزمة 'http' هي أكثر حزم Dart شيوعًا والمستخدمة في Flutter لإجراء طلبات الشبكة والتفاعل مع REST APIs.",
     "codeSnippet": null
   },
   {
@@ -15075,9 +15075,9 @@ export const questionsData = [
         "textAr": "جميع ما ذُكر"
       }
     ],
-    "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "correctAnswer": "D",
+    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
+    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -15119,9 +15119,9 @@ export const questionsData = [
         "textAr": "جميع ما ذُكر"
       }
     ],
-    "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "correctAnswer": "D",
+    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
+    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -15164,8 +15164,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
+    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -15208,8 +15208,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
+    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -15252,8 +15252,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "API interactions involve network protocols and payloads; Flutter-specific concepts like 'Widget tree depth' are unrelated to the network layer.",
+    "explanationAr": "تتضمن تفاعلات API بروتوكولات الشبكة وحمولاتها؛ مفاهيم Flutter الخاصة مثل 'عمق شجرة الـ Widget' لا علاقة لها بطبقة الشبكة.",
     "codeSnippet": null
   },
   {
@@ -15296,8 +15296,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "For security reasons, database credentials and raw SQL queries must be confined to the server side (PHP API) rather than exposed in the client code.",
+    "explanationAr": "لأسباب أمنية، يجب أن تقتصر بيانات اعتماد قاعدة البيانات واستعلامات SQL الخام على جانب الخادم (PHP API) بدلاً من كشفها في كود العميل.",
     "codeSnippet": null
   },
   {
@@ -15340,8 +15340,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "The PATCH HTTP method is semantically designed to apply partial modifications to a resource, unlike PUT which replaces it entirely.",
+    "explanationAr": "تم تصميم طريقة HTTP PATCH دلاليًا لتطبيق تعديلات جزئية على مورد، على عكس PUT التي تستبدله بالكامل.",
     "codeSnippet": null
   },
   {
@@ -15384,8 +15384,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "The HTTP 201 Created status code explicitly indicates that a request has succeeded and led to the creation of a new resource.",
+    "explanationAr": "يشير رمز حالة HTTP 201 Created بوضوح إلى نجاح الطلب وأدى إلى إنشاء مورد جديد.",
     "codeSnippet": null
   },
   {
@@ -15428,8 +15428,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Checking the response.statusCode is a necessary validation step to ensure the API call returned a success code before processing the payload.",
+    "explanationAr": "يعد التحقق من response.statusCode خطوة تحقق ضرورية لضمان إرجاع مكالمة API لرمز نجاح قبل معالجة البيانات.",
     "codeSnippet": null
   },
   {
@@ -15472,8 +15472,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
+    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -15516,8 +15516,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
+    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -15560,8 +15560,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "When declaring final fields as String?, JSON properties must be parsed and safely cast using 'as String?' to maintain type safety in Dart.",
+    "explanationAr": "عند الإعلان عن الحقول النهائية كـ String؟، يجب تحليل خصائص JSON وصبها (cast) بأمان باستخدام 'as String?' للحفاظ على سلامة النوع في Dart.",
     "codeSnippet": null
   },
   {
@@ -15604,8 +15604,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "The jsonEncode function serializes a structured Dart map or list into a plain JSON string, making it ready for network transmission.",
+    "explanationAr": "تقوم دالة jsonEncode بتسلسل خريطة Dart أو قائمة منظمة إلى سلسلة JSON عادية، مما يجعلها جاهزة للإرسال عبر الشبكة.",
     "codeSnippet": null
   },
   {
@@ -15648,8 +15648,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
+    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -15692,8 +15692,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Because network operations take time, the http package relies on Dart's 'await' keyword and Futures to handle asynchronous execution without blocking the UI thread.",
+    "explanationAr": "لأن عمليات الشبكة تستغرق وقتًا، تعتمد حزمة http على الكلمة الرئيسية 'await' في Dart و Futures للتعامل مع التنفيذ غير المتزامن دون حظر خيط واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -15736,8 +15736,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Because network operations take time, the http package relies on Dart's 'await' keyword and Futures to handle asynchronous execution without blocking the UI thread.",
+    "explanationAr": "لأن عمليات الشبكة تستغرق وقتًا، تعتمد حزمة http على الكلمة الرئيسية 'await' في Dart و Futures للتعامل مع التنفيذ غير المتزامن دون حظر خيط واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -15780,8 +15780,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "When decoding a top-level JSON array, it initially resolves to List<dynamic>, which must be cast before mapping to specific model instances.",
+    "explanationAr": "عند فك تشفير مصفوفة JSON ذات المستوى الأعلى، يتم حلها مبدئيًا إلى List<dynamic>، والتي يجب صبها (cast) قبل التعيين إلى مثيلات نموذج محددة.",
     "codeSnippet": null
   },
   {
@@ -15824,8 +15824,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
+    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -15868,8 +15868,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Checking ConnectionState.waiting is the conventional way to display a loading indicator, such as CircularProgressIndicator, while an asynchronous Future is resolving.",
+    "explanationAr": "يعد التحقق من ConnectionState.waiting الطريقة التقليدية لعرض مؤشر تحميل، مثل CircularProgressIndicator، أثناء حل Future غير المتزامن.",
     "codeSnippet": null
   },
   {
@@ -15912,8 +15912,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
+    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -15956,8 +15956,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "ListView.builder is optimized for creating a scrollable list of widgets on demand, which is ideal for rendering data arrays returned from an API.",
+    "explanationAr": "تم تحسين ListView.builder لإنشاء قائمة ويدجت قابلة للتمرير عند الطلب، وهو أمر مثالي لعرض مصفوفات البيانات التي تم إرجاعها من واجهة برمجة التطبيقات.",
     "codeSnippet": null
   },
   {
@@ -16000,8 +16000,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Because network operations take time, the http package relies on Dart's 'await' keyword and Futures to handle asynchronous execution without blocking the UI thread.",
+    "explanationAr": "لأن عمليات الشبكة تستغرق وقتًا، تعتمد حزمة http على الكلمة الرئيسية 'await' في Dart و Futures للتعامل مع التنفيذ غير المتزامن دون حظر خيط واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -16044,8 +16044,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Flutter apps running on Android must declare the INTERNET permission in the manifest to establish any outgoing HTTP connections.",
+    "explanationAr": "يجب أن تعلن تطبيقات Flutter التي تعمل على نظام Android عن صلاحية INTERNET في البيان لإنشاء أي اتصالات HTTP صادرة.",
     "codeSnippet": null
   },
   {
@@ -16088,8 +16088,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Because network operations take time, the http package relies on Dart's 'await' keyword and Futures to handle asynchronous execution without blocking the UI thread.",
+    "explanationAr": "لأن عمليات الشبكة تستغرق وقتًا، تعتمد حزمة http على الكلمة الرئيسية 'await' في Dart و Futures للتعامل مع التنفيذ غير المتزامن دون حظر خيط واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -16132,8 +16132,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "When decoding JSON arrays like '[1, 2, 3]', Dart parses it dynamically into a List data structure for index-based access.",
+    "explanationAr": "عند فك تشفير مصفوفات JSON مثل '[1, 2, 3]'، يقوم Dart بتحليلها ديناميكيًا إلى بنية بيانات List للوصول المستند إلى الفهرس.",
     "codeSnippet": null
   },
   {
@@ -16176,8 +16176,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "In deeply nested JSON objects, accessing a value requires chaining the keys sequentially, such as user['dob']['age'] to extract the specific age property.",
+    "explanationAr": "في كائنات JSON المتداخلة بعمق، يتطلب الوصول إلى قيمة ربط المفاتيح بالتسلسل، مثل user['dob']['age'] لاستخراج خاصية العمر المحددة.",
     "codeSnippet": null
   },
   {
@@ -16220,8 +16220,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "The FutureBuilder snapshot exposes a hasError flag, allowing developers to handle exceptions gracefully and render an error message to the UI.",
+    "explanationAr": "تعرض لقطة FutureBuilder علامة hasError، مما يسمح للمطورين بمعالجة الاستثناءات بسلاسة وعرض رسالة خطأ في واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -16264,8 +16264,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Because network operations take time, the http package relies on Dart's 'await' keyword and Futures to handle asynchronous execution without blocking the UI thread.",
+    "explanationAr": "لأن عمليات الشبكة تستغرق وقتًا، تعتمد حزمة http على الكلمة الرئيسية 'await' في Dart و Futures للتعامل مع التنفيذ غير المتزامن دون حظر خيط واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -16308,8 +16308,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Checking the response.statusCode is a necessary validation step to ensure the API call returned a success code before processing the payload.",
+    "explanationAr": "يعد التحقق من response.statusCode خطوة تحقق ضرورية لضمان إرجاع مكالمة API لرمز نجاح قبل معالجة البيانات.",
     "codeSnippet": null
   },
   {
@@ -16352,8 +16352,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Checking the response.statusCode is a necessary validation step to ensure the API call returned a success code before processing the payload.",
+    "explanationAr": "يعد التحقق من response.statusCode خطوة تحقق ضرورية لضمان إرجاع مكالمة API لرمز نجاح قبل معالجة البيانات.",
     "codeSnippet": null
   },
   {
@@ -16396,8 +16396,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
+    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -16440,8 +16440,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
+    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -16484,8 +16484,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Because network operations take time, the http package relies on Dart's 'await' keyword and Futures to handle asynchronous execution without blocking the UI thread.",
+    "explanationAr": "لأن عمليات الشبكة تستغرق وقتًا، تعتمد حزمة http على الكلمة الرئيسية 'await' في Dart و Futures للتعامل مع التنفيذ غير المتزامن دون حظر خيط واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -16528,8 +16528,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Because network operations take time, the http package relies on Dart's 'await' keyword and Futures to handle asynchronous execution without blocking the UI thread.",
+    "explanationAr": "لأن عمليات الشبكة تستغرق وقتًا، تعتمد حزمة http على الكلمة الرئيسية 'await' في Dart و Futures للتعامل مع التنفيذ غير المتزامن دون حظر خيط واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -16572,8 +16572,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Because network operations take time, the http package relies on Dart's 'await' keyword and Futures to handle asynchronous execution without blocking the UI thread.",
+    "explanationAr": "لأن عمليات الشبكة تستغرق وقتًا، تعتمد حزمة http على الكلمة الرئيسية 'await' في Dart و Futures للتعامل مع التنفيذ غير المتزامن دون حظر خيط واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -16616,8 +16616,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Because network operations take time, the http package relies on Dart's 'await' keyword and Futures to handle asynchronous execution without blocking the UI thread.",
+    "explanationAr": "لأن عمليات الشبكة تستغرق وقتًا، تعتمد حزمة http على الكلمة الرئيسية 'await' في Dart و Futures للتعامل مع التنفيذ غير المتزامن دون حظر خيط واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -16704,8 +16704,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Unlike emulators which map localhost automatically, a physical device must connect to the backend server using its actual reachable IP address on the local network.",
+    "explanationAr": "على عكس المحاكيات التي تقوم بتعيين المضيف المحلي تلقائيًا، يجب أن يتصل الجهاز الفعلي بخادم الواجهة الخلفية باستخدام عنوان IP الفعلي القابل للوصول على الشبكة المحلية.",
     "codeSnippet": null
   },
   {
@@ -16748,8 +16748,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "The MySQLi extension in PHP provides a robust, object-oriented API for interacting with MySQL databases, supporting secure connections and prepared statements.",
+    "explanationAr": "يوفر امتداد MySQLi في PHP واجهة برمجة تطبيقات قوية وموجهة للكائنات للتفاعل مع قواعد بيانات MySQL، مما يدعم الاتصالات الآمنة والبيانات المعدة.",
     "codeSnippet": null
   },
   {
@@ -16792,8 +16792,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Extracting the database connection logic into a shared file like conn.php adheres to the DRY principle, ensuring credentials are defined in only one place.",
+    "explanationAr": "استخراج منطق اتصال قاعدة البيانات في ملف مشترك مثل conn.php يلتزم بمبدأ DRY (لا تكرر نفسك)، مما يضمن تحديد بيانات الاعتماد في مكان واحد فقط.",
     "codeSnippet": null
   },
   {
@@ -16836,8 +16836,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
+    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -16880,8 +16880,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "The password_verify() function in PHP securely compares a plain-text user input against a hashed password stored in the database, preventing plaintext exposure.",
+    "explanationAr": "تُقارن دالة password_verify() في PHP بشكل آمن إدخال نص عادي للمستخدم بكلمة مرور مجزأة مخزنة في قاعدة البيانات، مما يمنع التعرض للنص العادي.",
     "codeSnippet": null
   },
   {
@@ -16924,8 +16924,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "During registration, password_hash() utilizes strong cryptographic algorithms to secure passwords before storing them in the database.",
+    "explanationAr": "أثناء التسجيل، تستخدم password_hash() خوارزميات تشفير قوية لتأمين كلمات المرور قبل تخزينها في قاعدة البيانات.",
     "codeSnippet": null
   },
   {
@@ -16968,8 +16968,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "To prevent severe security vulnerabilities, sensitive data like stored password hashes should never be transmitted back to the client application.",
+    "explanationAr": "لمنع نقاط الضعف الأمنية الشديدة، يجب عدم نقل البيانات الحساسة مثل تجزئات كلمات المرور المخزنة مرة أخرى إلى تطبيق العميل.",
     "codeSnippet": null
   },
   {
@@ -17012,8 +17012,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "When decoding a top-level JSON array, it initially resolves to List<dynamic>, which must be cast before mapping to specific model instances.",
+    "explanationAr": "عند فك تشفير مصفوفة JSON ذات المستوى الأعلى، يتم حلها مبدئيًا إلى List<dynamic>، والتي يجب صبها (cast) قبل التعيين إلى مثيلات نموذج محددة.",
     "codeSnippet": null
   },
   {
@@ -17056,8 +17056,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Because network operations take time, the http package relies on Dart's 'await' keyword and Futures to handle asynchronous execution without blocking the UI thread.",
+    "explanationAr": "لأن عمليات الشبكة تستغرق وقتًا، تعتمد حزمة http على الكلمة الرئيسية 'await' في Dart و Futures للتعامل مع التنفيذ غير المتزامن دون حظر خيط واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -17100,8 +17100,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Because network operations take time, the http package relies on Dart's 'await' keyword and Futures to handle asynchronous execution without blocking the UI thread.",
+    "explanationAr": "لأن عمليات الشبكة تستغرق وقتًا، تعتمد حزمة http على الكلمة الرئيسية 'await' في Dart و Futures للتعامل مع التنفيذ غير المتزامن دون حظر خيط واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -17144,8 +17144,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Because network operations take time, the http package relies on Dart's 'await' keyword and Futures to handle asynchronous execution without blocking the UI thread.",
+    "explanationAr": "لأن عمليات الشبكة تستغرق وقتًا، تعتمد حزمة http على الكلمة الرئيسية 'await' في Dart و Futures للتعامل مع التنفيذ غير المتزامن دون حظر خيط واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -17320,8 +17320,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Validating the MIME type of an uploaded file on the backend is a critical security measure to ensure malicious scripts aren't accepted as images.",
+    "explanationAr": "يعد التحقق من نوع MIME لملف تم تحميله على الواجهة الخلفية إجراءً أمنيًا بالغ الأهمية لضمان عدم قبول النصوص البرمجية الضارة كصور.",
     "codeSnippet": null
   },
   {
@@ -17364,8 +17364,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
+    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -17408,8 +17408,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Because network operations take time, the http package relies on Dart's 'await' keyword and Futures to handle asynchronous execution without blocking the UI thread.",
+    "explanationAr": "لأن عمليات الشبكة تستغرق وقتًا، تعتمد حزمة http على الكلمة الرئيسية 'await' في Dart و Futures للتعامل مع التنفيذ غير المتزامن دون حظر خيط واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -17452,8 +17452,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Because network operations take time, the http package relies on Dart's 'await' keyword and Futures to handle asynchronous execution without blocking the UI thread.",
+    "explanationAr": "لأن عمليات الشبكة تستغرق وقتًا، تعتمد حزمة http على الكلمة الرئيسية 'await' في Dart و Futures للتعامل مع التنفيذ غير المتزامن دون حظر خيط واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -17496,8 +17496,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "A FormatException when parsing JSON means the API response was not a valid JSON structure, often caused by server crashes returning HTML errors.",
+    "explanationAr": "استثناء FormatException عند تحليل JSON يعني أن استجابة API لم تكن بنية JSON صالحة، وغالبًا ما يكون ذلك بسبب تعطل الخادم الذي يُرجع أخطاء HTML.",
     "codeSnippet": null
   },
   {
@@ -17540,8 +17540,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
+    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -17584,8 +17584,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
+    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -17628,8 +17628,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "This operation follows standard Flutter and REST API patterns for robust client-server communication and UI state management.",
+    "explanationAr": "تتبع هذه العملية أنماط Flutter و REST API القياسية لاتصال قوي بين العميل والخادم وإدارة حالة واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -17672,8 +17672,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Checking the response.statusCode is a necessary validation step to ensure the API call returned a success code before processing the payload.",
+    "explanationAr": "يعد التحقق من response.statusCode خطوة تحقق ضرورية لضمان إرجاع مكالمة API لرمز نجاح قبل معالجة البيانات.",
     "codeSnippet": null
   },
   {
@@ -17716,8 +17716,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Because network operations take time, the http package relies on Dart's 'await' keyword and Futures to handle asynchronous execution without blocking the UI thread.",
+    "explanationAr": "لأن عمليات الشبكة تستغرق وقتًا، تعتمد حزمة http على الكلمة الرئيسية 'await' في Dart و Futures للتعامل مع التنفيذ غير المتزامن دون حظر خيط واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -17760,8 +17760,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Because network operations take time, the http package relies on Dart's 'await' keyword and Futures to handle asynchronous execution without blocking the UI thread.",
+    "explanationAr": "لأن عمليات الشبكة تستغرق وقتًا، تعتمد حزمة http على الكلمة الرئيسية 'await' في Dart و Futures للتعامل مع التنفيذ غير المتزامن دون حظر خيط واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -17804,8 +17804,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Checking the response.statusCode is a necessary validation step to ensure the API call returned a success code before processing the payload.",
+    "explanationAr": "يعد التحقق من response.statusCode خطوة تحقق ضرورية لضمان إرجاع مكالمة API لرمز نجاح قبل معالجة البيانات.",
     "codeSnippet": null
   },
   {
@@ -17848,8 +17848,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Because network operations take time, the http package relies on Dart's 'await' keyword and Futures to handle asynchronous execution without blocking the UI thread.",
+    "explanationAr": "لأن عمليات الشبكة تستغرق وقتًا، تعتمد حزمة http على الكلمة الرئيسية 'await' في Dart و Futures للتعامل مع التنفيذ غير المتزامن دون حظر خيط واجهة المستخدم.",
     "codeSnippet": null
   },
   {
@@ -17936,8 +17936,8 @@ export const questionsData = [
       }
     ],
     "correctAnswer": "A",
-    "explanationEn": "Chapter 10 covers REST API integration: HTTP verbs (GET read, POST create, PUT update, DELETE remove), JSON decoding (jsonDecode), and connecting to PHP/MySQL backend scripts.",
-    "explanationAr": "تغطي المحاضرة العاشرة الربط مع واجهات (REST API): طرق (HTTP) (GET للقراءة، (POST) للإنشاء، (PUT) للتعديل، (DELETE) للحذف)، وتحليل (JSON) عبر jsonDecode، والربط مع سكربتات PHP وقاعدة MySQL.",
+    "explanationEn": "Because network operations take time, the http package relies on Dart's 'await' keyword and Futures to handle asynchronous execution without blocking the UI thread.",
+    "explanationAr": "لأن عمليات الشبكة تستغرق وقتًا، تعتمد حزمة http على الكلمة الرئيسية 'await' في Dart و Futures للتعامل مع التنفيذ غير المتزامن دون حظر خيط واجهة المستخدم.",
     "codeSnippet": null
   },
   {
