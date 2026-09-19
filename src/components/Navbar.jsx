@@ -1,9 +1,11 @@
 import React from 'react';
-import { Search, BookOpen, Sparkles, Award, CheckCircle2, Bookmark, Menu } from 'lucide-react';
+import { Search, BookOpen, Sparkles, Award, CheckCircle2, Bookmark, Menu, Sun, Moon } from 'lucide-react';
+import { useTheme } from '../context/ThemeContext';
 
 export default function Navbar({ onOpenSearch, onNavigate, currentView, userProgress, onToggleMobileMenu }) {
   const reviewedCount = Object.values(userProgress).filter(s => s === 'reviewed').length;
   const importantCount = Object.values(userProgress).filter(s => s === 'important').length;
+  const { theme, toggleTheme } = useTheme();
 
   return (
     <header className="sticky top-0 z-30 bg-slate-900/90 backdrop-blur-md border-b border-slate-800 px-4 lg:px-8 py-3.5 flex items-center justify-between">
@@ -82,6 +84,15 @@ export default function Navbar({ onOpenSearch, onNavigate, currentView, userProg
             </span>
           )}
         </div>
+
+        {/* Theme Toggle Button */}
+        <button
+          onClick={toggleTheme}
+          className="p-2 rounded-xl bg-slate-800 border border-slate-700 text-slate-300 hover:text-white transition-colors"
+          title={theme === 'dark' ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
+        >
+          {theme === 'dark' ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
+        </button>
 
         {/* Final Exam Focus CTA */}
         <button

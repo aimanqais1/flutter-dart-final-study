@@ -14,7 +14,99 @@
   }
 }
 
-/* Custom scrollbars */
+/* ===== THEME TRANSITION ===== */
+/* Smooth transition for theme-related properties */
+html.light *,
+html.dark * {
+  transition: background-color 0.2s ease, color 0.15s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* ===== LIGHT MODE COLOR OVERRIDES ===== */
+/* Override Tailwind's internal slate palette when .light is active.
+   This maps the existing dark-mode slate classes to light-mode equivalents
+   without touching any component JSX. */
+
+html.light {
+  /* Remap the slate scale: dark shades become light, light shades become dark */
+  --color-slate-50:  #020617;   /* was near-white, now near-black (for text) */
+  --color-slate-100: #0f172a;   /* primary text becomes very dark */
+  --color-slate-200: #1e293b;   /* secondary text becomes dark */
+  --color-slate-300: #334155;   /* muted text becomes medium-dark */
+  --color-slate-400: #64748b;   /* stays as balanced mid-gray */
+  --color-slate-500: #94a3b8;   /* mid tone */
+  --color-slate-600: #cbd5e1;   /* borders become light */
+  --color-slate-700: #e2e8f0;   /* borders/dividers become very light */
+  --color-slate-750: #e8ecf1;   /* custom shade - light border */
+  --color-slate-800: #eef2f7;   /* surface/card backgrounds become near-white */
+  --color-slate-850: #f1f5f9;   /* card backgrounds become light gray */
+  --color-slate-900: #f8fafc;   /* main containers/navbar/sidebar become off-white */
+  --color-slate-925: #ffffff;   /* root background becomes white */
+  --color-slate-950: #f1f5f9;   /* deepest dark becomes light surface */
+
+  /* Slightly adjust indigo tones to be richer in light mode */
+  --color-indigo-950: #e0e7ff;  /* indigo bg areas become very light indigo */
+
+  /* Slightly adjust emerald bg tones */
+  --color-emerald-950: #d1fae5;
+
+  /* Slightly adjust rose bg tones */
+  --color-rose-950: #ffe4e6;
+
+  /* Slightly adjust amber bg tones */
+  --color-amber-950: #fef3c7;
+}
+
+/* ===== LIGHT MODE: BODY & SCROLLBAR ===== */
+html.light body {
+  background-color: #ffffff;
+  color: #0f172a;
+}
+
+/* ===== LIGHT MODE: SCROLLBAR ===== */
+html.light ::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+html.light ::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+}
+
+html.light ::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* ===== LIGHT MODE: SELECTION ===== */
+html.light ::selection {
+  background-color: #818cf8;
+  color: #ffffff;
+}
+
+/* ===== LIGHT MODE: TEXT-WHITE OVERRIDE ===== */
+/* In dark mode, text-white is correct. In light mode, "white" text on light backgrounds
+   needs to become dark. We target the most common structural uses. */
+html.light .text-white {
+  color: #0f172a;
+}
+
+/* But preserve text-white inside gradient buttons and colored badges */
+html.light .bg-gradient-to-tr .text-white,
+html.light .bg-gradient-to-r .text-white,
+html.light .bg-gradient-to-br .text-white,
+html.light .bg-indigo-600 .text-white,
+html.light .bg-indigo-600.text-white,
+html.light [class*="bg-gradient"] .text-white,
+html.light [class*="from-indigo"] .text-white,
+html.light [class*="from-amber"] .text-white {
+  color: #ffffff;
+}
+
+/* ===== LIGHT MODE: BACKDROP BLUR ADJUSTMENTS ===== */
+html.light .backdrop-blur-md {
+  --tw-backdrop-blur: blur(12px);
+}
+
+/* ===== DARK MODE (DEFAULT) ===== */
+/* Scrollbar defaults (dark mode) */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
